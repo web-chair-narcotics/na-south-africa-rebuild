@@ -91,3 +91,5 @@
 - [x] Clarify in the national administrator overview that the live submitted queue is separate from the 328-record historical staged-review register, without changing publication status.
 
 - [x] Document the remaining organisation-owned approvals and inputs: 81 regional page publication decisions, 328 staged meeting QA decisions, an approved transactional email provider, and native mobile keyboard validation.
+
+- [x] Harden the Maps loader against stale or partially initialized scripts so transient proxy failures do not leave the meeting finder in an unnecessary fallback state.

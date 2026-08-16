@@ -13,9 +13,10 @@ const MAPS_PROXY_URL = `${FORGE_BASE_URL}/v1/maps/proxy`;
 let scriptPromise: Promise<void> | null = null;
 
 function loadMapScript() {
-  if (window.google?.maps) return Promise.resolve();
+  if (window.google?.maps?.Map) return Promise.resolve();
   if (scriptPromise) return scriptPromise;
   scriptPromise = new Promise((resolve, reject) => {
+    document.querySelectorAll('script[data-na-maps-loader="true"]').forEach(existing => existing.remove());
     const script = document.createElement("script");
     script.dataset.naMapsLoader = "true";
     script.src = `${MAPS_PROXY_URL}/maps/api/js?key=${MAPS_PROXY_CREDENTIAL}&v=weekly&loading=async&libraries=marker,places,geocoding,geometry`;

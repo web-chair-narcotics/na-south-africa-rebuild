@@ -45,6 +45,8 @@ The live public journey was exercised against the running preview. Full-text sea
 
 The pagination check was allowed to settle after the asynchronous query update. A subsequent Next activation changed the rendered indicator from page one to **Page 3 of 31** and changed the first visible result to **JFT Meeting**, confirming both page state and result-set movement. The meeting finder, map tiles, marker clusters, search, day filter, pagination, directions URLs, and result-to-map selection therefore passed the safe acceptance pass.
 
+The shared Maps loader was hardened after runtime diagnostics showed transient `script.onerror` events. It now treats the loader as ready only when `window.google.maps.Map` exists, removes stale managed-loader scripts before retrying, resets the shared promise after load failure, and retains the accessible Retry map action. The regression suite covers these safeguards; TypeScript, **18 tests across 9 files**, and the production build pass.
+
 ## Shared navigation keyboard traversal
 
 The desktop home-page traversal begins with the visible skip link, confirming that a keyboard user is offered the bypass before the helpline, brand link, and primary navigation. The remaining primary-navigation and mobile-navigation checks are recorded below as they are completed.
