@@ -4,7 +4,7 @@ import PublicLayout from "@/components/PublicLayout";
 import { literatureManifest, type LiteratureManifestItem } from "@/data/literatureManifest";
 
 const officialCatalogue = "https://na.org/literature/recovery-literature-in-english-usa/";
-const literatureDeployment = "literature-live-20260816-1140";
+const literatureDeployment = "literature-live-20260816-1155";
 const grouped = literatureManifest.reduce<Record<string, LiteratureManifestItem[]>>((groups, item) => {
   (groups[item.category] ??= []).push(item);
   return groups;

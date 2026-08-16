@@ -314,3 +314,5 @@
 - [x] Upload the supplied literature PDFs to managed storage and verify every stored file returns a valid PDF response.
 - [x] Add dedicated literature detail pages with short descriptions, exact download buttons, and new-tab navigation from the catalogue.
 - [x] Verify every literature detail route and downloadable PDF target, then publish the corrected Literature library.
+
+- [ ] Republish and live-verify the duplicate-title literature detail route after the unique-slug correction; the first production check still served a stale catalogue bundle and returned Resource not found for the second In Times of Illness slug.
