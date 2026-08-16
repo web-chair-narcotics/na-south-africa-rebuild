@@ -40,6 +40,15 @@ describe("five-site experience safeguards", () => {
     expect(finder).toContain('{!onlineOnly && <aside');
   });
 
+  it("defaults the finder to in-person and keeps online cards area-neutral and mobile-readable", () => {
+    const finder = read("client/src/components/MeetingFinder.tsx");
+    expect(finder).toContain('meetingFormat: "in_person"');
+    expect(finder).toContain('meeting.meetingFormat !== "online" ? <span');
+    expect(finder).toContain('function decodeHtmlEntities');
+    expect(finder).toContain('.replace(/&amp;/g, "&")');
+    expect(finder).toContain('className="min-w-0 break-words"');
+  });
+
   it("keeps emergency notices independent of meeting status", () => {
     const schema = read("drizzle/schema.ts");
     const admin = read("server/routers/admin.ts");

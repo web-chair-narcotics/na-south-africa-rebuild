@@ -252,3 +252,11 @@
 - [x] Audit live asset loading and visual integrity on the home page and each of the five public site routes.
 - [x] Audit public meeting filters, legacy directories, meeting details, and primary public links after the asset repair.
 - [x] Classify all observed findings as corrected technical defects, safe remediation work, or organisation-owned acceptance gates. The logo/hero asset incident is corrected; remaining open items are staged-page approval, historical meeting QA, transactional-email credentials, authorised role acceptance, and native-device keyboard acceptance.
+
+## Mobile meeting finder defects reported 16 August 2026
+
+- [x] Make in-person meeting addresses readable on narrow mobile screens without column fragmentation or forced character wrapping.
+- [x] Decode escaped HTML entities in meeting descriptions so users see `&` rather than raw `&amp;`.
+- [x] Remove area badges/labels from online-only meeting cards and prevent online meetings from being presented as area-dependent.
+- [x] Keep the default finder journey in-person and maintain dedicated, separate online access without mixing result sets.
+- [x] Verify the corrected meeting-card experience on mobile and desktop, then publish.
