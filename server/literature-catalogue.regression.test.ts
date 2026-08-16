@@ -21,6 +21,7 @@ describe("public literature catalogue safeguards", () => {
     const detail = read("client/src/pages/LiteratureDetail.tsx");
     expect(manifest).toContain("export const literatureManifest");
     expect((manifest.match(/\"downloadUrl\":/g) ?? []).length).toBe(56);
+    expect(manifest).toContain("in-times-of-illness-in-times-of-illness");
     expect(manifest).toContain("/manus-storage/IP-1-Who-What-How-and-Why_8c3226a6.pdf");
     expect(manifest).toContain("/manus-storage/2306_PRMAT_2023_3601eb02.pdf");
     expect(catalogue).toContain("literatureManifest.length");

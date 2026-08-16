@@ -64,15 +64,20 @@ const description = (title, group) => {
   return `${title} is a supplied NA resource available for reading or download from the South Africa literature library.`;
 };
 
+const usedSlugs = new Map();
 const manifest = rows.map(({ fileName, storageUrl }) => {
   const title = titleOverrides[fileName] ?? fileName.replace(/\.pdf$/i, "").replace(/[-_]+/g, " ");
   const group = category(fileName);
-  const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const baseSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const occurrence = usedSlugs.get(baseSlug) ?? 0;
+  usedSlugs.set(baseSlug, occurrence + 1);
+  const fileSlug = fileName.toLowerCase().replace(/\.pdf$/i, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const slug = occurrence === 0 ? baseSlug : `${baseSlug}-${fileSlug}`;
   return { slug, title, category: group, description: description(title, group), fileName, downloadUrl: storageUrl, format: "PDF" };
-}).sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title));
+}).sort((a, b) => a.category.localeCompare(b.category) || a.title.localeCompare(b.title) || a.slug.localeCompare(b.slug));
 
 fs.mkdirSync("client/src/data", { recursive: true });
-fs.writeFileSync("client/src/data/literatureManifest.ts", `export type LiteratureManifestItem = ${JSON.stringify(manifest, null, 2)} as const;\n`);
+fs.writeFileSync("client/src/data/literatureManifest.ts", `export const literatureManifest = ${JSON.stringify(manifest, null, 2)} as const;\n\nexport type LiteratureManifestItem = (typeof literatureManifest)[number];\n`);
 fs.writeFileSync("LITERATURE_UPLOAD_MANIFEST.json", JSON.stringify(manifest, null, 2) + "\n");
 console.log(`Wrote ${manifest.length} literature items.`);
 console.log(manifest.map(item => `${item.category}\t${item.title}\t${item.downloadUrl}`).join("\n"));
