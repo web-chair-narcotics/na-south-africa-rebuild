@@ -164,3 +164,17 @@ Fresh desktop captures covered `/`, `/meetings`, `/meetings/2`, `/areas`, `/area
 ## Live browser verification of legacy directory redirects — 16 August 2026
 
 The live preview was opened at `/wc/online-meetings/` and redirected to `/meetings?meetingFormat=online`. The rendered finder showed the format control as `Online`, online meeting cards exposed `Join online`, and no physical address or `Get directions` action appeared for online-only records. The same preview was opened at `/wc/in-person-meetings/` and redirected to `/meetings?meetingFormat=in_person`. The rendered finder showed the format control as `In person`, physical venue/address content, map markers, and exact Google Maps `Get directions` URLs. This confirms the format-preserving redirect behavior in the interactive browser, not only in source-level tests.
+
+## Online meeting re-audit and no-address enforcement — 16 August 2026
+
+The canonical Region and four Area feeds were freshly re-fetched. They contain 52 online meeting fingerprints: 49 with a conference/join URL and 3 with a source contact fallback. The published Manus corpus contains 51 normalized online records because one live fingerprint is a duplicate under the normalized name/day/time comparison. There are **zero live-only and zero Manus-only normalized keys**. The detailed source inventory is `LIVE_ONLINE_MEETING_AUDIT.csv`; the live-to-Manus comparison is `ONLINE_MEETING_DB_PARITY.md` and `ONLINE_MEETING_DB_PARITY.json`.
+
+All 51 published online records were then checked for physical fields. Before correction, each retained inherited venue/address or coordinate data from the legacy import. Every online-only row now has null venue, street, suburb, city, province, latitude, longitude, and geocode fields, with address/map verification reset. Their schedules, source URLs, join URLs, phones, and contact details were retained. Database verification reports 51 published online records, 49 verified join URLs, 2 contact fallbacks, and **0 rows with physical fields**. The finder regression confirms online results have no physical fields and zero map points, while physical and hybrid meetings remain independently eligible for maps and directions.
+
+The online-only route now also removes physical cues from its interface: its heading is `Join an NA meeting online`, its explanatory copy explicitly says online records do not show a venue, map, or directions, its search placeholder is `Meeting name or online group`, and it does not render map status, map-selection controls, or a map panel. Fresh mobile verification confirmed the complete online-only presentation.
+
+## Supplied-logo, five-site, and primary-link verification — 16 August 2026
+
+The supplied 1200 × 300 NA South Africa wordmark was validated, uploaded to managed storage, and used without cropping or distortion in the shared public header and footer. Fresh desktop and 375 × 812 mobile captures confirmed the supplied logo, the two distinct home-page actions for **in-person** and **online** meetings, and all five hero-asset landing pages: South Africa Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal.
+
+The primary route check returned HTTP 200 for the core public pages, all five landing pages, both separated finder filters, the Western Cape legacy online and in-person directories, a meeting detail page, and the administrator entry route. The complete result table is `PRIMARY_ROUTE_LINK_CHECK.md`. The current full regression suite passes 15 test files and 44 tests; TypeScript and production build pass.

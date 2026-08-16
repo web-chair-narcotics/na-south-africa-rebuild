@@ -1,6 +1,6 @@
 # Live parity audit summary
 
-Generated: 2026-08-16T07:02:17.532672+00:00
+Generated: 2026-08-16T07:36:58.064827+00:00
 
 | Measure | Result |
 |---|---:|

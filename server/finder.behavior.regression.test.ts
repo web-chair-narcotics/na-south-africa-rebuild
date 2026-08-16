@@ -36,6 +36,8 @@ describe("published finder behavioural regression safeguards", () => {
     const online = await searchPublicMeetings({ meetingFormat: "online", page: 1, pageSize: 100 });
     expect(online.items.length).toBeGreaterThan(0);
     expect(online.items.every(item => item.meetingFormat === "online")).toBe(true);
+    expect(online.items.every(item => item.venueName === null && item.streetAddress === null && item.suburb === null && item.city === null && item.province === null && item.latitude === null && item.longitude === null)).toBe(true);
+    expect(online.items.every(item => Boolean(item.onlineUrl) || Boolean(item.phone) || Boolean(item.contactPerson))).toBe(true);
     expect(online.mapPoints).toHaveLength(0);
 
     const physical = await searchPublicMeetings({ meetingFormat: "in_person", page: 1, pageSize: 100 });

@@ -215,3 +215,16 @@
 - [x] Route every legacy online-meetings directory path to the rebuilt finder with the online filter preserved.
 - [x] Route every legacy in-person-meetings directory path to the rebuilt finder with the in-person filter preserved.
 - [x] Add regression coverage for format-preserving legacy directory redirects and initial finder filter state.
+
+## Logo integration and meeting-path separation requested 16 August 2026
+
+- [x] Validate and upload the supplied NA South Africa logo to managed storage, then use it as the public brand mark without distorting or cropping the wordmark.
+- [x] Add two unmistakably distinct home-page entry paths for in-person and online meetings, with clear copy, query-preserving links, and accessible labels.
+- [x] Re-audit every current live online meeting across all canonical Area feeds, confirming source URLs, online access details, status, and the absence of physical-address/map treatment by default.
+- [x] Verify all primary public links, every five-site landing route and hero asset, legacy online/in-person directories, finder filters, maps, directions, and online join paths.
+- [ ] Publish a fully tested review checkpoint after the logo, distinct meeting pathways, online audit, and link verification are complete.
+
+## Finder format-specific copy correction identified 16 August 2026
+
+- [x] Make the online-filtered finder heading and explanatory copy explicitly online-only, with no venue, map, or directions language.
+- [x] Remove physical-venue wording from the online-only finder search placeholder while retaining the broader search placeholder for physical and hybrid routes.
