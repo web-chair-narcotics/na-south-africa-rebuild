@@ -15,6 +15,7 @@ import Meetings from "./pages/Meetings";
 import MeetingDetail from "./pages/MeetingDetail";
 import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
 import LiteraturePage from "./pages/LiteraturePage";
+import LiteratureDetail from "./pages/LiteratureDetail";
 
 function ScrollToTop() {
   const [location] = useLocation();
@@ -49,6 +50,7 @@ function Router() {
       <Route path="/information-about-na">{() => <ContentPage page="information" />}</Route>
       <Route path="/how-to-start-an-na-meeting">{() => <ContentPage page="start" />}</Route>
       <Route path="/literature" component={LiteraturePage} />
+      <Route path="/literature/:slug">{params => <LiteratureDetail slug={params.slug} />}</Route>
       <Route path="/na-literature" component={LiteraturePage} />
       <Route path="/news">{() => <ContentPage page="news" />}</Route>
       <Route path="/contact">{() => <ContentPage page="contact" />}</Route>

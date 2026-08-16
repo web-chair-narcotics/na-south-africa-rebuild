@@ -1,0 +1,508 @@
+export const literatureManifest = [
+  {
+    "slug": "kzn-chairs-preamble-template",
+    "title": "KZN Chairs Preamble Template",
+    "category": "Additional NA resources",
+    "description": "KZN Chairs Preamble Template is a supplied NA resource available for reading or download from the South Africa literature library.",
+    "fileName": "kzn_chairs_preamble_template.pdf",
+    "downloadUrl": "/manus-storage/kzn_chairs_preamble_template_24ab6e8b.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "na-chair-preamble-online-meetings",
+    "title": "NA Chair Preamble — Online Meetings",
+    "category": "Additional NA resources",
+    "description": "NA Chair Preamble — Online Meetings is a supplied NA resource available for reading or download from the South Africa literature library.",
+    "fileName": "NA-CHAIR-PREAMBLE-ONLINE.pdf",
+    "downloadUrl": "/manus-storage/NA-CHAIR-PREAMBLE-ONLINE_08154818.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "na-south-africa-region-policy-document",
+    "title": "NA South Africa Region Policy Document",
+    "category": "Additional NA resources",
+    "description": "NA South Africa Region Policy Document is a supplied NA resource available for reading or download from the South Africa literature library.",
+    "fileName": "NA-SA-REGION-POLICY-Adopted-July-2023-updated-Oct-2024-49.pdf",
+    "downloadUrl": "/manus-storage/NA-SA-REGION-POLICY-Adopted-July-2023-updated-Oct-2024-49_18f59dea.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "twelve-concepts-for-na-service",
+    "title": "Twelve Concepts for NA Service",
+    "category": "Additional NA resources",
+    "description": "Twelve Concepts for NA Service is a supplied NA resource available for reading or download from the South Africa literature library.",
+    "fileName": "Twelve-Concepts.pdf",
+    "downloadUrl": "/manus-storage/Twelve-Concepts_c7effad2.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "disruptive-and-violent-behavior",
+    "title": "Disruptive and Violent Behavior",
+    "category": "Group and service resources",
+    "description": "Disruptive and Violent Behavior is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Disruptive-Violent-Behavior.pdf",
+    "downloadUrl": "/manus-storage/Disruptive-Violent-Behavior_4c30deab.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "group-inventory-form",
+    "title": "Group Inventory Form",
+    "category": "Group and service resources",
+    "description": "Group Inventory Form is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Inventory-Form-Group.pdf",
+    "downloadUrl": "/manus-storage/Inventory-Form-Group_f4dd1576.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "group-treasurer-s-workbook",
+    "title": "Group Treasurer’s Workbook",
+    "category": "Group and service resources",
+    "description": "Group Treasurer’s Workbook is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Group-Treasurers-Workbook.pdf",
+    "downloadUrl": "/manus-storage/Group-Treasurers-Workbook_944e9101.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "group-trusted-servants",
+    "title": "Group Trusted Servants",
+    "category": "Group and service resources",
+    "description": "Group Trusted Servants is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Group-Trusted-Servants.pdf",
+    "downloadUrl": "/manus-storage/Group-Trusted-Servants_4cbf39c1.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "na-groups-and-medication",
+    "title": "NA Groups and Medication",
+    "category": "Group and service resources",
+    "description": "NA Groups and Medication is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "EN2205-NA-Groups-and-MEdication-English.pdf",
+    "downloadUrl": "/manus-storage/EN2205-NA-Groups-and-MEdication-English_54ec5301.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "na-groups-and-medication",
+    "title": "NA Groups and Medication",
+    "category": "Group and service resources",
+    "description": "NA Groups and Medication is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "NA-Groups-Medication.pdf",
+    "downloadUrl": "/manus-storage/NA-Groups-Medication_bec0e847.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "principles-and-leadership-in-na-service",
+    "title": "Principles and Leadership in NA Service",
+    "category": "Group and service resources",
+    "description": "Principles and Leadership in NA Service is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Principles-and-Leadership-in-NA-Service.pdf",
+    "downloadUrl": "/manus-storage/Principles-and-Leadership-in-NA-Service_8c9afa43.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "social-media-and-our-guiding-principles",
+    "title": "Social Media and Our Guiding Principles",
+    "category": "Group and service resources",
+    "description": "Social Media and Our Guiding Principles is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Social-Media-Our-Guiding-Principles.pdf",
+    "downloadUrl": "/manus-storage/Social-Media-Our-Guiding-Principles_62427390.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "the-group-booklet",
+    "title": "The Group Booklet",
+    "category": "Group and service resources",
+    "description": "The Group Booklet is a practical NA group or service resource intended to support trusted servants, group meetings, communication, or local fellowship work.",
+    "fileName": "Group-Booklet.pdf",
+    "downloadUrl": "/manus-storage/Group-Booklet_82dd981c.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-1-who-what-how-and-why",
+    "title": "IP #1 — Who, What, How, and Why",
+    "category": "Information pamphlets",
+    "description": "IP #1 — Who, What, How, and Why is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "EN3101-IP-1-English.pdf",
+    "downloadUrl": "/manus-storage/EN3101-IP-1-English_89c8ce78.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-16-for-the-newcomer",
+    "title": "IP #16 — For the Newcomer",
+    "category": "Information pamphlets",
+    "description": "IP #16 — For the Newcomer is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "3116_For-Newcomer-IP-16-English.pdf",
+    "downloadUrl": "/manus-storage/3116_For-Newcomer-IP-16-English_764aa692.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-22-welcome-to-narcotics-anonymous",
+    "title": "IP #22 — Welcome to Narcotics Anonymous",
+    "category": "Information pamphlets",
+    "description": "IP #22 — Welcome to Narcotics Anonymous is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "3122_Welcome-IP-22-English.pdf",
+    "downloadUrl": "/manus-storage/3122_Welcome-IP-22-English_e51e3978.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-30-mental-health-in-recovery",
+    "title": "IP #30 — Mental Health in Recovery",
+    "category": "Information pamphlets",
+    "description": "IP #30 — Mental Health in Recovery is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "3130_MHR-IP-30-English.pdf",
+    "downloadUrl": "/manus-storage/3130_MHR-IP-30-English_4d91beff.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-7-am-i-an-addict",
+    "title": "IP #7 — Am I an Addict?",
+    "category": "Information pamphlets",
+    "description": "IP #7 — Am I an Addict? is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "EN3107-IP-7-English.pdf",
+    "downloadUrl": "/manus-storage/EN3107-IP-7-English_3c5b9a5f.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-1-who-what-how-and-why",
+    "title": "IP 1 Who What How and Why",
+    "category": "Information pamphlets",
+    "description": "IP 1 Who What How and Why is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-1-Who-What-How-and-Why.pdf",
+    "downloadUrl": "/manus-storage/IP-1-Who-What-How-and-Why_8c3226a6.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-12-the-triangle-of-self-obsession",
+    "title": "IP 12 The Triangle of Self Obsession",
+    "category": "Information pamphlets",
+    "description": "IP 12 The Triangle of Self Obsession is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-12-The-Triangle-of-Self-Obsession.pdf",
+    "downloadUrl": "/manus-storage/IP-12-The-Triangle-of-Self-Obsession_5a63c438.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-14-one-addicts-experience",
+    "title": "IP 14 One Addicts Experience",
+    "category": "Information pamphlets",
+    "description": "IP 14 One Addicts Experience is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-14-One-Addicts-Experience.pdf",
+    "downloadUrl": "/manus-storage/IP-14-One-Addicts-Experience_1f7f89fa.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-16-for-the-newcomer",
+    "title": "IP 16 For the Newcomer",
+    "category": "Information pamphlets",
+    "description": "IP 16 For the Newcomer is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-16-For-the-Newcomer.pdf",
+    "downloadUrl": "/manus-storage/IP-16-For-the-Newcomer_a9856f46.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-17-for-those-in-treatment",
+    "title": "IP 17 For Those in Treatment",
+    "category": "Information pamphlets",
+    "description": "IP 17 For Those in Treatment is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-17-For-Those-in-Treatment.pdf",
+    "downloadUrl": "/manus-storage/IP-17-For-Those-in-Treatment_3c278e74.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-19-self-acceptance",
+    "title": "IP 19 Self Acceptance",
+    "category": "Information pamphlets",
+    "description": "IP 19 Self Acceptance is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-19-Self-Acceptance.pdf",
+    "downloadUrl": "/manus-storage/IP-19-Self-Acceptance_bec524f6.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-2-the-group",
+    "title": "IP 2 The Group",
+    "category": "Information pamphlets",
+    "description": "IP 2 The Group is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-2-The-Group.pdf",
+    "downloadUrl": "/manus-storage/IP-2-The-Group_4c29edaa.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-20-hi-service-the-na-member",
+    "title": "IP 20 HI Service the NA Member",
+    "category": "Information pamphlets",
+    "description": "IP 20 HI Service the NA Member is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-20-HI-Service-the-NA-Member.pdf",
+    "downloadUrl": "/manus-storage/IP-20-HI-Service-the-NA-Member_3648a437.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-21-the-loner-staying-clean-in-isolation",
+    "title": "IP 21 The Loner Staying Clean in Isolation",
+    "category": "Information pamphlets",
+    "description": "IP 21 The Loner Staying Clean in Isolation is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-21-The-Loner-Staying-Clean-in-Isolation.pdf",
+    "downloadUrl": "/manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_15eae03d.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-22-welcome-to-na",
+    "title": "IP 22 Welcome to NA",
+    "category": "Information pamphlets",
+    "description": "IP 22 Welcome to NA is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-22-Welcome-to-NA.pdf",
+    "downloadUrl": "/manus-storage/IP-22-Welcome-to-NA_31780904.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-23-staying-clean-on-the-outside",
+    "title": "IP 23 Staying Clean on the Outside",
+    "category": "Information pamphlets",
+    "description": "IP 23 Staying Clean on the Outside is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-23-Staying-Clean-on-the-Outside.pdf",
+    "downloadUrl": "/manus-storage/IP-23-Staying-Clean-on-the-Outside_e1de78b3.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-26-accessibility-for-those-with-additional-needs",
+    "title": "IP 26 Accessibility for Those with Additional Needs",
+    "category": "Information pamphlets",
+    "description": "IP 26 Accessibility for Those with Additional Needs is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-26-Accessibility-for-Those-with-Additional-Needs.pdf",
+    "downloadUrl": "/manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_be5cf983.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-28-funding-na-services",
+    "title": "IP 28 Funding NA Services",
+    "category": "Information pamphlets",
+    "description": "IP 28 Funding NA Services is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-28-Funding-NA-Services.pdf",
+    "downloadUrl": "/manus-storage/IP-28-Funding-NA-Services_90c356a1.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-29-introduction-to-na-meetings",
+    "title": "IP 29 Introduction to NA Meetings",
+    "category": "Information pamphlets",
+    "description": "IP 29 Introduction to NA Meetings is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-29-Introduction-to-NA-Meetings.pdf",
+    "downloadUrl": "/manus-storage/IP-29-Introduction-to-NA-Meetings_1c217f2f.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-5-another-look",
+    "title": "IP 5 Another Look",
+    "category": "Information pamphlets",
+    "description": "IP 5 Another Look is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-5-Another-Look.pdf",
+    "downloadUrl": "/manus-storage/IP-5-Another-Look_ae2c7f2f.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-6-recovery-relapse",
+    "title": "IP 6 Recovery Relapse",
+    "category": "Information pamphlets",
+    "description": "IP 6 Recovery Relapse is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-6-Recovery-Relapse.pdf",
+    "downloadUrl": "/manus-storage/IP-6-Recovery-Relapse_cb9ec202.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-7-am-i-an-addict",
+    "title": "IP 7 Am I an Addict",
+    "category": "Information pamphlets",
+    "description": "IP 7 Am I an Addict is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-7-Am-I-an-Addict.pdf",
+    "downloadUrl": "/manus-storage/IP-7-Am-I-an-Addict_d29b829e.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-8-just-for-today",
+    "title": "IP 8 Just for Today",
+    "category": "Information pamphlets",
+    "description": "IP 8 Just for Today is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-8-Just-for-Today.pdf",
+    "downloadUrl": "/manus-storage/IP-8-Just-for-Today_320c2991.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "ip-9-living-the-program",
+    "title": "IP 9 Living the Program",
+    "category": "Information pamphlets",
+    "description": "IP 9 Living the Program is an official NA information pamphlet offering focused, plain-language recovery information for members, newcomers, families, or people supporting NA services.",
+    "fileName": "IP-9-Living-the-Program.pdf",
+    "downloadUrl": "/manus-storage/IP-9-Living-the-Program_b9349d19.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "predatory-behaviour",
+    "title": "Predatory Behaviour",
+    "category": "Policies and local resources",
+    "description": "Predatory Behaviour is a locally supplied NA policy or safeguarding resource. Read the document for the current adopted wording and local service context.",
+    "fileName": "Predatory-Behaviour.pdf",
+    "downloadUrl": "/manus-storage/Predatory-Behaviour_a2c3dbd1.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "wcasc-policy-document",
+    "title": "WCASC Policy Document",
+    "category": "Policies and local resources",
+    "description": "WCASC Policy Document is a locally supplied NA policy or safeguarding resource. Read the document for the current adopted wording and local service context.",
+    "fileName": "WCASC-Policy-Document-current-version.pdf",
+    "downloadUrl": "/manus-storage/WCASC-Policy-Document-current-version_363819be.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "a-resource-in-your-community",
+    "title": "A Resource in Your Community",
+    "category": "Recovery booklets",
+    "description": "A Resource in Your Community is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "A-Resource-In-Your-Community.pdf",
+    "downloadUrl": "/manus-storage/A-Resource-In-Your-Community_ad79083e.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "an-introductory-guide-to-narcotics-anonymous",
+    "title": "An Introductory Guide to Narcotics Anonymous",
+    "category": "Recovery booklets",
+    "description": "An Introductory Guide to Narcotics Anonymous is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "Intro-Guide-to-NA.pdf",
+    "downloadUrl": "/manus-storage/Intro-Guide-to-NA_842db156.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "behind-the-walls",
+    "title": "Behind the Walls",
+    "category": "Recovery booklets",
+    "description": "Behind the Walls is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "Behind-the-Walls.pdf",
+    "downloadUrl": "/manus-storage/Behind-the-Walls_4286238b.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "bulletin-29-regarding-methadone-and-other-drug-replacement-programs",
+    "title": "Bulletin 29 — Regarding Methadone and Other Drug Replacement Programs",
+    "category": "Recovery booklets",
+    "description": "Bulletin 29 — Regarding Methadone and Other Drug Replacement Programs is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf",
+    "downloadUrl": "/manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_2902cc3c.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "for-those-in-treatment",
+    "title": "For Those in Treatment",
+    "category": "Recovery booklets",
+    "description": "For Those in Treatment is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "For-those-in-treatment.pdf",
+    "downloadUrl": "/manus-storage/For-those-in-treatment_7d114675.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "in-times-of-illness",
+    "title": "In Times of Illness",
+    "category": "Recovery booklets",
+    "description": "In Times of Illness is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "In-Times-of-Illness-English.pdf",
+    "downloadUrl": "/manus-storage/In-Times-of-Illness-English_a34e993a.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "in-times-of-illness",
+    "title": "In Times of Illness",
+    "category": "Recovery booklets",
+    "description": "In Times of Illness is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "In-Times-of-Illness.pdf",
+    "downloadUrl": "/manus-storage/In-Times-of-Illness_2391b773.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "na-persons-receiving-medication-assisted-treatment",
+    "title": "NA & Persons Receiving Medication-Assisted Treatment",
+    "category": "Recovery booklets",
+    "description": "NA & Persons Receiving Medication-Assisted Treatment is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "2306_PRMAT_2023.pdf",
+    "downloadUrl": "/manus-storage/2306_PRMAT_2023_3601eb02.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "the-na-white-booklet",
+    "title": "The NA White Booklet",
+    "category": "Recovery booklets",
+    "description": "The NA White Booklet is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "NA-White-Booklet.pdf",
+    "downloadUrl": "/manus-storage/NA-White-Booklet_c1fe68e6.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "working-step-four-in-narcotics-anonymous",
+    "title": "Working Step Four in Narcotics Anonymous",
+    "category": "Recovery booklets",
+    "description": "Working Step Four in Narcotics Anonymous is an NA recovery resource that introduces practical information, shared experience, or guidance relevant to recovery and staying connected to the fellowship.",
+    "fileName": "Working-Step-Four-in-Narcotics-Anonymous.pdf",
+    "downloadUrl": "/manus-storage/Working-Step-Four-in-Narcotics-Anonymous_e100390b.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "a-guide-to-local-service-in-narcotics-anonymous",
+    "title": "A Guide to Local Service in Narcotics Anonymous",
+    "category": "Service and meeting resources",
+    "description": "A Guide to Local Service in Narcotics Anonymous is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "A-Guide-to-Local-Service-in-Narcotics-Anonymous.pdf",
+    "downloadUrl": "/manus-storage/A-Guide-to-Local-Service-in-Narcotics-Anonymous_2eb94ec5.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "area-planning-tool",
+    "title": "Area Planning Tool",
+    "category": "Service and meeting resources",
+    "description": "Area Planning Tool is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "Area-Planning-Tool.pdf",
+    "downloadUrl": "/manus-storage/Area-Planning-Tool_f41349ee.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "generic-online-meeting-preamble",
+    "title": "Generic Online Meeting Preamble",
+    "category": "Service and meeting resources",
+    "description": "Generic Online Meeting Preamble is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "Generic-Online-Meeting-Preamble-202001-1.pdf",
+    "downloadUrl": "/manus-storage/Generic-Online-Meeting-Preamble-202001-1_b6d8beed.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "h-i-basics",
+    "title": "H&I Basics",
+    "category": "Service and meeting resources",
+    "description": "H&I Basics is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "HI-Basics.pdf",
+    "downloadUrl": "/manus-storage/HI-Basics_1da4650e.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "h-i-handbook",
+    "title": "H&I Handbook",
+    "category": "Service and meeting resources",
+    "description": "H&I Handbook is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "HI-Handbook.pdf",
+    "downloadUrl": "/manus-storage/HI-Handbook_1ecc6688.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "jasc-policy",
+    "title": "JASC Policy",
+    "category": "Service and meeting resources",
+    "description": "JASC Policy is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "JASC-Policy.pdf",
+    "downloadUrl": "/manus-storage/JASC-Policy_6049d248.pdf",
+    "format": "PDF"
+  },
+  {
+    "slug": "treasurer-s-handbook",
+    "title": "Treasurer’s Handbook",
+    "category": "Service and meeting resources",
+    "description": "Treasurer’s Handbook is a practical NA service or meeting resource for groups, areas, trusted servants, or people helping meetings operate effectively.",
+    "fileName": "Treasurers-Handbook.pdf",
+    "downloadUrl": "/manus-storage/Treasurers-Handbook_b4008f03.pdf",
+    "format": "PDF"
+  }
+] as const;
+
+export type LiteratureManifestItem = (typeof literatureManifest)[number];

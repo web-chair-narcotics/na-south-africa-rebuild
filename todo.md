@@ -307,3 +307,10 @@
 - [x] Run desktop and mobile visual QA across the redesigned public pages and publish the verified update.
 
 - [x] Correct the supplied logo wordmark contrast in the public header so the full NA South Africa Region identity remains readable without the blue block.
+
+## Uploaded literature download rebuild — 16 August 2026
+
+- [x] Inventory every supplied literature PDF and map it to a canonical public title, category, description, and exact file target.
+- [x] Upload the supplied literature PDFs to managed storage and verify every stored file returns a valid PDF response.
+- [x] Add dedicated literature detail pages with short descriptions, exact download buttons, and new-tab navigation from the catalogue.
+- [ ] Verify every literature detail route and downloadable PDF target, then publish the corrected Literature library.

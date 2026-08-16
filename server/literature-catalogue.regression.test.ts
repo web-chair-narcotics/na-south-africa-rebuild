@@ -11,19 +11,22 @@ describe("public literature catalogue safeguards", () => {
     expect(app).toContain('import LiteraturePage from "./pages/LiteraturePage"');
     expect(app).toContain('<Route path="/literature" component={LiteraturePage} />');
     expect(app).toContain('<Route path="/na-literature" component={LiteraturePage} />');
+    expect(app).toContain('<Route path="/literature/:slug">');
+    expect(app).toContain('import LiteratureDetail from "./pages/LiteratureDetail"');
   });
 
-  it("lists every verified official booklet, IP, and group-reading destination", () => {
+  it("uses the complete uploaded PDF manifest and opens detail pages in a new tab", () => {
     const catalogue = read("client/src/pages/LiteraturePage.tsx");
-    expect(catalogue).toContain("const booklets: LiteratureItem[]");
-    expect(catalogue).toContain("const informationPamphlets: LiteratureItem[]");
-    expect(catalogue).toContain("const groupReadings: LiteratureItem[]");
-    expect(catalogue).toContain("ip-1-who-what-how-and-why");
-    expect(catalogue).toContain("ip-30-mental-health-in-recovery");
-    expect(catalogue).toContain("how-it-works-group-reading");
-    expect(catalogue).toContain("why-are-we-here-group-reading");
-    expect(catalogue).toContain("https://na.org/purchase-na-literature/");
-    expect(catalogue).toContain('target="_blank" rel="noreferrer"');
+    const manifest = read("client/src/data/literatureManifest.ts");
+    const detail = read("client/src/pages/LiteratureDetail.tsx");
+    expect(manifest).toContain("export const literatureManifest");
+    expect((manifest.match(/\"downloadUrl\":/g) ?? []).length).toBe(56);
+    expect(manifest).toContain("/manus-storage/IP-1-Who-What-How-and-Why_8c3226a6.pdf");
+    expect(manifest).toContain("/manus-storage/2306_PRMAT_2023_3601eb02.pdf");
+    expect(catalogue).toContain("literatureManifest.length");
+    expect(catalogue).toContain("target=\"_blank\" rel=\"noreferrer\"");
+    expect(detail).toContain("Download PDF");
+    expect(detail).toContain("item.downloadUrl");
   });
 
   it("retains a traceable source inventory for the South Africa source and official catalogue", () => {
