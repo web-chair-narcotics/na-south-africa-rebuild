@@ -155,3 +155,5 @@
 
 - [x] Validate the supplied hero ZIP against the five-site manifest, including exact filenames, dimensions, WebP format, visual safety, and route mapping. All supplied candidates are held for re-export; Johannesburg is missing.
 - [ ] Upload approved hero assets to managed storage and connect them to the corresponding five site routes after validation.
+
+- [x] Replace the first five-image prompt pack with a stricter Nano Banana 2K art-direction brief containing exact camera, composition, label, exclusion, and per-image acceptance instructions.
