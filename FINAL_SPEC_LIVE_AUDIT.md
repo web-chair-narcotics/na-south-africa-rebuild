@@ -1,6 +1,6 @@
 # Final Specification Live Audit
 
-**Deployment under test:** `314ceec1`  
+**Deployments under test:** `314ceec1` and `358e54a6`  
 **Method:** Fresh public production-browser routes and public document retrieval.
 
 ## Verified live findings
@@ -11,7 +11,7 @@
 | Online meeting separation | `/meetings?meetingFormat=online` reports 51 verified online meetings and displays the online-only heading plus join/contact treatment without venue/map/directions. | Public route pass |
 | In-person default and physical details | `/meetings?meetingFormat=in_person` reports 255 verified physical meetings, address blocks, Show on map controls, and direct Google Maps directions. | Public route pass |
 | Literature catalogue | `/literature` now exposes the seven South Africa-listed titles plus 8 booklet, 25 IP, and 7 group-reading official NA World Services destinations. | Public route pass |
-| Map state | The live in-person finder loads 255 results and the Meeting map panel. Its initial view was captured before query completion; the loaded view retained the meeting-map heading and physical map controls. | Requires final map-tile/fallback visual confirmation |
+| Map state | Fresh production verification after checkpoint `358e54a6` shows Google map tiles, 255-result marker clusters, individual markers, zoom/fullscreen/keyboard controls, map attribution, and Google Maps integration in the physical finder. | Desktop pass; native mobile device confirmation remains part of the final acceptance gate |
 
 ## Source URLs
 

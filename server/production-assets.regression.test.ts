@@ -21,7 +21,7 @@ describe("production public asset delivery", () => {
 
     expect(server).toContain("https://maps.googleapis.com");
     expect(server).toContain("https://maps.gstatic.com");
-    expect(server).toContain("https://www.openstreetmap.org");
+    expect(server).toContain("frame-src 'self' https://*.google.com");
   });
 
   it("prevents stale production index HTML from masking a newly published frontend bundle", () => {
