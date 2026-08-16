@@ -163,3 +163,11 @@
 
 - [x] Validate the five newly supplied 2K hero images against the route labels, actual file signatures, dimensions, and crop-safe asset contract without reopening them in the file viewer.
 - [x] Connect the validated five hero images to their exact regional site routes and document the final asset mapping.
+
+
+## Five distinct public websites correction requested 16 August 2026
+
+- [x] Verify and document that the South Africa Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes each render as distinct public site experiences rather than one generic site.
+- [x] Verify the exact unique hero asset on each of the five routes, including managed-storage URL, visible rendering, crop, alt text, and route mapping.
+- [x] Add stronger area-specific information, identity, meeting CTA, and navigation for each of the four areas and the region.
+- [x] Run a five-route desktop and mobile visual pass and publish the corrected five-site build.
