@@ -57,3 +57,11 @@ The NA World Services English recovery-literature catalogue at <https://na.org/l
 2. <https://na.org.za/wp-json/wp/v2/pages?slug=na-literature>
 3. <https://na.org/literature/recovery-literature-in-english-usa/>
 4. <https://na.org/literature/>
+
+## Pretoria downloads source verification — 16 August 2026
+
+Source page: <https://na.org.za/pta/downloads/>
+
+The Pretoria downloads page presents nine Recovery Booklets, twenty-five Recovery Information Pamphlets, and six Service Handbooks. It links local files from the `/pamphlets/` store, including the PRMAT, newcomer, Welcome to NA, Mental Health in Recovery, service-guide, community-resource, area-planning, Behind the Walls, Bulletin 29, IP, group, H&I, introductory-guide, White Booklet, Twelve Concepts, and Working Step Four documents listed on the page.
+
+The rebuild extends this source list with every supplied PDF from the user’s literature folder, including local policy, preamble, safeguarding, and service files. All 56 supplied literature PDFs were uploaded to managed storage and returned HTTP 200 responses with PDF content types during the local audit.
