@@ -239,4 +239,4 @@
 
 - [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses rather than relying on development-preview evidence.
 - [x] Correct any production asset-path, CSS, deploy, or responsive-rendering fault preventing the five verified hero images from being visible on the public domain.
-- [ ] Verify hero-image visibility on all five live routes at desktop and mobile viewports, then publish the correction.
+- [x] Verify hero-image visibility on all five live routes at desktop and mobile viewports, then publish the correction.
