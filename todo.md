@@ -150,3 +150,5 @@
 - [x] Correct the Johannesburg area visual label so it does not use low-contrast green text on the primary blue hero panel.
 
 - [x] Update the organisational approval register with the live five-site domain and exact five-hero asset intake requirements.
+
+- [x] Deliver a downloadable five-image generation brief with exact route labels, filenames, dimensions, prompts, alt text, crop guidance, and acceptance checks.
