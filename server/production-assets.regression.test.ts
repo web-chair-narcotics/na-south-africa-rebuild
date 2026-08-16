@@ -16,6 +16,12 @@ describe("production public asset delivery", () => {
     expect(storageProxy).toContain('res.status(200).send(assetBytes)');
   });
 
+  it("prevents stale production index HTML from masking a newly published frontend bundle", () => {
+    const vite = read("server/_core/vite.ts");
+    expect(vite).toContain('res.setHeader("Cache-Control", "no-store, max-age=0")');
+    expect(vite).toContain('res.setHeader("Cache-Control", "public, max-age=31536000, immutable")');
+  });
+
   it("uses explicit production-loadable image elements for the shared logo and all five hero routes", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
     const areas = read("client/src/pages/AreaPage.tsx");
