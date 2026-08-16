@@ -87,3 +87,5 @@
 - [x] Define four distinct area-site visual directions and named image jobs for Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal.
 - [x] Produce generation-ready prompts for the four area hero images, including text-safe composition, accessibility, and shared NA brand constraints.
 - [x] Document the area-image asset naming and page-placement map for later managed-storage intake.
+
+- [x] Clarify in the national administrator overview that the live submitted queue is separate from the 328-record historical staged-review register, without changing publication status.
