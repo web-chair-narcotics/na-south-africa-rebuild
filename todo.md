@@ -240,3 +240,9 @@
 - [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses rather than relying on development-preview evidence.
 - [x] Correct any production asset-path, CSS, deploy, or responsive-rendering fault preventing the five verified hero images from being visible on the public domain.
 - [x] Verify hero-image visibility on all five live routes at desktop and mobile viewports, then publish the correction.
+
+## Production-wide public asset failure reported 16 August 2026
+
+- [x] Inspect the actual production HTML, logo URL, five hero URLs, response headers, and public managed-storage behavior.
+- [ ] Replace failing logo and hero asset delivery references with verified production-safe URLs.
+- [ ] Audit all five sites and shared public pages for broken images before republishing.

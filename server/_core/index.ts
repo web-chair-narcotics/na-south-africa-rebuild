@@ -39,7 +39,7 @@ async function startServer() {
     res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=(self), payment=()");
     if (process.env.NODE_ENV === "production") {
       res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
-      res.setHeader("Content-Security-Policy", "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https://*.googleapis.com https://*.gstatic.com; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://*.manus.computer https://forge.butterfly-effect.dev https://forge.manus.ai; connect-src 'self' https://*.googleapis.com https://*.gstatic.com https://forge.butterfly-effect.dev https://forge.manus.ai https://manus-analytics.com; frame-src 'self' https://*.google.com;");
+      res.setHeader("Content-Security-Policy", "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://*.manus.computer https://forge.butterfly-effect.dev https://forge.manus.ai; connect-src 'self' https://*.googleapis.com https://*.gstatic.com https://forge.butterfly-effect.dev https://forge.manus.ai https://manus-analytics.com; frame-src 'self' https://*.google.com;");
     }
     next();
   });
