@@ -176,6 +176,12 @@
 - [x] Verify the public finder and online-meeting journeys against the reconciled live corpus, including Google Maps links for physical venues and join/contact paths for online meetings.
 - [x] Produce a complete rescan audit with crawl scope, source URLs, record counts, discrepancy classifications, implementation results, and explicit blockers.
 
+## Rollback recovery — 16 August 2026
+
+- [x] Restore the latest verified online/in-person separation and source-content implementation that was superseded by the five-site visual rollback.
+- [x] Reapply and verify the corrected full-bleed five-site hero presentation on the restored platform state.
+- [x] Run complete verification across online/in-person filters, legacy redirects, source-content routing, and all five public site routes after recovery.
+
 
 ## Complete live-site parity rescan requested 16 August 2026
 

@@ -28,4 +28,17 @@ describe("dedicated area websites", () => {
     expect(page).toContain('directoryName: "KwaZulu-Natal"');
     expect(page).toContain("imagePromptFile");
   });
+
+  it("preserves full-bleed, route-specific hero treatment for all five websites", () => {
+    const page = readFileSync(resolve(process.cwd(), "client/src/pages/AreaPage.tsx"), "utf8");
+    for (const asset of [
+      "/manus-storage/na-region-south-africa-hero_03348d2b.webp",
+      "/manus-storage/na-area-johannesburg-hero_c81eaedf.webp",
+      "/manus-storage/na-area-cape-town-hero_2c81ddbc.webp",
+      "/manus-storage/na-area-pretoria-hero_5bad0679.webp",
+      "/manus-storage/na-area-kwazulu-natal-hero_792f5d0c.webp",
+    ]) expect(page).toContain(asset);
+    expect(page).toContain("backgroundImage");
+    expect(page).toContain("A distinct NA South Africa site");
+  });
 });
