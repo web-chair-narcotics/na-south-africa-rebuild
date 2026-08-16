@@ -316,3 +316,20 @@
 - [x] Verify every literature detail route and downloadable PDF target, then publish the corrected Literature library.
 
 - [x] Republish and live-verify the duplicate-title literature detail route after the unique-slug correction; the refreshed live catalogue and second In Times of Illness detail page now resolve to the correct PDF.
+
+## Comprehensive uploaded-source and production audit requested — 16 August 2026
+
+- [ ] Inventory all uploaded files, project documentation, source inventories, audit records, and generated evidence against the current implementation.
+- [ ] Audit source code, schema, dependencies, tests, build output, storage references, maintenance risks, and deployment configuration.
+- [ ] Audit live public routes, meeting journeys, literature downloads, hero/logo assets, navigation, redirects, and administrative boundaries.
+- [ ] Repair safely fixable audit findings and add regression coverage; do not fabricate or publish organisation-dependent content.
+- [ ] Produce a comprehensive audit report documenting completed items, maintenance/update recommendations, outstanding work, errors encountered, fixes applied, and blockers.
+- [ ] Run final validation and publish the audited state when all safely fixable findings are resolved.
+
+- [ ] Remediate credential-shaped values found in `.project-config.json`: determine tracking/deployment exposure, remove secrets from repository scope, and rotate affected credentials through the supported project configuration path without exposing values in audit documents.
+
+## Protected comprehensive audit constraint — 16 August 2026
+
+- [ ] Keep the current public presentation and working routes unchanged during the audit unless a confirmed defect requires a minimal repair.
+- [ ] Prioritise meeting-finder correctness, separation, addresses, maps, details, filters, and download/data paths; do not make broad dependency or design upgrades.
+- [ ] Create a recoverable checkpoint before any code repair and validate all meeting regressions, tests, build, and key live journeys before publishing.

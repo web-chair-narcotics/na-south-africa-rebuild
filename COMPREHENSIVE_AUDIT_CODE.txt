@@ -1,0 +1,226 @@
+## Repository changes
+ todo.md | 17 [32m+++++++++++++++++[m
+ 1 file changed, 17 insertions(+)
+ [31mM[m todo.md
+[31m??[m COMPREHENSIVE_AUDIT_CODE.txt
+[31m??[m COMPREHENSIVE_AUDIT_INVENTORY.md
+[31m??[m COMPREHENSIVE_AUDIT_SECURITY_REDACTED.txt
+[31m??[m COMPREHENSIVE_AUDIT_TECHNICAL.txt
+
+## Public pages and routes
+AdminLanding.tsx
+AdminPortal.tsx
+AreaPage.tsx
+Areas.tsx
+ComponentShowcase.tsx
+ContentPage.tsx
+Home.tsx
+LegacyRouteRedirect.tsx
+LiteratureDetail.tsx
+LiteraturePage.tsx
+MeetingDetail.tsx
+Meetings.tsx
+NotFound.tsx
+client/src/App.tsx:5:import { Route, Switch, useLocation } from "wouter";
+client/src/App.tsx:16:import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
+client/src/App.tsx:21:  const [location] = useLocation();
+client/src/App.tsx:31:function Router() {
+client/src/App.tsx:34:      <Route path="/" component={Home} />
+client/src/App.tsx:35:      <Route path="/meetings" component={Meetings} />
+client/src/App.tsx:36:      <Route path="/meetings/:id">{params => <MeetingDetail id={params.id} />}</Route>
+client/src/App.tsx:37:      <Route path="/areas" component={Areas} />
+client/src/App.tsx:38:      <Route path="/areas/south-africa-region">{() => <AreaPage slug="south-africa-region" />}</Route>
+client/src/App.tsx:39:      <Route path="/areas/johannesburg">{() => <AreaPage slug="johannesburg" />}</Route>
+client/src/App.tsx:40:      <Route path="/areas/cape-town">{() => <AreaPage slug="cape-town" />}</Route>
+client/src/App.tsx:41:      <Route path="/areas/pretoria">{() => <AreaPage slug="pretoria" />}</Route>
+client/src/App.tsx:42:      <Route path="/areas/kwazulu-natal">{() => <AreaPage slug="kwazulu-natal" />}</Route>
+client/src/App.tsx:43:      <Route path="/admin/login" component={AdminLanding} />
+client/src/App.tsx:44:      <Route path="/admin/:rest*" component={AdminPortal} />
+client/src/App.tsx:45:      <Route path="/admin" component={AdminPortal} />
+client/src/App.tsx:46:      <Route path="/about">{() => <ContentPage page="about" />}</Route>
+client/src/App.tsx:47:      <Route path="/about-na">{() => <ContentPage page="about" />}</Route>
+client/src/App.tsx:48:      <Route path="/recovery">{() => <ContentPage page="recovery" />}</Route>
+client/src/App.tsx:49:      <Route path="/what-happens-at-an-na-meeting">{() => <ContentPage page="recovery" />}</Route>
+client/src/App.tsx:50:      <Route path="/information-about-na">{() => <ContentPage page="information" />}</Route>
+client/src/App.tsx:51:      <Route path="/how-to-start-an-na-meeting">{() => <ContentPage page="start" />}</Route>
+client/src/App.tsx:52:      <Route path="/literature" component={LiteraturePage} />
+client/src/App.tsx:53:      <Route path="/literature/:slug">{params => <LiteratureDetail slug={params.slug} />}</Route>
+client/src/App.tsx:54:      <Route path="/na-literature" component={LiteraturePage} />
+client/src/App.tsx:55:      <Route path="/news">{() => <ContentPage page="news" />}</Route>
+client/src/App.tsx:56:      <Route path="/contact">{() => <ContentPage page="contact" />}</Route>
+client/src/App.tsx:57:      <Route path="/contact-us">{() => <ContentPage page="contact" />}</Route>
+client/src/App.tsx:58:      <Route path="/404" component={NotFound} />
+client/src/App.tsx:59:      <Route component={LegacyRouteRedirect} />
+client/src/App.tsx:68:        <TooltipProvider><Toaster /><ScrollToTop /><Router /></TooltipProvider>
+client/src/pages/NotFound.tsx:4:import { useLocation } from "wouter";
+client/src/pages/NotFound.tsx:7:  const [, setLocation] = useLocation();
+client/src/pages/AdminPortal.tsx:2:import type { inferRouterOutputs } from "@trpc/server";
+client/src/pages/AdminPortal.tsx:4:import { Link, useLocation } from "wouter";
+client/src/pages/AdminPortal.tsx:18:import type { AppRouter } from "../../../server/routers";
+client/src/pages/AdminPortal.tsx:28:  const [location, setLocation] = useLocation();
+client/src/pages/AdminPortal.tsx:70:type EmergencyNoticeRow = RouterOutput["admin"]["emergency"]["list"][number];
+client/src/pages/AdminPortal.tsx:86:type RouterOutput = inferRouterOutputs<AppRouter>;
+client/src/pages/AdminPortal.tsx:87:type ListedMeeting = RouterOutput["admin"]["meetings"][number];
+client/src/pages/LegacyRouteRedirect.tsx:2:import { useLocation } from "wouter";
+client/src/pages/LegacyRouteRedirect.tsx:3:import { legacyRouteMap } from "@/legacyRouteMap";
+client/src/pages/LegacyRouteRedirect.tsx:7:  return legacyPath.endsWith("/online-meetings") ? "/meetings?meetingFormat=online" : legacyPath.endsWith("/in-person-meetings") ? "/meetings?meetingFormat=in_person" : legacyRouteMap[pathname] ?? "/404";
+client/src/pages/LegacyRouteRedirect.tsx:10:export default function LegacyRouteRedirect() {
+client/src/pages/LegacyRouteRedirect.tsx:11:  const [, navigate] = useLocation();
+client/src/pages/LegacyRouteRedirect.tsx:15:    navigate(destination, { replace: true });
+client/src/components/DashboardLayout.tsx:26:import { useLocation } from "wouter";
+client/src/components/DashboardLayout.tsx:118:  const [location, setLocation] = useLocation();
+client/src/components/ui/sidebar.tsx:85:      document.cookie = `${SIDEBAR_COOKIE_NAME}=${openState}; path=/; max-age=${SIDEBAR_COOKIE_MAX_AGE}`;
+client/src/components/PublicLayout.tsx:1:import { Link, useLocation } from "wouter";
+client/src/components/PublicLayout.tsx:23:  const [location] = useLocation();
+
+## Meeting/literature source counts
+0
+client/src/components/MeetingFinder.tsx:11:type FilterState = { query: string; areaSlug: string; day: string; timeOfDay: string; meetingType: string; meetingFormat: string; page: number };
+client/src/components/MeetingFinder.tsx:12:const defaultFilters: FilterState = { query: "", areaSlug: "", day: "", timeOfDay: "", meetingType: "", meetingFormat: "in_person", page: 1 };
+client/src/components/MeetingFinder.tsx:15:  const format = new URLSearchParams(search).get("meetingFormat");
+client/src/components/MeetingFinder.tsx:16:  return format === "online" || format === "in_person" || format === "hybrid" ? { ...defaultFilters, meetingFormat: format } : defaultFilters;
+client/src/components/MeetingFinder.tsx:49:    meetingType: filters.meetingType || undefined, meetingFormat: (filters.meetingFormat || undefined) as "in_person" | "online" | "hybrid" | undefined,
+client/src/components/MeetingFinder.tsx:58:  const onlineOnly = filters.meetingFormat === "online";
+client/src/components/MeetingFinder.tsx:65:          <div className="block flex-1"><label htmlFor="meeting-search" className="mb-2 block text-sm font-bold text-[#54595F]">Search meetings</label><div className="relative"><Search className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[#085C84]" /><input id="meeting-search" value={filters.query} onChange={event => update("query", event.target.value)} placeholder={onlineOnly ? "Meeting name or online group" : "Area, suburb, meeting or venue"} className="h-12 w-full rounded-xl border border-[#AAAAAA] bg-white pl-11 pr-4 text-base outline-none placeholder:text-[#7A7A7A] focus:border-[#2F9B3E] focus:ring-2 focus:ring-[#2F9B3E]/20" /></div></div>
+client/src/components/MeetingFinder.tsx:73:          <select aria-label="Filter by meeting format" value={filters.meetingFormat} onChange={event => update("meetingFormat", event.target.value)} className="finder-select"><option value="">In person, online or hybrid</option><option value="in_person">In person</option><option value="online">Online</option><option value="hybrid">Hybrid</option></select>
+client/src/components/MeetingFinder.tsx:77:      <div className={`mt-8 grid gap-8 ${onlineOnly ? "" : "xl:grid-cols-[minmax(0,0.9fr)_minmax(450px,1.1fr)]"}`}>
+client/src/components/MeetingFinder.tsx:79:          <div className="mb-4 flex items-center justify-between gap-4"><p className="text-sm text-[#7A7A7A]">{results.isLoading ? "Searching verified meetings…" : `${payload?.total ?? 0} verified ${payload?.total === 1 ? "meeting" : "meetings"} found`}</p>{!onlineOnly && <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-[#085C84]"><MapPinned className="h-4 w-4" />Map linked</span>}</div>
+client/src/components/MeetingFinder.tsx:82:          <div className="grid gap-3">{payload?.items.map(meeting => <article key={meeting.id} className={`rounded-2xl border bg-white p-5 transition-shadow ${meeting.id === selectedId ? "border-[#085C84] shadow-[0_10px_24px_rgba(20,45,42,0.12)]" : "border-[#EEEEEE]"}`}><div className="flex flex-wrap items-start justify-between gap-3"><div><div className="flex flex-wrap gap-2">{meeting.meetingFormat !== "online" ? <span className="rounded-full bg-[#F8F8F8] px-2.5 py-1 text-xs font-bold text-[#2F9B3E]">{meeting.areaName}</span> : null}<span className="rounded-full bg-[#F8F8F8] px-2.5 py-1 text-xs font-bold text-[#7A7A7A]">{meeting.meetingType}</span></div><h2 className="mt-3 font-serif text-2xl leading-7 text-[#54595F]"><Link href={`/meetings/${meeting.id}`} className="underline decoration-transparent underline-offset-4 transition hover:decoration-[#085C84] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2F9B3E]">{meeting.meetingName}</Link></h2></div>{meeting.meetingFormat !== "online" && <button className="min-h-10 rounded-lg border border-[#EEEEEE] px-3 text-sm font-bold text-[#2F9B3E] hover:bg-[#F8F8F8]" onClick={() => setSelectedId(meeting.id)}>Show on map</button>}</div><div className="mt-4 grid gap-2 text-sm leading-6 text-[#7A7A7A]"><p className="flex items-start gap-2"><Clock3 className="mt-1 h-4 w-4 shrink-0 text-[#085C84]" /><span className="min-w-0">{JSON.parse(meeting.daysOfWeek) as string[] ? (JSON.parse(meeting.daysOfWeek) as string[]).map(day => day[0].toUpperCase() + day.slice(1)).join(", ") : "Day to be confirmed"} · {meeting.startTime}</span></p>{meeting.meetingFormat !== "online" ? <p className="flex items-start gap-2"><MapPinned className="mt-1 h-4 w-4 shrink-0 text-[#085C84]" /><span className="min-w-0 break-words">{addressOf(meeting) || "Location details available from the area"}</span></p> : <p className="flex items-start gap-2"><ExternalLink className="mt-1 h-4 w-4 shrink-0 text-[#085C84]" /><span className="min-w-0">Online meeting — use the verified join link below.</span></p>}{meeting.specialNotes ? <p className="break-words">{decodeHtmlEntities(meeting.specialNotes)}</p> : null}</div><div className="mt-5 flex flex-wrap gap-3">{meeting.meetingFormat !== "in_person" && meeting.onlineUrl ? <a className="inline-flex min-h-10 items-center rounded-lg bg-[#F8F8F8] px-3 text-sm font-bold text-[#2F9B3E] hover:bg-[#EEEEEE]" href={meeting.onlineUrl} target="_blank" rel="noreferrer">Join online <ExternalLink className="ml-2 h-4 w-4" /></a> : null}{meeting.meetingFormat !== "online" && (meeting.latitude || meeting.streetAddress) ? <a className="inline-flex min-h-10 items-center rounded-lg bg-[#2F9B3E] px-3 text-sm font-bold text-white hover:bg-[#20752C]" href={directionsUrl(meeting)} target="_blank" rel="noreferrer">Get directions <ExternalLink className="ml-2 h-4 w-4" /></a> : null}{meeting.phone ? <a className="inline-flex min-h-10 items-center rounded-lg border border-[#EEEEEE] px-3 text-sm font-bold text-[#2F9B3E] hover:bg-[#F8F8F8]" href={`tel:${meeting.phone.replace(/\s/g, "")}`}><Phone className="mr-2 h-4 w-4" />Call contact</a> : null}</div></article>)}</div>
+client/src/components/MeetingFinder.tsx:85:        {!onlineOnly && <aside className="h-fit xl:sticky xl:top-28"><div className="overflow-hidden rounded-3xl border border-[#EEEEEE] bg-white shadow-[0_12px_32px_rgba(20,45,42,0.05)]"><div className="flex items-center justify-between border-b border-[#EEEEEE] px-5 py-4"><div><h2 className="font-serif text-xl text-[#54595F]">Meeting map</h2><p className="mt-1 text-xs text-[#7A7A7A]">Markers cluster in dense areas.</p></div>{selected ? <span className="max-w-[170px] truncate text-right text-xs font-bold text-[#085C84]">{selected.meetingName}</span> : null}</div><MeetingMap points={mapPoints} selectedId={selectedId} onSelect={setSelectedId} /></div></aside>}
+server/routers.ts:11:const formatValues = ["in_person", "online", "hybrid"] as const;
+server/routers.ts:35:      meetingFormat: z.enum(formatValues).optional(),
+server/db.ts:22:export async function getActiveEmergencyNotice(now = new Date()) { const db = await getDb(); if (!db) return null; return (await db.select().from(emergencyNotices).where(and(eq(emergencyNotices.status, "published"), lte(emergencyNotices.startsAt, now), or(isNull(emergencyNotices.endsAt), gt(emergencyNotices.endsAt, now)))).orderBy(desc(emergencyNotices.startsAt)).limit(1))[0] ?? null; }
+server/db.ts:25:export async function updateEmergencyNotice(id: number, input: { title: string; message: string; severity: "info" | "urgent"; startsAt: Date; endsAt?: Date | null }, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(emergencyNotices).set({ ...input, endsAt: input.endsAt ?? null, status: "draft", publishedAt: null, reviewedByUserId: null }).where(eq(emergencyNotices.id, id)); await addAuditEvent(actorUserId, null, "emergency_notice", id, "updated", "Emergency notice returned to draft after edit."); return (await db.select().from(emergencyNotices).where(eq(emergencyNotices.id, id)).limit(1))[0]; }
+server/db.ts:26:export async function publishEmergencyNotice(id: number, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(emergencyNotices).set({ status: "published", reviewedByUserId: actorUserId, publishedAt: new Date() }).where(eq(emergencyNotices.id, id)); await addAuditEvent(actorUserId, null, "emergency_notice", id, "published", "Emergency notice published by national administrator."); return (await db.select().from(emergencyNotices).where(eq(emergencyNotices.id, id)).limit(1))[0]; }
+server/db.ts:30:export type PublicMeetingFilters = { query?: string; areaSlug?: string; day?: string; timeOfDay?: "morning" | "afternoon" | "evening"; meetingType?: string; meetingFormat?: MeetingFormat; page: number; pageSize: number; };
+server/db.ts:32:  const conditions = [eq(meetings.status, "published"), eq(areas.active, true)]; const query = filters.query?.trim();
+server/db.ts:34:  if (filters.areaSlug) conditions.push(eq(areas.slug, filters.areaSlug)); if (filters.day) conditions.push(sql`${meetings.daysOfWeek} LIKE ${`%${filters.day}%`}`); if (filters.meetingType) conditions.push(eq(meetings.meetingType, filters.meetingType)); if (filters.meetingFormat) conditions.push(eq(meetings.meetingFormat, filters.meetingFormat));
+server/db.ts:38:const publicMeetingFields = { id: meetings.id, meetingName: meetings.meetingName, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, province: meetings.province, latitude: meetings.latitude, longitude: meetings.longitude, daysOfWeek: meetings.daysOfWeek, startTime: meetings.startTime, meetingType: meetings.meetingType, meetingFormat: meetings.meetingFormat, contactPerson: meetings.contactPerson, phone: meetings.phone, specialNotes: meetings.specialNotes, onlineUrl: meetings.onlineUrl, areaName: areas.name, areaSlug: areas.slug };
+server/db.ts:41:  return (await db.select(publicMeetingFields).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(eq(meetings.id, id), eq(meetings.status, "published"), eq(areas.active, true))).limit(1))[0];
+server/db.ts:49:    db.select({ id: meetings.id, meetingName: meetings.meetingName, latitude: meetings.latitude, longitude: meetings.longitude, areaName: areas.name, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, meetingFormat: meetings.meetingFormat, onlineUrl: meetings.onlineUrl }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(where, inArray(meetings.meetingFormat, ["in_person", "hybrid"]), isNotNull(meetings.latitude), isNotNull(meetings.longitude))).orderBy(desc(meetings.updatedAt)).limit(1000),
+server/db.ts:53:export type ManagedMeetingInput = { areaId: number; meetingName: string; venueName?: string; streetAddress?: string; suburb?: string; city?: string; province?: string; latitude?: number; longitude?: number; daysOfWeek: string[]; startTime: string; meetingType: string; meetingFormat: MeetingFormat; contactPerson?: string; phone?: string; specialNotes?: string; onlineUrl?: string; geocodeFormattedAddress?: string; geocodePlaceId?: string; };
+server/db.ts:54:function meetingValues(input: ManagedMeetingInput) { const onlineOnly = input.meetingFormat === "online"; return { ...input, daysOfWeek: JSON.stringify(input.daysOfWeek), latitude: onlineOnly ? null : input.latitude?.toFixed(7), longitude: onlineOnly ? null : input.longitude?.toFixed(7), venueName: onlineOnly ? null : input.venueName || null, streetAddress: onlineOnly ? null : input.streetAddress || null, suburb: onlineOnly ? null : input.suburb || null, city: onlineOnly ? null : input.city || null, province: onlineOnly ? null : input.province || null, contactPerson: input.contactPerson || null, phone: input.phone || null, specialNotes: input.specialNotes || null, onlineUrl: input.onlineUrl || null, geocodeFormattedAddress: onlineOnly ? null : input.geocodeFormattedAddress || null, geocodePlaceId: onlineOnly ? null : input.geocodePlaceId || null }; }
+server/db.ts:61:export async function reviewManagedMeeting(id: number, actorUserId: number, input: { status: "published" | "changes_requested"; addressVerified: boolean; mapPinConfirmed: boolean; spellingChecked: boolean; contactConfirmed: boolean; reviewNotes?: string }) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const existing = await getManagedMeeting(id); if (!existing) return undefined; await db.update(meetings).set({ status: input.status, addressVerified: input.addressVerified, mapPinConfirmed: input.mapPinConfirmed, spellingChecked: input.spellingChecked, contactConfirmed: input.contactConfirmed, reviewNotes: input.reviewNotes || null, reviewedAt: new Date(), reviewedByUserId: actorUserId }).where(eq(meetings.id, id)); await addAuditEvent(actorUserId, existing.areaId, "meeting", id, input.status, input.reviewNotes || "National review completed."); return getManagedMeeting(id); }
+
+## Schema tables
+export const users = mysqlTable("users", {
+export const areas = mysqlTable("areas", {
+export const userAreas = mysqlTable("userAreas", {
+export const contentPages = mysqlTable("contentPages", {
+export const emergencyNotices = mysqlTable("emergencyNotices", {
+export const notifications = mysqlTable("notifications", {
+export const meetings = mysqlTable("meetings", {
+export const auditEvents = mysqlTable("auditEvents", {
+
+## Storage references
+server/_core/imageGeneration.ts:18:import { storagePut } from "server/storage";
+server/_core/imageGeneration.ts:99:  const { url } = await storagePut(
+server/_core/storageProxy.ts:5:  app.get("/manus-storage/*", async (req, res) => {
+server/storage.ts:3:// Downloads return /manus-storage/{key} paths served via 307 redirect.
+server/storage.ts:31:export async function storagePut(
+server/storage.ts:71:  return { key, url: `/manus-storage/${key}` };
+server/storage.ts:74:export async function storageGet(relKey: string): Promise<{ key: string; url: string }> {
+server/storage.ts:76:  return { key, url: `/manus-storage/${key}` };
+server/storage.ts:79:export async function storageGetSignedUrl(relKey: string): Promise<string> {
+server/mediaIntake.ts:1:import { storagePut } from "./storage";
+server/mediaIntake.ts:18:    const uploaded = await storagePut(`${prefix}/${safePath}`, file.bytes, file.contentType);
+server/mediaIntake.test.ts:4:  storagePut: vi.fn(async (key: string) => ({ key, url: `/manus-storage/${key}` })),
+server/mediaIntake.test.ts:15:    expect(result).toEqual([{ relativePath: "literature/basic-text.pdf", key: "na-public-media/literature/basic-text.pdf", url: "/manus-storage/na-public-media/literature/basic-text.pdf" }]);
+server/area-pages.test.ts:35:      "/manus-storage/na-region-hero-replacement-20260816_e5e6151e.jpg",
+server/area-pages.test.ts:36:      "/manus-storage/na-johannesburg-hero-replacement-20260816_84890cad.jpg",
+server/area-pages.test.ts:37:      "/manus-storage/na-cape-town-hero-replacement-20260816_7bd0ee83.jpg",
+server/area-pages.test.ts:38:      "/manus-storage/na-pretoria-hero-replacement-20260816_0d9d9652.jpg",
+server/area-pages.test.ts:39:      "/manus-storage/na-kwazulu-natal-hero-replacement-20260816_87880270.jpg",
+server/siteExperience.regression.test.ts:52:    expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
+server/production-assets.regression.test.ts:37:    expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
+server/literature-catalogue.regression.test.ts:20:    const manifest = read("client/src/data/literatureManifest.ts");
+server/literature-catalogue.regression.test.ts:22:    expect(manifest).toContain("export const literatureManifest");
+server/literature-catalogue.regression.test.ts:25:    expect(manifest).toContain("/manus-storage/IP-1-Who-What-How-and-Why_8c3226a6.pdf");
+server/literature-catalogue.regression.test.ts:26:    expect(manifest).toContain("/manus-storage/2306_PRMAT_2023_3601eb02.pdf");
+server/literature-catalogue.regression.test.ts:27:    expect(catalogue).toContain("literatureManifest.length");
+client/src/components/PublicLayout.tsx:8:const logoUrl = `/manus-storage/na-south-africa-logo_601526a4.png?v=${publicAssetVersion}`;
+client/src/pages/Home.tsx:6:const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816-1128";
+client/src/pages/AreaPage.tsx:34:    imageUrl: `/manus-storage/na-region-hero-replacement-20260816_e5e6151e.jpg?v=${publicAssetVersion}`,
+client/src/pages/AreaPage.tsx:47:    imageUrl: `/manus-storage/na-johannesburg-hero-replacement-20260816_84890cad.jpg?v=${publicAssetVersion}`,
+client/src/pages/AreaPage.tsx:60:    imageUrl: `/manus-storage/na-cape-town-hero-replacement-20260816_7bd0ee83.jpg?v=${publicAssetVersion}`,
+client/src/pages/AreaPage.tsx:73:    imageUrl: `/manus-storage/na-pretoria-hero-replacement-20260816_0d9d9652.jpg?v=${publicAssetVersion}`,
+client/src/pages/AreaPage.tsx:86:    imageUrl: `/manus-storage/na-kwazulu-natal-hero-replacement-20260816_87880270.jpg?v=${publicAssetVersion}`,
+client/src/pages/LiteraturePage.tsx:4:import { literatureManifest, type LiteratureManifestItem } from "@/data/literatureManifest";
+client/src/pages/LiteraturePage.tsx:8:const grouped = literatureManifest.reduce<Record<string, LiteratureManifestItem[]>>((groups, item) => {
+client/src/pages/LiteraturePage.tsx:25:    <section className="site-container py-14 sm:py-20"><div className="rounded-3xl border border-[#C7DFD1] bg-[#F2FAF4] p-6 sm:p-8"><div className="flex gap-4"><Download className="mt-1 h-6 w-6 shrink-0 text-[#20752C]" aria-hidden="true" /><div><h2 className="font-serif text-2xl text-[#54595F]">Each card leads to a real downloadable file.</h2><p className="mt-3 max-w-4xl leading-7 text-[#54595F]">The library uses the supplied PDF files uploaded to managed storage. Select any resource to open its description page in a new tab, then read the PDF or download it directly.</p><a href={officialCatalogue} target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center font-bold text-[#085C84] underline decoration-[#2F9B3E] decoration-2 underline-offset-4">Compare with the official NA literature catalogue <ExternalLink className="ml-2 h-4 w-4" aria-hidden="true" /></a></div></div></div><div className="mt-10 flex items-center gap-3 text-sm font-semibold text-[#54595F]"><BookOpen className="h-5 w-5 text-[#085C84]" aria-hidden="true" />{literatureManifest.length} uploaded PDF resources mapped to exact download targets.</div>{categoryOrder.filter(category => grouped[category]?.length).map(category => <ResourceSection key={category} title={category} items={grouped[category]} />)}<section className="mt-16 rounded-3xl bg-[#085C84] p-7 text-white sm:p-10"><FileText className="h-7 w-7 text-[#B9E39E]" aria-hidden="true" /><h2 className="mt-6 font-serif text-3xl leading-tight">Need a different language or edition?</h2><p className="mt-4 max-w-2xl leading-7 text-white/90">The uploaded South Africa collection is available here for direct download. For other languages, editions, or printed copies, use the official NA World Services catalogue.</p><a href={officialCatalogue} target="_blank" rel="noreferrer" className="mt-7 inline-flex min-h-12 items-center rounded-xl bg-[#2F9B3E] px-5 py-3 font-bold text-white hover:bg-[#20752C]">Visit official catalogue <ExternalLink className="ml-2 h-4 w-4" /></a></section></section>
+client/src/pages/LiteratureDetail.tsx:4:import { literatureManifest } from "@/data/literatureManifest";
+client/src/pages/LiteratureDetail.tsx:7:  const item = literatureManifest.find(entry => entry.slug === slug);
+client/src/data/literatureManifest.ts:1:export const literatureManifest = [
+client/src/data/literatureManifest.ts:8:    "downloadUrl": "/manus-storage/kzn_chairs_preamble_template_24ab6e8b.pdf",
+client/src/data/literatureManifest.ts:17:    "downloadUrl": "/manus-storage/NA-CHAIR-PREAMBLE-ONLINE_08154818.pdf",
+client/src/data/literatureManifest.ts:26:    "downloadUrl": "/manus-storage/NA-SA-REGION-POLICY-Adopted-July-2023-updated-Oct-2024-49_18f59dea.pdf",
+client/src/data/literatureManifest.ts:35:    "downloadUrl": "/manus-storage/Twelve-Concepts_c7effad2.pdf",
+client/src/data/literatureManifest.ts:44:    "downloadUrl": "/manus-storage/Disruptive-Violent-Behavior_4c30deab.pdf",
+client/src/data/literatureManifest.ts:53:    "downloadUrl": "/manus-storage/Inventory-Form-Group_f4dd1576.pdf",
+client/src/data/literatureManifest.ts:62:    "downloadUrl": "/manus-storage/Group-Treasurers-Workbook_944e9101.pdf",
+client/src/data/literatureManifest.ts:71:    "downloadUrl": "/manus-storage/Group-Trusted-Servants_4cbf39c1.pdf",
+client/src/data/literatureManifest.ts:80:    "downloadUrl": "/manus-storage/EN2205-NA-Groups-and-MEdication-English_54ec5301.pdf",
+client/src/data/literatureManifest.ts:89:    "downloadUrl": "/manus-storage/NA-Groups-Medication_bec0e847.pdf",
+client/src/data/literatureManifest.ts:98:    "downloadUrl": "/manus-storage/Principles-and-Leadership-in-NA-Service_8c9afa43.pdf",
+client/src/data/literatureManifest.ts:107:    "downloadUrl": "/manus-storage/Social-Media-Our-Guiding-Principles_62427390.pdf",
+client/src/data/literatureManifest.ts:116:    "downloadUrl": "/manus-storage/Group-Booklet_82dd981c.pdf",
+client/src/data/literatureManifest.ts:125:    "downloadUrl": "/manus-storage/EN3101-IP-1-English_89c8ce78.pdf",
+client/src/data/literatureManifest.ts:134:    "downloadUrl": "/manus-storage/3116_For-Newcomer-IP-16-English_764aa692.pdf",
+client/src/data/literatureManifest.ts:143:    "downloadUrl": "/manus-storage/3122_Welcome-IP-22-English_e51e3978.pdf",
+client/src/data/literatureManifest.ts:152:    "downloadUrl": "/manus-storage/3130_MHR-IP-30-English_4d91beff.pdf",
+client/src/data/literatureManifest.ts:161:    "downloadUrl": "/manus-storage/EN3107-IP-7-English_3c5b9a5f.pdf",
+client/src/data/literatureManifest.ts:170:    "downloadUrl": "/manus-storage/IP-1-Who-What-How-and-Why_8c3226a6.pdf",
+client/src/data/literatureManifest.ts:179:    "downloadUrl": "/manus-storage/IP-12-The-Triangle-of-Self-Obsession_5a63c438.pdf",
+client/src/data/literatureManifest.ts:188:    "downloadUrl": "/manus-storage/IP-14-One-Addicts-Experience_1f7f89fa.pdf",
+client/src/data/literatureManifest.ts:197:    "downloadUrl": "/manus-storage/IP-16-For-the-Newcomer_a9856f46.pdf",
+client/src/data/literatureManifest.ts:206:    "downloadUrl": "/manus-storage/IP-17-For-Those-in-Treatment_3c278e74.pdf",
+client/src/data/literatureManifest.ts:215:    "downloadUrl": "/manus-storage/IP-19-Self-Acceptance_bec524f6.pdf",
+client/src/data/literatureManifest.ts:224:    "downloadUrl": "/manus-storage/IP-2-The-Group_4c29edaa.pdf",
+client/src/data/literatureManifest.ts:233:    "downloadUrl": "/manus-storage/IP-20-HI-Service-the-NA-Member_3648a437.pdf",
+client/src/data/literatureManifest.ts:242:    "downloadUrl": "/manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_15eae03d.pdf",
+client/src/data/literatureManifest.ts:251:    "downloadUrl": "/manus-storage/IP-22-Welcome-to-NA_31780904.pdf",
+client/src/data/literatureManifest.ts:260:    "downloadUrl": "/manus-storage/IP-23-Staying-Clean-on-the-Outside_e1de78b3.pdf",
+client/src/data/literatureManifest.ts:269:    "downloadUrl": "/manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_be5cf983.pdf",
+client/src/data/literatureManifest.ts:278:    "downloadUrl": "/manus-storage/IP-28-Funding-NA-Services_90c356a1.pdf",
+client/src/data/literatureManifest.ts:287:    "downloadUrl": "/manus-storage/IP-29-Introduction-to-NA-Meetings_1c217f2f.pdf",
+client/src/data/literatureManifest.ts:296:    "downloadUrl": "/manus-storage/IP-5-Another-Look_ae2c7f2f.pdf",
+client/src/data/literatureManifest.ts:305:    "downloadUrl": "/manus-storage/IP-6-Recovery-Relapse_cb9ec202.pdf",
+client/src/data/literatureManifest.ts:314:    "downloadUrl": "/manus-storage/IP-7-Am-I-an-Addict_d29b829e.pdf",
+client/src/data/literatureManifest.ts:323:    "downloadUrl": "/manus-storage/IP-8-Just-for-Today_320c2991.pdf",
+client/src/data/literatureManifest.ts:332:    "downloadUrl": "/manus-storage/IP-9-Living-the-Program_b9349d19.pdf",
+client/src/data/literatureManifest.ts:341:    "downloadUrl": "/manus-storage/Predatory-Behaviour_a2c3dbd1.pdf",
+client/src/data/literatureManifest.ts:350:    "downloadUrl": "/manus-storage/WCASC-Policy-Document-current-version_363819be.pdf",
+client/src/data/literatureManifest.ts:359:    "downloadUrl": "/manus-storage/A-Resource-In-Your-Community_ad79083e.pdf",
+client/src/data/literatureManifest.ts:368:    "downloadUrl": "/manus-storage/Intro-Guide-to-NA_842db156.pdf",
+client/src/data/literatureManifest.ts:377:    "downloadUrl": "/manus-storage/Behind-the-Walls_4286238b.pdf",
+client/src/data/literatureManifest.ts:386:    "downloadUrl": "/manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_2902cc3c.pdf",
+client/src/data/literatureManifest.ts:395:    "downloadUrl": "/manus-storage/For-those-in-treatment_7d114675.pdf",
+client/src/data/literatureManifest.ts:404:    "downloadUrl": "/manus-storage/In-Times-of-Illness-English_a34e993a.pdf",
+client/src/data/literatureManifest.ts:413:    "downloadUrl": "/manus-storage/In-Times-of-Illness_2391b773.pdf",
+client/src/data/literatureManifest.ts:422:    "downloadUrl": "/manus-storage/2306_PRMAT_2023_3601eb02.pdf",
+client/src/data/literatureManifest.ts:431:    "downloadUrl": "/manus-storage/NA-White-Booklet_c1fe68e6.pdf",
+client/src/data/literatureManifest.ts:440:    "downloadUrl": "/manus-storage/Working-Step-Four-in-Narcotics-Anonymous_e100390b.pdf",
+client/src/data/literatureManifest.ts:449:    "downloadUrl": "/manus-storage/A-Guide-to-Local-Service-in-Narcotics-Anonymous_2eb94ec5.pdf",
+client/src/data/literatureManifest.ts:458:    "downloadUrl": "/manus-storage/Area-Planning-Tool_f41349ee.pdf",
+client/src/data/literatureManifest.ts:467:    "downloadUrl": "/manus-storage/Generic-Online-Meeting-Preamble-202001-1_b6d8beed.pdf",
+client/src/data/literatureManifest.ts:476:    "downloadUrl": "/manus-storage/HI-Basics_1da4650e.pdf",
+client/src/data/literatureManifest.ts:485:    "downloadUrl": "/manus-storage/HI-Handbook_1ecc6688.pdf",
+client/src/data/literatureManifest.ts:494:    "downloadUrl": "/manus-storage/JASC-Policy_6049d248.pdf",
+client/src/data/literatureManifest.ts:503:    "downloadUrl": "/manus-storage/Treasurers-Handbook_b4008f03.pdf",
+client/src/data/literatureManifest.ts:508:export type LiteratureManifestItem = (typeof literatureManifest)[number];
+
+## Production dependency audit status
+pnpm_audit_exit=1
+{
+  "vulnerabilities": {
+    "info": 0,
+    "low": 10,
+    "moderate": 49,
+    "high": 21,
+    "critical": 1
+  },
+  "dependencies": 602,
+  "devDependencies": 0,
+  "optionalDependencies": 0,
+  "totalDependencies": 602
+}

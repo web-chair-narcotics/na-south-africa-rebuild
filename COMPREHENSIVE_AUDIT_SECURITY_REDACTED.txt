@@ -1,0 +1,73 @@
+=== TRACKING ===
+error: pathspec '.project-config.json' did not match any file(s) known to git
+Did you forget to 'git add'?
+git_status:
+=== REDACTED CONFIG SHAPE ===
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "[REDACTED]
+    "DRIZZLE_DATABASE_URL": "[REDACTED]
+    "MANUS_WEBDEV_PROJECT_ID": "EqXm563BDLavudTso6Mnwo"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "[REDACTED]url
+    "expiration": "2026-08-16T19:30:57.067Z",
+    "token": "[REDACTED]token
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "injected_features": [
+    "shopify"
+  ],
+  "name": "na-south-africa-rebuild",
+  "path": "/home/ubuntu/na-south-africa-rebuild",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "[REDACTED]
+    "BUILT_IN_FORGE_API_URL": "[REDACTED]URL
+    "JWT_SECRET": "[REDACTED]
+    "OAUTH_SERVER_URL": "[REDACTED]URL
+    "OWNER_NAME": "NA Website Chair",
+    "OWNER_OPEN_ID": "PufQ9n7CehdWAyLZm9uKr8",
+    "SHOPIFY_STOREFRONT_API_ACCESS_TOKEN": "[REDACTED]
+    "SHOPIFY_STORE_DOMAIN": "nasarebuild-eqxm563b-whisper-boulder-ekgikatd.myshopify.com",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "01a8c1f6-baf1-4684-b8c9-8e9680677c38",
+    "VITE_APP_ID": "EqXm563BDLavudTso6Mnwo",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663895233965/DkmGCbjxqBvXvnDT.png",
+    "VITE_APP_TITLE": "Narcotics Anonymous South Africa",
+    "VITE_FRONTEND_FORGE_API_KEY": "[REDACTED]
+    "VITE_FRONTEND_FORGE_API_URL": "[REDACTED]URL
+    "VITE_OAUTH_PORTAL_URL": "[REDACTED]URL
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}=== GIT HISTORY CHECK ===
+=== IGNORE RULES ===
+.gitignore:11:.env
+.gitignore:12:.env.local
+.gitignore:13:.env.development.local
+.gitignore:14:.env.test.local
+.gitignore:15:.env.production.local
+.gitignore:114:.project-config.json
+=== DEPLOYED SOURCE REFERENCES ===
+./.gitignore:114:.project-config.json
+./todo.md:329:- [ ] Remediate credential-shaped values found in `.project-config.json`: determine tracking/deployment exposure, remove secrets from repository scope, and rotate affected credentials through the supported project configuration path without exposing values in audit documents.
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:955:./.project-config.json:10:    "DATABASE_URL": "[REDACTED]
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:956:./.project-config.json:11:    "DRIZZLE_DATABASE_URL": "[REDACTED]
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:957:./.project-config.json:30:    "BUILT_IN_FORGE_API_KEY": "[REDACTED]
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:958:./.project-config.json:32:    "JWT_SECRET": "[REDACTED]
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:959:./.project-config.json:36:    "SHOPIFY_STOREFRONT_API_ACCESS_TOKEN": "[REDACTED]
+./COMPREHENSIVE_AUDIT_TECHNICAL.txt:960:./.project-config.json:43:    "VITE_FRONTEND_FORGE_API_KEY": "[REDACTED]
+./COMPREHENSIVE_AUDIT_SECURITY_REDACTED.txt:2:error: pathspec '.project-config.json' did not match any file(s) known to git
+./COMPREHENSIVE_AUDIT_SECURITY_REDACTED.txt:16:    "DRIZZLE_DATABASE_URL": "[REDACTED]
+./COMPREHENSIVE_AUDIT_SECURITY_REDACTED.txt:61:.gitignore:114:.project-config.json
