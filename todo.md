@@ -21,7 +21,7 @@
 - [x] Import verified meeting records so the public finder produces real results, pins, pagination, and directions end-to-end.
 - [ ] Connect an organisation-approved transactional email provider so review alerts can be delivered as external email, not only as in-app alerts.
 - [x] Extract all accessible public pages, regional routes, documents, media references, menus, and legacy URLs from the current website into the migration source inventory.
-- [x] Build a complete content and media intake process for any WordPress export, media library, or downloadable archive supplied by the national organisation. XML/CSV/PDF intake and MEDIA_INTAKE.md are present; binary media transfer remains pending.
+- [x] Build a complete content and media intake process for any WordPress export, media library, or downloadable archive supplied by the national organisation. XML/CSV/PDF intake, ZIP filtering, manifest generation, managed-storage mapping, and evidence are implemented.
 - [ ] Recreate each documented public page and assign an explicit redirect decision for every legacy URL in the migration register. Route outcomes exist; full page recreation remains pending for draft-staged regional content.
 - [ ] Complete individual QA and publication decisions for all 328 staged legacy meeting records using the current site as the source of truth.
 - [x] Parse the uploaded day-and-region directory PDF and meeting CSV, reconcile them against the current-site corpus, and resolve any differences before final publication.
@@ -52,5 +52,20 @@
 - [x] Assign explicit migration outcomes to all 218 content/event URLs still marked as content-migration candidates.
 - [x] Regenerate the regional migration and QA evidence package after route reconciliation and conflict application.
 
-- [x] Implement and verify a real media-library/archive intake workflow for uploaded ZIP assets, including manifest parsing, duplicate/missing-file checks, storage upload mapping, and page/asset linkage evidence. The reusable runner is implemented; binary ZIP execution remains pending.
-- [ ] Run the media intake workflow against a supplied public media archive and record the resulting asset manifest, upload results, and unresolved file-review items.
+- [x] Implement and verify a real media-library/archive intake workflow for uploaded ZIP assets, including manifest parsing, duplicate/missing-file checks, storage upload mapping, and page/asset linkage evidence. `uploads.zip` was executed with 154 canonical attachment uploads and zero missing upload results.
+- [x] Run the media intake workflow against a supplied public media archive and record the resulting asset manifest, upload results, and unresolved file-review items.
+
+- [x] Validate uploaded `uploads.zip` archive paths, file types, sizes, hashes, and private/unsafe content.
+- [x] Reconcile `uploads.zip` files against the 154 WordPress attachment metadata records and source-page references.
+- [x] Upload approved public media files from `uploads.zip` to managed storage and record returned URLs and page/asset linkage.
+- [x] Run the completed media archive workflow against `uploads.zip`, update media evidence, rerun tests, and save a checkpoint.
+
+- [x] Map each WordPress attachment to its originating page/post/location by parsing regional XML content references and persist that source-page linkage.
+- [x] Rebuild the canonical media subset with unique relative storage paths so duplicate basenames cannot overwrite one another.
+- [x] Re-upload the corrected unique media subset and verify the physical upload count against the per-attachment manifest.
+- [x] Regenerate the final uploaded-media manifest with per-attachment managed URL, source page/record, and explicit duplicate/unresolved rationale.
+- [x] Add an explicit per-attachment canonical-selection rationale, derivative count, and unresolved-status field to the final uploaded-media manifest.
+- [x] Add an explicit per-attachment derivative or variant count derived from the archive reconciliation and regenerate the final media evidence package.
+- [x] Recompute each attachment’s derivative variant count from the attachment-specific archive linkage rather than global filename-family matches.
+- [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
+- [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.

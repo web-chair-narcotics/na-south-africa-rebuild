@@ -1,0 +1,15 @@
+{
+  "attachment_count": 154,
+  "unique_archive_path_count": 154,
+  "uploaded_count": 154,
+  "missing_upload_result_count": 0,
+  "source_page_linked_count": 154,
+  "attachment_only_count": 0,
+  "records_with_basename_collision": 91,
+  "records_with_identical_binary": 96,
+  "records_with_derivative_variants": 94,
+  "total_derivative_variant_references": 288,
+  "canonical_archive_path_unlinked_count": 0,
+  "unresolved_count": 0,
+  "manifest": "/home/ubuntu/na-south-africa-rebuild/final_uploaded_media_manifest.csv"
+}

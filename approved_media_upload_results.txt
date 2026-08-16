@@ -1,0 +1,352 @@
+Uploading file (webdev private): ./favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_a7272e8a.png
+Uploading file (webdev private): ./cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_bcddbc3d.png
+Uploading file (webdev private): ./logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_f79bef93.png
+Uploading file (webdev private): ./29680.jpg (size: 702574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29680_e2ac3fa4.jpg
+Uploading file (webdev private): ./129014.jpg (size: 417758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/129014_9db683d8.jpg
+Uploading file (webdev private): ./zapper.png (size: 17587 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/zapper_fcc1bf86.png
+Uploading file (webdev private): ./2150951473.jpg (size: 1381592 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2150951473_3679e37b.jpg
+Uploading file (webdev private): ./559.jpg (size: 1640766 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/559_4bcb0e2c.jpg
+Uploading file (webdev private): ./584.jpg (size: 1174390 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/584_c6139bf5.jpg
+Uploading file (webdev private): ./2733704_12016-scaled-1.jpg (size: 449855 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016-scaled-1_0ed6ed78.jpg
+Uploading file (webdev private): ./143021-e1763291423474.jpg (size: 123019 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021-e1763291423474_590a4a27.jpg
+Uploading file (webdev private): ./2151118274.jpg (size: 1307616 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151118274_d03b1c9a.jpg
+Uploading file (webdev private): ./helping-each-other-scaled-1.jpg (size: 311830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other-scaled-1_8df66be0.jpg
+Uploading file (webdev private): ./123795.jpg (size: 1028069 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/123795_a959d1dd.jpg
+Uploading file (webdev private): ./2147770870-e1763292893626.jpg (size: 96863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870-e1763292893626_b129c46c.jpg
+Uploading file (webdev private): ./120044.jpg (size: 1580502 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/120044_26d2e02e.jpg
+Uploading file (webdev private): ./2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_93194e45.jpg
+Uploading file (webdev private): ./banner-wc-001-e1763484626801.webp (size: 198602 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001-e1763484626801_b7a1e099.webp
+Uploading file (webdev private): ./29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_dffb9748.jpg
+Uploading file (webdev private): ./home-banner.jpg (size: 484950 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/home-banner_d93a6ca1.jpg
+Uploading file (webdev private): ./7173.jpg (size: 438286 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/7173_a58478c0.jpg
+Uploading file (webdev private): ./na-safety.jpg (size: 237001 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/na-safety_5d316bac.jpg
+Uploading file (webdev private): ./96081.jpg (size: 1067959 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/96081_3200461a.jpg
+Uploading file (webdev private): ./19692.jpg (size: 783763 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/19692_ccf5fd2d.jpg
+Uploading file (webdev private): ./NA-Keytag-Welcome.jpeg (size: 18530 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/NA-Keytag-Welcome_af70bc97.jpeg
+Uploading file (webdev private): ./WhatsApp-Image-2026-02-23-at-14.43.50.jpeg (size: 262765 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-23-at-14.43.50_50c4a7dd.jpeg
+Uploading file (webdev private): ./na-site-logo.webp (size: 23356 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/na-site-logo_17db7cf1.webp
+Uploading file (webdev private): ./women-s-day-celebration-with-flower.jpg (size: 2698941 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/women-s-day-celebration-with-flower_107f6f41.jpg
+Uploading file (webdev private): ./2151930384.jpg (size: 1454018 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930384_c1c13bcc.jpg
+Uploading file (webdev private): ./helping-each-other.jpg (size: 1531664 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other_d1a92c8c.jpg
+Uploading file (webdev private): ./2148398371.jpg (size: 1199030 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148398371_4d503df3.jpg
+Uploading file (webdev private): ./143021.jpg (size: 824036 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021_3df98f26.jpg
+Uploading file (webdev private): ./2147770870.jpg (size: 1832590 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870_bb5c55a7.jpg
+Uploading file (webdev private): ./2148938724.jpg (size: 1949610 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148938724_aa8bc4ac.jpg
+Uploading file (webdev private): ./2148101442.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442_50b4e5e4.jpg
+Uploading file (webdev private): ./2148101442-1.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-1_3743a469.jpg
+Uploading file (webdev private): ./2148101442-2.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-2_aea7c957.jpg
+Uploading file (webdev private): ./woocommerce-placeholder.webp (size: 9892 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/woocommerce-placeholder_c14880bb.webp
+Uploading file (webdev private): ./2148938724-e1763294084270.jpg (size: 191660 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148938724-e1763294084270_ce761972.jpg
+Uploading file (webdev private): ./2148101442-1-e1763294562253.jpg (size: 158603 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-1-e1763294562253_655d6806.jpg
+Uploading file (webdev private): ./19692-e1763294820786.jpg (size: 53540 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/19692-e1763294820786_a09e91b5.jpg
+Uploading file (webdev private): ./Google-Forms-Logo.png (size: 96658 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Google-Forms-Logo_5db89161.png
+Uploading file (webdev private): ./banner-wc-001.webp (size: 144704 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001_50dca8ef.webp
+Uploading file (webdev private): ./119749.jpg (size: 1218306 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/119749_f9acc5a6.jpg
+Uploading file (webdev private): ./people-taking-part-high-protocol-event.jpg (size: 563086 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/people-taking-part-high-protocol-event_135d7a44.jpg
+Uploading file (webdev private): ./2733704_12016.jpg (size: 11813467 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016_8629696a.jpg
+Uploading file (webdev private): ./2149035698.jpg (size: 2950451 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2149035698_e29f123d.jpg
+Uploading file (webdev private): ./6914.jpg (size: 1809046 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/6914_f09959e8.jpg
+Uploading file (webdev private): ./2149758877.jpg (size: 2350480 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2149758877_6bdd347b.jpg
+Uploading file (webdev private): ./high-angle-arrangement-with-speech-bubbles.jpg (size: 1915406 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/high-angle-arrangement-with-speech-bubbles_5793865e.jpg
+Uploading file (webdev private): ./2306_PRMAT_2023.pdf (size: 539229 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2306_PRMAT_2023_387a40fe.pdf
+Uploading file (webdev private): ./3130_MHR-IP-30-English.pdf (size: 264331 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/3130_MHR-IP-30-English_6a9c2d15.pdf
+Uploading file (webdev private): ./Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf (size: 27930 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_304caa14.pdf
+Uploading file (webdev private): ./EN2205-NA-Groups-and-MEdication-English.pdf (size: 175530 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/EN2205-NA-Groups-and-MEdication-English_a59cbc36.pdf
+Uploading file (webdev private): ./In-Times-of-Illness-English.pdf (size: 518099 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/In-Times-of-Illness-English_f85fd96d.pdf
+Uploading file (webdev private): ./IP-1-Who-What-How-and-Why.pdf (size: 45355 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-1-Who-What-How-and-Why_a1bbc26e.pdf
+Uploading file (webdev private): ./IP-2-The-Group.pdf (size: 76920 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-2-The-Group_d50b3e61.pdf
+Uploading file (webdev private): ./IP-5-Another-Look.pdf (size: 59138 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-5-Another-Look_e093452c.pdf
+Uploading file (webdev private): ./istockphoto-1220573371-612x612-1.jpg (size: 16511 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/istockphoto-1220573371-612x612-1_6bd0a690.jpg
+Uploading file (webdev private): ./IP-6-Recovery-Relapse.pdf (size: 56675 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-6-Recovery-Relapse_e955e2c5.pdf
+Uploading file (webdev private): ./IP-7-Am-I-an-Addict.pdf (size: 44005 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-7-Am-I-an-Addict_c1a5b331.pdf
+Uploading file (webdev private): ./IP-8-Just-for-Today.pdf (size: 49693 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-8-Just-for-Today_a83ac681.pdf
+Uploading file (webdev private): ./IP-9-Living-the-Program.pdf (size: 61618 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-9-Living-the-Program_75028286.pdf
+Uploading file (webdev private): ./IP-11-Sponsorship.pdf (size: 58796 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-11-Sponsorship_98d4de90.pdf
+Uploading file (webdev private): ./IP-12-The-Triangle-of-Self-Obsession.pdf (size: 44356 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-12-The-Triangle-of-Self-Obsession_1a155f65.pdf
+Uploading file (webdev private): ./IP-14-One-Addicts-Experience.pdf (size: 35397 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-14-One-Addicts-Experience_fa7934cb.pdf
+Uploading file (webdev private): ./IP-15-PI-and-the-NA-Member.pdf (size: 43247 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-15-PI-and-the-NA-Member_dedd3dd1.pdf
+Uploading file (webdev private): ./IP-16-For-the-Newcomer.pdf (size: 38848 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-16-For-the-Newcomer_e75b7d07.pdf
+Uploading file (webdev private): ./IP-17-For-Those-in-Treatment.pdf (size: 79957 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-17-For-Those-in-Treatment_4c362d8e.pdf
+Uploading file (webdev private): ./IP-19-Self-Acceptance.pdf (size: 49084 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-19-Self-Acceptance_2fe457fa.pdf
+Uploading file (webdev private): ./IP-20-HI-Service-the-NA-Member.pdf (size: 43358 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-20-HI-Service-the-NA-Member_ba42f0ca.pdf
+Uploading file (webdev private): ./IP-21-The-Loner-Staying-Clean-in-Isolation.pdf (size: 112506 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_800268fb.pdf
+Uploading file (webdev private): ./IP-22-Welcome-to-NA.pdf (size: 43110 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-22-Welcome-to-NA_4f09d308.pdf
+Uploading file (webdev private): ./IP-23-Staying-Clean-on-the-Outside.pdf (size: 59152 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-23-Staying-Clean-on-the-Outside_926560ad.pdf
+Uploading file (webdev private): ./IP-24-Money-Matters-Self-Support-in-NA.pdf (size: 357826 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-24-Money-Matters-Self-Support-in-NA_fdabdcdf.pdf
+Uploading file (webdev private): ./IP-26-Accessibility-for-Those-with-Additional-Needs.pdf (size: 70117 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_4212f174.pdf
+Uploading file (webdev private): ./IP-28-Funding-NA-Services.pdf (size: 794151 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-28-Funding-NA-Services_e66c0b4e.pdf
+Uploading file (webdev private): ./IP-29-Introduction-to-NA-Meetings.pdf (size: 527001 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-29-Introduction-to-NA-Meetings_dcefbc3b.pdf
+Uploading file (webdev private): ./Screenshot-2026-02-02-at-11.03.17.png (size: 32520 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Screenshot-2026-02-02-at-11.03.17_c46b972c.png
+Uploading file (webdev private): ./WhatsApp-Image-2026-02-22-at-13.47.26.jpeg (size: 140534 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-22-at-13.47.26_865abbec.jpeg
+Uploading file (webdev private): ./WhatsApp-Image-2026-03-12-at-11.24.54.jpeg (size: 268461 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-03-12-at-11.24.54_65cedd97.jpeg
+Uploading file (webdev private): ./image.png (size: 1660806 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/image_96c081bd.png
+Uploading file (webdev private): ./WhatsApp-Image-2026-02-17-at-10.24.20.jpeg (size: 215368 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-17-at-10.24.20_50df562e.jpeg
+Uploading file (webdev private): ./WhatsApp-Image-2026-04-12-at-20.38.41.jpeg (size: 268461 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-04-12-at-20.38.41_47e769cc.jpeg
+Uploading file (webdev private): ./Observatory-Recreation-Centre-Entrance-2_.jpeg (size: 653552 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Observatory-Recreation-Centre-Entrance-2__ae0af42a.jpeg
+Uploading file (webdev private): ./WhatsApp-Image-2026-07-01-at-16.48.20.jpeg (size: 261288 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-07-01-at-16.48.20_a9bc28c7.jpeg
+Uploading file (webdev private): ./WhatsApp-Image-2026-07-01-at-16.47.59.jpeg (size: 127162 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-07-01-at-16.47.59_7754de7a.jpeg
+
+========== Upload Summary ==========
+[SUCCESS] ./favicon.png -> /manus-storage/favicon_a7272e8a.png
+[SUCCESS] ./cropped-favicon.png -> /manus-storage/cropped-favicon_bcddbc3d.png
+[SUCCESS] ./logo.png -> /manus-storage/logo_f79bef93.png
+[SUCCESS] ./29680.jpg -> /manus-storage/29680_e2ac3fa4.jpg
+[SUCCESS] ./129014.jpg -> /manus-storage/129014_9db683d8.jpg
+[SUCCESS] ./zapper.png -> /manus-storage/zapper_fcc1bf86.png
+[SUCCESS] ./2150951473.jpg -> /manus-storage/2150951473_3679e37b.jpg
+[SUCCESS] ./559.jpg -> /manus-storage/559_4bcb0e2c.jpg
+[SUCCESS] ./584.jpg -> /manus-storage/584_c6139bf5.jpg
+[SUCCESS] ./2733704_12016-scaled-1.jpg -> /manus-storage/2733704_12016-scaled-1_0ed6ed78.jpg
+[SUCCESS] ./143021-e1763291423474.jpg -> /manus-storage/143021-e1763291423474_590a4a27.jpg
+[SUCCESS] ./2151118274.jpg -> /manus-storage/2151118274_d03b1c9a.jpg
+[SUCCESS] ./helping-each-other-scaled-1.jpg -> /manus-storage/helping-each-other-scaled-1_8df66be0.jpg
+[SUCCESS] ./123795.jpg -> /manus-storage/123795_a959d1dd.jpg
+[SUCCESS] ./2147770870-e1763292893626.jpg -> /manus-storage/2147770870-e1763292893626_b129c46c.jpg
+[SUCCESS] ./120044.jpg -> /manus-storage/120044_26d2e02e.jpg
+[SUCCESS] ./2151930388.jpg -> /manus-storage/2151930388_93194e45.jpg
+[SUCCESS] ./banner-wc-001-e1763484626801.webp -> /manus-storage/banner-wc-001-e1763484626801_b7a1e099.webp
+[SUCCESS] ./29376.jpg -> /manus-storage/29376_dffb9748.jpg
+[SUCCESS] ./home-banner.jpg -> /manus-storage/home-banner_d93a6ca1.jpg
+[SUCCESS] ./7173.jpg -> /manus-storage/7173_a58478c0.jpg
+[SUCCESS] ./na-safety.jpg -> /manus-storage/na-safety_5d316bac.jpg
+[SUCCESS] ./96081.jpg -> /manus-storage/96081_3200461a.jpg
+[SUCCESS] ./19692.jpg -> /manus-storage/19692_ccf5fd2d.jpg
+[SUCCESS] ./NA-Keytag-Welcome.jpeg -> /manus-storage/NA-Keytag-Welcome_af70bc97.jpeg
+[SUCCESS] ./WhatsApp-Image-2026-02-23-at-14.43.50.jpeg -> /manus-storage/WhatsApp-Image-2026-02-23-at-14.43.50_50c4a7dd.jpeg
+[SUCCESS] ./na-site-logo.webp -> /manus-storage/na-site-logo_17db7cf1.webp
+[SUCCESS] ./women-s-day-celebration-with-flower.jpg -> /manus-storage/women-s-day-celebration-with-flower_107f6f41.jpg
+[SUCCESS] ./2151930384.jpg -> /manus-storage/2151930384_c1c13bcc.jpg
+[SUCCESS] ./helping-each-other.jpg -> /manus-storage/helping-each-other_d1a92c8c.jpg
+[SUCCESS] ./2148398371.jpg -> /manus-storage/2148398371_4d503df3.jpg
+[SUCCESS] ./143021.jpg -> /manus-storage/143021_3df98f26.jpg
+[SUCCESS] ./2147770870.jpg -> /manus-storage/2147770870_bb5c55a7.jpg
+[SUCCESS] ./2148938724.jpg -> /manus-storage/2148938724_aa8bc4ac.jpg
+[SUCCESS] ./2148101442.jpg -> /manus-storage/2148101442_50b4e5e4.jpg
+[SUCCESS] ./2148101442-1.jpg -> /manus-storage/2148101442-1_3743a469.jpg
+[SUCCESS] ./2148101442-2.jpg -> /manus-storage/2148101442-2_aea7c957.jpg
+[SUCCESS] ./woocommerce-placeholder.webp -> /manus-storage/woocommerce-placeholder_c14880bb.webp
+[SUCCESS] ./2148938724-e1763294084270.jpg -> /manus-storage/2148938724-e1763294084270_ce761972.jpg
+[SUCCESS] ./2148101442-1-e1763294562253.jpg -> /manus-storage/2148101442-1-e1763294562253_655d6806.jpg
+[SUCCESS] ./19692-e1763294820786.jpg -> /manus-storage/19692-e1763294820786_a09e91b5.jpg
+[SUCCESS] ./Google-Forms-Logo.png -> /manus-storage/Google-Forms-Logo_5db89161.png
+[SUCCESS] ./banner-wc-001.webp -> /manus-storage/banner-wc-001_50dca8ef.webp
+[SUCCESS] ./119749.jpg -> /manus-storage/119749_f9acc5a6.jpg
+[SUCCESS] ./people-taking-part-high-protocol-event.jpg -> /manus-storage/people-taking-part-high-protocol-event_135d7a44.jpg
+[SUCCESS] ./2733704_12016.jpg -> /manus-storage/2733704_12016_8629696a.jpg
+[SUCCESS] ./2149035698.jpg -> /manus-storage/2149035698_e29f123d.jpg
+[SUCCESS] ./6914.jpg -> /manus-storage/6914_f09959e8.jpg
+[SUCCESS] ./2149758877.jpg -> /manus-storage/2149758877_6bdd347b.jpg
+[SUCCESS] ./high-angle-arrangement-with-speech-bubbles.jpg -> /manus-storage/high-angle-arrangement-with-speech-bubbles_5793865e.jpg
+[SUCCESS] ./2306_PRMAT_2023.pdf -> /manus-storage/2306_PRMAT_2023_387a40fe.pdf
+[SUCCESS] ./3130_MHR-IP-30-English.pdf -> /manus-storage/3130_MHR-IP-30-English_6a9c2d15.pdf
+[SUCCESS] ./Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf -> /manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_304caa14.pdf
+[SUCCESS] ./EN2205-NA-Groups-and-MEdication-English.pdf -> /manus-storage/EN2205-NA-Groups-and-MEdication-English_a59cbc36.pdf
+[SUCCESS] ./In-Times-of-Illness-English.pdf -> /manus-storage/In-Times-of-Illness-English_f85fd96d.pdf
+[SUCCESS] ./IP-1-Who-What-How-and-Why.pdf -> /manus-storage/IP-1-Who-What-How-and-Why_a1bbc26e.pdf
+[SUCCESS] ./IP-2-The-Group.pdf -> /manus-storage/IP-2-The-Group_d50b3e61.pdf
+[SUCCESS] ./IP-5-Another-Look.pdf -> /manus-storage/IP-5-Another-Look_e093452c.pdf
+[SUCCESS] ./istockphoto-1220573371-612x612-1.jpg -> /manus-storage/istockphoto-1220573371-612x612-1_6bd0a690.jpg
+[SUCCESS] ./IP-6-Recovery-Relapse.pdf -> /manus-storage/IP-6-Recovery-Relapse_e955e2c5.pdf
+[SUCCESS] ./IP-7-Am-I-an-Addict.pdf -> /manus-storage/IP-7-Am-I-an-Addict_c1a5b331.pdf
+[SUCCESS] ./IP-8-Just-for-Today.pdf -> /manus-storage/IP-8-Just-for-Today_a83ac681.pdf
+[SUCCESS] ./IP-9-Living-the-Program.pdf -> /manus-storage/IP-9-Living-the-Program_75028286.pdf
+[SUCCESS] ./IP-11-Sponsorship.pdf -> /manus-storage/IP-11-Sponsorship_98d4de90.pdf
+[SUCCESS] ./IP-12-The-Triangle-of-Self-Obsession.pdf -> /manus-storage/IP-12-The-Triangle-of-Self-Obsession_1a155f65.pdf
+[SUCCESS] ./IP-14-One-Addicts-Experience.pdf -> /manus-storage/IP-14-One-Addicts-Experience_fa7934cb.pdf
+[SUCCESS] ./IP-15-PI-and-the-NA-Member.pdf -> /manus-storage/IP-15-PI-and-the-NA-Member_dedd3dd1.pdf
+[SUCCESS] ./IP-16-For-the-Newcomer.pdf -> /manus-storage/IP-16-For-the-Newcomer_e75b7d07.pdf
+[SUCCESS] ./IP-17-For-Those-in-Treatment.pdf -> /manus-storage/IP-17-For-Those-in-Treatment_4c362d8e.pdf
+[SUCCESS] ./IP-19-Self-Acceptance.pdf -> /manus-storage/IP-19-Self-Acceptance_2fe457fa.pdf
+[SUCCESS] ./IP-20-HI-Service-the-NA-Member.pdf -> /manus-storage/IP-20-HI-Service-the-NA-Member_ba42f0ca.pdf
+[SUCCESS] ./IP-21-The-Loner-Staying-Clean-in-Isolation.pdf -> /manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_800268fb.pdf
+[SUCCESS] ./IP-22-Welcome-to-NA.pdf -> /manus-storage/IP-22-Welcome-to-NA_4f09d308.pdf
+[SUCCESS] ./IP-23-Staying-Clean-on-the-Outside.pdf -> /manus-storage/IP-23-Staying-Clean-on-the-Outside_926560ad.pdf
+[SUCCESS] ./IP-24-Money-Matters-Self-Support-in-NA.pdf -> /manus-storage/IP-24-Money-Matters-Self-Support-in-NA_fdabdcdf.pdf
+[SUCCESS] ./IP-26-Accessibility-for-Those-with-Additional-Needs.pdf -> /manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_4212f174.pdf
+[SUCCESS] ./IP-28-Funding-NA-Services.pdf -> /manus-storage/IP-28-Funding-NA-Services_e66c0b4e.pdf
+[SUCCESS] ./IP-29-Introduction-to-NA-Meetings.pdf -> /manus-storage/IP-29-Introduction-to-NA-Meetings_dcefbc3b.pdf
+[SUCCESS] ./Screenshot-2026-02-02-at-11.03.17.png -> /manus-storage/Screenshot-2026-02-02-at-11.03.17_c46b972c.png
+[SUCCESS] ./WhatsApp-Image-2026-02-22-at-13.47.26.jpeg -> /manus-storage/WhatsApp-Image-2026-02-22-at-13.47.26_865abbec.jpeg
+[SUCCESS] ./WhatsApp-Image-2026-03-12-at-11.24.54.jpeg -> /manus-storage/WhatsApp-Image-2026-03-12-at-11.24.54_65cedd97.jpeg
+[SUCCESS] ./image.png -> /manus-storage/image_96c081bd.png
+[SUCCESS] ./WhatsApp-Image-2026-02-17-at-10.24.20.jpeg -> /manus-storage/WhatsApp-Image-2026-02-17-at-10.24.20_50df562e.jpeg
+[SUCCESS] ./WhatsApp-Image-2026-04-12-at-20.38.41.jpeg -> /manus-storage/WhatsApp-Image-2026-04-12-at-20.38.41_47e769cc.jpeg
+[SUCCESS] ./Observatory-Recreation-Centre-Entrance-2_.jpeg -> /manus-storage/Observatory-Recreation-Centre-Entrance-2__ae0af42a.jpeg
+[SUCCESS] ./WhatsApp-Image-2026-07-01-at-16.48.20.jpeg -> /manus-storage/WhatsApp-Image-2026-07-01-at-16.48.20_a9bc28c7.jpeg
+[SUCCESS] ./WhatsApp-Image-2026-07-01-at-16.47.59.jpeg -> /manus-storage/WhatsApp-Image-2026-07-01-at-16.47.59_7754de7a.jpeg
+=====================================
+Total: 87, Success: 87, Failed: 0

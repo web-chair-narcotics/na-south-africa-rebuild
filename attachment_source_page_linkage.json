@@ -1,0 +1,1234 @@
+[
+  {
+    "attachment_id": "4",
+    "title": "favicon",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/favicon.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4\", \"title\": \"favicon\", \"url\": \"https://na.org.za/jhb/favicon/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"5\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/jhb/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"post-parent\"}]"
+  },
+  {
+    "attachment_id": "5",
+    "title": "cropped-favicon.png",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/cropped-favicon.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"5\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/jhb/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "70",
+    "title": "logo",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/logo.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"70\", \"title\": \"logo\", \"url\": \"https://na.org.za/jhb/logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"69\", \"title\": \"Theme Builder Layout\", \"url\": \"https://na.org.za/jhb/et_footer_layout/theme-builder-layout/\", \"post_type\": \"et_footer_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "78",
+    "title": "29680",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/29680.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"78\", \"title\": \"29680\", \"url\": \"https://na.org.za/jhb/29680/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4781\", \"title\": \"Policies and Resources\", \"url\": \"https://na.org.za/jhb/et_pb_layout/policies-and-resources/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"37\", \"title\": \"Policies\", \"url\": \"https://na.org.za/jhb/policies/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "79",
+    "title": "129014",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/129014.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"79\", \"title\": \"129014\", \"url\": \"https://na.org.za/jhb/129014/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/jhb/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"35\", \"title\": \"7th Tradition\", \"url\": \"https://na.org.za/jhb/7th-tradition/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "80",
+    "title": "zapper",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/zapper.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"80\", \"title\": \"zapper\", \"url\": \"https://na.org.za/jhb/zapper/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/jhb/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "81",
+    "title": "2150951473",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/2150951473.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"81\", \"title\": \"2150951473\", \"url\": \"https://na.org.za/jhb/2150951473/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4779\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/jhb/et_pb_layout/subcommittees/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"31\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/jhb/subcommittees/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "82",
+    "title": "559",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/559.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"82\", \"title\": \"559\", \"url\": \"https://na.org.za/jhb/559/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4778\", \"title\": \"Add Event\", \"url\": \"https://na.org.za/jhb/et_pb_layout/add-event/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"29\", \"title\": \"Add Event\", \"url\": \"https://na.org.za/jhb/add-event/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "83",
+    "title": "584",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/584.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"83\", \"title\": \"584\", \"url\": \"https://na.org.za/jhb/584/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4777\", \"title\": \"Events\", \"url\": \"https://na.org.za/jhb/et_pb_layout/events/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"26\", \"title\": \"Calendar\", \"url\": \"https://na.org.za/jhb/calendar/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "84",
+    "title": "2733704_12016-scaled-1",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/2733704_12016-scaled-1.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"84\", \"title\": \"2733704_12016-scaled-1\", \"url\": \"https://na.org.za/jhb/2733704_12016-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4776\", \"title\": \"Common NA Terminology\", \"url\": \"https://na.org.za/jhb/et_pb_layout/common-na-terminology/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"22\", \"title\": \"NA Terminology\", \"url\": \"https://na.org.za/jhb/na-terminology/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "85",
+    "title": "143021-e1763291423474",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/143021-e1763291423474.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"85\", \"title\": \"143021-e1763291423474\", \"url\": \"https://na.org.za/jhb/143021-e1763291423474/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4775\", \"title\": \"Add/Change Meeting\", \"url\": \"https://na.org.za/jhb/et_pb_layout/add-change-meeting/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"16\", \"title\": \"Add a Meeting\", \"url\": \"https://na.org.za/jhb/add-a-meeting/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "86",
+    "title": "2151118274",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/2151118274.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"86\", \"title\": \"2151118274\", \"url\": \"https://na.org.za/jhb/2151118274/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4774\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/jhb/et_pb_layout/preambles/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"20\", \"title\": \"Group Readings\", \"url\": \"https://na.org.za/jhb/group-readings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "87",
+    "title": "helping-each-other-scaled-1",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/helping-each-other-scaled-1.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"87\", \"title\": \"helping-each-other-scaled-1\", \"url\": \"https://na.org.za/jhb/helping-each-other-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4773\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/jhb/et_pb_layout/contact-us/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"41\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/jhb/contact-us/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "88",
+    "title": "123795",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/123795.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"88\", \"title\": \"123795\", \"url\": \"https://na.org.za/jhb/123795/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4772\", \"title\": \"ASC Contacts\", \"url\": \"https://na.org.za/jhb/et_pb_layout/asc-contacts/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"39\", \"title\": \"ASC Contact Details\", \"url\": \"https://na.org.za/jhb/asc-contact-details/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "89",
+    "title": "2147770870-e1763292893626",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/2147770870-e1763292893626.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"89\", \"title\": \"2147770870-e1763292893626\", \"url\": \"https://na.org.za/jhb/2147770870-e1763292893626/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/jhb/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"18\", \"title\": \"Literature\", \"url\": \"https://na.org.za/jhb/literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "90",
+    "title": "120044",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/120044.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"90\", \"title\": \"120044\", \"url\": \"https://na.org.za/jhb/120044/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/jhb/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"24\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/jhb/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "91",
+    "title": "2151930388",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/2151930388.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"91\", \"title\": \"2151930388\", \"url\": \"https://na.org.za/jhb/2151930388/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4769\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/jhb/et_pb_layout/meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"14\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/jhb/na-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "92",
+    "title": "banner-wc-001-e1763484626801",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/banner-wc-001-e1763484626801.webp",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"92\", \"title\": \"banner-wc-001-e1763484626801\", \"url\": \"https://na.org.za/jhb/banner-wc-001-e1763484626801/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/jhb/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "93",
+    "title": "29376",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/29376.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"93\", \"title\": \"29376\", \"url\": \"https://na.org.za/jhb/29376/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/jhb/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"9\", \"title\": \"Home\", \"url\": \"https://na.org.za/jhb/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4782",
+    "title": "home-banner",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/home-banner.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"4782\", \"title\": \"home-banner\", \"url\": \"https://na.org.za/jhb/home-banner/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"9\", \"title\": \"Home\", \"url\": \"https://na.org.za/jhb/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5008",
+    "title": "7173",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/7173.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"5008\", \"title\": \"7173\", \"url\": \"https://na.org.za/jhb/7173/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"33\", \"title\": \"Predatory Behaviour\", \"url\": \"https://na.org.za/jhb/predatory-behaviour/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5009",
+    "title": "na-safety",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/na-safety.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"5009\", \"title\": \"na-safety\", \"url\": \"https://na.org.za/jhb/na-safety/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"33\", \"title\": \"Predatory Behaviour\", \"url\": \"https://na.org.za/jhb/predatory-behaviour/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5012",
+    "title": "96081",
+    "source_export": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "source_url": "https://www.na.ldpdevelopment.co.za/jhb/wp-content/uploads/sites/5/2025/11/96081.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"5012\", \"title\": \"96081\", \"url\": \"https://na.org.za/jhb/96081/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml\", \"source_id\": \"12\", \"title\": \"New To NA\", \"url\": \"https://na.org.za/jhb/new-to-na/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8729",
+    "title": "favicon",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/favicon.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8729\", \"title\": \"favicon\", \"url\": \"https://na.org.za/kzn/favicon/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8730\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/kzn/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"post-parent\"}]"
+  },
+  {
+    "attachment_id": "8730",
+    "title": "cropped-favicon.png",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/cropped-favicon.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8730\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/kzn/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8737",
+    "title": "29680",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/29680.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8737\", \"title\": \"29680\", \"url\": \"https://na.org.za/kzn/29680/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4781\", \"title\": \"Policies and Resources\", \"url\": \"https://na.org.za/kzn/et_pb_layout/policies-and-resources/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8738",
+    "title": "129014",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/129014.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8738\", \"title\": \"129014\", \"url\": \"https://na.org.za/kzn/129014/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/kzn/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8739",
+    "title": "zapper",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/zapper.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8739\", \"title\": \"zapper\", \"url\": \"https://na.org.za/kzn/zapper/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/kzn/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8740",
+    "title": "2150951473",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/2150951473.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8740\", \"title\": \"2150951473\", \"url\": \"https://na.org.za/kzn/2150951473/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4779\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/kzn/et_pb_layout/subcommittees/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8741",
+    "title": "559",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/559.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8741\", \"title\": \"559\", \"url\": \"https://na.org.za/kzn/559/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4778\", \"title\": \"Add Event\", \"url\": \"https://na.org.za/kzn/et_pb_layout/add-event/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8742",
+    "title": "584",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/584.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8742\", \"title\": \"584\", \"url\": \"https://na.org.za/kzn/584/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4777\", \"title\": \"Events\", \"url\": \"https://na.org.za/kzn/et_pb_layout/events/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8743",
+    "title": "2733704_12016-scaled-1",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/2733704_12016-scaled-1.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8743\", \"title\": \"2733704_12016-scaled-1\", \"url\": \"https://na.org.za/kzn/2733704_12016-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4776\", \"title\": \"Common NA Terminology\", \"url\": \"https://na.org.za/kzn/et_pb_layout/common-na-terminology/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8744",
+    "title": "143021-e1763291423474",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/143021-e1763291423474.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8744\", \"title\": \"143021-e1763291423474\", \"url\": \"https://na.org.za/kzn/143021-e1763291423474/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4775\", \"title\": \"Add/Change Meeting\", \"url\": \"https://na.org.za/kzn/et_pb_layout/add-change-meeting/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8745",
+    "title": "2151118274",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/2151118274.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8745\", \"title\": \"2151118274\", \"url\": \"https://na.org.za/kzn/2151118274/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4774\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/kzn/et_pb_layout/preambles/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8757\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/kzn/preambles/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8746",
+    "title": "helping-each-other-scaled-1",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/helping-each-other-scaled-1.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8746\", \"title\": \"helping-each-other-scaled-1\", \"url\": \"https://na.org.za/kzn/helping-each-other-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4773\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/kzn/et_pb_layout/contact-us/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8747",
+    "title": "123795",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/123795.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8747\", \"title\": \"123795\", \"url\": \"https://na.org.za/kzn/123795/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4772\", \"title\": \"ASC Contacts\", \"url\": \"https://na.org.za/kzn/et_pb_layout/asc-contacts/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8763\", \"title\": \"Area Service Committee\", \"url\": \"https://na.org.za/kzn/area-service-committee/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8748",
+    "title": "2147770870-e1763292893626",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/2147770870-e1763292893626.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8748\", \"title\": \"2147770870-e1763292893626\", \"url\": \"https://na.org.za/kzn/2147770870-e1763292893626/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/kzn/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8759\", \"title\": \"Literature\", \"url\": \"https://na.org.za/kzn/literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8749",
+    "title": "120044",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/120044.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8749\", \"title\": \"120044\", \"url\": \"https://na.org.za/kzn/120044/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/kzn/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8761\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/kzn/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8750",
+    "title": "2151930388",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/2151930388.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8750\", \"title\": \"2151930388\", \"url\": \"https://na.org.za/kzn/2151930388/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4769\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/kzn/et_pb_layout/meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8755\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/kzn/na-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8751",
+    "title": "banner-wc-001-e1763484626801",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/banner-wc-001-e1763484626801.webp",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8751\", \"title\": \"banner-wc-001-e1763484626801\", \"url\": \"https://na.org.za/kzn/banner-wc-001-e1763484626801/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/kzn/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8752",
+    "title": "29376",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/29376.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8752\", \"title\": \"29376\", \"url\": \"https://na.org.za/kzn/29376/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/kzn/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8734\", \"title\": \"Home\", \"url\": \"https://na.org.za/kzn/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8753",
+    "title": "home-banner",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/home-banner.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8753\", \"title\": \"home-banner\", \"url\": \"https://na.org.za/kzn/home-banner/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8734\", \"title\": \"Home\", \"url\": \"https://na.org.za/kzn/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8777",
+    "title": "logo",
+    "source_export": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/kzn/wp-content/uploads/sites/3/2025/11/logo.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8777\", \"title\": \"logo\", \"url\": \"https://na.org.za/kzn/logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml\", \"source_id\": \"8776\", \"title\": \"Theme Builder Layout\", \"url\": \"https://na.org.za/kzn/et_footer_layout/theme-builder-layout/\", \"post_type\": \"et_footer_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4",
+    "title": "favicon",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/favicon.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4\", \"title\": \"favicon\", \"url\": \"https://na.org.za/pta/favicon/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"5\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/pta/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"post-parent\"}]"
+  },
+  {
+    "attachment_id": "5",
+    "title": "cropped-favicon.png",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/cropped-favicon.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"5\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/pta/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "6",
+    "title": "29680",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/29680.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"6\", \"title\": \"29680\", \"url\": \"https://na.org.za/pta/29680/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4781\", \"title\": \"Policies and Resources\", \"url\": \"https://na.org.za/pta/et_pb_layout/policies-and-resources/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "7",
+    "title": "129014",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/129014.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"7\", \"title\": \"129014\", \"url\": \"https://na.org.za/pta/129014/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/pta/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "8",
+    "title": "zapper",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/zapper.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"8\", \"title\": \"zapper\", \"url\": \"https://na.org.za/pta/zapper/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/pta/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "9",
+    "title": "2150951473",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/2150951473.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"9\", \"title\": \"2150951473\", \"url\": \"https://na.org.za/pta/2150951473/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4779\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/pta/et_pb_layout/subcommittees/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "10",
+    "title": "559",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/559.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"10\", \"title\": \"559\", \"url\": \"https://na.org.za/pta/559/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4778\", \"title\": \"Add Event\", \"url\": \"https://na.org.za/pta/et_pb_layout/add-event/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "11",
+    "title": "584",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/584.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"11\", \"title\": \"584\", \"url\": \"https://na.org.za/pta/584/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4777\", \"title\": \"Events\", \"url\": \"https://na.org.za/pta/et_pb_layout/events/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "12",
+    "title": "2733704_12016-scaled-1",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/2733704_12016-scaled-1.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"12\", \"title\": \"2733704_12016-scaled-1\", \"url\": \"https://na.org.za/pta/2733704_12016-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4776\", \"title\": \"Common NA Terminology\", \"url\": \"https://na.org.za/pta/et_pb_layout/common-na-terminology/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "13",
+    "title": "143021-e1763291423474",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/143021-e1763291423474.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"13\", \"title\": \"143021-e1763291423474\", \"url\": \"https://na.org.za/pta/143021-e1763291423474/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4775\", \"title\": \"Add/Change Meeting\", \"url\": \"https://na.org.za/pta/et_pb_layout/add-change-meeting/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "14",
+    "title": "2151118274",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/2151118274.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"14\", \"title\": \"2151118274\", \"url\": \"https://na.org.za/pta/2151118274/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4774\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/pta/et_pb_layout/preambles/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4792\", \"title\": \"Group Readings\", \"url\": \"https://na.org.za/pta/group-readings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "15",
+    "title": "helping-each-other-scaled-1",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/helping-each-other-scaled-1.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"15\", \"title\": \"helping-each-other-scaled-1\", \"url\": \"https://na.org.za/pta/helping-each-other-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4773\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/pta/et_pb_layout/contact-us/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4786\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/pta/contact-us/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "16",
+    "title": "123795",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/123795.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"16\", \"title\": \"123795\", \"url\": \"https://na.org.za/pta/123795/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4772\", \"title\": \"ASC Contacts\", \"url\": \"https://na.org.za/pta/et_pb_layout/asc-contacts/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "17",
+    "title": "2147770870-e1763292893626",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/2147770870-e1763292893626.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"17\", \"title\": \"2147770870-e1763292893626\", \"url\": \"https://na.org.za/pta/2147770870-e1763292893626/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/pta/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4788\", \"title\": \"Literature\", \"url\": \"https://na.org.za/pta/literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "18",
+    "title": "120044",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/120044.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"18\", \"title\": \"120044\", \"url\": \"https://na.org.za/pta/120044/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/pta/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4790\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/pta/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "19",
+    "title": "2151930388",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/2151930388.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"19\", \"title\": \"2151930388\", \"url\": \"https://na.org.za/pta/2151930388/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4769\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/pta/et_pb_layout/meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4799\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/pta/na-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "20",
+    "title": "banner-wc-001-e1763484626801",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/banner-wc-001-e1763484626801.webp",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"20\", \"title\": \"banner-wc-001-e1763484626801\", \"url\": \"https://na.org.za/pta/banner-wc-001-e1763484626801/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/pta/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "21",
+    "title": "29376",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/29376.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"21\", \"title\": \"29376\", \"url\": \"https://na.org.za/pta/29376/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/pta/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4783\", \"title\": \"Home\", \"url\": \"https://na.org.za/pta/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4797",
+    "title": "home-banner",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/home-banner.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4797\", \"title\": \"home-banner\", \"url\": \"https://na.org.za/pta/home-banner/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4783\", \"title\": \"Home\", \"url\": \"https://na.org.za/pta/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4803",
+    "title": "logo",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/logo.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4803\", \"title\": \"logo\", \"url\": \"https://na.org.za/pta/logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4802\", \"title\": \"Theme Builder Layout\", \"url\": \"https://na.org.za/pta/et_footer_layout/theme-builder-layout/\", \"post_type\": \"et_footer_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4915",
+    "title": "19692",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/19692.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4915\", \"title\": \"19692\", \"url\": \"https://na.org.za/pta/19692/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4794\", \"title\": \"For The Newcomer\", \"url\": \"https://na.org.za/pta/for-the-newcomer/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4917",
+    "title": "NA-Keytag-Welcome",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/pta/wp-content/uploads/sites/4/2025/11/NA-Keytag-Welcome.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4917\", \"title\": \"NA-Keytag-Welcome\", \"url\": \"https://na.org.za/pta/na-keytag-welcome/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"4794\", \"title\": \"For The Newcomer\", \"url\": \"https://na.org.za/pta/for-the-newcomer/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5033",
+    "title": "WhatsApp Image 2026-02-23 at 14.43.50",
+    "source_export": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/pta/wp-content/uploads/sites/4/2026/02/WhatsApp-Image-2026-02-23-at-14.43.50.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"5033\", \"title\": \"WhatsApp Image 2026-02-23 at 14.43.50\", \"url\": \"https://na.org.za/pta/event/padel-tournament/whatsapp-image-2026-02-23-at-14-43-50/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouspretoria.WordPress.2026-08-16.xml\", \"source_id\": \"5027\", \"title\": \"Padel tournament\", \"url\": \"https://na.org.za/pta/event/padel-tournament/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "19",
+    "title": "96081",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/96081.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"19\", \"title\": \"96081\", \"url\": \"https://na.org.za/96081/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"854\", \"title\": \"Home\", \"url\": \"https://na.org.za/blog/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"14\", \"title\": \"Home\", \"url\": \"https://na.org.za/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "20",
+    "title": "29376",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/29376.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"20\", \"title\": \"29376\", \"url\": \"https://na.org.za/29376/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"854\", \"title\": \"Home\", \"url\": \"https://na.org.za/blog/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"14\", \"title\": \"Home\", \"url\": \"https://na.org.za/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "24",
+    "title": "logo",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/logo.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"24\", \"title\": \"logo\", \"url\": \"https://na.org.za/logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"23\", \"title\": \"Theme Builder Layout\", \"url\": \"https://na.org.za/blog/et_footer_layout/theme-builder-layout/\", \"post_type\": \"et_footer_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "28",
+    "title": "na-site-logo",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/na-site-logo.webp",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"28\", \"title\": \"na-site-logo\", \"url\": \"https://na.org.za/na-site-logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "743",
+    "title": "women-s-day-celebration-with-flower",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/women-s-day-celebration-with-flower.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"743\", \"title\": \"women-s-day-celebration-with-flower\", \"url\": \"https://na.org.za/women-s-day-celebration-with-flower/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "763",
+    "title": "2151930384",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2151930384.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"763\", \"title\": \"2151930384\", \"url\": \"https://na.org.za/2151930384/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"856\", \"title\": \"Online Meetings\", \"url\": \"https://na.org.za/blog/et_pb_layout/online-meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"760\", \"title\": \"Online Meetings\", \"url\": \"https://na.org.za/online-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "769",
+    "title": "2151930388",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2151930388.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"769\", \"title\": \"2151930388\", \"url\": \"https://na.org.za/2151930388/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"855\", \"title\": \"In Person Meetings\", \"url\": \"https://na.org.za/blog/et_pb_layout/in-person-meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"767\", \"title\": \"In-Person Meetings\", \"url\": \"https://na.org.za/in-person-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "774",
+    "title": "helping-each-other",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/helping-each-other.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"774\", \"title\": \"helping-each-other\", \"url\": \"https://na.org.za/helping-each-other/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "787",
+    "title": "2148398371",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2148398371.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"787\", \"title\": \"2148398371\", \"url\": \"https://na.org.za/2148398371/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "791",
+    "title": "143021",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/143021.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"791\", \"title\": \"143021\", \"url\": \"https://na.org.za/143021/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "810",
+    "title": "2147770870",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2147770870.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"810\", \"title\": \"2147770870\", \"url\": \"https://na.org.za/2147770870/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "820",
+    "title": "2148938724",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2148938724.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"820\", \"title\": \"2148938724\", \"url\": \"https://na.org.za/2148938724/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "826",
+    "title": "2148101442",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2148101442.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"826\", \"title\": \"2148101442\", \"url\": \"https://na.org.za/2148101442/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "829",
+    "title": "2148101442",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2148101442-1.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"826\", \"title\": \"2148101442\", \"url\": \"https://na.org.za/2148101442/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"829\", \"title\": \"2148101442\", \"url\": \"https://na.org.za/2148101442-2/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "831",
+    "title": "2148101442",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/2148101442-2.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"826\", \"title\": \"2148101442\", \"url\": \"https://na.org.za/2148101442/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"831\", \"title\": \"2148101442\", \"url\": \"https://na.org.za/2148101442-3/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "833",
+    "title": "19692",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/19692.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"833\", \"title\": \"19692\", \"url\": \"https://na.org.za/19692/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "851",
+    "title": "favicon",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/favicon.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"851\", \"title\": \"favicon\", \"url\": \"https://na.org.za/favicon/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"852\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"post-parent\"}]"
+  },
+  {
+    "attachment_id": "852",
+    "title": "cropped-favicon.png",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/cropped-favicon.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"852\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "1454",
+    "title": "woocommerce-placeholder",
+    "source_export": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wp-content/uploads/2025/11/woocommerce-placeholder.webp",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml\", \"source_id\": \"1454\", \"title\": \"woocommerce-placeholder\", \"url\": \"https://na.org.za/woocommerce-placeholder/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "127",
+    "title": "2148938724-e1763294084270",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2148938724-e1763294084270.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"127\", \"title\": \"2148938724-e1763294084270\", \"url\": \"https://na.org.za/wc/2148938724-e1763294084270/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"874\", \"title\": \"How to start an NA meeting\", \"url\": \"https://na.org.za/wc/how-to-start-an-na-meeting/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "128",
+    "title": "2147770870-e1763292893626",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2147770870-e1763292893626.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"128\", \"title\": \"2147770870-e1763292893626\", \"url\": \"https://na.org.za/wc/2147770870-e1763292893626/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "129",
+    "title": "2148101442-1-e1763294562253",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2148101442-1-e1763294562253.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"129\", \"title\": \"2148101442-1-e1763294562253\", \"url\": \"https://na.org.za/wc/2148101442-1-e1763294562253/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"880\", \"title\": \"Information About NA\", \"url\": \"https://na.org.za/wc/information-about-na/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "130",
+    "title": "143021-e1763291423474",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/143021-e1763291423474.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"130\", \"title\": \"143021-e1763291423474\", \"url\": \"https://na.org.za/wc/143021-e1763291423474/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4775\", \"title\": \"Add/Change Meeting\", \"url\": \"https://na.org.za/wc/et_pb_layout/add-change-meeting/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"892\", \"title\": \"What Happens at an NA Meeting?\", \"url\": \"https://na.org.za/wc/what-happens-at-an-na-meeting/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4652\", \"title\": \"In-Person Meeting Update\", \"url\": \"https://na.org.za/wc/in-person-meeting-update/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "131",
+    "title": "helping-each-other-scaled-1",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/helping-each-other-scaled-1.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"131\", \"title\": \"helping-each-other-scaled-1\", \"url\": \"https://na.org.za/wc/helping-each-other-scaled-1/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4773\", \"title\": \"Contact Us\", \"url\": \"https://na.org.za/wc/et_pb_layout/contact-us/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"868\", \"title\": \"Contact\", \"url\": \"https://na.org.za/wc/contact/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4673\", \"title\": \"Service\", \"url\": \"https://na.org.za/wc/service/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "132",
+    "title": "19692-e1763294820786",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/19692-e1763294820786.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"132\", \"title\": \"19692-e1763294820786\", \"url\": \"https://na.org.za/wc/19692-e1763294820786/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"864\", \"title\": \"About NA\", \"url\": \"https://na.org.za/wc/about-na/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4836\", \"title\": \"For The Professionals\", \"url\": \"https://na.org.za/wc/professionals/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4856\", \"title\": \"Who Are Our Members\", \"url\": \"https://na.org.za/wc/who-are-our-members/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "133",
+    "title": "2151930384",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2151930384.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"133\", \"title\": \"2151930384\", \"url\": \"https://na.org.za/wc/2151930384/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"889\", \"title\": \"Online Meetings\", \"url\": \"https://na.org.za/wc/online-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4803\", \"title\": \"Welcome\", \"url\": \"https://na.org.za/wc/welcome/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "134",
+    "title": "2151930388",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2151930388.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"134\", \"title\": \"2151930388\", \"url\": \"https://na.org.za/wc/2151930388/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4769\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/wc/et_pb_layout/meetings/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"877\", \"title\": \"In-Person Meetings\", \"url\": \"https://na.org.za/wc/in-person-meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"883\", \"title\": \"Meetings\", \"url\": \"https://na.org.za/wc/meetings/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "135",
+    "title": "96081",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/96081.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"135\", \"title\": \"96081\", \"url\": \"https://na.org.za/wc/96081/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "136",
+    "title": "29376",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/29376.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"136\", \"title\": \"29376\", \"url\": \"https://na.org.za/wc/29376/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4768\", \"title\": \"Home\", \"url\": \"https://na.org.za/wc/et_pb_layout/home/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"871\", \"title\": \"Home\", \"url\": \"https://na.org.za/wc/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "895",
+    "title": "Google-Forms-Logo",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/Google-Forms-Logo.png",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"895\", \"title\": \"Google-Forms-Logo\", \"url\": \"https://na.org.za/wc/google-forms-logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"1627\", \"title\": \"Specific Events: New Years Eve Party\", \"url\": \"https://na.org.za/wc/et_footer_layout/theme-builder-layout/\", \"post_type\": \"et_footer_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5619\", \"title\": \"Subcom\", \"url\": \"https://na.org.za/wc/?page_id=5619\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4715\", \"title\": \"Calendar\", \"url\": \"https://na.org.za/wc/calendar/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5457\", \"title\": \"Media Packs &amp; Announcements\", \"url\": \"https://na.org.za/wc/mediapacks-announcements/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "915",
+    "title": "favicon",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/favicon.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"915\", \"title\": \"favicon\", \"url\": \"https://na.org.za/wc/favicon/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"916\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/wc/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"post-parent\"}]"
+  },
+  {
+    "attachment_id": "916",
+    "title": "cropped-favicon.png",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/cropped-favicon.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"916\", \"title\": \"cropped-favicon.png\", \"url\": \"https://na.org.za/wc/favicon/cropped-favicon-png/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "1628",
+    "title": "logo",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/logo.png",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"1628\", \"title\": \"logo\", \"url\": \"https://na.org.za/wc/logo/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "1638",
+    "title": "banner-wc-001",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/banner-wc-001.webp",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"1638\", \"title\": \"banner-wc-001\", \"url\": \"https://na.org.za/wc/banner-wc-001/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4601",
+    "title": "559",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/559.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4601\", \"title\": \"559\", \"url\": \"https://na.org.za/wc/559/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4778\", \"title\": \"Add Event\", \"url\": \"https://na.org.za/wc/et_pb_layout/add-event/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4598\", \"title\": \"Add an event\", \"url\": \"https://na.org.za/wc/add-an-event/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4608",
+    "title": "584",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/584.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4608\", \"title\": \"584\", \"url\": \"https://na.org.za/wc/584/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4777\", \"title\": \"Events\", \"url\": \"https://na.org.za/wc/et_pb_layout/events/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4606\", \"title\": \"Events\", \"url\": \"https://na.org.za/wc/wc-events/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4619",
+    "title": "woocommerce-placeholder",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/woocommerce-placeholder.webp",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4619\", \"title\": \"woocommerce-placeholder\", \"url\": \"https://na.org.za/wc/woocommerce-placeholder/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4647",
+    "title": "119749",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/119749.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4647\", \"title\": \"119749\", \"url\": \"https://na.org.za/wc/119749/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4644\", \"title\": \"Online Meeting Update\", \"url\": \"https://na.org.za/wc/online-meeting-update/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4663",
+    "title": "120044",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/120044.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4663\", \"title\": \"120044\", \"url\": \"https://na.org.za/wc/event/website-inventory/attachment/120044/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4670",
+    "title": "2151118274",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2151118274.jpg",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4670\", \"title\": \"2151118274\", \"url\": \"https://na.org.za/wc/2151118274/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4774\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/wc/et_pb_layout/preambles/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4666\", \"title\": \"Preambles\", \"url\": \"https://na.org.za/wc/preambles/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4867\", \"title\": \"Preambles For Service\", \"url\": \"https://na.org.za/wc/preambles-for-service/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4681",
+    "title": "people-taking-part-high-protocol-event",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/people-taking-part-high-protocol-event.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4681\", \"title\": \"people-taking-part-high-protocol-event\", \"url\": \"https://na.org.za/wc/people-taking-part-high-protocol-event/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4678\", \"title\": \"12 Step Shares\", \"url\": \"https://na.org.za/wc/12-step-shares/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4698",
+    "title": "People carryng speech bubble icons",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2733704_12016.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4698\", \"title\": \"People carryng speech bubble icons\", \"url\": \"https://na.org.za/wc/people-carryng-speech-bubble-icons/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4705",
+    "title": "2149035698",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2149035698.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4705\", \"title\": \"2149035698\", \"url\": \"https://na.org.za/wc/2149035698/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4703\", \"title\": \"Useful Links\", \"url\": \"https://na.org.za/wc/useful-links/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4711",
+    "title": "129014",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/129014.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4711\", \"title\": \"129014\", \"url\": \"https://na.org.za/wc/129014/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/wc/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4708\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/wc/contribute/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4712",
+    "title": "zapper",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/zapper.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4712\", \"title\": \"zapper\", \"url\": \"https://na.org.za/wc/zapper/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4780\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/wc/et_pb_layout/contribute/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4718",
+    "title": "6914",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/6914.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4718\", \"title\": \"6914\", \"url\": \"https://na.org.za/wc/6914/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4715\", \"title\": \"Calendar\", \"url\": \"https://na.org.za/wc/calendar/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4725",
+    "title": "2149758877",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2149758877.jpg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4725\", \"title\": \"2149758877\", \"url\": \"https://na.org.za/wc/2149758877/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4722\", \"title\": \"Add Activity To The Calendar\", \"url\": \"https://na.org.za/wc/add-activity-to-the-calendar/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4731",
+    "title": "123795",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/123795.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4731\", \"title\": \"123795\", \"url\": \"https://na.org.za/wc/123795/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4772\", \"title\": \"ASC Contacts\", \"url\": \"https://na.org.za/wc/et_pb_layout/asc-contacts/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4728\", \"title\": \"Contacts\", \"url\": \"https://na.org.za/wc/contacts/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4738",
+    "title": "29680",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/29680.jpg",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4738\", \"title\": \"29680\", \"url\": \"https://na.org.za/wc/29680/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4781\", \"title\": \"Policies and Resources\", \"url\": \"https://na.org.za/wc/et_pb_layout/policies-and-resources/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5456\", \"title\": \"Basic Page\", \"url\": \"https://na.org.za/wc/et_pb_layout/basic-page/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5619\", \"title\": \"Subcom\", \"url\": \"https://na.org.za/wc/?page_id=5619\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4735\", \"title\": \"Policies and Resources\", \"url\": \"https://na.org.za/wc/policies-and-resources/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5457\", \"title\": \"Media Packs &amp; Announcements\", \"url\": \"https://na.org.za/wc/mediapacks-announcements/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4744",
+    "title": "2150951473",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2025/11/2150951473.jpg",
+    "source_page_count": 3,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4744\", \"title\": \"2150951473\", \"url\": \"https://na.org.za/wc/2150951473/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4779\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/wc/et_pb_layout/subcommittees/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4741\", \"title\": \"Subcommittees\", \"url\": \"https://na.org.za/wc/subcommittees/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4860",
+    "title": "high-angle-arrangement-with-speech-bubbles",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2026/01/high-angle-arrangement-with-speech-bubbles.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4860\", \"title\": \"high-angle-arrangement-with-speech-bubbles\", \"url\": \"https://na.org.za/wc/high-angle-arrangement-with-speech-bubbles/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5394",
+    "title": "2306_PRMAT_2023",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/2306_PRMAT_2023.pdf",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5394\", \"title\": \"2306_PRMAT_2023\", \"url\": \"https://na.org.za/wc/2306_prmat_2023/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4836\", \"title\": \"For The Professionals\", \"url\": \"https://na.org.za/wc/professionals/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5395",
+    "title": "3130_MHR-IP-30-English",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/3130_MHR-IP-30-English.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5395\", \"title\": \"3130_MHR-IP-30-English\", \"url\": \"https://na.org.za/wc/3130_mhr-ip-30-english/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5396",
+    "title": "Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5396\", \"title\": \"Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs\", \"url\": \"https://na.org.za/wc/bulletin-29-regarding-methadone-and-other-drug-replacement-programs/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5397",
+    "title": "EN2205-NA-Groups-and-MEdication-English",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/EN2205-NA-Groups-and-MEdication-English.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5397\", \"title\": \"EN2205-NA-Groups-and-MEdication-English\", \"url\": \"https://na.org.za/wc/en2205-na-groups-and-medication-english/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4836\", \"title\": \"For The Professionals\", \"url\": \"https://na.org.za/wc/professionals/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5398",
+    "title": "In-Times-of-Illness-English",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/In-Times-of-Illness-English.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5398\", \"title\": \"In-Times-of-Illness-English\", \"url\": \"https://na.org.za/wc/in-times-of-illness-english/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4836\", \"title\": \"For The Professionals\", \"url\": \"https://na.org.za/wc/professionals/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5399",
+    "title": "IP-1-Who-What-How-and-Why",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-1-Who-What-How-and-Why.pdf",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5399\", \"title\": \"IP-1-Who-What-How-and-Why\", \"url\": \"https://na.org.za/wc/ip-1-who-what-how-and-why/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5400",
+    "title": "IP-2-The-Group",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-2-The-Group.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5400\", \"title\": \"IP-2-The-Group\", \"url\": \"https://na.org.za/wc/ip-2-the-group/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5401",
+    "title": "IP-5-Another-Look",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-5-Another-Look.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5401\", \"title\": \"IP-5-Another-Look\", \"url\": \"https://na.org.za/wc/ip-5-another-look/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4851",
+    "title": "istockphoto-1220573371-612x612",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2026/01/istockphoto-1220573371-612x612-1.jpg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4851\", \"title\": \"istockphoto-1220573371-612x612\", \"url\": \"https://na.org.za/wc/istockphoto-1220573371-612x612/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5402",
+    "title": "IP-6-Recovery-Relapse",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-6-Recovery-Relapse.pdf",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5402\", \"title\": \"IP-6-Recovery-Relapse\", \"url\": \"https://na.org.za/wc/ip-6-recovery-relapse/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5403",
+    "title": "IP-7-Am-I-an-Addict",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-7-Am-I-an-Addict.pdf",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5403\", \"title\": \"IP-7-Am-I-an-Addict\", \"url\": \"https://na.org.za/wc/ip-7-am-i-an-addict/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5404",
+    "title": "IP-8-Just-for-Today",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-8-Just-for-Today.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5404\", \"title\": \"IP-8-Just-for-Today\", \"url\": \"https://na.org.za/wc/ip-8-just-for-today/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4803\", \"title\": \"Welcome\", \"url\": \"https://na.org.za/wc/welcome/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5405",
+    "title": "IP-9-Living-the-Program",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-9-Living-the-Program.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5405\", \"title\": \"IP-9-Living-the-Program\", \"url\": \"https://na.org.za/wc/ip-9-living-the-program/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5406",
+    "title": "IP-11-Sponsorship",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-11-Sponsorship.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5406\", \"title\": \"IP-11-Sponsorship\", \"url\": \"https://na.org.za/wc/ip-11-sponsorship/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5407",
+    "title": "IP-12-The-Triangle-of-Self-Obsession",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-12-The-Triangle-of-Self-Obsession.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5407\", \"title\": \"IP-12-The-Triangle-of-Self-Obsession\", \"url\": \"https://na.org.za/wc/ip-12-the-triangle-of-self-obsession/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5408",
+    "title": "IP-14-One-Addicts-Experience...",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-14-One-Addicts-Experience.pdf",
+    "source_page_count": 4,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5408\", \"title\": \"IP-14-One-Addicts-Experience...\", \"url\": \"https://na.org.za/wc/ip-14-one-addicts-experience/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5409",
+    "title": "IP-15-PI-and-the-NA-Member",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-15-PI-and-the-NA-Member.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5409\", \"title\": \"IP-15-PI-and-the-NA-Member\", \"url\": \"https://na.org.za/wc/ip-15-pi-and-the-na-member/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5410",
+    "title": "IP-16-For-the-Newcomer",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-16-For-the-Newcomer.pdf",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5410\", \"title\": \"IP-16-For-the-Newcomer\", \"url\": \"https://na.org.za/wc/ip-16-for-the-newcomer/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5411",
+    "title": "IP-17-For-Those-in-Treatment",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-17-For-Those-in-Treatment.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5411\", \"title\": \"IP-17-For-Those-in-Treatment\", \"url\": \"https://na.org.za/wc/ip-17-for-those-in-treatment/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4803\", \"title\": \"Welcome\", \"url\": \"https://na.org.za/wc/welcome/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5412",
+    "title": "IP-19-Self-Acceptance",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-19-Self-Acceptance.pdf",
+    "source_page_count": 7,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5412\", \"title\": \"IP-19-Self-Acceptance\", \"url\": \"https://na.org.za/wc/ip-19-self-acceptance/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4771\", \"title\": \"Literature\", \"url\": \"https://na.org.za/wc/et_pb_layout/literature/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"886\", \"title\": \"NA Literature\", \"url\": \"https://na.org.za/wc/na-literature/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5413",
+    "title": "IP-20-HI-Service-the-NA-Member",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-20-HI-Service-the-NA-Member.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5413\", \"title\": \"IP-20-HI-Service-the-NA-Member\", \"url\": \"https://na.org.za/wc/ip-20-hi-service-the-na-member/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5414",
+    "title": "IP-21-The-Loner-Staying-Clean-in-Isolation",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-21-The-Loner-Staying-Clean-in-Isolation.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5414\", \"title\": \"IP-21-The-Loner-Staying-Clean-in-Isolation\", \"url\": \"https://na.org.za/wc/ip-21-the-loner-staying-clean-in-isolation/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5415",
+    "title": "IP-22-Welcome-to-NA",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-22-Welcome-to-NA.pdf",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5415\", \"title\": \"IP-22-Welcome-to-NA\", \"url\": \"https://na.org.za/wc/ip-22-welcome-to-na/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5416",
+    "title": "IP-23-Staying-Clean-on-the-Outside",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-23-Staying-Clean-on-the-Outside.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5416\", \"title\": \"IP-23-Staying-Clean-on-the-Outside\", \"url\": \"https://na.org.za/wc/ip-23-staying-clean-on-the-outside/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5417",
+    "title": "IP-24-Money-Matters-Self-Support-in-NA",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-24-Money-Matters-Self-Support-in-NA.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5417\", \"title\": \"IP-24-Money-Matters-Self-Support-in-NA\", \"url\": \"https://na.org.za/wc/ip-24-money-matters-self-support-in-na/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5418",
+    "title": "IP-26-Accessibility-for-Those-with-Additional-Needs",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-26-Accessibility-for-Those-with-Additional-Needs.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5418\", \"title\": \"IP-26-Accessibility-for-Those-with-Additional-Needs\", \"url\": \"https://na.org.za/wc/ip-26-accessibility-for-those-with-additional-needs/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5419",
+    "title": "IP-28-Funding-NA-Services",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-28-Funding-NA-Services.pdf",
+    "source_page_count": 5,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5419\", \"title\": \"IP-28-Funding-NA-Services\", \"url\": \"https://na.org.za/wc/ip-28-funding-na-services/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5420",
+    "title": "IP-29-Introduction-to-NA-Meetings",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/IP-29-Introduction-to-NA-Meetings.pdf",
+    "source_page_count": 6,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5420\", \"title\": \"IP-29-Introduction-to-NA-Meetings\", \"url\": \"https://na.org.za/wc/ip-29-introduction-to-na-meetings/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4770\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/et_pb_layout/downloads/\", \"post_type\": \"et_pb_layout\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4762\", \"title\": \"Toets\", \"url\": \"https://na.org.za/wc/?page_id=4762\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4661\", \"title\": \"Downloads\", \"url\": \"https://na.org.za/wc/downloads/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4803\", \"title\": \"Welcome\", \"url\": \"https://na.org.za/wc/welcome/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4875\", \"title\": \"Downloads 2\", \"url\": \"https://na.org.za/wc/downloads-2/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "4895",
+    "title": "Screenshot 2026-02-02 at 11.03.17",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://www.gekkodev2.co.za/wc/wp-content/uploads/sites/2/2026/02/Screenshot-2026-02-02-at-11.03.17.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4895\", \"title\": \"Screenshot 2026-02-02 at 11.03.17\", \"url\": \"https://na.org.za/wc/screenshot-2026-02-02-at-11-03-17/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"4708\", \"title\": \"Contribute\", \"url\": \"https://na.org.za/wc/contribute/\", \"post_type\": \"page\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5286",
+    "title": "WhatsApp Image 2026-02-22 at 13.47.26",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/02/WhatsApp-Image-2026-02-22-at-13.47.26.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5286\", \"title\": \"WhatsApp Image 2026-02-22 at 13.47.26\", \"url\": \"https://na.org.za/wc/event/wc-events-subcomitee-presents/whatsapp-image-2026-02-22-at-13-47-26/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5285\", \"title\": \"WC Events Plan for 2026\", \"url\": \"https://na.org.za/wc/event/wc-events-subcomitee-presents/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5321",
+    "title": "WhatsApp Image 2026-03-12 at 11.24.54",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/03/WhatsApp-Image-2026-03-12-at-11.24.54.jpeg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5321\", \"title\": \"WhatsApp Image 2026-03-12 at 11.24.54\", \"url\": \"https://na.org.za/wc/event/boerie-ball-autumn-edition/whatsapp-image-2026-03-12-at-11-24-54/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5344",
+    "title": "image",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/03/image.png",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5344\", \"title\": \"image\", \"url\": \"https://na.org.za/wc/event/service-speaker-jam/image/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5342\", \"title\": \"Service Speaker Jam\", \"url\": \"https://na.org.za/wc/event/service-speaker-jam/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5358",
+    "title": "WhatsApp Image 2026-02-17 at 10.24.20",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/03/WhatsApp-Image-2026-02-17-at-10.24.20.jpeg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5358\", \"title\": \"WhatsApp Image 2026-02-17 at 10.24.20\", \"url\": \"https://na.org.za/wc/whatsapp-image-2026-02-17-at-10-24-20/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5388",
+    "title": "WhatsApp Image 2026-04-12 at 20.38.41",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/04/WhatsApp-Image-2026-04-12-at-20.38.41.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5388\", \"title\": \"WhatsApp Image 2026-04-12 at 20.38.41\", \"url\": \"https://na.org.za/wc/event/boerie-ball-autumn-edition/whatsapp-image-2026-04-12-at-20-38-41/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5387\", \"title\": \"Boerie Ball - Autumn Edition\", \"url\": \"https://na.org.za/wc/event/boerie-ball-autumn-edition/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5488",
+    "title": "Observatory Recreation Centre Entrance 2_",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/05/Observatory-Recreation-Centre-Entrance-2_.jpeg",
+    "source_page_count": 1,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5488\", \"title\": \"Observatory Recreation Centre Entrance 2_\", \"url\": \"https://na.org.za/wc/event/website-inventory/observatory-recreation-centre-entrance-2_/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5574",
+    "title": "WhatsApp Image 2026-07-01 at 16.48.20",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.48.20.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5574\", \"title\": \"WhatsApp Image 2026-07-01 at 16.48.20\", \"url\": \"https://na.org.za/wc/event/mini-con-2026-guiding-principles-the-spirit-of-our-traditions/whatsapp-image-2026-07-01-at-16-48-20/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5573\", \"title\": \"Mini Con 2026: Guiding Principles: The Spirit of Our Traditions\", \"url\": \"https://na.org.za/wc/event/mini-con-2026-guiding-principles-the-spirit-of-our-traditions/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  },
+  {
+    "attachment_id": "5577",
+    "title": "WhatsApp Image 2026-07-01 at 16.47.59",
+    "source_export": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml",
+    "source_url": "https://na.org.za/wc/wp-content/uploads/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.47.59.jpeg",
+    "source_page_count": 2,
+    "source_pages_json": "[{\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5577\", \"title\": \"WhatsApp Image 2026-07-01 at 16.47.59\", \"url\": \"https://na.org.za/wc/event/pr-subcom-fellowship-wide-poster-run/whatsapp-image-2026-07-01-at-16-47-59/\", \"post_type\": \"attachment\", \"relation\": \"text-reference\"}, {\"xml_export\": \"narcoticsanonymouswesterncape.WordPress.2026-08-16.xml\", \"source_id\": \"5576\", \"title\": \"PR Subcom Fellowship Wide Poster Run\", \"url\": \"https://na.org.za/wc/event/pr-subcom-fellowship-wide-poster-run/\", \"post_type\": \"tribe_events\", \"relation\": \"text-reference\"}]"
+  }
+]

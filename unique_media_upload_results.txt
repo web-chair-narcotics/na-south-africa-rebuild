@@ -1,0 +1,620 @@
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_76f87aa6.png
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_f54a796f.png
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_b2c81b15.png
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/143021-e1763291423474.jpg (size: 123019 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021-e1763291423474_0c8adbd6.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/2147770870-e1763292893626.jpg (size: 96863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870-e1763292893626_cba697a2.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_5a3f9f5e.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_b509e76f.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/2025/11/96081.jpg (size: 1067959 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/96081_8ce78163.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/29680.jpg (size: 702574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29680_a23b1f9c.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/129014.jpg (size: 417758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/129014_8bb0ef36.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/zapper.png (size: 17587 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/zapper_0fa13181.png
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/2150951473.jpg (size: 1381592 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2150951473_6cb18613.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/559.jpg (size: 1640766 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/559_38cf3d3c.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/584.jpg (size: 1174390 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/584_6c0e2e37.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/2151118274.jpg (size: 1307616 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151118274_ebfda644.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/helping-each-other-scaled-1.jpg (size: 311830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other-scaled-1_f58f7eb7.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/123795.jpg (size: 1028069 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/123795_e6cb4739.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/120044.jpg (size: 1580502 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/120044_027fa9a5.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/2/2025/11/banner-wc-001-e1763484626801.webp (size: 198602 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001-e1763484626801_037f9cde.webp
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/3/2025/11/2733704_12016-scaled-1.jpg (size: 449855 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016-scaled-1_893ab0ba.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/3/2025/11/home-banner.jpg (size: 484950 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/home-banner_1ed48f5d.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/5/2025/11/7173.jpg (size: 438286 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/7173_4a27d791.jpg
+Uploading file (webdev private): ./narcoticsanonymousjohannesburg/sites/5/2025/11/na-safety.jpg (size: 237001 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/na-safety_793980fb.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_a76b7d1e.png
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_cf77b0fd.png
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/143021-e1763291423474.jpg (size: 123019 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021-e1763291423474_6b137e88.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/2147770870-e1763292893626.jpg (size: 96863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870-e1763292893626_8f951734.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_41252184.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_b73a0dfa.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/2025/11/logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_72db097f.png
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/29680.jpg (size: 702574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29680_633a77fe.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/129014.jpg (size: 417758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/129014_7ae9af23.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/zapper.png (size: 17587 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/zapper_efc0a542.png
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/2150951473.jpg (size: 1381592 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2150951473_68a392d7.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/559.jpg (size: 1640766 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/559_6f3121c0.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/584.jpg (size: 1174390 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/584_81cd7c59.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/2151118274.jpg (size: 1307616 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151118274_a48ef380.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/helping-each-other-scaled-1.jpg (size: 311830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other-scaled-1_e0c666a6.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/123795.jpg (size: 1028069 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/123795_3bbfcdf5.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/120044.jpg (size: 1580502 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/120044_5c7a5009.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/banner-wc-001-e1763484626801.webp (size: 198602 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001-e1763484626801_2f3f49a8.webp
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/3/2025/11/2733704_12016-scaled-1.jpg (size: 449855 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016-scaled-1_ed223066.jpg
+Uploading file (webdev private): ./narcoticsanonymouskwazulu-natal/sites/3/2025/11/home-banner.jpg (size: 484950 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/home-banner_f0aaa7cd.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_2a9dc8f9.png
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_45824bd4.png
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/143021-e1763291423474.jpg (size: 123019 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021-e1763291423474_8ac500ba.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/2147770870-e1763292893626.jpg (size: 96863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870-e1763292893626_635f3e16.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_e9e5e655.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_7656e3ca.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_d1ab9a94.png
+Uploading file (webdev private): ./narcoticsanonymouspretoria/2025/11/19692.jpg (size: 783763 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/19692_7aad2af4.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/29680.jpg (size: 702574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29680_3154afeb.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/129014.jpg (size: 417758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/129014_800953db.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/zapper.png (size: 17587 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/zapper_75368afb.png
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/2150951473.jpg (size: 1381592 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2150951473_b0f654de.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/559.jpg (size: 1640766 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/559_62ce9729.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/584.jpg (size: 1174390 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/584_469d87b0.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/2151118274.jpg (size: 1307616 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151118274_ee9db341.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/helping-each-other-scaled-1.jpg (size: 311830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other-scaled-1_c551d198.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/123795.jpg (size: 1028069 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/123795_aaee993c.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/120044.jpg (size: 1580502 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/120044_3806b2b5.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/2/2025/11/banner-wc-001-e1763484626801.webp (size: 198602 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001-e1763484626801_ae23c08a.webp
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/3/2025/11/2733704_12016-scaled-1.jpg (size: 449855 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016-scaled-1_ba1b6c83.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/3/2025/11/home-banner.jpg (size: 484950 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/home-banner_96cf1363.jpg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/4/2025/11/NA-Keytag-Welcome.jpeg (size: 18530 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/NA-Keytag-Welcome_06b3e71b.jpeg
+Uploading file (webdev private): ./narcoticsanonymouspretoria/sites/4/2026/02/WhatsApp-Image-2026-02-23-at-14.43.50.jpeg (size: 262765 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-23-at-14.43.50_1eb26ba3.jpeg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/96081.jpg (size: 1067959 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/96081_a8492e37.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_d85fb462.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_81ca2a04.png
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/na-site-logo.webp (size: 23356 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/na-site-logo_e4fb5f32.webp
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/women-s-day-celebration-with-flower.jpg (size: 2698941 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/women-s-day-celebration-with-flower_56330093.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2151930384.jpg (size: 1454018 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930384_fce7bc73.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_3639c3db.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/helping-each-other.jpg (size: 1531664 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other_f394a792.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2148398371.jpg (size: 1199030 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148398371_39f09299.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/143021.jpg (size: 824036 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021_2a669bb2.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2147770870.jpg (size: 1832590 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870_e014be3b.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2148938724.jpg (size: 1949610 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148938724_eddeef2f.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2148101442.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442_0a08705c.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2148101442-1.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-1_31d37de4.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/2148101442-2.jpg (size: 1709313 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-2_48241d3d.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/19692.jpg (size: 783763 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/19692_917f25a6.jpg
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_215510fd.png
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/2025/11/cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_de399e06.png
+Uploading file (webdev private): ./narcoticsanonymoussouthafricaregion/woocommerce-placeholder.webp (size: 9892 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/woocommerce-placeholder_452ec6eb.webp
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/2148938724-e1763294084270.jpg (size: 191660 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148938724-e1763294084270_232b93c2.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/2147770870-e1763292893626.jpg (size: 96863 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2147770870-e1763292893626_f23efbc6.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/2148101442-1-e1763294562253.jpg (size: 158603 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2148101442-1-e1763294562253_1e45ec86.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/143021-e1763291423474.jpg (size: 123019 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/143021-e1763291423474_e3cf9412.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/19692-e1763294820786.jpg (size: 53540 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/19692-e1763294820786_a748f019.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/2151930384.jpg (size: 1454018 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930384_ae408dd8.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/2151930388.jpg (size: 913581 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151930388_8157f912.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/96081.jpg (size: 1067959 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/96081_b92cd07c.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/29376.jpg (size: 1166132 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29376_0d001fff.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/favicon.png (size: 48244 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/favicon_29d155b2.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/cropped-favicon.png (size: 110642 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/cropped-favicon_e46b298f.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/2025/11/logo.png (size: 98720 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/logo_4d855b18.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/helping-each-other-scaled-1.jpg (size: 311830 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/helping-each-other-scaled-1_4a71d4da.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/Google-Forms-Logo.png (size: 96658 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Google-Forms-Logo_5572cc38.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/banner-wc-001.webp (size: 144704 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/banner-wc-001_37914c2b.webp
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/559.jpg (size: 1640766 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/559_04ec2abd.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/584.jpg (size: 1174390 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/584_06ea6f1d.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/119749.jpg (size: 1218306 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/119749_5803c667.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/120044.jpg (size: 1580502 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/120044_d182b800.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/2151118274.jpg (size: 1307616 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2151118274_6c168a59.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/people-taking-part-high-protocol-event.jpg (size: 563086 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/people-taking-part-high-protocol-event_68d2dc3f.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/2733704_12016.jpg (size: 11813467 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2733704_12016_526ecf97.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/2149035698.jpg (size: 2950451 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2149035698_218c993b.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/129014.jpg (size: 417758 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/129014_4ed58e31.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/zapper.png (size: 17587 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/zapper_f324fcdf.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/6914.jpg (size: 1809046 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/6914_d5cea40c.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/2149758877.jpg (size: 2350480 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2149758877_f7f7a3c0.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/123795.jpg (size: 1028069 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/123795_298be277.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/29680.jpg (size: 702574 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/29680_f8f364a5.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2025/11/2150951473.jpg (size: 1381592 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2150951473_35649741.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/01/high-angle-arrangement-with-speech-bubbles.jpg (size: 1915406 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/high-angle-arrangement-with-speech-bubbles_94953548.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/01/istockphoto-1220573371-612x612-1.jpg (size: 16511 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/istockphoto-1220573371-612x612-1_7bea7242.jpg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/2306_PRMAT_2023.pdf (size: 539229 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/2306_PRMAT_2023_134c5a92.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/3130_MHR-IP-30-English.pdf (size: 264331 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/3130_MHR-IP-30-English_9d74114e.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf (size: 27930 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_d34f3f59.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/EN2205-NA-Groups-and-MEdication-English.pdf (size: 175530 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/EN2205-NA-Groups-and-MEdication-English_454e20e8.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/In-Times-of-Illness-English.pdf (size: 518099 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/In-Times-of-Illness-English_ad55d230.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-1-Who-What-How-and-Why.pdf (size: 45355 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-1-Who-What-How-and-Why_dc5cffdc.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-2-The-Group.pdf (size: 76920 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-2-The-Group_2735958d.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-5-Another-Look.pdf (size: 59138 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-5-Another-Look_50e3b5a0.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-6-Recovery-Relapse.pdf (size: 56675 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-6-Recovery-Relapse_c7ad4a8e.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-7-Am-I-an-Addict.pdf (size: 44005 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-7-Am-I-an-Addict_f7035f9f.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-8-Just-for-Today.pdf (size: 49693 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-8-Just-for-Today_dd174ac1.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-9-Living-the-Program.pdf (size: 61618 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-9-Living-the-Program_606848f8.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-11-Sponsorship.pdf (size: 58796 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-11-Sponsorship_d9dfd309.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-12-The-Triangle-of-Self-Obsession.pdf (size: 44356 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-12-The-Triangle-of-Self-Obsession_e1df5793.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-14-One-Addicts-Experience.pdf (size: 35397 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-14-One-Addicts-Experience_cf037922.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-15-PI-and-the-NA-Member.pdf (size: 43247 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-15-PI-and-the-NA-Member_c325d122.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-16-For-the-Newcomer.pdf (size: 38848 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-16-For-the-Newcomer_392da13c.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-17-For-Those-in-Treatment.pdf (size: 79957 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-17-For-Those-in-Treatment_f6412d99.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-19-Self-Acceptance.pdf (size: 49084 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-19-Self-Acceptance_204e539e.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-20-HI-Service-the-NA-Member.pdf (size: 43358 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-20-HI-Service-the-NA-Member_aae47bf2.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-21-The-Loner-Staying-Clean-in-Isolation.pdf (size: 112506 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_b0e533f4.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-22-Welcome-to-NA.pdf (size: 43110 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-22-Welcome-to-NA_5016ceb4.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-23-Staying-Clean-on-the-Outside.pdf (size: 59152 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-23-Staying-Clean-on-the-Outside_a43d8111.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-24-Money-Matters-Self-Support-in-NA.pdf (size: 357826 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-24-Money-Matters-Self-Support-in-NA_068b6f38.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-26-Accessibility-for-Those-with-Additional-Needs.pdf (size: 70117 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_c9aa616f.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-28-Funding-NA-Services.pdf (size: 794151 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-28-Funding-NA-Services_99c603eb.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-29-Introduction-to-NA-Meetings.pdf (size: 527001 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IP-29-Introduction-to-NA-Meetings_599d7d8e.pdf
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/04/WhatsApp-Image-2026-04-12-at-20.38.41.jpeg (size: 268461 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-04-12-at-20.38.41_b65f6880.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/02/Screenshot-2026-02-02-at-11.03.17.png (size: 32520 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Screenshot-2026-02-02-at-11.03.17_e6f3f1d3.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/02/WhatsApp-Image-2026-02-22-at-13.47.26.jpeg (size: 140534 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-22-at-13.47.26_53a7c8cd.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/03/WhatsApp-Image-2026-03-12-at-11.24.54.jpeg (size: 268461 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-03-12-at-11.24.54_ba52da90.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/03/image.png (size: 1660806 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/image_a59e00bc.png
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/03/WhatsApp-Image-2026-02-17-at-10.24.20.jpeg (size: 215368 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-02-17-at-10.24.20_aa7cd8c6.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/05/Observatory-Recreation-Centre-Entrance-2_.jpeg (size: 653552 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Observatory-Recreation-Centre-Entrance-2__e960cc85.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.48.20.jpeg (size: 261288 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-07-01-at-16.48.20_81dbeeef.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.47.59.jpeg (size: 127162 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/WhatsApp-Image-2026-07-01-at-16.47.59_5ae40e37.jpeg
+Uploading file (webdev private): ./narcoticsanonymouswesterncape/woocommerce-placeholder.webp (size: 9892 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/woocommerce-placeholder_3fa9ab31.webp
+
+========== Upload Summary ==========
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/favicon.png -> /manus-storage/favicon_76f87aa6.png
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/cropped-favicon.png -> /manus-storage/cropped-favicon_f54a796f.png
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/logo.png -> /manus-storage/logo_b2c81b15.png
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/143021-e1763291423474.jpg -> /manus-storage/143021-e1763291423474_0c8adbd6.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/2147770870-e1763292893626.jpg -> /manus-storage/2147770870-e1763292893626_cba697a2.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/2151930388.jpg -> /manus-storage/2151930388_5a3f9f5e.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/29376.jpg -> /manus-storage/29376_b509e76f.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/2025/11/96081.jpg -> /manus-storage/96081_8ce78163.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/29680.jpg -> /manus-storage/29680_a23b1f9c.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/129014.jpg -> /manus-storage/129014_8bb0ef36.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/zapper.png -> /manus-storage/zapper_0fa13181.png
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/2150951473.jpg -> /manus-storage/2150951473_6cb18613.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/559.jpg -> /manus-storage/559_38cf3d3c.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/584.jpg -> /manus-storage/584_6c0e2e37.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/2151118274.jpg -> /manus-storage/2151118274_ebfda644.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/helping-each-other-scaled-1.jpg -> /manus-storage/helping-each-other-scaled-1_f58f7eb7.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/123795.jpg -> /manus-storage/123795_e6cb4739.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/120044.jpg -> /manus-storage/120044_027fa9a5.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/2/2025/11/banner-wc-001-e1763484626801.webp -> /manus-storage/banner-wc-001-e1763484626801_037f9cde.webp
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/3/2025/11/2733704_12016-scaled-1.jpg -> /manus-storage/2733704_12016-scaled-1_893ab0ba.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/3/2025/11/home-banner.jpg -> /manus-storage/home-banner_1ed48f5d.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/5/2025/11/7173.jpg -> /manus-storage/7173_4a27d791.jpg
+[SUCCESS] ./narcoticsanonymousjohannesburg/sites/5/2025/11/na-safety.jpg -> /manus-storage/na-safety_793980fb.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/favicon.png -> /manus-storage/favicon_a76b7d1e.png
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/cropped-favicon.png -> /manus-storage/cropped-favicon_cf77b0fd.png
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/143021-e1763291423474.jpg -> /manus-storage/143021-e1763291423474_6b137e88.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/2147770870-e1763292893626.jpg -> /manus-storage/2147770870-e1763292893626_8f951734.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/2151930388.jpg -> /manus-storage/2151930388_41252184.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/29376.jpg -> /manus-storage/29376_b73a0dfa.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/2025/11/logo.png -> /manus-storage/logo_72db097f.png
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/29680.jpg -> /manus-storage/29680_633a77fe.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/129014.jpg -> /manus-storage/129014_7ae9af23.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/zapper.png -> /manus-storage/zapper_efc0a542.png
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/2150951473.jpg -> /manus-storage/2150951473_68a392d7.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/559.jpg -> /manus-storage/559_6f3121c0.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/584.jpg -> /manus-storage/584_81cd7c59.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/2151118274.jpg -> /manus-storage/2151118274_a48ef380.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/helping-each-other-scaled-1.jpg -> /manus-storage/helping-each-other-scaled-1_e0c666a6.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/123795.jpg -> /manus-storage/123795_3bbfcdf5.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/120044.jpg -> /manus-storage/120044_5c7a5009.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/2/2025/11/banner-wc-001-e1763484626801.webp -> /manus-storage/banner-wc-001-e1763484626801_2f3f49a8.webp
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/3/2025/11/2733704_12016-scaled-1.jpg -> /manus-storage/2733704_12016-scaled-1_ed223066.jpg
+[SUCCESS] ./narcoticsanonymouskwazulu-natal/sites/3/2025/11/home-banner.jpg -> /manus-storage/home-banner_f0aaa7cd.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/favicon.png -> /manus-storage/favicon_2a9dc8f9.png
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/cropped-favicon.png -> /manus-storage/cropped-favicon_45824bd4.png
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/143021-e1763291423474.jpg -> /manus-storage/143021-e1763291423474_8ac500ba.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/2147770870-e1763292893626.jpg -> /manus-storage/2147770870-e1763292893626_635f3e16.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/2151930388.jpg -> /manus-storage/2151930388_e9e5e655.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/29376.jpg -> /manus-storage/29376_7656e3ca.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/logo.png -> /manus-storage/logo_d1ab9a94.png
+[SUCCESS] ./narcoticsanonymouspretoria/2025/11/19692.jpg -> /manus-storage/19692_7aad2af4.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/29680.jpg -> /manus-storage/29680_3154afeb.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/129014.jpg -> /manus-storage/129014_800953db.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/zapper.png -> /manus-storage/zapper_75368afb.png
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/2150951473.jpg -> /manus-storage/2150951473_b0f654de.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/559.jpg -> /manus-storage/559_62ce9729.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/584.jpg -> /manus-storage/584_469d87b0.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/2151118274.jpg -> /manus-storage/2151118274_ee9db341.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/helping-each-other-scaled-1.jpg -> /manus-storage/helping-each-other-scaled-1_c551d198.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/123795.jpg -> /manus-storage/123795_aaee993c.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/120044.jpg -> /manus-storage/120044_3806b2b5.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/2/2025/11/banner-wc-001-e1763484626801.webp -> /manus-storage/banner-wc-001-e1763484626801_ae23c08a.webp
+[SUCCESS] ./narcoticsanonymouspretoria/sites/3/2025/11/2733704_12016-scaled-1.jpg -> /manus-storage/2733704_12016-scaled-1_ba1b6c83.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/3/2025/11/home-banner.jpg -> /manus-storage/home-banner_96cf1363.jpg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/4/2025/11/NA-Keytag-Welcome.jpeg -> /manus-storage/NA-Keytag-Welcome_06b3e71b.jpeg
+[SUCCESS] ./narcoticsanonymouspretoria/sites/4/2026/02/WhatsApp-Image-2026-02-23-at-14.43.50.jpeg -> /manus-storage/WhatsApp-Image-2026-02-23-at-14.43.50_1eb26ba3.jpeg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/96081.jpg -> /manus-storage/96081_a8492e37.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/29376.jpg -> /manus-storage/29376_d85fb462.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/logo.png -> /manus-storage/logo_81ca2a04.png
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/na-site-logo.webp -> /manus-storage/na-site-logo_e4fb5f32.webp
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/women-s-day-celebration-with-flower.jpg -> /manus-storage/women-s-day-celebration-with-flower_56330093.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2151930384.jpg -> /manus-storage/2151930384_fce7bc73.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2151930388.jpg -> /manus-storage/2151930388_3639c3db.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/helping-each-other.jpg -> /manus-storage/helping-each-other_f394a792.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2148398371.jpg -> /manus-storage/2148398371_39f09299.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/143021.jpg -> /manus-storage/143021_2a669bb2.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2147770870.jpg -> /manus-storage/2147770870_e014be3b.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2148938724.jpg -> /manus-storage/2148938724_eddeef2f.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2148101442.jpg -> /manus-storage/2148101442_0a08705c.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2148101442-1.jpg -> /manus-storage/2148101442-1_31d37de4.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/2148101442-2.jpg -> /manus-storage/2148101442-2_48241d3d.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/19692.jpg -> /manus-storage/19692_917f25a6.jpg
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/favicon.png -> /manus-storage/favicon_215510fd.png
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/2025/11/cropped-favicon.png -> /manus-storage/cropped-favicon_de399e06.png
+[SUCCESS] ./narcoticsanonymoussouthafricaregion/woocommerce-placeholder.webp -> /manus-storage/woocommerce-placeholder_452ec6eb.webp
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/2148938724-e1763294084270.jpg -> /manus-storage/2148938724-e1763294084270_232b93c2.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/2147770870-e1763292893626.jpg -> /manus-storage/2147770870-e1763292893626_f23efbc6.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/2148101442-1-e1763294562253.jpg -> /manus-storage/2148101442-1-e1763294562253_1e45ec86.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/143021-e1763291423474.jpg -> /manus-storage/143021-e1763291423474_e3cf9412.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/19692-e1763294820786.jpg -> /manus-storage/19692-e1763294820786_a748f019.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/2151930384.jpg -> /manus-storage/2151930384_ae408dd8.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/2151930388.jpg -> /manus-storage/2151930388_8157f912.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/96081.jpg -> /manus-storage/96081_b92cd07c.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/29376.jpg -> /manus-storage/29376_0d001fff.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/favicon.png -> /manus-storage/favicon_29d155b2.png
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/cropped-favicon.png -> /manus-storage/cropped-favicon_e46b298f.png
+[SUCCESS] ./narcoticsanonymouswesterncape/2025/11/logo.png -> /manus-storage/logo_4d855b18.png
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/helping-each-other-scaled-1.jpg -> /manus-storage/helping-each-other-scaled-1_4a71d4da.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/Google-Forms-Logo.png -> /manus-storage/Google-Forms-Logo_5572cc38.png
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/banner-wc-001.webp -> /manus-storage/banner-wc-001_37914c2b.webp
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/559.jpg -> /manus-storage/559_04ec2abd.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/584.jpg -> /manus-storage/584_06ea6f1d.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/119749.jpg -> /manus-storage/119749_5803c667.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/120044.jpg -> /manus-storage/120044_d182b800.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/2151118274.jpg -> /manus-storage/2151118274_6c168a59.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/people-taking-part-high-protocol-event.jpg -> /manus-storage/people-taking-part-high-protocol-event_68d2dc3f.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/2733704_12016.jpg -> /manus-storage/2733704_12016_526ecf97.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/2149035698.jpg -> /manus-storage/2149035698_218c993b.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/129014.jpg -> /manus-storage/129014_4ed58e31.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/zapper.png -> /manus-storage/zapper_f324fcdf.png
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/6914.jpg -> /manus-storage/6914_d5cea40c.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/2149758877.jpg -> /manus-storage/2149758877_f7f7a3c0.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/123795.jpg -> /manus-storage/123795_298be277.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/29680.jpg -> /manus-storage/29680_f8f364a5.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2025/11/2150951473.jpg -> /manus-storage/2150951473_35649741.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/01/high-angle-arrangement-with-speech-bubbles.jpg -> /manus-storage/high-angle-arrangement-with-speech-bubbles_94953548.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/01/istockphoto-1220573371-612x612-1.jpg -> /manus-storage/istockphoto-1220573371-612x612-1_7bea7242.jpg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/2306_PRMAT_2023.pdf -> /manus-storage/2306_PRMAT_2023_134c5a92.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/3130_MHR-IP-30-English.pdf -> /manus-storage/3130_MHR-IP-30-English_9d74114e.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs.pdf -> /manus-storage/Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs_d34f3f59.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/EN2205-NA-Groups-and-MEdication-English.pdf -> /manus-storage/EN2205-NA-Groups-and-MEdication-English_454e20e8.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/In-Times-of-Illness-English.pdf -> /manus-storage/In-Times-of-Illness-English_ad55d230.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-1-Who-What-How-and-Why.pdf -> /manus-storage/IP-1-Who-What-How-and-Why_dc5cffdc.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-2-The-Group.pdf -> /manus-storage/IP-2-The-Group_2735958d.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-5-Another-Look.pdf -> /manus-storage/IP-5-Another-Look_50e3b5a0.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-6-Recovery-Relapse.pdf -> /manus-storage/IP-6-Recovery-Relapse_c7ad4a8e.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-7-Am-I-an-Addict.pdf -> /manus-storage/IP-7-Am-I-an-Addict_f7035f9f.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-8-Just-for-Today.pdf -> /manus-storage/IP-8-Just-for-Today_dd174ac1.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-9-Living-the-Program.pdf -> /manus-storage/IP-9-Living-the-Program_606848f8.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-11-Sponsorship.pdf -> /manus-storage/IP-11-Sponsorship_d9dfd309.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-12-The-Triangle-of-Self-Obsession.pdf -> /manus-storage/IP-12-The-Triangle-of-Self-Obsession_e1df5793.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-14-One-Addicts-Experience.pdf -> /manus-storage/IP-14-One-Addicts-Experience_cf037922.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-15-PI-and-the-NA-Member.pdf -> /manus-storage/IP-15-PI-and-the-NA-Member_c325d122.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-16-For-the-Newcomer.pdf -> /manus-storage/IP-16-For-the-Newcomer_392da13c.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-17-For-Those-in-Treatment.pdf -> /manus-storage/IP-17-For-Those-in-Treatment_f6412d99.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-19-Self-Acceptance.pdf -> /manus-storage/IP-19-Self-Acceptance_204e539e.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-20-HI-Service-the-NA-Member.pdf -> /manus-storage/IP-20-HI-Service-the-NA-Member_aae47bf2.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-21-The-Loner-Staying-Clean-in-Isolation.pdf -> /manus-storage/IP-21-The-Loner-Staying-Clean-in-Isolation_b0e533f4.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-22-Welcome-to-NA.pdf -> /manus-storage/IP-22-Welcome-to-NA_5016ceb4.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-23-Staying-Clean-on-the-Outside.pdf -> /manus-storage/IP-23-Staying-Clean-on-the-Outside_a43d8111.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-24-Money-Matters-Self-Support-in-NA.pdf -> /manus-storage/IP-24-Money-Matters-Self-Support-in-NA_068b6f38.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-26-Accessibility-for-Those-with-Additional-Needs.pdf -> /manus-storage/IP-26-Accessibility-for-Those-with-Additional-Needs_c9aa616f.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-28-Funding-NA-Services.pdf -> /manus-storage/IP-28-Funding-NA-Services_99c603eb.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/IP-29-Introduction-to-NA-Meetings.pdf -> /manus-storage/IP-29-Introduction-to-NA-Meetings_599d7d8e.pdf
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/04/WhatsApp-Image-2026-04-12-at-20.38.41.jpeg -> /manus-storage/WhatsApp-Image-2026-04-12-at-20.38.41_b65f6880.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/02/Screenshot-2026-02-02-at-11.03.17.png -> /manus-storage/Screenshot-2026-02-02-at-11.03.17_e6f3f1d3.png
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/02/WhatsApp-Image-2026-02-22-at-13.47.26.jpeg -> /manus-storage/WhatsApp-Image-2026-02-22-at-13.47.26_53a7c8cd.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/03/WhatsApp-Image-2026-03-12-at-11.24.54.jpeg -> /manus-storage/WhatsApp-Image-2026-03-12-at-11.24.54_ba52da90.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/03/image.png -> /manus-storage/image_a59e00bc.png
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/03/WhatsApp-Image-2026-02-17-at-10.24.20.jpeg -> /manus-storage/WhatsApp-Image-2026-02-17-at-10.24.20_aa7cd8c6.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/05/Observatory-Recreation-Centre-Entrance-2_.jpeg -> /manus-storage/Observatory-Recreation-Centre-Entrance-2__e960cc85.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.48.20.jpeg -> /manus-storage/WhatsApp-Image-2026-07-01-at-16.48.20_81dbeeef.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/sites/2/2026/07/WhatsApp-Image-2026-07-01-at-16.47.59.jpeg -> /manus-storage/WhatsApp-Image-2026-07-01-at-16.47.59_5ae40e37.jpeg
+[SUCCESS] ./narcoticsanonymouswesterncape/woocommerce-placeholder.webp -> /manus-storage/woocommerce-placeholder_3fa9ab31.webp
+=====================================
+Total: 154, Success: 154, Failed: 0
