@@ -183,7 +183,7 @@
 - [x] Build a source-of-truth inventory of every live/published item with its URL, area, meeting type, status, schedule, address or online join/contact path, and source timestamp where available.
 - [x] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
 - [x] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
-- [ ] Verify every implemented public meeting and online-meeting path, including maps and directions for physical meetings and join/contact behavior for online meetings.
+- [x] Verify every implemented public meeting and online-meeting path, including maps and directions for physical meetings and join/contact behavior for online meetings.
 - [x] Save a complete parity audit and checkpoint with counts, source coverage, discrepancies, and implementation outcomes.
 
 

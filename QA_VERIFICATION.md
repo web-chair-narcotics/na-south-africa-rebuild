@@ -182,3 +182,7 @@ The primary route check returned HTTP 200 for the core public pages, all five la
 ## Complete live meeting parity closure — 16 August 2026
 
 The current five canonical TSML feeds now reconcile exactly at the normalized meeting key level: **327 of 327 live keys match the Manus corpus**, with **0 live-only keys, 0 Manus-only keys, and 0 status/format conflicts**. One duplicate legacy-row lineage explains the database’s 328 rows without producing a duplicate normalized current-live key. The final audit preserves the only two legacy encoding exceptions: Parkhurst Sunday remains archived but now holds its current inactive schedule metadata, and Esihlahleni Tsakane `Daily - 17:30` is normalized to the stored seven-day schedule. See `ALL_MEETING_DB_PARITY.md` and `ALL_MEETING_DB_PARITY.json`.
+
+## Full public meeting-journey coverage — 16 August 2026
+
+The full published corpus was checked after the final live parity update. All **255 in-person** and **3 hybrid** records have the physical fields required for maps and directions, and the finder regression confirms that each has a corresponding map point. All **51 online-only** records have zero physical fields and zero map points, with 49 preserved join URLs and 2 contact fallbacks. The browser smoke checks, legacy-directory redirects, detail route coverage, primary-link check, and full-corpus regression together verify that physical routes use maps/directions while online-only routes use join/contact treatment.

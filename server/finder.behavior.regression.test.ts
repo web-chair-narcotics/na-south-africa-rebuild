@@ -54,3 +54,14 @@ describe("published finder behavioural regression safeguards", () => {
       expect(result.items.every(item => !("inactive" in item))).toBe(true);
     }
   });
+
+  it("keeps every published physical and hybrid record routable on the map while online-only records remain map-free", async () => {
+    const [physical, hybrid, online] = await Promise.all([
+      searchPublicMeetings({ meetingFormat: "in_person", page: 1, pageSize: 1000 }),
+      searchPublicMeetings({ meetingFormat: "hybrid", page: 1, pageSize: 1000 }),
+      searchPublicMeetings({ meetingFormat: "online", page: 1, pageSize: 1000 }),
+    ]);
+    expect(physical.mapPoints).toHaveLength(physical.items.length);
+    expect(hybrid.mapPoints).toHaveLength(hybrid.items.length);
+    expect(online.mapPoints).toHaveLength(0);
+  });
