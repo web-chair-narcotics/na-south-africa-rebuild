@@ -27,3 +27,10 @@ The separate Google Maps reliability finding is intentionally not treated as a p
 ## Code-level regression evidence
 
 `server/brandAlignment.test.ts` reads the global stylesheet and verifies the supplied core colour tokens (`#085C84`, `#2F9B3E`, `#54595F`, `#F8F8F8`, `#EEEEEE`, and `#AAAAAA`) alongside the Gelasio, Neuton, and Roboto font names. The post-alignment verification passed TypeScript checking, **15 tests across 7 test files**, and the production build. This provides inspectable evidence that the supplied brand source remains represented in the deployed stylesheet, independent of visual capture tooling.
+
+
+## Final whole-site palette reconciliation
+
+A follow-up audit reconciled every hard-coded client colour against the supplied palette. Core source colours are used consistently across public, area, meeting-detail, and administrator surfaces; intentional alpha variants are retained only for overlays and borders. The audit removed the former deep-green page-level tokens, corrected malformed eight-digit alpha literals created during bulk replacement, and changed accent-green button foregrounds to white wherever the prior foreground would have failed contrast.
+
+The code-level regression now scans the complete `client/src` tree, asserts the supplied palette and typography tokens are present, and rejects the replaced page-level green tokens. Final verification passed TypeScript checking, **22 tests across 10 files**, and the production build. Fresh 1280 × 720 and 390 × 844 captures passed for Home, Meeting Finder, meeting detail, Johannesburg, and National Administration. A native touch-device keyboard traversal is still intentionally open and remains tracked in `todo.md`.

@@ -11,9 +11,9 @@
 - [x] Build national super-admin oversight, area administration, meeting review, and exact visible QA items: address verified, map pin confirmed, spelling checked, contact confirmed.
 - [x] Implement in-app review notifications for area administrators and national super-administrators.
 - [ ] Migrate and verify public pages, meeting records, maps, addresses, spelling, and contact details. Meeting data is verified for publication gating; 81 regional WordPress pages remain draft-staged pending page-level review.
-- [ ] Add security controls, accessibility safeguards, validation, auditability, and error reporting. Security headers, validation, audit events, and runtime error reporting are implemented; formal accessibility tooling remains pending.
+- [x] Add security controls, accessibility safeguards, validation, auditability, and error reporting. Security headers, validation, audit events, runtime error reporting, semantic scans, and keyboard safeguards are implemented; native touch-device validation remains tracked separately.
 - [x] Write and run unit tests for permission isolation, meeting validation, search filters, and QA/review workflows.
-- [ ] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots and a live public-route smoke test exist; formal browser acceptance remains pending.
+- [ ] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots, live public-route smoke tests, finder interactions, and dedicated meeting-detail checks are documented; broader administrator workflow and native touch-device validation remain open.
 - [x] Produce the migration register, QA evidence, and administrator handover guidance. Migration registers and ADMIN_HANDOVER.md are present; page publication remains pending.
 - [x] Add and route a public Areas page that explains area service coverage and links into the finder.
 - [x] Implement the protected /admin landing experience before retaining the area-administration navigation entry.
@@ -69,10 +69,10 @@
 - [x] Recompute each attachment’s derivative variant count from the attachment-specific archive linkage rather than global filename-family matches.
 - [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
 - [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.
-- [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point.
+- [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point; the meeting-detail portion is now separately evidenced.
 - [x] Explicitly verify that the meeting finder Next control advances to a later page and changes the page indicator and result set.
-- [ ] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
-- [ ] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
+- [x] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
+- [x] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
 - [ ] Record a native responsive interactive-browser keyboard pass for the mobile navigation, supplementing the desktop test-harness verification.
 - [x] Rerun TypeScript checks, unit tests, and the production build after the latest public-layout accessibility changes.
 - [x] Produce a concise publication-readiness register for the 81 draft-staged regional pages and the remaining national meeting QA decisions.
@@ -107,3 +107,21 @@
 - [x] Live-verify one in-person detail route, one online detail route, a not-found route, contact actions, and the resulting CTA behavior.
 
 - [x] Correct stale handover and QA evidence statements that still describe completed media intake or accessibility scans as pending.
+
+- [x] Capture and document the actual `/meetings/:id` route at desktop and mobile widths as part of the responsive acceptance pass.
+- [ ] Complete and document an end-to-end acceptance pass across public core journeys and administrator entry/workflow boundaries, without claiming organisation-owned publication decisions are complete.
+
+- [ ] Run and document an authenticated administrator boundary acceptance pass with an authorised account, verifying protected entry, role-scoped access, and inaccessible unauthorised workflow surfaces.
+
+- [x] Apply the supplied uploaded colour palette consistently across all public, area, meeting-detail, and administrator surfaces instead of retaining legacy page-level green treatments.
+- [x] Reconcile every client-side hard-coded colour against the supplied palette and record any intentional contrast exceptions.
+- [x] Re-run full visual, responsive, accessibility, TypeScript, unit-test, and production-build verification after the whole-site palette update.
+
+- [x] Correct the palette migration’s malformed white literal and align the regression test with palette usage across the full client source.
+
+- [x] Correct palette-induced contrast regressions where accent green foregrounds or button text now match the accent green background.
+- [x] Re-run desktop and mobile palette screenshots after contrast remediation and confirm no text becomes unreadable.
+
+- [x] Re-run and document post-palette accessibility verification on updated routes, including keyboard traversal and semantic/contrast-focused checks.
+
+- [ ] Re-run and document post-palette keyboard traversal on Home, Meetings, Meeting Detail, Area Page, and Admin entry, confirming skip-link focus, navigation order, visible focus, and CTA usability. Source-level safeguards passed; real interactive-browser traversal remains open.

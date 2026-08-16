@@ -11,7 +11,7 @@ export default function LegacyRouteRedirect() {
   }, [destination, navigate]);
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-[#f8f6f0] px-6 text-center text-[#142d2a]">
+    <main className="flex min-h-screen items-center justify-center bg-[#F8F8F8] px-6 text-center text-[#54595F]">
       <p className="text-sm font-semibold uppercase tracking-[0.16em]">Taking you to the rebuilt NA South Africa site…</p>
     </main>
   );

@@ -59,4 +59,41 @@ The automated browser used for this pass has a fixed desktop interaction viewpor
 
 ## Dedicated meeting-detail verification
 
-The published in-person route `/meetings/328` loaded Esihlahleni Tsakane with its area, schedule, venue/address, contact note, and exact Google Maps directions URL. The published online route `/meetings/2` loaded JFT as `Online Meeting`, exposed the contact action and “Find another meeting,” and did not render a physical-directions or online-join CTA because the imported source has no usable `onlineUrl`; it therefore avoids implying a false venue or fabricated join destination. The missing route `/meetings/999999` returned the safe “We could not find that meeting” state with a clear finder link and no private record data. The format-aware primary-action logic is covered by the route regression evidence and the latest application checks.
+The published in-person route `/meetings/328` loaded Esihlaheni Tsakane with its area, schedule, venue/address, contact note, and exact Google Maps directions URL. Desktop and 375-pixel mobile captures both show the route as a readable single journey: the title and area context remain visible, the meeting facts stack without clipping, the directions CTA remains a large tap target, and the finder fallback remains available.
+
+The published online route `/meetings/2` loaded JFT as `Online Meeting`, exposed the contact action and “Find another meeting,” and did not render a physical-directions or online-join CTA because the imported source has no usable `onlineUrl`; it therefore avoids implying a false venue or fabricated join destination. The missing route `/meetings/999999` returned the safe “We could not find that meeting” state with a clear finder link and no private record data. The format-aware primary-action logic is covered by the route regression evidence and the latest application checks.
+
+## Administrator entry boundary
+
+A live visit to `/admin` without a session redirected to the Manus sign-in surface for Narcotics Anonymous South Africa. The unauthenticated boundary exposed no meeting, area, audit, or content records and offered the expected sign-in paths. Authenticated area-admin CRUD and national-review workflow acceptance remains open because it requires a real authorised account and organisation-owned review decisions; this boundary check is not presented as a substitute for that workflow test.
+
+## Public journey and administrator-boundary acceptance
+
+The end-to-end boundary pass covered the public home, About NA, Recovery, Literature, News, Contact, Areas hub, all four dedicated area routes, meeting finder, in-person meeting detail, online meeting detail, missing-meeting detail, and the unauthenticated `/admin` entry. The public journeys preserved the shared skip link, help pathway, footer escape routes, and expected local navigation; the administrator entry redirected to the approved sign-in surface without exposing protected records. Authenticated area-admin CRUD, national review submission, and external email delivery remain intentionally separate approval-dependent tests and are not claimed complete by this boundary pass.
+
+
+## Final palette migration and responsive visual verification
+
+The supplied legacy palette was reconciled across the complete `client/src` tree rather than only the global stylesheet. The final source audit confirms the core blue, green, neutral, grey, and supplied font tokens are represented, the former page-level deep-green tokens are absent, and no malformed hex literals remain. The palette regression suite now covers both positive token presence and legacy-token removal.
+
+The first fresh desktop screenshot pass exposed two palette-replacement defects: an invalid white alpha literal and green foreground text on green CTA surfaces. Both were corrected by restoring valid eight-digit alpha literals and pairing accent-green buttons with white text. The follow-up desktop capture showed readable CTAs on Home, Johannesburg, and National Administration surfaces. A 390 × 844 responsive capture then confirmed the mobile hero, hamburger header, stacked meeting filters, meeting-detail facts, area CTA, and administration cards remain readable and within the viewport.
+
+| Route set | Desktop 1280 × 720 | Mobile 390 × 844 |
+|---|---|---|
+| Home | Pass after contrast remediation | Pass — stacked CTAs and hero remain readable |
+| Meeting finder | Pass — search and filter hierarchy remain clear | Pass — filters stack without clipping |
+| Meeting detail | Pass — heading, area context, and fallback remain visible | Pass — facts stack with venue context visible |
+| Johannesburg area | Pass — blue eyebrow, neutral hero, and CTA hierarchy remain readable | Pass — CTA and local-recovery panel remain readable |
+| National administration | Pass — oversight cards and navigation remain legible | Pass — cards stack and management CTA remains usable |
+
+The screenshot pass is visual evidence only; the native touch-device menu traversal remains the explicitly open item already recorded above.
+
+
+## Post-palette accessibility verification
+
+After the whole-site colour migration and contrast remediation, the semantic accessibility regression suite and brand-alignment suite were rerun together. All **22 tests across 10 files** passed, including the skip-link/main-landmark focus safeguards, labelled meeting-search control, public-navigation semantics, area-route checks, and full client palette audit. A source-level contrast scan found no remaining accent-green CTA combinations using the former same-colour or dark-green foregrounds. This confirms the palette changes did not regress the automated accessibility safeguards; native touch-device keyboard traversal remains separately open as previously documented.
+
+
+## Post-palette keyboard traversal limitation
+
+The post-palette route contract confirms that Home, Meetings, meeting detail, Johannesburg, and Admin retain the skip-link target, focus-ring CSS, mobile navigation ARIA attributes, meeting-finder CTA, exact-directions CTA, and admin entry route. The corresponding regression test passed. However, this is source-level evidence rather than an actual interactive-browser Tab traversal: no browser automation session capable of sending keyboard events was available in this final pass. The native interactive keyboard traversal item therefore remains open in `todo.md` and must not be represented as complete until exercised in a real browser or device session.

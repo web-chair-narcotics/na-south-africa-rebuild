@@ -82,27 +82,27 @@ export default function ContentPage({ page }: { page: PageKey }) {
 
   return (
     <PublicLayout>
-      <section className="relative overflow-hidden border-b border-[#172329]/10 bg-[#e6eee3] py-16 sm:py-24">
+      <section className="relative overflow-hidden border-b border-[#54595F]/10 bg-[#F8F8F8] py-16 sm:py-24">
         <div className="site-container relative max-w-5xl">
-          <div className="mb-7 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#145044] text-white"><Icon className="h-6 w-6" aria-hidden="true" /></div>
+          <div className="mb-7 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#2F9B3E] text-white"><Icon className="h-6 w-6" aria-hidden="true" /></div>
           <p className="eyebrow">{item.eyebrow}</p>
-          <h1 className="mt-4 max-w-4xl font-serif text-4xl leading-[1.04] tracking-[-0.04em] text-[#142d2a] sm:text-6xl">{item.title}</h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#405057] sm:text-xl">{item.lead}</p>
+          <h1 className="mt-4 max-w-4xl font-serif text-4xl leading-[1.04] tracking-[-0.04em] text-[#54595F] sm:text-6xl">{item.title}</h1>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#54595F] sm:text-xl">{item.lead}</p>
         </div>
       </section>
       <section className="site-container grid gap-10 py-14 sm:py-20 lg:grid-cols-[minmax(0,1fr)_330px] lg:gap-20">
-        <article className="max-w-3xl space-y-6 text-lg leading-8 text-[#38484e]">
+        <article className="max-w-3xl space-y-6 text-lg leading-8 text-[#54595F]">
           {item.body.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
         </article>
-        <aside className="h-fit rounded-3xl bg-[#142d2a] p-7 text-white shadow-[0_18px_45px_rgba(20,45,42,0.14)]">
-          <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#c7d9ae]">Need support now?</p>
+        <aside className="h-fit rounded-3xl bg-[#54595F] p-7 text-white shadow-[0_18px_45px_rgba(20,45,42,0.14)]">
+          <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#2F9B3E]">Need support now?</p>
           <p className="mt-3 font-serif text-2xl leading-8">A meeting can be a practical first step.</p>
           {item.cta && (external ? (
-            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#c7d9ae] font-semibold text-[#142d2a] hover:bg-[#d9e7c6]">
+            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#EEEEEE]">
               <a href={item.cta.href} target="_blank" rel="noreferrer">{item.cta.label}<ExternalLink className="ml-2 h-4 w-4" /></a>
             </Button>
           ) : (
-            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#c7d9ae] font-semibold text-[#142d2a] hover:bg-[#d9e7c6]">
+            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#EEEEEE]">
               <Link href={item.cta.href}>{item.cta.label}<ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           ))}
