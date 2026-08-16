@@ -3,7 +3,12 @@ import { Link } from "wouter";
 import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
-const areas = ["Johannesburg", "KwaZulu-Natal", "Pretoria", "Western Cape"];
+const areas = [
+  { name: "Johannesburg", slug: "johannesburg", directoryName: "Johannesburg" },
+  { name: "Cape Town", slug: "cape-town", directoryName: "Western Cape" },
+  { name: "Pretoria", slug: "pretoria", directoryName: "Pretoria" },
+  { name: "KwaZulu-Natal", slug: "kwazulu-natal", directoryName: "KwaZulu-Natal" },
+];
 
 export default function Areas() {
   return (
@@ -18,8 +23,8 @@ export default function Areas() {
       <section className="site-container py-14 sm:py-20">
         <div className="grid gap-4 sm:grid-cols-2">
           {areas.map(area => (
-            <Link key={area} href={`/meetings?area=${encodeURIComponent(area)}`} className="group flex min-h-32 items-center justify-between rounded-3xl border border-[#d7dfd5] bg-white p-6 shadow-[0_8px_24px_rgba(20,45,42,0.04)] transition-transform hover:-translate-y-0.5">
-              <div><MapPinned className="h-5 w-5 text-[#2e6756]" aria-hidden="true" /><h2 className="mt-5 font-serif text-2xl text-[#142d2a]">{area}</h2></div>
+            <Link key={area.slug} href={`/areas/${area.slug}`} className="group flex min-h-32 items-center justify-between rounded-3xl border border-[#d7dfd5] bg-white p-6 shadow-[0_8px_24px_rgba(20,45,42,0.04)] transition-transform hover:-translate-y-0.5">
+              <div><MapPinned className="h-5 w-5 text-[#2e6756]" aria-hidden="true" /><h2 className="mt-5 font-serif text-2xl text-[#142d2a]">{area.name}</h2><span className="mt-2 block text-sm font-semibold text-[#17658b]">View area website</span></div>
               <ArrowRight className="h-5 w-5 text-[#2e6756] transition-transform group-hover:translate-x-1" aria-hidden="true" />
             </Link>
           ))}

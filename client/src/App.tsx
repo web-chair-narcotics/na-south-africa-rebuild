@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import AdminLanding from "./pages/AdminLanding";
 import AdminPortal from "./pages/AdminPortal";
 import Areas from "./pages/Areas";
+import AreaPage from "./pages/AreaPage";
 import ContentPage from "./pages/ContentPage";
 import Home from "./pages/Home";
 import Meetings from "./pages/Meetings";
@@ -18,6 +19,10 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/meetings" component={Meetings} />
       <Route path="/areas" component={Areas} />
+      <Route path="/areas/johannesburg">{() => <AreaPage slug="johannesburg" />}</Route>
+      <Route path="/areas/cape-town">{() => <AreaPage slug="cape-town" />}</Route>
+      <Route path="/areas/pretoria">{() => <AreaPage slug="pretoria" />}</Route>
+      <Route path="/areas/kwazulu-natal">{() => <AreaPage slug="kwazulu-natal" />}</Route>
       <Route path="/admin/login" component={AdminLanding} />
       <Route path="/admin/:rest*" component={AdminPortal} />
       <Route path="/admin" component={AdminPortal} />

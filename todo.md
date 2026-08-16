@@ -93,3 +93,10 @@
 - [x] Document the remaining organisation-owned approvals and inputs: 81 regional page publication decisions, 328 staged meeting QA decisions, an approved transactional email provider, and native mobile keyboard validation.
 
 - [x] Harden the Maps loader against stale or partially initialized scripts so transient proxy failures do not leave the meeting finder in an unnecessary fallback state.
+
+- [x] Inventory every uploaded file and classify its implementation status as built, staged, evidence-only, duplicate, or requiring organisational approval.
+- [x] Map uploaded requirements and source records to public routes, area administration, database workflows, QA evidence, tests, and live deployment.
+- [x] Implement feasible missing items identified by the uploaded-file audit without publishing unapproved content.
+- [x] Produce a complete uploaded-file audit recap separating completed work, outstanding work, and approval-dependent blockers.
+
+- [x] Implement dedicated public area landing pages for Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal, while keeping area-specific factual content limited to verified source evidence.
