@@ -50,3 +50,9 @@ The remaining project-ledger items are not hidden implementation failures. They 
 ## Applied Area-system-of-record correction
 
 The current Pretoria Area feed showed **Soshanguve Meeting — Wednesday** and **Soshanguve Meeting — Sunday** as live in-person records, while their Region-import counterparts were archived. Following the governing source rule that each Area site is the system of record for its own meetings, the rebuild corrected meeting IDs 108 and 299 to `published`, restored the Wednesday and Sunday schedules, updated the live Area source URLs, updated the current Area coordinates, and recorded the source decision in each row’s review notes. No other conflicting record was promoted automatically.
+
+## Final complete-feed parity result — 16 August 2026
+
+The canonical Region, Johannesburg, Pretoria, Western Cape, and KwaZulu-Natal TSML feeds were re-fetched and compared with every Manus meeting record using normalized meeting name, schedule day, and start time. The result is **327 of 327 current-live normalized keys matched**, with **zero live-only keys, zero Manus-only keys, and zero current status/format conflicts**. The database has 328 rows because one current source key is represented by a duplicate legacy-row lineage; it does not create an additional public result under the normalized finder key.
+
+The final reconciliation also aligned the archived Parkhurst Sunday record’s non-public schedule metadata with its live inactive source while retaining its archived status. The legacy Daily Esihlahleni Tsakane source has no standalone day/time field; the current feed encodes `Daily - 17:30` in the meeting name. The parity audit explicitly normalizes that verified source convention to the stored seven-day, 17:30 schedule. The full machine-readable and human-readable record is `ALL_MEETING_DB_PARITY.json` and `ALL_MEETING_DB_PARITY.md`.

@@ -182,7 +182,7 @@
 - [ ] Crawl every publicly reachable area route, meeting directory, meeting detail, online-meeting listing, and linked public page on the current na.org.za site; the three supplied URLs are examples only and receive no special treatment.
 - [x] Build a source-of-truth inventory of every live/published item with its URL, area, meeting type, status, schedule, address or online join/contact path, and source timestamp where available.
 - [x] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
-- [ ] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
+- [x] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
 - [ ] Verify every implemented public meeting and online-meeting path, including maps and directions for physical meetings and join/contact behavior for online meetings.
 - [x] Save a complete parity audit and checkpoint with counts, source coverage, discrepancies, and implementation outcomes.
 
@@ -222,7 +222,7 @@
 - [x] Add two unmistakably distinct home-page entry paths for in-person and online meetings, with clear copy, query-preserving links, and accessible labels.
 - [x] Re-audit every current live online meeting across all canonical Area feeds, confirming source URLs, online access details, status, and the absence of physical-address/map treatment by default.
 - [x] Verify all primary public links, every five-site landing route and hero asset, legacy online/in-person directories, finder filters, maps, directions, and online join paths.
-- [ ] Publish a fully tested review checkpoint after the logo, distinct meeting pathways, online audit, and link verification are complete.
+- [x] Publish a fully tested review checkpoint after the logo, distinct meeting pathways, online audit, and link verification are complete.
 
 ## Finder format-specific copy correction identified 16 August 2026
 
