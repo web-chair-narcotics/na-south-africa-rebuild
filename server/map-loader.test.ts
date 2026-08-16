@@ -11,8 +11,9 @@ describe("managed Maps loader safeguards", () => {
     expect(source).toContain("scriptPromise = null");
     expect(source).toContain("retryCount.current < 2");
     expect(source).toContain("retryCount.current * 900");
-    expect(source).toContain("Interactive Google Maps fallback");
-    expect(source).toContain("https://www.google.com/maps?q=");
+    expect(source).toContain("Interactive meeting map fallback");
+    expect(source).toContain("https://www.google.com/maps/search/?api=1");
+    expect(source).toContain("www.openstreetmap.org/export/embed.html");
     expect(source).toContain("const fallbackCenter = firstPoint");
   });
 });

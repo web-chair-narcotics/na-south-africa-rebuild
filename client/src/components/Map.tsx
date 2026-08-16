@@ -92,12 +92,16 @@ export function MapView({ className, initialCenter = { lat: -30.5595, lng: 22.93
   });
   useEffect(() => { void init(); }, [init]);
   if (error) {
-    const query = `${initialCenter.lat},${initialCenter.lng}`;
-    const googleMapUrl = `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=${initialZoom}&output=embed`;
+    const lat = initialCenter.lat;
+    const lng = initialCenter.lng;
+    const query = `${lat},${lng}`;
+    const delta = initialZoom >= 9 ? 0.08 : 0.6;
+    const bbox = [lng - delta, lat - delta, lng + delta, lat + delta].join(",");
+    const openStreetMapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${encodeURIComponent(bbox)}&layer=mapnik&marker=${encodeURIComponent(`${lat},${lng}`)}`;
     const googleMapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
     return <div className={cn("relative h-[460px] overflow-hidden rounded-2xl border border-[#DDE6EB] bg-[#F8F8F8]", className)} role="region" aria-label="Meeting locations map">
-      <iframe title="Meeting locations on Google Maps" src={googleMapUrl} className="h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-      <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white/95 px-4 py-3 shadow-lg backdrop-blur"><p className="text-sm font-semibold text-[#54595F]">Interactive Google Maps fallback</p><div className="flex gap-2"><a href={googleMapLink} target="_blank" rel="noreferrer" className="rounded-lg bg-[#20752C] px-3 py-2 text-sm font-bold text-white hover:bg-[#185D22]">Open full map</a><button type="button" onClick={() => { retryCount.current = 0; scriptPromise = null; setError(false); void init(); }} className="rounded-lg border border-[#085C84]/25 px-3 py-2 text-sm font-bold text-[#085C84] hover:bg-[#EAF5EC]">Retry map</button></div></div>
+      <iframe title="Meeting locations map fallback" src={openStreetMapUrl} className="h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white/95 px-4 py-3 shadow-lg backdrop-blur"><p className="text-sm font-semibold text-[#54595F]">Interactive meeting map fallback</p><div className="flex gap-2"><a href={googleMapLink} target="_blank" rel="noreferrer" className="rounded-lg bg-[#20752C] px-3 py-2 text-sm font-bold text-white hover:bg-[#185D22]">Open in Google Maps</a><button type="button" onClick={() => { retryCount.current = 0; scriptPromise = null; setError(false); void init(); }} className="rounded-lg border border-[#085C84]/25 px-3 py-2 text-sm font-bold text-[#085C84] hover:bg-[#EAF5EC]">Retry map</button></div></div>
     </div>;
   }
   return <div ref={mapContainer} className={cn("h-[460px] w-full", className)} aria-label="Meeting locations map" />;

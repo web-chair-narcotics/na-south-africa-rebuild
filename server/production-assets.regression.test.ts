@@ -16,6 +16,14 @@ describe("production public asset delivery", () => {
     expect(storageProxy).toContain('res.status(200).send(assetBytes)');
   });
 
+  it("permits the managed Google Maps runtime required by the physical meeting finder", () => {
+    const server = read("server/_core/index.ts");
+
+    expect(server).toContain("https://maps.googleapis.com");
+    expect(server).toContain("https://maps.gstatic.com");
+    expect(server).toContain("https://www.openstreetmap.org");
+  });
+
   it("prevents stale production index HTML from masking a newly published frontend bundle", () => {
     const vite = read("server/_core/vite.ts");
     expect(vite).toContain('res.setHeader("Cache-Control", "no-store, max-age=0")');
