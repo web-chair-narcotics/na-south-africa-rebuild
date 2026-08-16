@@ -284,7 +284,7 @@
 
 ## Replacement hero-image path approved by user 16 August 2026
 
-- [ ] Generate five new original hero images for the Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal sites because the current user-visible production pages still show no photographs.
-- [ ] Validate the five generated assets for route identity, readable text-safe composition, safe imagery, dimensions, and managed-storage upload suitability.
-- [ ] Replace the five public route hero references with the newly generated assets and preserve distinct route-specific alt text.
+- [x] Generate five new original hero images for the Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal sites because the current user-visible production pages still show no photographs.
+- [x] Validate the five generated assets for route identity, readable text-safe composition, safe imagery, dimensions, and managed-storage upload suitability.
+- [x] Replace the five public route hero references with the newly generated assets and preserve distinct route-specific alt text.
 - [ ] Verify the five replacement photographs visibly render on the exact published routes at desktop and responsive widths, then publish the verified result.

@@ -32,11 +32,11 @@ describe("dedicated area websites", () => {
   it("preserves full-bleed, route-specific hero treatment for all five websites", () => {
     const page = readFileSync(resolve(process.cwd(), "client/src/pages/AreaPage.tsx"), "utf8");
     for (const asset of [
-      "/manus-storage/na-region-south-africa-hero_52d58af0.webp",
-      "/manus-storage/na-area-johannesburg-hero_e0446498.webp",
-      "/manus-storage/na-area-cape-town-hero_2023d4b9.webp",
-      "/manus-storage/na-area-pretoria-hero_f804b9ea.webp",
-      "/manus-storage/na-area-kwazulu-natal-hero_44bd7fa1.webp",
+      "/manus-storage/na-region-hero-replacement-20260816_e5e6151e.jpg",
+      "/manus-storage/na-johannesburg-hero-replacement-20260816_84890cad.jpg",
+      "/manus-storage/na-cape-town-hero-replacement-20260816_7bd0ee83.jpg",
+      "/manus-storage/na-pretoria-hero-replacement-20260816_0d9d9652.jpg",
+      "/manus-storage/na-kwazulu-natal-hero-replacement-20260816_87880270.jpg",
     ]) expect(page).toContain(asset);
     expect(page).toContain('src={area.imageUrl}');
     expect(page).toContain('loading="eager"');

@@ -17,7 +17,7 @@ type AreaConfig = {
   imageAlt: string;
 };
 
-const publicAssetVersion = "asset-relay-20260816-1015";
+const publicAssetVersion = "replacement-hero-20260816";
 
 const configs: Record<string, AreaConfig> = {
   "south-africa-region": {
@@ -30,7 +30,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-south-africa-region",
     accent: "#EEEEEE",
     imagePromptFile: "na-region-south-africa-hero.webp",
-    imageUrl: `/manus-storage/na-region-south-africa-hero_52d58af0.webp?v=${publicAssetVersion}`,
+    imageUrl: `/manus-storage/na-region-hero-replacement-20260816_e5e6151e.jpg?v=${publicAssetVersion}`,
     imageAlt: "South African coastal lighthouse and harbour under a wide overcast sky.",
   },
   johannesburg: {
@@ -43,7 +43,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-johannesburg",
     accent: "#EEEEEE",
     imagePromptFile: "area-johannesburg-hero.webp",
-    imageUrl: `/manus-storage/na-area-johannesburg-hero_e0446498.webp?v=${publicAssetVersion}`,
+    imageUrl: `/manus-storage/na-johannesburg-hero-replacement-20260816_84890cad.jpg?v=${publicAssetVersion}`,
     imageAlt: "Johannesburg neighbourhood street at dusk with a community notice board and distant lights.",
   },
   "cape-town": {
@@ -56,7 +56,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-cape-town",
     accent: "#EEEEEE",
     imagePromptFile: "area-cape-town-hero.webp",
-    imageUrl: `/manus-storage/na-area-cape-town-hero_2023d4b9.webp?v=${publicAssetVersion}`,
+    imageUrl: `/manus-storage/na-cape-town-hero-replacement-20260816_7bd0ee83.jpg?v=${publicAssetVersion}`,
     imageAlt: "Colourful Cape Town street leading toward Table Mountain.",
   },
   pretoria: {
@@ -69,7 +69,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-pretoria",
     accent: "#EEEEEE",
     imagePromptFile: "area-pretoria-hero.webp",
-    imageUrl: `/manus-storage/na-area-pretoria-hero_f804b9ea.webp?v=${publicAssetVersion}`,
+    imageUrl: `/manus-storage/na-pretoria-hero-replacement-20260816_0d9d9652.jpg?v=${publicAssetVersion}`,
     imageAlt: "Pretoria jacaranda-lined avenue with purple blossoms and a quiet bench.",
   },
   "kwazulu-natal": {
@@ -82,7 +82,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-kwazulu-natal",
     accent: "#EEEEEE",
     imagePromptFile: "area-kwazulu-natal-hero.webp",
-    imageUrl: `/manus-storage/na-area-kwazulu-natal-hero_44bd7fa1.webp?v=${publicAssetVersion}`,
+    imageUrl: `/manus-storage/na-kwazulu-natal-hero-replacement-20260816_87880270.jpg?v=${publicAssetVersion}`,
     imageAlt: "KwaZulu-Natal coastal walkway lined with trees beside the Indian Ocean.",
   },
 };
