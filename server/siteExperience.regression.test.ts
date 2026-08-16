@@ -6,6 +6,14 @@ const root = resolve(process.cwd());
 const read = (relativePath: string) => readFileSync(resolve(root, relativePath), "utf8");
 
 describe("five-site experience safeguards", () => {
+  it("resets the destination scroll position after every internal route change", () => {
+    const app = read("client/src/App.tsx");
+    expect(app).toContain("function ScrollToTop()");
+    expect(app).toContain("useLocation()");
+    expect(app).toContain("window.scrollTo({ top: 0, left: 0, behavior: \"auto\" })");
+    expect(app).toContain("<ScrollToTop />");
+  });
+
   it("keeps a regional route alongside all four area routes", () => {
     const app = read("client/src/App.tsx");
     expect(app).toContain('/areas/south-africa-region');

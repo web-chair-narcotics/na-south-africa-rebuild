@@ -288,3 +288,11 @@
 - [x] Validate the five generated assets for route identity, readable text-safe composition, safe imagery, dimensions, and managed-storage upload suitability.
 - [x] Replace the five public route hero references with the newly generated assets and preserve distinct route-specific alt text.
 - [x] Verify the five replacement photographs visibly render on the exact published routes at desktop and responsive widths, then publish the verified result.
+
+## Homepage image and site-wide scroll restoration audit
+
+- [ ] Prepare and deliver a Nano Banana 2K homepage hero-image prompt with a distinctive South Africa Region visual direction, wide composition, and text-safe area.
+- [ ] Add the approved homepage hero image to the managed-storage route and verify it visibly renders on the live homepage.
+- [ ] Audit the homepage and four area pages for visible hero imagery at desktop and mobile widths.
+- [ ] Ensure internal route transitions reset the destination page to scroll position zero site-wide, including area links and all public navigation journeys.
+- [ ] Test representative internal links and publish the scroll-restoration repair if required.
