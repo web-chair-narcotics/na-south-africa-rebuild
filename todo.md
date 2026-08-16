@@ -100,3 +100,8 @@
 - [x] Produce a complete uploaded-file audit recap separating completed work, outstanding work, and approval-dependent blockers.
 
 - [x] Implement dedicated public area landing pages for Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal, while keeping area-specific factual content limited to verified source evidence.
+
+- [x] Add a published-only public meeting-detail route linked from finder results so each meeting has a dedicated verified detail journey.
+
+- [x] Make the meeting-detail primary action format-aware so online meetings do not show physical directions without a verified venue.
+- [x] Live-verify one in-person detail route, one online detail route, a not-found route, contact actions, and the resulting CTA behavior.

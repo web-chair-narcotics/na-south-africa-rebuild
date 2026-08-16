@@ -29,7 +29,12 @@ function publicMeetingConditions(filters: PublicMeetingFilters) {
   if (filters.timeOfDay === "morning") conditions.push(sql`${meetings.startTime} < '12:00'`); if (filters.timeOfDay === "afternoon") conditions.push(sql`${meetings.startTime} >= '12:00' AND ${meetings.startTime} < '17:00'`); if (filters.timeOfDay === "evening") conditions.push(sql`${meetings.startTime} >= '17:00'`);
   return and(...conditions);
 }
-const publicMeetingFields = { id: meetings.id, meetingName: meetings.meetingName, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, province: meetings.province, latitude: meetings.latitude, longitude: meetings.longitude, daysOfWeek: meetings.daysOfWeek, startTime: meetings.startTime, meetingType: meetings.meetingType, meetingFormat: meetings.meetingFormat, phone: meetings.phone, specialNotes: meetings.specialNotes, onlineUrl: meetings.onlineUrl, areaName: areas.name, areaSlug: areas.slug };
+const publicMeetingFields = { id: meetings.id, meetingName: meetings.meetingName, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, province: meetings.province, latitude: meetings.latitude, longitude: meetings.longitude, daysOfWeek: meetings.daysOfWeek, startTime: meetings.startTime, meetingType: meetings.meetingType, meetingFormat: meetings.meetingFormat, contactPerson: meetings.contactPerson, phone: meetings.phone, specialNotes: meetings.specialNotes, onlineUrl: meetings.onlineUrl, areaName: areas.name, areaSlug: areas.slug };
+export async function getPublicMeeting(id: number) {
+  const db = await getDb(); if (!db) return undefined;
+  return (await db.select(publicMeetingFields).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(eq(meetings.id, id), eq(meetings.status, "published"), eq(areas.active, true))).limit(1))[0];
+}
+
 export async function searchPublicMeetings(filters: PublicMeetingFilters) {
   const db = await getDb(); if (!db) return { items: [], total: 0, mapPoints: [] }; const where = publicMeetingConditions(filters); const from = db.select(publicMeetingFields).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id));
   const [items, totals, mapPoints] = await Promise.all([

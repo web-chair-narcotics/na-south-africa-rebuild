@@ -6,6 +6,18 @@ This audit covers the 28 files supplied in `/home/ubuntu/upload` and the 20 file
 
 The status language is deliberately conservative. **Implemented** means the source has been represented in the running application or its verified evidence workflow. **Implemented-partial** means the source has been parsed or used, but publication, approved content, generated assets, or an organisation-owned decision remains. **Approval-dependent** means the upload is a specification or request whose activation requires a separate decision, target configuration, or credentials.
 
+## Source-to-implementation map
+
+| Requirement or source family | Runtime implementation | Evidence and tests |
+|---|---|---|
+| Public pages and legacy URLs | `client/src/App.tsx`, `client/src/legacyRouteMap.ts`, `client/src/pages/LegacyRouteRedirect.tsx` | `final_url_migration_register.csv`, `acceptance_smoke_report.json`, `server/legacy-route-map.test.ts` |
+| Meeting data, finder, and detail journey | `drizzle/schema.ts`, `server/db.ts`, `server/routers.ts`, `client/src/components/MeetingFinder.tsx`, `client/src/pages/MeetingDetail.tsx` | `meeting_qa_register.csv`, `QA_VERIFICATION.md`, `server/finder.router.test.ts`, `server/area-pages.test.ts` |
+| Google Maps and exact directions | `client/src/components/Map.tsx`, `server/_core/map.ts` | `QA_VERIFICATION.md`, `server/map-loader.test.ts` |
+| Area isolation and administration | `server/access.ts`, `server/routers/admin.ts`, `client/src/pages/AdminPortal.tsx` | `ADMIN_HANDOVER.md`, `server/access.test.ts`, `server/admin.validation.test.ts` |
+| Four dedicated area websites | `client/src/pages/AreaPage.tsx`, `client/src/pages/Areas.tsx`, area routes in `client/src/App.tsx` | `AREA_SITE_IMAGE_PROMPTS.md`, `server/area-pages.test.ts`, desktop route captures |
+| Managed media | `server/mediaIntake.ts`, `final_uploaded_media_manifest.csv`, `MEDIA_INTAKE.md` | `attachment_source_page_linkage.csv`, `MEDIA_MANIFEST_VERIFICATION.md`, `server/mediaIntake.test.ts` |
+| Security, errors, and notifications | `server/_core/index.ts`, `client/src/components/ErrorBoundary.tsx`, notification and audit helpers | `QA_VERIFICATION.md`, `ADMIN_HANDOVER.md`, runtime logs, access and auth tests |
+
 ## What is built
 
 | Uploaded source family | Evidence of implementation | Current result |
@@ -31,7 +43,7 @@ Formal native-mobile keyboard validation remains open. Desktop keyboard traversa
 
 ## Current implementation status
 
-The running application includes the mobile-first public site, persistent helpline, accessible navigation, dedicated area pages, advanced meeting finder, managed Google Maps with clustered markers and exact directions, scoped area administration, national oversight, four-item QA gating, audit events, in-app review notifications, runtime error reporting, migration fallback routing, and managed media evidence. The latest verification run after the dedicated area pages reports **20 passing unit tests across 10 files**, a clean TypeScript check, and a passing production build.
+The running application includes the mobile-first public site, persistent helpline, accessible navigation, dedicated area pages, a published-only meeting-detail route, advanced meeting finder, managed Google Maps with clustered markers and exact directions, scoped area administration, national oversight, four-item QA gating, audit events, in-app review notifications, runtime error reporting, migration fallback routing, and managed media evidence. The latest verification run after the detail-route CTA fix reports **21 passing unit tests across 10 files**, a clean TypeScript check, and a passing production build.
 
 ## Owner handoff order
 

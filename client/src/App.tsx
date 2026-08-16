@@ -11,6 +11,7 @@ import AreaPage from "./pages/AreaPage";
 import ContentPage from "./pages/ContentPage";
 import Home from "./pages/Home";
 import Meetings from "./pages/Meetings";
+import MeetingDetail from "./pages/MeetingDetail";
 import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/meetings" component={Meetings} />
+      <Route path="/meetings/:id">{params => <MeetingDetail id={params.id} />}</Route>
       <Route path="/areas" component={Areas} />
       <Route path="/areas/johannesburg">{() => <AreaPage slug="johannesburg" />}</Route>
       <Route path="/areas/cape-town">{() => <AreaPage slug="cape-town" />}</Route>

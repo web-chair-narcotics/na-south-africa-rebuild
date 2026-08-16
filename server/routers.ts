@@ -3,7 +3,7 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
-import { getPublicAreas, searchPublicMeetings } from "./db";
+import { getPublicAreas, getPublicMeeting, searchPublicMeetings } from "./db";
 import { makeRequest, type GeocodingResult } from "./_core/map";
 import { adminRouter } from "./routers/admin";
 
@@ -22,6 +22,7 @@ export const appRouter = router({
   }),
   finder: router({
     areas: publicProcedure.query(() => getPublicAreas()),
+    detail: publicProcedure.input(z.object({ id: z.number().int().positive() })).query(({ input }) => getPublicMeeting(input.id)),
     search: publicProcedure.input(z.object({
       query: z.string().trim().max(120).optional(),
       areaSlug: z.string().trim().max(80).optional(),
