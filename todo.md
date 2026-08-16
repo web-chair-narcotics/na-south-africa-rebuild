@@ -260,4 +260,4 @@
 - [x] Remove area badges/labels from online-only meeting cards and prevent online meetings from being presented as area-dependent.
 - [x] Keep the default finder journey in-person and maintain dedicated, separate online access without mixing result sets.
 - [x] Verify the corrected meeting-card experience on mobile and desktop, then publish.
-- [ ] Remove area-dependent eyebrow and physical-map presentation from online-only meeting detail pages, then verify the detail journey. Local build is corrected; production cache/deployment is still serving the old area label and requires a fresh deployment verification.
+- [x] Remove area-dependent eyebrow and physical-map presentation from online-only meeting detail pages, then verify the detail journey. Fresh production retrieval now shows `Online meeting`, online access, and no area label.
