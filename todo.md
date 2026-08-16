@@ -296,3 +296,12 @@
 - [x] Audit the homepage and four area pages for visible hero imagery at desktop and mobile widths.
 - [x] Ensure internal route transitions reset the destination page to scroll position zero site-wide, including area links and all public navigation journeys.
 - [x] Test representative internal links and publish the scroll-restoration repair if required.
+
+## Public-site refinement request — 16 August 2026
+
+- [x] Replace the public-header blue logo block with a cleaner, restrained logo treatment that preserves the supplied mark.
+- [x] Remove the public News and Area admin navigation entries and verify no remaining public route depends on them.
+- [x] Redesign About, Recovery, Literature, Areas, and Contact pages for aligned content widths, improved hierarchy, readability, and subtle branded decoration.
+- [x] Research and add verified, useful public content to replace the sparse About and Recovery pages without fabricating NA guidance.
+- [x] Audit every public navigation and literature/document destination for correct link targets and working responses.
+- [x] Run desktop and mobile visual QA across the redesigned public pages and publish the verified update.

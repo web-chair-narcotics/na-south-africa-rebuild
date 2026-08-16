@@ -11,7 +11,6 @@ const links = [
   { href: "/about", label: "About NA" },
   { href: "/recovery", label: "Recovery" },
   { href: "/literature", label: "Literature" },
-  { href: "/news", label: "News" },
   { href: "/areas", label: "Areas" },
   { href: "/contact", label: "Contact" },
 ];
@@ -47,12 +46,10 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
         </div>
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-[#54595F]/10 bg-[#F8F8F8]/95 backdrop-blur">
-        <div className="site-container flex h-[78px] items-center justify-between gap-4">
-          <Link href="/" className="inline-flex min-w-0 items-center" aria-label="Narcotics Anonymous South Africa home">
-            <span className="inline-flex items-center rounded-lg bg-[#085C84] px-2 py-1.5 sm:px-3 sm:py-2">
-              <img className="h-auto w-[142px] sm:w-[188px]" src={logoUrl} alt="Narcotics Anonymous South Africa Region" />
-            </span>
+      <header className="sticky top-0 z-40 border-b border-[#085C84]/10 bg-[#F8F8F8]/95 shadow-[0_10px_28px_rgba(8,92,132,0.05)] backdrop-blur">
+        <div className="site-container flex h-[82px] items-center justify-between gap-4">
+          <Link href="/" className="inline-flex min-w-0 items-center rounded-lg focus-visible:ring-offset-2" aria-label="Narcotics Anonymous South Africa home">
+            <img className="h-auto w-[132px] object-contain sm:w-[174px]" src={logoUrl} alt="Narcotics Anonymous South Africa Region" />
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
@@ -68,9 +65,6 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
           </nav>
 
           <div className="hidden items-center gap-2 lg:flex">
-            <Button asChild variant="ghost" className="rounded-full text-[#085C84] hover:bg-[#EEEEEE] hover:text-[#085C84]">
-              <Link href="/admin">Area admin</Link>
-            </Button>
             <Button asChild className="rounded-full bg-[#2F9B3E] px-5 text-white shadow-none hover:bg-[#20752C]">
               <Link href="/meetings"><Search className="mr-2 h-4 w-4" aria-hidden="true" /> Find a meeting</Link>
             </Button>
@@ -97,7 +91,6 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
                   {link.label}
                 </Link>
               ))}
-              <Link href="/admin" className="rounded-xl px-4 py-3 text-base font-medium text-[#54595F] hover:bg-[#EEEEEE]">Area admin</Link>
               <Button asChild className="mt-2 min-h-12 rounded-xl bg-[#2F9B3E] text-white hover:bg-[#20752C]">
                 <Link href="/meetings"><Search className="mr-2 h-4 w-4" aria-hidden="true" /> Find a meeting</Link>
               </Button>
@@ -126,8 +119,8 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
             <h2 className="font-serif text-lg">For members</h2>
             <ul className="mt-4 grid gap-3 text-sm text-[#EEEEEE]">
               <li><Link className="hover:text-white hover:underline" href="/literature">Literature</Link></li>
-              <li><Link className="hover:text-white hover:underline" href="/news">News & updates</Link></li>
-              <li><Link className="hover:text-white hover:underline" href="/admin">Area administration</Link></li>
+              <li><Link className="hover:text-white hover:underline" href="/about">About NA</Link></li>
+              <li><Link className="hover:text-white hover:underline" href="/areas">Local areas</Link></li>
             </ul>
           </div>
         </div>

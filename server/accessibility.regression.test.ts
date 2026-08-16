@@ -34,7 +34,12 @@ describe("public accessibility regression safeguards", () => {
     expect(routes).toContain('aria-label={menuOpen ? "Close navigation" : "Open navigation"}');
     expect(routes).toContain('aria-controls="mobile-navigation"');
     expect(routes).toContain('href="/meetings"');
-    expect(routes).toContain('href="/admin"');
+    expect(routes).toContain('href="/about"');
+    expect(routes).toContain('href="/recovery"');
+    expect(routes).toContain('href="/literature"');
+    expect(routes).toContain('href="/areas"');
+    expect(routes).toContain('href="/contact"');
+    expect(routes).not.toContain('href="/admin"');
     expect(routes).toContain("Johannesburg");
     expect(routes).toContain("Find a meeting");
     expect(routes).toContain("Get exact Google Maps directions");
