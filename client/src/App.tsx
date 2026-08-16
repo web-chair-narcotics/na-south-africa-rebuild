@@ -4,39 +4,46 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import AdminLanding from "./pages/AdminLanding";
+import AdminPortal from "./pages/AdminPortal";
+import Areas from "./pages/Areas";
+import ContentPage from "./pages/ContentPage";
 import Home from "./pages/Home";
+import Meetings from "./pages/Meetings";
+import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
 
 function Router() {
-  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
+      <Route path="/" component={Home} />
+      <Route path="/meetings" component={Meetings} />
+      <Route path="/areas" component={Areas} />
+      <Route path="/admin/login" component={AdminLanding} />
+      <Route path="/admin/:rest*" component={AdminPortal} />
+      <Route path="/admin" component={AdminPortal} />
+      <Route path="/about">{() => <ContentPage page="about" />}</Route>
+      <Route path="/about-na">{() => <ContentPage page="about" />}</Route>
+      <Route path="/recovery">{() => <ContentPage page="recovery" />}</Route>
+      <Route path="/what-happens-at-an-na-meeting">{() => <ContentPage page="recovery" />}</Route>
+      <Route path="/information-about-na">{() => <ContentPage page="information" />}</Route>
+      <Route path="/how-to-start-an-na-meeting">{() => <ContentPage page="start" />}</Route>
+      <Route path="/literature">{() => <ContentPage page="literature" />}</Route>
+      <Route path="/na-literature">{() => <ContentPage page="literature" />}</Route>
+      <Route path="/news">{() => <ContentPage page="news" />}</Route>
+      <Route path="/contact">{() => <ContentPage page="contact" />}</Route>
+      <Route path="/contact-us">{() => <ContentPage page="contact" />}</Route>
+      <Route path="/404" component={NotFound} />
+      <Route component={LegacyRouteRedirect} />
     </Switch>
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
-function App() {
+export default function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-        </TooltipProvider>
+      <ThemeProvider defaultTheme="light">
+        <TooltipProvider><Toaster /><Router /></TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
 }
-
-export default App;

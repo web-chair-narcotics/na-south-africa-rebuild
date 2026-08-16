@@ -1,92 +1,63 @@
-import { eq } from "drizzle-orm";
+import { and, asc, count, desc, eq, inArray, isNotNull, like, or, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
-import { ENV } from './_core/env';
+import { areas, auditEvents, contentPages, InsertUser, meetings, notifications, type MeetingFormat, type MeetingStatus, userAreas, users } from "../drizzle/schema";
+import { ENV } from "./_core/env";
 
 let _db: ReturnType<typeof drizzle> | null = null;
-
-// Lazily create the drizzle instance so local tooling can run without a DB.
-export async function getDb() {
-  if (!_db && process.env.DATABASE_URL) {
-    try {
-      _db = drizzle(process.env.DATABASE_URL);
-    } catch (error) {
-      console.warn("[Database] Failed to connect:", error);
-      _db = null;
-    }
-  }
-  return _db;
-}
+export async function getDb() { if (!_db && process.env.DATABASE_URL) { try { _db = drizzle(process.env.DATABASE_URL); } catch (error) { console.warn("[Database] Failed to connect:", error); } } return _db; }
 
 export async function upsertUser(user: InsertUser): Promise<void> {
-  if (!user.openId) {
-    throw new Error("User openId is required for upsert");
-  }
-
-  const db = await getDb();
-  if (!db) {
-    console.warn("[Database] Cannot upsert user: database not available");
-    return;
-  }
-
-  try {
-    const values: InsertUser = {
-      openId: user.openId,
-    };
-    const updateSet: Record<string, unknown> = {};
-
-    const textFields = ["name", "email", "loginMethod"] as const;
-    type TextField = (typeof textFields)[number];
-
-    const assignNullable = (field: TextField) => {
-      const value = user[field];
-      if (value === undefined) return;
-      const normalized = value ?? null;
-      values[field] = normalized;
-      updateSet[field] = normalized;
-    };
-
-    textFields.forEach(assignNullable);
-
-    if (user.lastSignedIn !== undefined) {
-      values.lastSignedIn = user.lastSignedIn;
-      updateSet.lastSignedIn = user.lastSignedIn;
-    }
-    if (user.role !== undefined) {
-      values.role = user.role;
-      updateSet.role = user.role;
-    } else if (user.openId === ENV.ownerOpenId) {
-      values.role = 'admin';
-      updateSet.role = 'admin';
-    }
-
-    if (!values.lastSignedIn) {
-      values.lastSignedIn = new Date();
-    }
-
-    if (Object.keys(updateSet).length === 0) {
-      updateSet.lastSignedIn = new Date();
-    }
-
-    await db.insert(users).values(values).onDuplicateKeyUpdate({
-      set: updateSet,
-    });
-  } catch (error) {
-    console.error("[Database] Failed to upsert user:", error);
-    throw error;
-  }
+  if (!user.openId) throw new Error("User openId is required for upsert");
+  const db = await getDb(); if (!db) return;
+  const values: InsertUser = { openId: user.openId, lastSignedIn: user.lastSignedIn ?? new Date() };
+  const updateSet: Record<string, unknown> = { lastSignedIn: values.lastSignedIn };
+  for (const field of ["name", "email", "loginMethod"] as const) if (user[field] !== undefined) { values[field] = user[field] ?? null; updateSet[field] = user[field] ?? null; }
+  if (user.role !== undefined) { values.role = user.role; updateSet.role = user.role; } else if (user.openId === ENV.ownerOpenId) { values.role = "admin"; updateSet.role = "admin"; }
+  await db.insert(users).values(values).onDuplicateKeyUpdate({ set: updateSet });
 }
 
-export async function getUserByOpenId(openId: string) {
-  const db = await getDb();
-  if (!db) {
-    console.warn("[Database] Cannot get user: database not available");
-    return undefined;
-  }
+export async function getUserByOpenId(openId: string) { const db = await getDb(); if (!db) return undefined; return (await db.select().from(users).where(eq(users.openId, openId)).limit(1))[0]; }
+export async function getUserAreaIds(userId: number) { const db = await getDb(); if (!db) return []; return (await db.select({ areaId: userAreas.areaId }).from(userAreas).where(eq(userAreas.userId, userId))).map(row => row.areaId); }
+export async function getPublicAreas() { const db = await getDb(); if (!db) return []; return db.select({ id: areas.id, slug: areas.slug, name: areas.name, province: areas.province }).from(areas).where(eq(areas.active, true)).orderBy(asc(areas.name)); }
+export async function getAreasByIds(ids: number[]) { const db = await getDb(); if (!db || ids.length === 0) return []; return db.select().from(areas).where(inArray(areas.id, ids)).orderBy(asc(areas.name)); }
 
-  const result = await db.select().from(users).where(eq(users.openId, openId)).limit(1);
-
-  return result.length > 0 ? result[0] : undefined;
+export type PublicMeetingFilters = { query?: string; areaSlug?: string; day?: string; timeOfDay?: "morning" | "afternoon" | "evening"; meetingType?: string; meetingFormat?: MeetingFormat; page: number; pageSize: number; };
+function publicMeetingConditions(filters: PublicMeetingFilters) {
+  const conditions = [eq(meetings.status, "published"), eq(areas.active, true)]; const query = filters.query?.trim();
+  if (query) { const term = `%${query}%`; conditions.push(or(like(meetings.meetingName, term), like(meetings.venueName, term), like(meetings.suburb, term), like(meetings.city, term), like(meetings.province, term))!); }
+  if (filters.areaSlug) conditions.push(eq(areas.slug, filters.areaSlug)); if (filters.day) conditions.push(sql`${meetings.daysOfWeek} LIKE ${`%${filters.day}%`}`); if (filters.meetingType) conditions.push(eq(meetings.meetingType, filters.meetingType)); if (filters.meetingFormat) conditions.push(eq(meetings.meetingFormat, filters.meetingFormat));
+  if (filters.timeOfDay === "morning") conditions.push(sql`${meetings.startTime} < '12:00'`); if (filters.timeOfDay === "afternoon") conditions.push(sql`${meetings.startTime} >= '12:00' AND ${meetings.startTime} < '17:00'`); if (filters.timeOfDay === "evening") conditions.push(sql`${meetings.startTime} >= '17:00'`);
+  return and(...conditions);
+}
+const publicMeetingFields = { id: meetings.id, meetingName: meetings.meetingName, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, province: meetings.province, latitude: meetings.latitude, longitude: meetings.longitude, daysOfWeek: meetings.daysOfWeek, startTime: meetings.startTime, meetingType: meetings.meetingType, meetingFormat: meetings.meetingFormat, phone: meetings.phone, specialNotes: meetings.specialNotes, onlineUrl: meetings.onlineUrl, areaName: areas.name, areaSlug: areas.slug };
+export async function searchPublicMeetings(filters: PublicMeetingFilters) {
+  const db = await getDb(); if (!db) return { items: [], total: 0, mapPoints: [] }; const where = publicMeetingConditions(filters); const from = db.select(publicMeetingFields).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id));
+  const [items, totals, mapPoints] = await Promise.all([
+    from.where(where).orderBy(asc(meetings.startTime), asc(meetings.meetingName)).limit(filters.pageSize).offset((filters.page - 1) * filters.pageSize),
+    db.select({ total: count() }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(where),
+    db.select({ id: meetings.id, meetingName: meetings.meetingName, latitude: meetings.latitude, longitude: meetings.longitude, areaName: areas.name, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(where, isNotNull(meetings.latitude), isNotNull(meetings.longitude))).orderBy(desc(meetings.updatedAt)).limit(1000),
+  ]); return { items, total: totals[0]?.total ?? 0, mapPoints };
 }
 
-// TODO: add feature queries here as your schema grows.
+export type ManagedMeetingInput = { areaId: number; meetingName: string; venueName?: string; streetAddress?: string; suburb?: string; city?: string; province?: string; latitude?: number; longitude?: number; daysOfWeek: string[]; startTime: string; meetingType: string; meetingFormat: MeetingFormat; contactPerson?: string; phone?: string; specialNotes?: string; onlineUrl?: string; geocodeFormattedAddress?: string; geocodePlaceId?: string; };
+function meetingValues(input: ManagedMeetingInput) { return { ...input, daysOfWeek: JSON.stringify(input.daysOfWeek), latitude: input.latitude?.toFixed(7), longitude: input.longitude?.toFixed(7), venueName: input.venueName || null, streetAddress: input.streetAddress || null, suburb: input.suburb || null, city: input.city || null, province: input.province || null, contactPerson: input.contactPerson || null, phone: input.phone || null, specialNotes: input.specialNotes || null, onlineUrl: input.onlineUrl || null, geocodeFormattedAddress: input.geocodeFormattedAddress || null, geocodePlaceId: input.geocodePlaceId || null }; }
+export async function listManagedMeetings(areaIds: number[], allAreas: boolean, status?: MeetingStatus) { const db = await getDb(); if (!db || (!allAreas && areaIds.length === 0)) return []; const conditions = [status ? eq(meetings.status, status) : undefined, allAreas ? undefined : inArray(meetings.areaId, areaIds)].filter(Boolean) as ReturnType<typeof eq>[]; return db.select({ ...publicMeetingFields, status: meetings.status, addressVerified: meetings.addressVerified, mapPinConfirmed: meetings.mapPinConfirmed, spellingChecked: meetings.spellingChecked, contactConfirmed: meetings.contactConfirmed, reviewNotes: meetings.reviewNotes, reviewedAt: meetings.reviewedAt, areaId: meetings.areaId, contactPerson: meetings.contactPerson }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(...conditions)).orderBy(desc(meetings.updatedAt)); }
+export async function getManagedMeeting(id: number) { const db = await getDb(); if (!db) return undefined; return (await db.select().from(meetings).where(eq(meetings.id, id)).limit(1))[0]; }
+export async function createManagedMeeting(input: ManagedMeetingInput, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const result = await db.insert(meetings).values({ ...meetingValues(input), status: "draft" }); const id = Number(result[0].insertId); await addAuditEvent(actorUserId, input.areaId, "meeting", id, "created", "Area administrator created a draft meeting."); return getManagedMeeting(id); }
+export async function updateManagedMeeting(id: number, input: ManagedMeetingInput, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(meetings).set({ ...meetingValues(input), status: "draft", revision: sql`${meetings.revision} + 1`, addressVerified: false, mapPinConfirmed: false, spellingChecked: false, contactConfirmed: false, reviewNotes: null, reviewedAt: null, reviewedByUserId: null }).where(eq(meetings.id, id)); await addAuditEvent(actorUserId, input.areaId, "meeting", id, "updated", "Meeting was updated and returned to draft for review."); return getManagedMeeting(id); }
+export async function removeManagedMeeting(id: number, actorUserId: number, areaId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.delete(meetings).where(eq(meetings.id, id)); await addAuditEvent(actorUserId, areaId, "meeting", id, "deleted", "Meeting was deleted."); }
+export async function submitManagedMeeting(id: number, actorUserId: number, areaId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(meetings).set({ status: "submitted" }).where(eq(meetings.id, id)); await addAuditEvent(actorUserId, areaId, "meeting", id, "submitted", "Meeting submitted for national review."); }
+export async function reviewManagedMeeting(id: number, actorUserId: number, input: { status: "published" | "changes_requested"; addressVerified: boolean; mapPinConfirmed: boolean; spellingChecked: boolean; contactConfirmed: boolean; reviewNotes?: string }) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const existing = await getManagedMeeting(id); if (!existing) return undefined; await db.update(meetings).set({ status: input.status, addressVerified: input.addressVerified, mapPinConfirmed: input.mapPinConfirmed, spellingChecked: input.spellingChecked, contactConfirmed: input.contactConfirmed, reviewNotes: input.reviewNotes || null, reviewedAt: new Date(), reviewedByUserId: actorUserId }).where(eq(meetings.id, id)); await addAuditEvent(actorUserId, existing.areaId, "meeting", id, input.status, input.reviewNotes || "National review completed."); return getManagedMeeting(id); }
+export async function addAuditEvent(actorUserId: number | null, areaId: number | null, entityType: string, entityId: number, action: string, detail: string) { const db = await getDb(); if (!db) return; await db.insert(auditEvents).values({ actorUserId, areaId, entityType, entityId, action, detail }); }
+export async function notifyUsers(userIds: number[], notification: { areaId?: number; kind: string; title: string; body: string; entityType?: string; entityId?: number }) { const db = await getDb(); if (!db || userIds.length === 0) return; await db.insert(notifications).values(userIds.map(recipientUserId => ({ recipientUserId, ...notification }))); }
+export async function findAreaAdminUserIds(areaId: number) { const db = await getDb(); if (!db) return []; return (await db.select({ id: users.id }).from(users).innerJoin(userAreas, eq(users.id, userAreas.userId)).where(and(eq(userAreas.areaId, areaId), eq(users.role, "area_admin")))).map(row => row.id); }
+export async function findNationalAdminUserIds() { const db = await getDb(); if (!db) return []; return (await db.select({ id: users.id }).from(users).where(eq(users.role, "admin"))).map(row => row.id); }
+export async function getNotificationsForUser(userId: number) { const db = await getDb(); if (!db) return []; return db.select().from(notifications).where(eq(notifications.recipientUserId, userId)).orderBy(desc(notifications.createdAt)).limit(30); }
+export async function createArea(input: { name: string; slug: string; province?: string }) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const result = await db.insert(areas).values({ name: input.name, slug: input.slug, province: input.province || null }); return Number(result[0].insertId); }
+export async function assignAreaAdmin(input: { userId: number; areaId: number }) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(users).set({ role: "area_admin" }).where(eq(users.id, input.userId)); await db.insert(userAreas).values(input).onDuplicateKeyUpdate({ set: { userId: input.userId } }); }
+export async function listAssignableUsers() { const db = await getDb(); if (!db) return []; return db.select({ id: users.id, name: users.name, email: users.email, role: users.role, lastSignedIn: users.lastSignedIn }).from(users).orderBy(asc(users.name)); }
+export async function listManagedContent(areaIds: number[], allAreas: boolean) { const db = await getDb(); if (!db || (!allAreas && areaIds.length === 0)) return []; const where = allAreas ? undefined : inArray(contentPages.areaId, areaIds); return db.select({ id: contentPages.id, areaId: contentPages.areaId, areaName: areas.name, slug: contentPages.slug, title: contentPages.title, excerpt: contentPages.excerpt, body: contentPages.body, status: contentPages.status, updatedAt: contentPages.updatedAt }).from(contentPages).leftJoin(areas, eq(contentPages.areaId, areas.id)).where(where).orderBy(desc(contentPages.updatedAt)); }
+export async function getManagedContent(id: number) { const db = await getDb(); if (!db) return undefined; return (await db.select().from(contentPages).where(eq(contentPages.id, id)).limit(1))[0]; }
+export async function createManagedContent(input: { areaId?: number; slug: string; title: string; excerpt?: string; body: string }, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const result = await db.insert(contentPages).values({ areaId: input.areaId ?? null, slug: input.slug, title: input.title, excerpt: input.excerpt || null, body: input.body, createdByUserId: actorUserId }); const id = Number(result[0].insertId); await addAuditEvent(actorUserId, input.areaId ?? null, "content", id, "created", "Content draft created."); return getManagedContent(id); }
+export async function updateManagedContent(id: number, input: { areaId?: number; slug: string; title: string; excerpt?: string; body: string }, actorUserId: number) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(contentPages).set({ slug: input.slug, title: input.title, excerpt: input.excerpt || null, body: input.body, status: "draft" }).where(eq(contentPages.id, id)); await addAuditEvent(actorUserId, input.areaId ?? null, "content", id, "updated", "Content returned to draft after update."); return getManagedContent(id); }
+export async function submitManagedContent(id: number, actorUserId: number, areaId: number | null) { const db = await getDb(); if (!db) throw new Error("Database unavailable"); await db.update(contentPages).set({ status: "submitted" }).where(eq(contentPages.id, id)); await addAuditEvent(actorUserId, areaId, "content", id, "submitted", "Content submitted for national review."); }

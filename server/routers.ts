@@ -1,28 +1,44 @@
+import { z } from "zod";
 import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
+import { getPublicAreas, searchPublicMeetings } from "./db";
+import { makeRequest, type GeocodingResult } from "./_core/map";
+import { adminRouter } from "./routers/admin";
+
+const dayValues = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] as const;
+const formatValues = ["in_person", "online", "hybrid"] as const;
 
 export const appRouter = router({
-    // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
   system: systemRouter,
   auth: router({
     me: publicProcedure.query(opts => opts.ctx.user),
     logout: publicProcedure.mutation(({ ctx }) => {
       const cookieOptions = getSessionCookieOptions(ctx.req);
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
-      return {
-        success: true,
-      } as const;
+      return { success: true } as const;
     }),
   }),
-
-  // TODO: add feature routers here, e.g.
-  // todo: router({
-  //   list: protectedProcedure.query(({ ctx }) =>
-  //     db.getUserTodos(ctx.user.id)
-  //   ),
-  // }),
+  finder: router({
+    areas: publicProcedure.query(() => getPublicAreas()),
+    search: publicProcedure.input(z.object({
+      query: z.string().trim().max(120).optional(),
+      areaSlug: z.string().trim().max(80).optional(),
+      day: z.enum(dayValues).optional(),
+      timeOfDay: z.enum(["morning", "afternoon", "evening"]).optional(),
+      meetingType: z.string().trim().max(100).optional(),
+      meetingFormat: z.enum(formatValues).optional(),
+      page: z.number().int().min(1).default(1),
+      pageSize: z.number().int().min(1).max(25).default(10),
+    }).optional()).query(({ input }) => searchPublicMeetings({ page: input?.page ?? 1, pageSize: input?.pageSize ?? 10, ...input })),
+    validateAddress: publicProcedure.input(z.object({ address: z.string().trim().min(8).max(500) })).query(async ({ input }) => {
+      const response = await makeRequest<GeocodingResult>("/maps/api/geocode/json", { address: input.address, region: "za" });
+      const match = response.results[0];
+      return match ? { matched: true, formattedAddress: match.formatted_address, placeId: match.place_id, latitude: match.geometry.location.lat, longitude: match.geometry.location.lng } : { matched: false };
+    }),
+  }),
+  admin: adminRouter,
 });
 
 export type AppRouter = typeof appRouter;

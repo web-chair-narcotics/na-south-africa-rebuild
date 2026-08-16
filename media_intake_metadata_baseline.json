@@ -1,0 +1,789 @@
+{
+  "mode": "metadata-only",
+  "zipPath": null,
+  "manifestPath": null,
+  "metadataPath": "/home/ubuntu/na-source-extract/uploaded-regional/regional_attachments.json",
+  "files": [
+    {
+      "filename": "favicon",
+      "sourceUrl": "https://na.org.za/jhb/favicon/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "cropped-favicon.png",
+      "sourceUrl": "https://na.org.za/jhb/favicon/cropped-favicon-png/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "logo",
+      "sourceUrl": "https://na.org.za/jhb/logo/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29680",
+      "sourceUrl": "https://na.org.za/jhb/29680/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "129014",
+      "sourceUrl": "https://na.org.za/jhb/129014/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "zapper",
+      "sourceUrl": "https://na.org.za/jhb/zapper/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2150951473",
+      "sourceUrl": "https://na.org.za/jhb/2150951473/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "559",
+      "sourceUrl": "https://na.org.za/jhb/559/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "584",
+      "sourceUrl": "https://na.org.za/jhb/584/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2733704_12016-scaled-1",
+      "sourceUrl": "https://na.org.za/jhb/2733704_12016-scaled-1/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "143021-e1763291423474",
+      "sourceUrl": "https://na.org.za/jhb/143021-e1763291423474/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151118274",
+      "sourceUrl": "https://na.org.za/jhb/2151118274/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "helping-each-other-scaled-1",
+      "sourceUrl": "https://na.org.za/jhb/helping-each-other-scaled-1/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "123795",
+      "sourceUrl": "https://na.org.za/jhb/123795/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2147770870-e1763292893626",
+      "sourceUrl": "https://na.org.za/jhb/2147770870-e1763292893626/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "120044",
+      "sourceUrl": "https://na.org.za/jhb/120044/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930388",
+      "sourceUrl": "https://na.org.za/jhb/2151930388/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "banner-wc-001-e1763484626801",
+      "sourceUrl": "https://na.org.za/jhb/banner-wc-001-e1763484626801/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29376",
+      "sourceUrl": "https://na.org.za/jhb/29376/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "home-banner",
+      "sourceUrl": "https://na.org.za/jhb/home-banner/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "7173",
+      "sourceUrl": "https://na.org.za/jhb/7173/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "na-safety",
+      "sourceUrl": "https://na.org.za/jhb/na-safety/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "96081",
+      "sourceUrl": "https://na.org.za/jhb/96081/",
+      "sourceExport": "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "favicon",
+      "sourceUrl": "https://na.org.za/kzn/favicon/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "cropped-favicon.png",
+      "sourceUrl": "https://na.org.za/kzn/favicon/cropped-favicon-png/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29680",
+      "sourceUrl": "https://na.org.za/kzn/29680/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "129014",
+      "sourceUrl": "https://na.org.za/kzn/129014/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "zapper",
+      "sourceUrl": "https://na.org.za/kzn/zapper/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2150951473",
+      "sourceUrl": "https://na.org.za/kzn/2150951473/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "559",
+      "sourceUrl": "https://na.org.za/kzn/559/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "584",
+      "sourceUrl": "https://na.org.za/kzn/584/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2733704_12016-scaled-1",
+      "sourceUrl": "https://na.org.za/kzn/2733704_12016-scaled-1/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "143021-e1763291423474",
+      "sourceUrl": "https://na.org.za/kzn/143021-e1763291423474/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151118274",
+      "sourceUrl": "https://na.org.za/kzn/2151118274/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "helping-each-other-scaled-1",
+      "sourceUrl": "https://na.org.za/kzn/helping-each-other-scaled-1/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "123795",
+      "sourceUrl": "https://na.org.za/kzn/123795/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2147770870-e1763292893626",
+      "sourceUrl": "https://na.org.za/kzn/2147770870-e1763292893626/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "120044",
+      "sourceUrl": "https://na.org.za/kzn/120044/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930388",
+      "sourceUrl": "https://na.org.za/kzn/2151930388/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "banner-wc-001-e1763484626801",
+      "sourceUrl": "https://na.org.za/kzn/banner-wc-001-e1763484626801/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29376",
+      "sourceUrl": "https://na.org.za/kzn/29376/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "home-banner",
+      "sourceUrl": "https://na.org.za/kzn/home-banner/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "logo",
+      "sourceUrl": "https://na.org.za/kzn/logo/",
+      "sourceExport": "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "favicon",
+      "sourceUrl": "https://na.org.za/pta/favicon/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "cropped-favicon.png",
+      "sourceUrl": "https://na.org.za/pta/favicon/cropped-favicon-png/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29680",
+      "sourceUrl": "https://na.org.za/pta/29680/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "129014",
+      "sourceUrl": "https://na.org.za/pta/129014/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "zapper",
+      "sourceUrl": "https://na.org.za/pta/zapper/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2150951473",
+      "sourceUrl": "https://na.org.za/pta/2150951473/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "559",
+      "sourceUrl": "https://na.org.za/pta/559/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "584",
+      "sourceUrl": "https://na.org.za/pta/584/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2733704_12016-scaled-1",
+      "sourceUrl": "https://na.org.za/pta/2733704_12016-scaled-1/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "143021-e1763291423474",
+      "sourceUrl": "https://na.org.za/pta/143021-e1763291423474/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151118274",
+      "sourceUrl": "https://na.org.za/pta/2151118274/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "helping-each-other-scaled-1",
+      "sourceUrl": "https://na.org.za/pta/helping-each-other-scaled-1/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "123795",
+      "sourceUrl": "https://na.org.za/pta/123795/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2147770870-e1763292893626",
+      "sourceUrl": "https://na.org.za/pta/2147770870-e1763292893626/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "120044",
+      "sourceUrl": "https://na.org.za/pta/120044/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930388",
+      "sourceUrl": "https://na.org.za/pta/2151930388/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "banner-wc-001-e1763484626801",
+      "sourceUrl": "https://na.org.za/pta/banner-wc-001-e1763484626801/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29376",
+      "sourceUrl": "https://na.org.za/pta/29376/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "home-banner",
+      "sourceUrl": "https://na.org.za/pta/home-banner/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "logo",
+      "sourceUrl": "https://na.org.za/pta/logo/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "19692",
+      "sourceUrl": "https://na.org.za/pta/19692/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "NA-Keytag-Welcome",
+      "sourceUrl": "https://na.org.za/pta/na-keytag-welcome/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-02-23 at 14.43.50",
+      "sourceUrl": "https://na.org.za/pta/event/padel-tournament/whatsapp-image-2026-02-23-at-14-43-50/",
+      "sourceExport": "narcoticsanonymouspretoria.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "96081",
+      "sourceUrl": "https://na.org.za/96081/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29376",
+      "sourceUrl": "https://na.org.za/29376/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "logo",
+      "sourceUrl": "https://na.org.za/logo/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "na-site-logo",
+      "sourceUrl": "https://na.org.za/na-site-logo/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "women-s-day-celebration-with-flower",
+      "sourceUrl": "https://na.org.za/women-s-day-celebration-with-flower/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930384",
+      "sourceUrl": "https://na.org.za/2151930384/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930388",
+      "sourceUrl": "https://na.org.za/2151930388/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "helping-each-other",
+      "sourceUrl": "https://na.org.za/helping-each-other/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148398371",
+      "sourceUrl": "https://na.org.za/2148398371/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "143021",
+      "sourceUrl": "https://na.org.za/143021/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2147770870",
+      "sourceUrl": "https://na.org.za/2147770870/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148938724",
+      "sourceUrl": "https://na.org.za/2148938724/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148101442",
+      "sourceUrl": "https://na.org.za/2148101442/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148101442",
+      "sourceUrl": "https://na.org.za/2148101442-2/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148101442",
+      "sourceUrl": "https://na.org.za/2148101442-3/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "19692",
+      "sourceUrl": "https://na.org.za/19692/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "favicon",
+      "sourceUrl": "https://na.org.za/favicon/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "cropped-favicon.png",
+      "sourceUrl": "https://na.org.za/favicon/cropped-favicon-png/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "woocommerce-placeholder",
+      "sourceUrl": "https://na.org.za/woocommerce-placeholder/",
+      "sourceExport": "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148938724-e1763294084270",
+      "sourceUrl": "https://na.org.za/wc/2148938724-e1763294084270/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2147770870-e1763292893626",
+      "sourceUrl": "https://na.org.za/wc/2147770870-e1763292893626/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2148101442-1-e1763294562253",
+      "sourceUrl": "https://na.org.za/wc/2148101442-1-e1763294562253/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "143021-e1763291423474",
+      "sourceUrl": "https://na.org.za/wc/143021-e1763291423474/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "helping-each-other-scaled-1",
+      "sourceUrl": "https://na.org.za/wc/helping-each-other-scaled-1/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "19692-e1763294820786",
+      "sourceUrl": "https://na.org.za/wc/19692-e1763294820786/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930384",
+      "sourceUrl": "https://na.org.za/wc/2151930384/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151930388",
+      "sourceUrl": "https://na.org.za/wc/2151930388/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "96081",
+      "sourceUrl": "https://na.org.za/wc/96081/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29376",
+      "sourceUrl": "https://na.org.za/wc/29376/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "Google-Forms-Logo",
+      "sourceUrl": "https://na.org.za/wc/google-forms-logo/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "favicon",
+      "sourceUrl": "https://na.org.za/wc/favicon/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "cropped-favicon.png",
+      "sourceUrl": "https://na.org.za/wc/favicon/cropped-favicon-png/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "logo",
+      "sourceUrl": "https://na.org.za/wc/logo/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "banner-wc-001",
+      "sourceUrl": "https://na.org.za/wc/banner-wc-001/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "559",
+      "sourceUrl": "https://na.org.za/wc/559/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "584",
+      "sourceUrl": "https://na.org.za/wc/584/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "woocommerce-placeholder",
+      "sourceUrl": "https://na.org.za/wc/woocommerce-placeholder/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "119749",
+      "sourceUrl": "https://na.org.za/wc/119749/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "120044",
+      "sourceUrl": "https://na.org.za/wc/event/website-inventory/attachment/120044/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2151118274",
+      "sourceUrl": "https://na.org.za/wc/2151118274/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "people-taking-part-high-protocol-event",
+      "sourceUrl": "https://na.org.za/wc/people-taking-part-high-protocol-event/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "People carryng speech bubble icons",
+      "sourceUrl": "https://na.org.za/wc/people-carryng-speech-bubble-icons/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2149035698",
+      "sourceUrl": "https://na.org.za/wc/2149035698/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "129014",
+      "sourceUrl": "https://na.org.za/wc/129014/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "zapper",
+      "sourceUrl": "https://na.org.za/wc/zapper/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "6914",
+      "sourceUrl": "https://na.org.za/wc/6914/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2149758877",
+      "sourceUrl": "https://na.org.za/wc/2149758877/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "123795",
+      "sourceUrl": "https://na.org.za/wc/123795/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "29680",
+      "sourceUrl": "https://na.org.za/wc/29680/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2150951473",
+      "sourceUrl": "https://na.org.za/wc/2150951473/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "high-angle-arrangement-with-speech-bubbles",
+      "sourceUrl": "https://na.org.za/wc/high-angle-arrangement-with-speech-bubbles/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "2306_PRMAT_2023",
+      "sourceUrl": "https://na.org.za/wc/2306_prmat_2023/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "3130_MHR-IP-30-English",
+      "sourceUrl": "https://na.org.za/wc/3130_mhr-ip-30-english/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "Bulletin-29-Regarding-Methadone-and-other-Drug-Replacement-Programs",
+      "sourceUrl": "https://na.org.za/wc/bulletin-29-regarding-methadone-and-other-drug-replacement-programs/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "EN2205-NA-Groups-and-MEdication-English",
+      "sourceUrl": "https://na.org.za/wc/en2205-na-groups-and-medication-english/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "In-Times-of-Illness-English",
+      "sourceUrl": "https://na.org.za/wc/in-times-of-illness-english/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-1-Who-What-How-and-Why",
+      "sourceUrl": "https://na.org.za/wc/ip-1-who-what-how-and-why/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-2-The-Group",
+      "sourceUrl": "https://na.org.za/wc/ip-2-the-group/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-5-Another-Look",
+      "sourceUrl": "https://na.org.za/wc/ip-5-another-look/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "istockphoto-1220573371-612x612",
+      "sourceUrl": "https://na.org.za/wc/istockphoto-1220573371-612x612/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-6-Recovery-Relapse",
+      "sourceUrl": "https://na.org.za/wc/ip-6-recovery-relapse/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-7-Am-I-an-Addict",
+      "sourceUrl": "https://na.org.za/wc/ip-7-am-i-an-addict/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-8-Just-for-Today",
+      "sourceUrl": "https://na.org.za/wc/ip-8-just-for-today/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-9-Living-the-Program",
+      "sourceUrl": "https://na.org.za/wc/ip-9-living-the-program/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-11-Sponsorship",
+      "sourceUrl": "https://na.org.za/wc/ip-11-sponsorship/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-12-The-Triangle-of-Self-Obsession",
+      "sourceUrl": "https://na.org.za/wc/ip-12-the-triangle-of-self-obsession/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-14-One-Addicts-Experience...",
+      "sourceUrl": "https://na.org.za/wc/ip-14-one-addicts-experience/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-15-PI-and-the-NA-Member",
+      "sourceUrl": "https://na.org.za/wc/ip-15-pi-and-the-na-member/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-16-For-the-Newcomer",
+      "sourceUrl": "https://na.org.za/wc/ip-16-for-the-newcomer/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-17-For-Those-in-Treatment",
+      "sourceUrl": "https://na.org.za/wc/ip-17-for-those-in-treatment/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-19-Self-Acceptance",
+      "sourceUrl": "https://na.org.za/wc/ip-19-self-acceptance/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-20-HI-Service-the-NA-Member",
+      "sourceUrl": "https://na.org.za/wc/ip-20-hi-service-the-na-member/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-21-The-Loner-Staying-Clean-in-Isolation",
+      "sourceUrl": "https://na.org.za/wc/ip-21-the-loner-staying-clean-in-isolation/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-22-Welcome-to-NA",
+      "sourceUrl": "https://na.org.za/wc/ip-22-welcome-to-na/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-23-Staying-Clean-on-the-Outside",
+      "sourceUrl": "https://na.org.za/wc/ip-23-staying-clean-on-the-outside/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-24-Money-Matters-Self-Support-in-NA",
+      "sourceUrl": "https://na.org.za/wc/ip-24-money-matters-self-support-in-na/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-26-Accessibility-for-Those-with-Additional-Needs",
+      "sourceUrl": "https://na.org.za/wc/ip-26-accessibility-for-those-with-additional-needs/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-28-Funding-NA-Services",
+      "sourceUrl": "https://na.org.za/wc/ip-28-funding-na-services/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "IP-29-Introduction-to-NA-Meetings",
+      "sourceUrl": "https://na.org.za/wc/ip-29-introduction-to-na-meetings/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "Screenshot 2026-02-02 at 11.03.17",
+      "sourceUrl": "https://na.org.za/wc/screenshot-2026-02-02-at-11-03-17/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-02-22 at 13.47.26",
+      "sourceUrl": "https://na.org.za/wc/event/wc-events-subcomitee-presents/whatsapp-image-2026-02-22-at-13-47-26/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-03-12 at 11.24.54",
+      "sourceUrl": "https://na.org.za/wc/event/boerie-ball-autumn-edition/whatsapp-image-2026-03-12-at-11-24-54/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "image",
+      "sourceUrl": "https://na.org.za/wc/event/service-speaker-jam/image/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-02-17 at 10.24.20",
+      "sourceUrl": "https://na.org.za/wc/whatsapp-image-2026-02-17-at-10-24-20/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-04-12 at 20.38.41",
+      "sourceUrl": "https://na.org.za/wc/event/boerie-ball-autumn-edition/whatsapp-image-2026-04-12-at-20-38-41/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "Observatory Recreation Centre Entrance 2_",
+      "sourceUrl": "https://na.org.za/wc/event/website-inventory/observatory-recreation-centre-entrance-2_/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-07-01 at 16.48.20",
+      "sourceUrl": "https://na.org.za/wc/event/mini-con-2026-guiding-principles-the-spirit-of-our-traditions/whatsapp-image-2026-07-01-at-16-48-20/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    },
+    {
+      "filename": "WhatsApp Image 2026-07-01 at 16.47.59",
+      "sourceUrl": "https://na.org.za/wc/event/pr-subcom-fellowship-wide-poster-run/whatsapp-image-2026-07-01-at-16-47-59/",
+      "sourceExport": "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+    }
+  ],
+  "duplicateNames": [],
+  "missingManifestFiles": [],
+  "unsafePaths": [],
+  "linkedSourcePages": [
+    "narcoticsanonymousjohannesburg.WordPress.2026-08-16.xml",
+    "narcoticsanonymouskwazulu-natal.WordPress.2026-08-16.xml",
+    "narcoticsanonymouspretoria.WordPress.2026-08-16.xml",
+    "narcoticsanonymoussouthafricaregion.WordPress.2026-08-16.xml",
+    "narcoticsanonymouswesterncape.WordPress.2026-08-16.xml"
+  ],
+  "status": "metadata-inventory-only"
+}
