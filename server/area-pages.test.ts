@@ -38,7 +38,9 @@ describe("dedicated area websites", () => {
       "/manus-storage/na-area-pretoria-hero_5bad0679.webp",
       "/manus-storage/na-area-kwazulu-natal-hero_792f5d0c.webp",
     ]) expect(page).toContain(asset);
-    expect(page).toContain("backgroundImage");
+    expect(page).toContain('src={area.imageUrl}');
+    expect(page).toContain('loading="eager"');
+    expect(page).toContain('fetchPriority="high"');
     expect(page).toContain("A distinct NA South Africa site");
   });
 });

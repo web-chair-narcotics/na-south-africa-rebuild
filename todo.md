@@ -234,3 +234,9 @@
 
 - [x] Make the online-filtered finder heading and explanatory copy explicitly online-only, with no venue, map, or directions language.
 - [x] Remove physical-venue wording from the online-only finder search placeholder while retaining the broader search placeholder for physical and hybrid routes.
+
+## Production five-site hero visibility failure reported 16 August 2026
+
+- [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses rather than relying on development-preview evidence.
+- [x] Correct any production asset-path, CSS, deploy, or responsive-rendering fault preventing the five verified hero images from being visible on the public domain.
+- [ ] Verify hero-image visibility on all five live routes at desktop and mobile viewports, then publish the correction.
