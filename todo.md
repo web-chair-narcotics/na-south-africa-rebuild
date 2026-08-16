@@ -32,7 +32,7 @@
 - [ ] Apply verified regional content and meeting updates without importing private admin URLs, credentials, or unverified records. Public regional pages are staged as drafts; final publication remains pending review.
 - [x] Produce an updated regional migration register, source reconciliation report, and QA evidence package.
 - [x] Restore and verify the application build after the accidental storefront scaffold change before checkpoint delivery.
-- [ ] Save a checkpoint after the uploaded-source reconciliation and final verification are complete.
+- [x] Save a checkpoint after the uploaded-source reconciliation and final verification are complete.
 
 ### Uploaded regional source inventory
 
@@ -69,3 +69,14 @@
 - [x] Recompute each attachment’s derivative variant count from the attachment-specific archive linkage rather than global filename-family matches.
 - [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
 - [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.
+- [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point.
+- [ ] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
+- [ ] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
+- [ ] Record a native responsive interactive-browser keyboard pass for the mobile navigation, supplementing the desktop test-harness verification.
+- [x] Rerun TypeScript checks, unit tests, and the production build after the latest public-layout accessibility changes.
+- [x] Make the shared public main landmark programmatically focusable so skip-link activation transfers keyboard focus as well as viewport position.
+- [x] Investigate and correct the meeting finder’s temporary Google Maps unavailable state observed in mobile responsive verification.
+- [x] Compare the supplied legacy NA palette and typography against the rebuilt visual system, then apply only safe, evidence-led alignment changes.
+- [x] Verify the legacy-aligned tokens across the home, meeting finder, long-form content, contact, and administrator entry routes at desktop and mobile widths.
+- [x] Add a code-level regression test that verifies the supplied legacy palette and typography tokens are retained in the global stylesheet.
+- [x] Rerun type checks, unit tests, and the production build after the global palette and typography changes.

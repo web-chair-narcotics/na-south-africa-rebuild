@@ -1,0 +1,50 @@
+# Public Experience QA Verification
+
+## Responsive acceptance evidence
+
+Initial mobile capture covered the home page, meeting finder, About page, Contact page, and the administrator sign-in entry point at a 375 × 812 viewport. All five routes retained a readable mobile header, large tap targets, visible support pathway, content hierarchy, and complete footer. The meeting finder initially rendered its map fallback during screenshot capture.
+
+The underlying issue was an asynchronous Google Maps proxy-loader timing condition: the script element had loaded, while the Maps namespace had not yet exposed its `Map` constructor. The loader now waits for `window.google.maps.Map` before resolving and resets its cached promise on failure, preserving a user-visible retry action only for genuine transient failures. Interactive browser verification after the change confirmed loaded Google Maps tiles, marker clusters, markers, zoom controls, and accessible map controls in the meeting finder.
+
+## Evidence captured
+
+| Journey | Verification result | Notes |
+|---|---|---|
+| Home | Pass | Responsive hero, meeting CTA, helpline, and support route were visible at mobile width. |
+| Meeting finder | Pass after loader repair | Search filters, 307 verified-meeting count, one-tap directions, clustered map markers, and map controls were available. |
+| About and Contact | Pass | Long-form content, emergency-support context, primary CTA, and footer remained readable at mobile width. |
+| Area administration entry | Pass | Mobile sign-in call to action and area-isolation explanation remained available. |
+
+The next QA step is an automated semantic and keyboard-focused accessibility scan of the public routes, followed by any safe remediation needed.
+
+## Automated semantic scan: home page
+
+The home-page DOM scan found a skip link targeting `#main-content`, one visible main landmark, a single H1 followed by ordered H2/H3 content hierarchy, 22 visible interactive controls, zero unlabelled form fields, zero unnamed controls, zero main-content images missing an `alt` attribute, and no duplicate IDs. The current `main` landmark does not require a `tabindex` because the skip-link target is structurally present and browser focus navigation remains available; explicit keyboard activation is included in the next interaction check.
+
+## Automated semantic scan: meeting finder
+
+The meeting finder exposed a skip link, main landmark, 64 visible interactive controls, 15 accessible Google Maps or marker-cluster controls, no duplicate IDs, and no missing image alternatives in the rendered main content. The scan initially flagged the search field because the visible wrapper label had no explicit `for` relationship detectable by the scanner. The field now uses `id="meeting-search"` and a corresponding `label htmlFor="meeting-search"`; this preserves the visual design while providing an explicit programmatic association. All filter selects already expose descriptive accessible names.
+
+## Managed Google Maps verification
+
+The Maps proxy requires the configured frontend Forge credential in its script request; without it, the proxy response has no transferable script payload and the finder correctly falls back rather than exposing an unusable map. With that managed-proxy credential restored, the browser verification confirmed an initialized Google Map, South Africa map tiles, venue markers, clustered marker controls, fullscreen and zoom controls, and direct Google Maps links. The loader continues to wait for `window.google.maps.Map` after the asynchronous script response, preventing the earlier premature fallback condition.
+
+## Keyboard verification: meeting finder
+
+Using keyboard navigation, the first Tab press reached the visible “Skip to main content” link. Activating it updated the location to `#main-content` and moved the viewport directly to the meeting finder, bypassing the helpline and primary navigation. The search input, five named filter controls, result-level “Show on map” actions, direct direction links, pagination, marker clusters, and Google Maps controls remain in the keyboard focus order.
+
+The shared public layout now gives the target main landmark `tabIndex={-1}`. A repeat keyboard run confirmed that activating the skip link produces `location.hash === "#main-content"` and sets the active element to `MAIN#main-content`; keyboard focus therefore transfers as well as the visible viewport.
+
+## Post-remediation automated scan
+
+The final meeting-finder scan reported the skip link, `main[tabindex="-1"]`, 64 visible interactive controls, zero unlabelled inputs, and zero duplicate IDs. The only generic “unnamed control” result was the search input itself because the generic name helper evaluates an input’s value rather than its associated label; inspecting the exact element confirmed `id="meeting-search"` and its matching label. This is covered by the accessibility regression test and is not an unresolved control-name defect.
+
+## Shared navigation keyboard traversal
+
+The desktop home-page traversal begins with the visible skip link, confirming that a keyboard user is offered the bypass before the helpline, brand link, and primary navigation. The remaining primary-navigation and mobile-navigation checks are recorded below as they are completed.
+
+On desktop, the next Tab press moved focus from the skip link to the national phoneline. The header’s DOM focus order then proceeds through the labelled home link, About NA, Recovery, Literature, News, Areas, Contact, Area admin, and Find a meeting controls. Every target is a native link with visible focus treatment; this matches the visual header order and introduces no keyboard trap.
+
+For the responsive header, the mobile toggle exposes an explicit “Open navigation” label and `aria-controls="mobile-navigation"`. Keyboard activation changed it to the “Close navigation” state with `aria-expanded="true"` and rendered the eight labelled mobile links: About NA, Recovery, Literature, News, Areas, Contact, Area admin, and Find a meeting. In the mobile-layout test harness, Tab moved from the open toggle to the About NA link, confirming that the expanded menu is included in the keyboard order. Separate 375-pixel route captures confirm that the same toggle is visible at the responsive breakpoint.
+
+The automated browser used for this pass has a fixed desktop interaction viewport, so the mobile-link traversal was verified with a controlled responsive-layout harness rather than a native mobile browser session. A true touch-device or native responsive interactive-browser keyboard pass remains explicitly open in `todo.md`; it is not represented as completed by this record.

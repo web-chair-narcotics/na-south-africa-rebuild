@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 declare global { interface Window { google?: typeof google; } }
 
-const API_KEY = import.meta.env.VITE_FRONTEND_FORGE_API_KEY;
+const MAPS_PROXY_CREDENTIAL = import.meta.env.VITE_FRONTEND_FORGE_API_KEY;
 const FORGE_BASE_URL = import.meta.env.VITE_FRONTEND_FORGE_API_URL || "https://forge.butterfly-effect.dev";
 const MAPS_PROXY_URL = `${FORGE_BASE_URL}/v1/maps/proxy`;
 let scriptPromise: Promise<void> | null = null;
@@ -17,11 +17,31 @@ function loadMapScript() {
   if (scriptPromise) return scriptPromise;
   scriptPromise = new Promise((resolve, reject) => {
     const script = document.createElement("script");
-    script.src = `${MAPS_PROXY_URL}/maps/api/js?key=${API_KEY}&v=weekly&libraries=marker,places,geocoding,geometry`;
+    script.dataset.naMapsLoader = "true";
+    script.src = `${MAPS_PROXY_URL}/maps/api/js?key=${MAPS_PROXY_CREDENTIAL}&v=weekly&loading=async&libraries=marker,places,geocoding,geometry`;
     script.async = true;
     script.crossOrigin = "anonymous";
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error("Google Maps could not be loaded."));
+    script.onload = () => {
+      const waitForMaps = (remainingAttempts: number) => {
+        if (window.google?.maps?.Map) {
+          resolve();
+          return;
+        }
+        if (remainingAttempts <= 0) {
+          scriptPromise = null;
+          script.remove();
+          reject(new Error("Google Maps did not initialize."));
+          return;
+        }
+        window.setTimeout(() => waitForMaps(remainingAttempts - 1), 50);
+      };
+      waitForMaps(100);
+    };
+    script.onerror = () => {
+      scriptPromise = null;
+      script.remove();
+      reject(new Error("Google Maps could not be loaded."));
+    };
     document.head.appendChild(script);
   });
   return scriptPromise;
@@ -54,12 +74,12 @@ export function MapView({ className, initialCenter = { lat: -30.5595, lng: 22.93
     try {
       await loadMapScript();
       if (!mapContainer.current || !window.google?.maps) return;
-      map.current = new window.google.maps.Map(mapContainer.current, { zoom: initialZoom, center: initialCenter, mapTypeControl: false, fullscreenControl: true, zoomControl: true, streetViewControl: false, mapId: "DEMO_MAP_ID" });
+      map.current = new window.google.maps.Map(mapContainer.current, { zoom: initialZoom, center: initialCenter, mapTypeControl: false, fullscreenControl: true, zoomControl: true, streetViewControl: false });
       onMapReady?.(map.current);
     } catch (error) { console.error(error); setError(true); }
   });
   useEffect(() => { void init(); }, [init]);
-  if (error) return <div className={cn("flex h-[460px] items-center justify-center bg-[#edf0e8] p-8 text-center text-[#405057]", className)} role="alert"><div><p className="font-serif text-2xl text-[#142d2a]">The map is temporarily unavailable.</p><p className="mx-auto mt-3 max-w-sm text-sm leading-6">Meeting details and direct Google Maps directions remain available in the result list. Please try again shortly.</p></div></div>;
+  if (error) return <div className={cn("flex h-[460px] items-center justify-center bg-[#edf0e8] p-8 text-center text-[#405057]", className)} role="alert"><div><p className="font-serif text-2xl text-[#142d2a]">The map is temporarily unavailable.</p><p className="mx-auto mt-3 max-w-sm text-sm leading-6">Meeting details and direct Google Maps directions remain available in the result list. You can retry the embedded map now.</p><button type="button" onClick={() => { setError(false); void init(); }} className="mt-5 min-h-11 rounded-full bg-[#0f584a] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0c463c] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0f584a]">Retry map</button></div></div>;
   return <div ref={mapContainer} className={cn("h-[460px] w-full", className)} aria-label="Meeting locations map" />;
 }
 
