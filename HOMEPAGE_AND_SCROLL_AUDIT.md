@@ -19,3 +19,7 @@ The homepage currently uses a blue grid-and-orb hero treatment and does not cont
 ## Verification
 
 The project validation suite passes with 57 tests across 17 files, TypeScript passes, and the production build passes. Desktop and mobile visual captures confirm the four area photographs remain visible. The homepage image remains intentionally pending until the user supplies the generated Nano Banana 2K asset.
+
+## Homepage image integration — 16 August 2026
+
+The generated homepage hero is now connected to `/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg`. The asset returns HTTP 200 as a 1920×1072 WebP and is a real South African coastal promenade and harbour photograph with sunrise light, a calm left-side text area, and no generated text or watermark. Desktop and 375px mobile captures show the photograph visibly rendered behind the homepage copy and meeting actions. All five public sites now have visible route-specific photography in responsive project verification.

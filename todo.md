@@ -291,8 +291,8 @@
 
 ## Homepage image and site-wide scroll restoration audit
 
-- [ ] Prepare and deliver a Nano Banana 2K homepage hero-image prompt with a distinctive South Africa Region visual direction, wide composition, and text-safe area.
-- [ ] Add the approved homepage hero image to the managed-storage route and verify it visibly renders on the live homepage.
-- [ ] Audit the homepage and four area pages for visible hero imagery at desktop and mobile widths.
-- [ ] Ensure internal route transitions reset the destination page to scroll position zero site-wide, including area links and all public navigation journeys.
-- [ ] Test representative internal links and publish the scroll-restoration repair if required.
+- [x] Prepare and deliver a Nano Banana 2K homepage hero-image prompt with a distinctive South Africa Region visual direction, wide composition, and text-safe area.
+- [x] Add the generated homepage hero image to the managed-storage route and verify it visibly renders on the homepage at desktop and mobile widths.
+- [x] Audit the homepage and four area pages for visible hero imagery at desktop and mobile widths.
+- [x] Ensure internal route transitions reset the destination page to scroll position zero site-wide, including area links and all public navigation journeys.
+- [x] Test representative internal links and publish the scroll-restoration repair if required.

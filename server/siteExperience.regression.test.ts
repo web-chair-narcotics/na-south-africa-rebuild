@@ -20,6 +20,15 @@ describe("five-site experience safeguards", () => {
     for (const slug of ["johannesburg", "cape-town", "pretoria", "kwazulu-natal"]) expect(app).toContain(`/areas/${slug}`);
   });
 
+  it("keeps the homepage connected to its managed hero asset", () => {
+    const home = read("client/src/pages/Home.tsx");
+    expect(home).toContain("na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg");
+    expect(home).toContain('alt="South African coastal promenade and harbour at sunrise"');
+    expect(home).toContain('loading="eager"');
+    expect(home).toContain('fetchPriority="high"');
+    expect(home).toContain("rgba(8,92,132,.84)");
+  });
+
   it("keeps homepage shortcuts actionable and separates physical from online meeting paths", () => {
     const home = read("client/src/pages/Home.tsx");
     expect(home).toContain('href: "/meetings?meetingFormat=in_person"');

@@ -3,6 +3,8 @@ import { Link } from "wouter";
 import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
+const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816";
+
 const supportSteps = [
   { number: "01", title: "In-person meetings", text: "Browse verified venues, open the map, and get precise directions.", href: "/meetings?meetingFormat=in_person", icon: MapPinned },
   { number: "02", title: "Online meetings", text: "See online-only meetings with verified join or contact details — never a physical address.", href: "/meetings?meetingFormat=online", icon: Wifi },
@@ -12,10 +14,12 @@ const supportSteps = [
 export default function Home() {
   return (
     <PublicLayout>
-      <section className="hero-grid relative overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24 lg:py-28">
-        <div className="hero-orb hero-orb-one" />
-        <div className="hero-orb hero-orb-two" />
-        <div className="site-container relative grid items-end gap-12 lg:grid-cols-[minmax(0,1.1fr)_360px] lg:gap-20">
+      <section className="hero-grid relative isolate overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24 lg:py-28">
+        <img src={homepageHeroImage} alt="South African coastal promenade and harbour at sunrise" className="absolute inset-0 z-0 h-full w-full object-cover" loading="eager" fetchPriority="high" decoding="sync" />
+        <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(8,92,132,.84)_0%,rgba(8,92,132,.62)_46%,rgba(8,92,132,.22)_100%),linear-gradient(180deg,rgba(2,106,185,.18),transparent_48%,rgba(8,92,132,.52))]" aria-hidden="true" />
+        <div className="hero-orb hero-orb-one relative z-20" />
+        <div className="hero-orb hero-orb-two relative z-20" />
+        <div className="site-container relative z-20 grid items-end gap-12 lg:grid-cols-[minmax(0,1.1fr)_360px] lg:gap-20">
           <div className="max-w-4xl">
             <p className="eyebrow text-white/90">Narcotics Anonymous South Africa</p>
             <h1 className="mt-5 max-w-4xl font-serif text-5xl leading-[0.98] tracking-[-0.055em] sm:text-6xl lg:text-8xl">A new way to live can begin today.</h1>
