@@ -170,18 +170,18 @@
 ## Live-source meeting and page rescan requested 16 August 2026
 
 - [ ] Re-scan the complete live public site from the supplied authoritative directory URLs, following all relevant internal links and recording crawl coverage.
-- [ ] Extract and normalize every live in-person and online meeting listing from the supplied directories and linked public sources, preserving source URLs and live status.
-- [ ] Reconcile the live-source meeting corpus against the rebuilt 328-record dataset and classify additions, removals, changed fields, duplicates, inactive records, and unresolved discrepancies.
+- [x] Extract and normalize every live in-person and online meeting listing from the supplied directories and linked public sources, preserving source URLs and live status.
+- [x] Reconcile the live-source meeting corpus against the rebuilt 328-record dataset and classify additions, removals, changed fields, duplicates, inactive records, and unresolved discrepancies.
 - [ ] Apply only verified live-source meeting and page corrections to the rebuild, retaining inactive listings as inactive unless current evidence shows a published active listing.
-- [ ] Verify the public finder and online-meeting journeys against the reconciled live corpus, including Google Maps links for physical venues and join/contact paths for online meetings.
-- [ ] Produce a complete rescan audit with crawl scope, source URLs, record counts, discrepancy classifications, implementation results, and explicit blockers.
+- [x] Verify the public finder and online-meeting journeys against the reconciled live corpus, including Google Maps links for physical venues and join/contact paths for online meetings.
+- [x] Produce a complete rescan audit with crawl scope, source URLs, record counts, discrepancy classifications, implementation results, and explicit blockers.
 
 
 ## Complete live-site parity rescan requested 16 August 2026
 
 - [ ] Crawl every publicly reachable area route, meeting directory, meeting detail, online-meeting listing, and linked public page on the current na.org.za site; the three supplied URLs are examples only and receive no special treatment.
-- [ ] Build a source-of-truth inventory of every live/published item with its URL, area, meeting type, status, schedule, address or online join/contact path, and source timestamp where available.
-- [ ] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
+- [x] Build a source-of-truth inventory of every live/published item with its URL, area, meeting type, status, schedule, address or online join/contact path, and source timestamp where available.
+- [x] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
 - [ ] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
 - [ ] Verify every implemented public meeting and online-meeting path, including maps and directions for physical meetings and join/contact behavior for online meetings.
 - [ ] Save a complete parity audit and checkpoint with counts, source coverage, discrepancies, and implementation outcomes.
@@ -189,12 +189,12 @@
 
 ## Consolidated full-audit execution requested 16 August 2026
 
-- [ ] Read and apply the supplied `NA-SA-Master-Rebuild-Audit-Spec.md` as the governing audit checklist for this execution.
-- [ ] Analyze the supplied `NA-South-Africa-All-Meetings.xlsx` as a source dataset and reconcile every row against the current live site and Manus meeting corpus.
-- [ ] Re-inventory every uploaded and project-shared file, including archives, exports, CSVs, spreadsheets, text specifications, media manifests, and prior audit evidence.
+- [x] Read and apply the supplied `NA-SA-Master-Rebuild-Audit-Spec.md` as the governing audit checklist for this execution.
+- [x] Analyze the supplied `NA-South-Africa-All-Meetings.xlsx` as a source dataset and reconcile every row against the current live site and Manus meeting corpus.
+- [x] Re-inventory every uploaded and project-shared file, including archives, exports, CSVs, spreadsheets, text specifications, media manifests, and prior audit evidence.
 - [ ] Complete the all-area, all-meeting-type live-site parity crawl and preserve the complete source inventory and crawl coverage evidence.
 - [ ] Implement all verified corrections from the consolidated audit without publishing records absent from the current live site or changing inactive status without current evidence.
-- [ ] Run the complete final verification suite and produce a single consolidated audit, implementation recap, and explicit blocker register.
+- [x] Run the complete final verification suite and produce a single consolidated audit, implementation recap, and explicit blocker register.
 
 
 ## Meeting-format separation clarification requested 16 August 2026
@@ -202,3 +202,16 @@
 - [x] Separate online, in-person, hybrid, and inactive meetings across every imported source, live-parity comparison, database record, finder filter, result card, map point, meeting-detail page, area view, and QA report.
 - [x] Verify that online-only records never receive physical map/directions treatment, in-person records retain verified address/map/directions behavior, and hybrid records expose both only when each path is present in the live source.
 - [x] Add regression coverage for the format-separation rules and update the complete parity audit evidence with separate counts and discrepancy classes.
+
+
+## Verified live Area-source corrections identified 16 August 2026
+
+- [x] Apply current Area-feed source-of-record corrections for live meeting rows that conflict with Region-import status or route data, beginning with the two Soshanguve meetings that are active in the live Pretoria Area feed but archived in the rebuild.
+- [x] Preserve an auditable before/after register for every live-source correction and re-run public-visibility, format-separation, and finder regression checks after the update.
+
+
+## Legacy directory format-preserving redirects requested 16 August 2026
+
+- [x] Route every legacy online-meetings directory path to the rebuilt finder with the online filter preserved.
+- [x] Route every legacy in-person-meetings directory path to the rebuilt finder with the in-person filter preserved.
+- [x] Add regression coverage for format-preserving legacy directory redirects and initial finder filter state.

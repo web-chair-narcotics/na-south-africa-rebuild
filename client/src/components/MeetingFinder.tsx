@@ -11,6 +11,11 @@ const types = ["Open", "Closed", "Speaker", "Step", "Topic", "Women", "Men"];
 type FilterState = { query: string; areaSlug: string; day: string; timeOfDay: string; meetingType: string; meetingFormat: string; page: number };
 const defaultFilters: FilterState = { query: "", areaSlug: "", day: "", timeOfDay: "", meetingType: "", meetingFormat: "", page: 1 };
 
+function filtersFromLocation(): FilterState {
+  const format = new URLSearchParams(window.location.search).get("meetingFormat");
+  return format === "online" || format === "in_person" || format === "hybrid" ? { ...defaultFilters, meetingFormat: format } : defaultFilters;
+}
+
 function addressOf(meeting: { venueName: string | null; streetAddress: string | null; suburb: string | null; city: string | null; province: string | null }) {
   return [meeting.venueName, meeting.streetAddress, meeting.suburb, meeting.city, meeting.province, "South Africa"].filter(Boolean).join(", ");
 }
@@ -22,7 +27,7 @@ function directionsUrl(meeting: { latitude: string | number | null; longitude: s
 }
 
 export default function MeetingFinder() {
-  const [filters, setFilters] = useState<FilterState>(defaultFilters);
+  const [filters, setFilters] = useState<FilterState>(() => filtersFromLocation());
   const [selectedId, setSelectedId] = useState<number | undefined>();
   const queryInput = useMemo(() => ({
     query: filters.query || undefined, areaSlug: filters.areaSlug || undefined, day: (filters.day || undefined) as (typeof days)[number] | undefined,
