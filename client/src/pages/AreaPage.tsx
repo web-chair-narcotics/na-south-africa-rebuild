@@ -68,7 +68,7 @@ export default function AreaPage({ slug }: { slug: string }) {
   return (
     <PublicLayout>
       <main className={`area-page ${area.className}`}>
-        <section className="relative overflow-hidden bg-[#54595F] py-16 text-white sm:py-24">
+        <section className="relative overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24">
           <div className="absolute inset-0 opacity-40" aria-hidden="true"><div className="area-pattern h-full w-full" /></div>
           <div className="site-container relative grid gap-12 lg:grid-cols-[1.1fr_.9fr] lg:items-end">
             <div>
@@ -76,7 +76,7 @@ export default function AreaPage({ slug }: { slug: string }) {
               <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-[1.02] tracking-[-0.05em] sm:text-7xl">{area.title}</h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-[#F8F8F8]">{area.summary}</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-                <Button asChild className="min-h-12 rounded-xl bg-[#2F9B3E] px-5 font-bold text-white hover:bg-[#EEEEEE]"><Link href={finderHref}>Find a {area.name} meeting <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></Link></Button>
+                <Button asChild className="min-h-12 rounded-xl bg-[#2F9B3E] px-5 font-bold text-white hover:bg-[#20752C]"><Link href={finderHref}>Find a {area.name} meeting <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></Link></Button>
                 <Button asChild variant="outline" className="min-h-12 rounded-xl border-white/40 bg-transparent px-5 text-white hover:bg-white/10"><Link href="/contact"><Phone className="mr-2 h-4 w-4" aria-hidden="true" />Contact NA South Africa</Link></Button>
               </div>
             </div>

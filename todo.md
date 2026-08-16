@@ -125,3 +125,12 @@
 - [x] Re-run and document post-palette accessibility verification on updated routes, including keyboard traversal and semantic/contrast-focused checks.
 
 - [ ] Re-run and document post-palette keyboard traversal on Home, Meetings, Meeting Detail, Area Page, and Admin entry, confirming skip-link focus, navigation order, visible focus, and CTA usability. Source-level safeguards passed; real interactive-browser traversal remains open.
+
+- [x] Extract and document the authoritative blue palette from the supplied na.org reference site, then align the rebuild’s visual system to it.
+- [x] Deep-dive the complete meeting directory against the supplied live reference and all imported sources, identify missing records, and document each discrepancy and root cause.
+- [x] Add regression coverage preventing verified meetings from being omitted by search, pagination, area/day/type filters, or publication-status handling.
+- [x] Repair published meetings with blank day schedules or placeholder times from their one-to-one live TSML source records, then verify day-filter discoverability.
+- [x] Correct the low-contrast eyebrow text on the new na.org-blue hero surfaces and re-verify desktop and mobile contrast.
+- [x] Add behavioural finder coverage proving published records remain discoverable by day, area, type, and pagination, including repaired Sunday and daily schedules.
+- [x] Implement a reusable legacy schedule parser for future imports that decodes TSML numeric Sunday and name-encoded Daily schedules before database persistence.
+- [x] Add behavioural regression coverage through the reusable schedule parser showing numeric-Sunday and Daily-source meetings produce correct days and time before finder filtering.

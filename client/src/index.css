@@ -21,10 +21,11 @@
 .helpline-bar { background: #EEEEEE; color: #54595F; font-size: 0.8125rem; padding: 0.55rem 0; }
 .skip-link { position: fixed; left: 1rem; top: -4rem; z-index: 100; border-radius: 0.5rem; background: #085C84; padding: 0.75rem 1rem; color: white; transition: top 160ms ease-out; }
 .skip-link:focus { top: 1rem; }
-.hero-grid { background-image: linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px); background-size: 36px 36px; }
+.hero-grid { background-image: linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px), linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px); background-size: 36px 36px; }
+.hero-grid .eyebrow, .area-page .eyebrow { color: #FFFFFF; }
 .hero-orb { position: absolute; border-radius: 9999px; filter: blur(2px); pointer-events: none; }
-.hero-orb-one { right: -8rem; top: -8rem; height: 26rem; width: 26rem; background: rgba(199,217,174,.12); }
-.hero-orb-two { bottom: -12rem; left: 35%; height: 20rem; width: 20rem; background: rgba(55,125,105,.25); }
+.hero-orb-one { right: -8rem; top: -8rem; height: 26rem; width: 26rem; background: rgba(255,255,255,.12); }
+.hero-orb-two { bottom: -12rem; left: 35%; height: 20rem; width: 20rem; background: rgba(8,92,132,.34); }
 .finder-select { height: 3rem; width: 100%; appearance: none; border: 1px solid #AAAAAA; border-radius: .75rem; background: #FFFFFF; padding: 0 .85rem; color: #54595F; font-size: .875rem; font-weight: 600; outline: none; }
 .finder-select:focus { border-color: #2F9B3E; box-shadow: 0 0 0 2px rgba(47,155,62,.22); }
 

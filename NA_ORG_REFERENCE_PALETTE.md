@@ -1,0 +1,73 @@
+# na.org reference palette extraction
+
+Source: https://na.org/
+
+## Stylesheet URLs for targeted analysis
+- https://na.org/wp-content/plugins/naws-jft/public/css/meditation-quotes-public.css?ver=1.0.0
+- https://na.org/wp-content/plugins/naws-spad/public/css/naws-spad-public.css?ver=1.0.0
+- https://na.org/wp-content/plugins/virtual-na-tz/assets/css/style.css?ver=7.0.4
+- https://na.org/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9
+- https://na.org/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9
+- https://na.org/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9
+- https://na.org/wp-content/themes/hello-elementor-child/style.css?ver=3.0.1.1716507052
+- https://na.org/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.2
+- https://na.org/wp-content/uploads/elementor/css/post-6.css?ver=1786467013
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.2.1
+- https://na.org/wp-content/plugins/elementor-pro/assets/css/widget-off-canvas.min.css?ver=4.2.1
+- https://na.org/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.2.1
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5
+- https://na.org/wp-content/plugins/inavii-social-feed-for-elementor-pro/includes/Legacy/Assets/dist/css/inavii-styles-pro.min.css?ver=3.0.4
+- https://na.org/wp-content/plugins/filebird-pro/includes/PageBuilders/Elementor/assets/css/frontend.css?ver=6.5.7
+- https://na.org/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.45.3
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.0
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?ver=5.15.3
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?ver=5.15.3
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?ver=5.15.3
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=4.2.2
+- https://na.org/wp-content/plugins/elementor/assets/css/widget-nested-tabs.min.css?ver=4.2.2
+- https://na.org/wp-content/uploads/elementor/css/post-44.css?ver=1786467051
+- https://na.org/wp-content/uploads/elementor/css/post-35.css?ver=1786467013
+- https://na.org/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.23.1
+- https://na.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0
+- https://na.org/wp-content/uploads/elementor/css/post-76.css?ver=1786467013
+- https://na.org/wp-content/plugins/searchwp-live-ajax-search/assets/styles/style.min.css?ver=1.8.8
+- https://na.org/wp-content/plugins/searchwp/assets/css/frontend/search-forms.min.css?ver=4.6.1
+- https://na.org/wp-content/uploads/happyaddons/css/ha-44.css?ver=3.23.1.1786465658
+- https://cdn.userway.org/styles/2026-08-10-10-33-59/widget_base.css?v=1786358039170
+- https://na.org/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css?ver=4.2.2
+
+## Embedded hex colours
+- `#000`
+- `#000000`
+- `#00d084`
+- `#0693e3`
+- `#111827`
+- `#1f2937`
+- `#2563eb`
+- `#32373c`
+- `#5636d1`
+- `#7bdcb5`
+- `#8ed1fc`
+- `#9b51e0`
+- `#abb8c3`
+- `#c36`
+- `#ccc`
+- `#cf2e2e`
+- `#e2498a`
+- `#e5e7eb`
+- `#f1f1f1`
+- `#f3f4f6`
+- `#f78da7`
+- `#f8f8f8`
+- `#fcb900`
+- `#ff6900`
+- `#fff`
+- `#ffffff`

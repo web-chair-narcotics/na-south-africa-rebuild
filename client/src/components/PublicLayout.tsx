@@ -40,7 +40,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
         <div className="site-container flex h-[78px] items-center justify-between gap-4">
           <Link href="/" className="inline-flex min-w-0 items-center" aria-label="Narcotics Anonymous South Africa home">
             <span className="relative h-10 w-10 shrink-0 overflow-hidden sm:h-11 sm:w-11"><img className="absolute left-0 top-0 h-10 max-w-none sm:h-11" src={logoUrl} alt="" /></span>
-            <span className="ml-2 hidden leading-tight text-[#2F9B3E] sm:block"><span className="block text-[11px] font-bold tracking-[0.02em]">Narcotics Anonymous</span><span className="block text-[10px] font-medium">South Africa Region</span></span>
+            <span className="ml-2 hidden leading-tight text-[#085C84] sm:block"><span className="block text-[11px] font-bold tracking-[0.02em]">Narcotics Anonymous</span><span className="block text-[10px] font-medium">South Africa Region</span></span>
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
@@ -48,7 +48,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
               <Link
                 key={link.href}
                 href={link.href}
-                className={`rounded-full px-3 py-2 text-sm font-medium transition-colors hover:bg-[#EEEEEE] ${isSelected(location, link.href) ? "bg-[#EEEEEE] text-[#2F9B3E]" : "text-[#54595F]"}`}
+                className={`rounded-full px-3 py-2 text-sm font-medium transition-colors hover:bg-[#EEEEEE] ${isSelected(location, link.href) ? "bg-[#EEEEEE] text-[#085C84]" : "text-[#085C84]"}`}
               >
                 {link.label}
               </Link>
@@ -56,7 +56,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
           </nav>
 
           <div className="hidden items-center gap-2 lg:flex">
-            <Button asChild variant="ghost" className="rounded-full text-[#2F9B3E] hover:bg-[#EEEEEE] hover:text-[#2F9B3E]">
+            <Button asChild variant="ghost" className="rounded-full text-[#085C84] hover:bg-[#EEEEEE] hover:text-[#085C84]">
               <Link href="/admin">Area admin</Link>
             </Button>
             <Button asChild className="rounded-full bg-[#2F9B3E] px-5 text-white shadow-none hover:bg-[#20752C]">
@@ -67,7 +67,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
           <Button
             variant="ghost"
             size="icon"
-            className="rounded-full text-[#2F9B3E] lg:hidden"
+            className="rounded-full text-[#085C84] lg:hidden"
             aria-expanded={menuOpen}
             aria-controls="mobile-navigation"
             aria-label={menuOpen ? "Close navigation" : "Open navigation"}
@@ -96,7 +96,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
 
       <main id="main-content" tabIndex={-1}>{children}</main>
 
-      <footer className="border-t border-white/10 bg-[#54595F] text-[#F8F8F8]">
+      <footer className="border-t border-white/10 bg-[#085C84] text-[#F8F8F8]">
         <div className="site-container grid gap-10 py-12 lg:grid-cols-[1.15fr_0.85fr_0.85fr]">
           <div>
             <div className="flex items-center"><span className="relative h-10 w-10 shrink-0 overflow-hidden"><img className="absolute left-0 top-0 h-10 max-w-none brightness-0 invert" src={logoUrl} alt="" /></span><span className="ml-2 leading-tight text-white"><span className="block text-[11px] font-bold">Narcotics Anonymous</span><span className="block text-[10px] text-[#EEEEEE]">South Africa Region</span></span></div>

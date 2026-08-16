@@ -29,9 +29,9 @@ export default function Areas() {
             </Link>
           ))}
         </div>
-        <div className="mt-12 rounded-3xl bg-[#54595F] p-7 text-white sm:p-10">
-          <p className="eyebrow text-[#2F9B3E]">Looking for a specific meeting?</p>
-          <div className="mt-4 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between"><p className="max-w-2xl font-serif text-3xl leading-9">Use the meeting finder to search beyond area boundaries by day, time and meeting type.</p><Button asChild className="min-h-12 shrink-0 rounded-xl bg-[#2F9B3E] font-bold text-white hover:bg-[#EEEEEE]"><Link href="/meetings">Find a meeting</Link></Button></div>
+        <div className="mt-12 rounded-3xl bg-[#085C84] p-7 text-white sm:p-10">
+          <p className="eyebrow text-white/90">Looking for a specific meeting?</p>
+          <div className="mt-4 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between"><p className="max-w-2xl font-serif text-3xl leading-9">Use the meeting finder to search beyond area boundaries by day, time and meeting type.</p><Button asChild className="min-h-12 shrink-0 rounded-xl bg-[#2F9B3E] font-bold text-white hover:bg-[#20752C]"><Link href="/meetings">Find a meeting</Link></Button></div>
         </div>
       </section>
     </PublicLayout>

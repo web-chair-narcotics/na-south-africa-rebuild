@@ -94,15 +94,15 @@ export default function ContentPage({ page }: { page: PageKey }) {
         <article className="max-w-3xl space-y-6 text-lg leading-8 text-[#54595F]">
           {item.body.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
         </article>
-        <aside className="h-fit rounded-3xl bg-[#54595F] p-7 text-white shadow-[0_18px_45px_rgba(20,45,42,0.14)]">
-          <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[#2F9B3E]">Need support now?</p>
+        <aside className="h-fit rounded-3xl bg-[#085C84] p-7 text-white shadow-[0_18px_45px_rgba(8,92,132,0.22)]">
+          <p className="text-sm font-semibold uppercase tracking-[0.15em] text-white/90">Need support now?</p>
           <p className="mt-3 font-serif text-2xl leading-8">A meeting can be a practical first step.</p>
           {item.cta && (external ? (
-            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#EEEEEE]">
+            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#20752C]">
               <a href={item.cta.href} target="_blank" rel="noreferrer">{item.cta.label}<ExternalLink className="ml-2 h-4 w-4" /></a>
             </Button>
           ) : (
-            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#EEEEEE]">
+            <Button asChild className="mt-6 min-h-12 w-full rounded-xl bg-[#2F9B3E] font-semibold text-white hover:bg-[#20752C]">
               <Link href={item.cta.href}>{item.cta.label}<ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           ))}
