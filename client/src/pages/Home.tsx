@@ -3,8 +3,8 @@ import { Link } from "wouter";
 import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
-const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816-1100";
-const homepageHeroDeployment = "homepage-hero-live-20260816-1100";
+const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816-1128";
+const homepageHeroDeployment = "homepage-hero-live-20260816-1128";
 
 const supportSteps = [
   { number: "01", title: "In-person meetings", text: "Browse verified venues, open the map, and get precise directions.", href: "/meetings?meetingFormat=in_person", icon: MapPinned },
