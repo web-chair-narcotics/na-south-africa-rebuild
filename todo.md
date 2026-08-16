@@ -246,3 +246,9 @@
 - [x] Inspect the actual production HTML, logo URL, five hero URLs, response headers, and public managed-storage behavior.
 - [x] Replace failing logo and hero asset delivery references with verified production-safe URLs.
 - [x] Audit all five sites and shared public pages for broken images before republishing.
+
+## Post-fix production quality audit requested 16 August 2026
+
+- [x] Audit live asset loading and visual integrity on the home page and each of the five public site routes.
+- [x] Audit public meeting filters, legacy directories, meeting details, and primary public links after the asset repair.
+- [x] Classify all observed findings as corrected technical defects, safe remediation work, or organisation-owned acceptance gates. The logo/hero asset incident is corrected; remaining open items are staged-page approval, historical meeting QA, transactional-email credentials, authorised role acceptance, and native-device keyboard acceptance.
