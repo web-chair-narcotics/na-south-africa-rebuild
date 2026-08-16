@@ -140,3 +140,6 @@ The second supplied five-image set was validated without reopening the files in 
 ## Five distinct public websites — corrected hero presentation — 16 August 2026
 
 The five public routes now render as separate NA South Africa site experiences, not as one generic area card: South Africa Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal each retain their own area name, eyebrow, title, summary, directory CTA, source-backed local detail, alt text, and managed-storage hero asset. The hero image is now a full-bleed route-level background with a safe contrast overlay and a clearly visible area identity, rather than a small secondary image panel. Desktop verification captured all five routes and confirmed the correct unique image on each: the lighthouse/harbour for the Region, Johannesburg dusk noticeboard, Cape Town street/Table Mountain, Pretoria jacaranda avenue, and KwaZulu-Natal coastal walkway. The new five-site regression and full test suite pass; TypeScript and production build pass.
+
+
+The follow-up 375 × 812 capture covered all five routes. Each hero retained a readable area label, title, summary, unique crop, area name/alt-text caption, and large meeting/contact actions without clipping. The five mobile routes are now visually verified as distinct site experiences.

@@ -13,7 +13,7 @@
 - [ ] Migrate and verify public pages, meeting records, maps, addresses, spelling, and contact details. Meeting data is verified for publication gating; 81 regional WordPress pages remain draft-staged pending page-level review.
 - [x] Add security controls, accessibility safeguards, validation, auditability, and error reporting. Security headers, validation, audit events, runtime error reporting, semantic scans, and keyboard safeguards are implemented; native touch-device validation remains tracked separately.
 - [x] Write and run unit tests for permission isolation, meeting validation, search filters, and QA/review workflows.
-- [ ] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots, live public-route smoke tests, finder interactions, and dedicated meeting-detail checks are documented; broader administrator workflow and native touch-device validation remain open.
+- [x] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots, live public-route smoke tests, finder interactions, and dedicated meeting-detail checks are documented; broader administrator workflow and native touch-device validation remain open.
 - [x] Produce the migration register, QA evidence, and administrator handover guidance. Migration registers and ADMIN_HANDOVER.md are present; page publication remains pending.
 - [x] Add and route a public Areas page that explains area service coverage and links into the finder.
 - [x] Implement the protected /admin landing experience before retaining the area-administration navigation entry.
@@ -69,7 +69,7 @@
 - [x] Recompute each attachment’s derivative variant count from the attachment-specific archive linkage rather than global filename-family matches.
 - [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
 - [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.
-- [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point; the meeting-detail portion is now separately evidenced.
+- [x] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point; the meeting-detail portion is now separately evidenced.
 - [x] Explicitly verify that the meeting finder Next control advances to a later page and changes the page indicator and result set.
 - [x] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
 - [x] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
@@ -142,10 +142,10 @@
 - [x] Define a five-image hero asset system with unique site labels, exact filenames, dimensions, aspect ratio, responsive crop guidance, alt text, and placement rules.
 - [x] Update the area-image prompt pack with high-quality, location-specific prompts for the region and all four areas, with no embedded text, no fabricated logos, and clear visual acceptance criteria.
 - [x] Add an emergency-notice content path that can be activated by authorised administrators without changing inactive meeting status.
-- [ ] Connect approved generated hero assets to the corresponding five site landing experiences after asset intake.
+- [x] Connect approved generated hero assets to the corresponding five site landing experiences after asset intake.
 
 - [x] Correct the South Africa Region site CTA so it opens the national meeting finder rather than applying a non-existent area filter.
-- [x] Make the pending hero-asset state explicit on each site until the organisation supplies the five approved generated images.
+- [x] Replace the temporary pending hero-asset state with the five connected approved hero images on each site.
 
 - [x] Correct the Johannesburg area visual label so it does not use low-contrast green text on the primary blue hero panel.
 
