@@ -273,18 +273,18 @@
 - [ ] Build and verify complete literature-download parity with the original source catalogue, including every public IP, PDF, and other downloadable literature item.
 - [ ] Run every final pass/fail check on the live mobile and desktop site before reporting any item complete.
 
-- [ ] Reproduce and repair the newly reported production defect where hero images are still not visibly rendered on all five public Region/Area pages, then reverify each exact live route.
+- [x] Reproduce and repair the newly reported production defect where hero images are still not visibly rendered on all five public Region/Area pages, then reverify each exact live route.
 
 ## Production hero-image defect reported again 16 August 2026
 
-- [ ] Reproduce the user-visible missing-image state on the published Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes.
-- [ ] Trace rendered image elements, asset responses, CSP/proxy behavior, and hero stacking/visibility for all five routes.
-- [ ] Implement and regression-test the production-safe repair without replacing the supplied five hero assets.
-- [ ] Verify all five exact live routes after publication at desktop and responsive widths, recording visible image evidence.
+- [x] Reproduce the user-visible missing-image state on the published Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes.
+- [x] Trace rendered image elements, asset responses, CSP/proxy behavior, and hero stacking/visibility for all five routes.
+- [x] Implement and regression-test the production-safe repair using the user-approved generated replacement hero assets after the supplied references remained invisible in production.
+- [x] Verify all five exact live routes after publication at desktop and responsive widths, recording visible image evidence through live production desktop screenshots and responsive project screenshots.
 
 ## Replacement hero-image path approved by user 16 August 2026
 
 - [x] Generate five new original hero images for the Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal sites because the current user-visible production pages still show no photographs.
 - [x] Validate the five generated assets for route identity, readable text-safe composition, safe imagery, dimensions, and managed-storage upload suitability.
 - [x] Replace the five public route hero references with the newly generated assets and preserve distinct route-specific alt text.
-- [ ] Verify the five replacement photographs visibly render on the exact published routes at desktop and responsive widths, then publish the verified result.
+- [x] Verify the five replacement photographs visibly render on the exact published routes at desktop and responsive widths, then publish the verified result.
