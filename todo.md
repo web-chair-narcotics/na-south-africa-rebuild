@@ -163,3 +163,5 @@
 
 - [x] Validate the five newly supplied 2K hero images against the route labels, actual file signatures, dimensions, and crop-safe asset contract without reopening them in the file viewer.
 - [x] Connect the validated five hero images to their exact regional site routes and document the final asset mapping.
+
+- [x] Refresh the organisational approval register so it no longer says the five hero assets are pending after the corrected assets were connected.
