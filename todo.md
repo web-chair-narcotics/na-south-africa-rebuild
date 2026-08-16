@@ -70,13 +70,20 @@
 - [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
 - [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.
 - [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point.
+- [x] Explicitly verify that the meeting finder Next control advances to a later page and changes the page indicator and result set.
 - [ ] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
 - [ ] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
 - [ ] Record a native responsive interactive-browser keyboard pass for the mobile navigation, supplementing the desktop test-harness verification.
 - [x] Rerun TypeScript checks, unit tests, and the production build after the latest public-layout accessibility changes.
+- [x] Produce a concise publication-readiness register for the 81 draft-staged regional pages and the remaining national meeting QA decisions.
+- [x] Run documented public meeting-finder interaction acceptance checks for filtering, map selection, pagination, and exact Google Maps directions URLs.
 - [x] Make the shared public main landmark programmatically focusable so skip-link activation transfers keyboard focus as well as viewport position.
 - [x] Investigate and correct the meeting finder’s temporary Google Maps unavailable state observed in mobile responsive verification.
 - [x] Compare the supplied legacy NA palette and typography against the rebuilt visual system, then apply only safe, evidence-led alignment changes.
 - [x] Verify the legacy-aligned tokens across the home, meeting finder, long-form content, contact, and administrator entry routes at desktop and mobile widths.
 - [x] Add a code-level regression test that verifies the supplied legacy palette and typography tokens are retained in the global stylesheet.
 - [x] Rerun type checks, unit tests, and the production build after the global palette and typography changes.
+
+- [x] Define four distinct area-site visual directions and named image jobs for Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal.
+- [x] Produce generation-ready prompts for the four area hero images, including text-safe composition, accessibility, and shared NA brand constraints.
+- [x] Document the area-image asset naming and page-placement map for later managed-storage intake.

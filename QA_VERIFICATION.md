@@ -39,6 +39,12 @@ The shared public layout now gives the target main landmark `tabIndex={-1}`. A r
 
 The final meeting-finder scan reported the skip link, `main[tabindex="-1"]`, 64 visible interactive controls, zero unlabelled inputs, and zero duplicate IDs. The only generic “unnamed control” result was the search input itself because the generic name helper evaluates an input’s value rather than its associated label; inspecting the exact element confirmed `id="meeting-search"` and its matching label. This is covered by the accessibility regression test and is not an unresolved control-name defect.
 
+## Public meeting-finder interaction acceptance
+
+The live public journey was exercised against the running preview. Full-text search for `Tsakane` narrowed the directory to one verified record, **Esihlahleni Tsakane - Daily - 17:30**, with its venue address, contact line, map pin, and exact Google Maps direction URL containing `destination=-26.3420167%2C28.375242`. Clearing the search and selecting Monday produced **51 verified meetings** across six pages. Selecting **Show on map** for Phefeni Soweto updated the map heading to the selected meeting and retained the marker clusters. The visible directions links use the expected `https://www.google.com/maps/dir/?api=1&destination=<latitude>%2C<longitude>&travelmode=driving` shape.
+
+The pagination check was allowed to settle after the asynchronous query update. A subsequent Next activation changed the rendered indicator from page one to **Page 3 of 31** and changed the first visible result to **JFT Meeting**, confirming both page state and result-set movement. The meeting finder, map tiles, marker clusters, search, day filter, pagination, directions URLs, and result-to-map selection therefore passed the safe acceptance pass.
+
 ## Shared navigation keyboard traversal
 
 The desktop home-page traversal begins with the visible skip link, confirming that a keyboard user is offered the bypass before the helpline, brand link, and primary navigation. The remaining primary-navigation and mobile-navigation checks are recorded below as they are completed.
