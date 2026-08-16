@@ -17,3 +17,10 @@ The safest order is to approve meeting records first, then review page content a
 ## Existing evidence
 
 The principal evidence files are `PUBLICATION_READINESS_REGISTER.md`, `meeting_qa_register.csv`, `inactive-legacy-meeting-confirmation-register.csv`, `INACTIVE_LEGACY_MEETING_CONFIRMATION_REGISTER.md`, `MEETING_RECONCILIATION_AUDIT.md`, `PUBLISHED_SCHEDULE_REPAIR_PLAN.md`, `final_url_migration_register.csv`, `QA_VERIFICATION.md`, `ADMIN_HANDOVER.md`, `MEDIA_INTAKE.md`, and `AREA_SITE_IMAGE_PROMPTS.md`. The latest live project checkpoint is `2d467b57`.
+
+
+## Five-site visual handoff update
+
+The live five-site platform is available at [nasarebuild-eqxm563b.manus.space](https://nasarebuild-eqxm563b.manus.space). The regional and area routes are `/areas/south-africa-region`, `/areas/johannesburg`, `/areas/cape-town`, `/areas/pretoria`, and `/areas/kwazulu-natal`.
+
+Five hero assets are still required before visual asset intake can be completed. Generate and supply these exact 2400 × 1350 WebP filenames: `na-region-south-africa-hero.webp`, `na-area-johannesburg-hero.webp`, `na-area-cape-town-hero.webp`, `na-area-pretoria-hero.webp`, and `na-area-kwazulu-natal-hero.webp`. The full location-specific prompts are in `AREA_SITE_IMAGE_PROMPTS.md`, while `FIVE_SITE_HERO_ASSET_INTAKE.csv` is the routing and alt-text manifest. Until approved files are supplied, the site displays an explicit placeholder label rather than using an unrelated or unapproved image.
