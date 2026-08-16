@@ -135,3 +135,4 @@
 - [x] Implement a reusable legacy schedule parser for future imports that decodes TSML numeric Sunday and name-encoded Daily schedules before database persistence.
 - [x] Add behavioural regression coverage through the reusable schedule parser showing numeric-Sunday and Daily-source meetings produce correct days and time before finder filtering.
 - [x] Prepare an area-owner confirmation register for the 21 live legacy listings marked inactive, so they can be safely reactivated or retained as archived with an explicit decision.
+- [x] Update the organisational approval handoff with the current checkpoint and the new inactive-meeting confirmation register.
