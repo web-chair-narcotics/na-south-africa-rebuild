@@ -49,6 +49,13 @@ describe("five-site experience safeguards", () => {
     expect(finder).toContain('className="min-w-0 break-words"');
   });
 
+  it("keeps online meeting details area-neutral and map-free", () => {
+    const detail = read("client/src/pages/MeetingDetail.tsx");
+    expect(detail).toContain('<p className="eyebrow mt-10">Online meeting</p>');
+    expect(detail).toContain('meeting.meetingFormat === "online" ? <ExternalLink');
+    expect(detail).toContain('meeting.meetingFormat !== "online" ? <p className="eyebrow mt-10">');
+  });
+
   it("keeps emergency notices independent of meeting status", () => {
     const schema = read("drizzle/schema.ts");
     const admin = read("server/routers/admin.ts");
