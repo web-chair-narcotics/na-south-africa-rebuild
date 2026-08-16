@@ -9,7 +9,7 @@ describe("public meeting visibility regression safeguards", () => {
     expect(source).toContain('const conditions = [eq(meetings.status, "published"), eq(areas.active, true)]');
     expect(source).toContain('from.where(where).orderBy');
     expect(source).toContain('.where(where),');
-    expect(source).toContain('.where(and(where, isNotNull(meetings.latitude), isNotNull(meetings.longitude)))');
+    expect(source).toContain('.where(and(where, inArray(meetings.meetingFormat, ["in_person", "hybrid"]), isNotNull(meetings.latitude), isNotNull(meetings.longitude)))');
   });
 
   it("does not expose archived meeting-detail records as a false current meeting", () => {

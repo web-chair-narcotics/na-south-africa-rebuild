@@ -9,3 +9,18 @@ describe("generated legacy route map", () => {
     expect(entries.every(([path, destination]) => path.startsWith("/") && destinations.has(destination))).toBe(true);
   });
 });
+
+
+  it("preserves online and in-person directory intent for every site path", async () => {
+    const { getLegacyDestination } = await import("../client/src/pages/LegacyRouteRedirect");
+    const { filtersFromSearch } = await import("../client/src/components/MeetingFinder");
+    expect(getLegacyDestination("/online-meetings/")).toBe("/meetings?meetingFormat=online");
+    expect(getLegacyDestination("/jhb/online-meetings/")).toBe("/meetings?meetingFormat=online");
+    expect(getLegacyDestination("/pta/online-meetings/")).toBe("/meetings?meetingFormat=online");
+    expect(getLegacyDestination("/wc/online-meetings/")).toBe("/meetings?meetingFormat=online");
+    expect(getLegacyDestination("/kzn/online-meetings/")).toBe("/meetings?meetingFormat=online");
+    expect(getLegacyDestination("/in-person-meetings/")).toBe("/meetings?meetingFormat=in_person");
+    expect(getLegacyDestination("/wc/in-person-meetings/")).toBe("/meetings?meetingFormat=in_person");
+    expect(filtersFromSearch("?meetingFormat=online").meetingFormat).toBe("online");
+    expect(filtersFromSearch("?meetingFormat=in_person").meetingFormat).toBe("in_person");
+  });

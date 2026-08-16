@@ -1,1 +1,0 @@
-ALTER TABLE `contentPages` ADD `sourceUrl` varchar(1024);

@@ -41,7 +41,6 @@ export const contentPages = mysqlTable("contentPages", {
   title: varchar("title", { length: 255 }).notNull(),
   excerpt: text("excerpt"),
   body: text("body").notNull(),
-  sourceUrl: varchar("sourceUrl", { length: 1024 }),
   status: mysqlEnum("status", ["draft", "submitted", "published", "archived"]).default("draft").notNull(),
   createdByUserId: int("createdByUserId"),
   reviewedByUserId: int("reviewedByUserId"),

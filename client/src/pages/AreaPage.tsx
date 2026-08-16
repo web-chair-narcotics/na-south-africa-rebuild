@@ -93,18 +93,22 @@ export default function AreaPage({ slug }: { slug: string }) {
   return (
     <PublicLayout>
       <main className={`area-page ${area.className}`}>
-        <section className="relative isolate min-h-[620px] overflow-hidden bg-[#026AB9] text-white" style={{ backgroundImage: `linear-gradient(90deg, rgba(8,92,132,.94) 0%, rgba(8,92,132,.74) 42%, rgba(8,92,132,.22) 100%), url(${area.imageUrl})`, backgroundPosition: "center", backgroundSize: "cover" }} role="img" aria-label={area.imageAlt}>
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,106,185,.22),transparent_48%,rgba(8,92,132,.72))]" aria-hidden="true" />
-          <div className="site-container relative flex min-h-[620px] items-end py-16 sm:py-24">
-            <div className="max-w-3xl">
-              <p className="eyebrow text-[#EEEEEE]">{area.eyebrow} · A distinct NA South Africa site</p>
+        <section className="relative overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24">
+          <div className="absolute inset-0 opacity-40" aria-hidden="true"><div className="area-pattern h-full w-full" /></div>
+          <div className="site-container relative grid gap-12 lg:grid-cols-[1.1fr_.9fr] lg:items-end">
+            <div>
+              <p className="eyebrow text-[#EEEEEE]">{area.eyebrow}</p>
               <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-[1.02] tracking-[-0.05em] sm:text-7xl">{area.title}</h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-[#F8F8F8]">{area.summary}</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <Button asChild className="min-h-12 rounded-xl bg-[#2F9B3E] px-5 font-bold text-white hover:bg-[#20752C]"><Link href={finderHref}>{finderLabel} <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></Link></Button>
                 <Button asChild variant="outline" className="min-h-12 rounded-xl border-white/40 bg-transparent px-5 text-white hover:bg-white/10"><Link href="/contact"><Phone className="mr-2 h-4 w-4" aria-hidden="true" />Contact NA South Africa</Link></Button>
               </div>
-              <p className="mt-8 max-w-xl text-sm leading-6 text-white/85"><span className="font-semibold text-white">{area.name}</span> · {area.imageAlt}</p>
+            </div>
+            <div className="area-visual relative min-h-64 overflow-hidden rounded-[2rem] border border-white/20 sm:min-h-80" role="img" aria-label={area.imageAlt}>
+              <img src={area.imageUrl} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#085C84]/90 via-[#085C84]/25 to-transparent" aria-hidden="true" />
+              <div className="relative flex h-full min-h-64 flex-col justify-between p-6 sm:min-h-80"><span className="text-sm font-semibold tracking-[0.14em] text-white/85">LOCAL RECOVERY / NATIONAL CONNECTION</span><div><span className="block max-w-xs font-serif text-4xl leading-tight text-white">{area.name}</span><span className="mt-3 block max-w-xs text-xs leading-5 text-white/80">{area.imageAlt}</span></div></div>
             </div>
           </div>
         </section>

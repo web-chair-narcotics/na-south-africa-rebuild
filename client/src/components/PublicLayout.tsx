@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { trpc } from "@/lib/trpc";
 
-const logoUrl = "/manus-storage/na-south-africa-logo_66b38f97.png";
+const logoUrl = "/manus-storage/na-south-africa-logo_8d811636.png";
 
 const links = [
   { href: "/about", label: "About NA" },
@@ -49,8 +49,9 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       <header className="sticky top-0 z-40 border-b border-[#54595F]/10 bg-[#F8F8F8]/95 backdrop-blur">
         <div className="site-container flex h-[78px] items-center justify-between gap-4">
           <Link href="/" className="inline-flex min-w-0 items-center" aria-label="Narcotics Anonymous South Africa home">
-            <span className="relative h-10 w-10 shrink-0 overflow-hidden sm:h-11 sm:w-11"><img className="absolute left-0 top-0 h-10 max-w-none sm:h-11" src={logoUrl} alt="" /></span>
-            <span className="ml-2 hidden leading-tight text-[#085C84] sm:block"><span className="block text-[11px] font-bold tracking-[0.02em]">Narcotics Anonymous</span><span className="block text-[10px] font-medium">South Africa Region</span></span>
+            <span className="inline-flex items-center rounded-lg bg-[#085C84] px-2 py-1.5 sm:px-3 sm:py-2">
+              <img className="h-auto w-[142px] sm:w-[188px]" src={logoUrl} alt="Narcotics Anonymous South Africa Region" />
+            </span>
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
@@ -109,7 +110,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       <footer className="border-t border-white/10 bg-[#085C84] text-[#F8F8F8]">
         <div className="site-container grid gap-10 py-12 lg:grid-cols-[1.15fr_0.85fr_0.85fr]">
           <div>
-            <div className="flex items-center"><span className="relative h-10 w-10 shrink-0 overflow-hidden"><img className="absolute left-0 top-0 h-10 max-w-none brightness-0 invert" src={logoUrl} alt="" /></span><span className="ml-2 leading-tight text-white"><span className="block text-[11px] font-bold">Narcotics Anonymous</span><span className="block text-[10px] text-[#EEEEEE]">South Africa Region</span></span></div>
+            <img className="h-auto w-[230px] max-w-full" src={logoUrl} alt="Narcotics Anonymous South Africa Region" />
             <p className="mt-5 max-w-md text-sm leading-6 text-[#EEEEEE]">Narcotics Anonymous is a non-profit fellowship for people for whom drugs have become a major problem. The only requirement for membership is a desire to stop using.</p>
           </div>
           <div>

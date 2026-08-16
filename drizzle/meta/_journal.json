@@ -29,13 +29,6 @@
       "when": 1786859888227,
       "tag": "0003_cloudy_speed_demon",
       "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "5",
-      "when": 1786867454097,
-      "tag": "0004_perfect_captain_cross",
-      "breakpoints": true
     }
   ]
 }
