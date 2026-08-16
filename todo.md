@@ -261,3 +261,14 @@
 - [x] Keep the default finder journey in-person and maintain dedicated, separate online access without mixing result sets.
 - [x] Verify the corrected meeting-card experience on mobile and desktop, then publish.
 - [x] Remove area-dependent eyebrow and physical-map presentation from online-only meeting detail pages, then verify the detail journey. Fresh production retrieval now shows `Online meeting`, online access, and no area label.
+
+## Final Region Multi-Site specification received 16 August 2026
+
+- [ ] Verify all five public sites side by side on live desktop and mobile: unique image, content, visual treatment, and reachable route for Region, Johannesburg, Pretoria, KwaZulu-Natal, and Cape Town.
+- [ ] Enforce `Online` as the only public location/area value for every online meeting, including all online finder cards and details, with zero city, region, or area names.
+- [ ] Verify dedicated non-interleaved in-person and online finder views on live desktop and mobile, with in-person as the default.
+- [ ] Correct all live mobile meeting-address layouts so every address wraps cleanly without overlap, truncation, or horizontal scrolling.
+- [ ] Repair the live Google Maps panel so physical finder results show an interactive map rather than the temporary-unavailable fallback.
+- [ ] Make the three homepage meeting-path cards exactly equal in desktop dimensions while retaining responsive mobile layout.
+- [ ] Build and verify complete literature-download parity with the original source catalogue, including every public IP, PDF, and other downloadable literature item.
+- [ ] Run every final pass/fail check on the live mobile and desktop site before reporting any item complete.

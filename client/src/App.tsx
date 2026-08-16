@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import Meetings from "./pages/Meetings";
 import MeetingDetail from "./pages/MeetingDetail";
 import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
+import LiteraturePage from "./pages/LiteraturePage";
 
 function Router() {
   return (
@@ -35,8 +36,8 @@ function Router() {
       <Route path="/what-happens-at-an-na-meeting">{() => <ContentPage page="recovery" />}</Route>
       <Route path="/information-about-na">{() => <ContentPage page="information" />}</Route>
       <Route path="/how-to-start-an-na-meeting">{() => <ContentPage page="start" />}</Route>
-      <Route path="/literature">{() => <ContentPage page="literature" />}</Route>
-      <Route path="/na-literature">{() => <ContentPage page="literature" />}</Route>
+      <Route path="/literature" component={LiteraturePage} />
+      <Route path="/na-literature" component={LiteraturePage} />
       <Route path="/news">{() => <ContentPage page="news" />}</Route>
       <Route path="/contact">{() => <ContentPage page="contact" />}</Route>
       <Route path="/contact-us">{() => <ContentPage page="contact" />}</Route>

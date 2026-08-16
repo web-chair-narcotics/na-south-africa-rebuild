@@ -70,17 +70,36 @@ interface MapViewProps {
 export function MapView({ className, initialCenter = { lat: -30.5595, lng: 22.9375 }, initialZoom = 5, onMapReady }: MapViewProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<google.maps.Map | null>(null);
+  const retryCount = useRef(0);
   const [error, setError] = useState(false);
   const init = usePersistFn(async () => {
     try {
       await loadMapScript();
       if (!mapContainer.current || !window.google?.maps) return;
       map.current = new window.google.maps.Map(mapContainer.current, { zoom: initialZoom, center: initialCenter, mapTypeControl: false, fullscreenControl: true, zoomControl: true, streetViewControl: false });
+      retryCount.current = 0;
       onMapReady?.(map.current);
-    } catch (error) { console.error(error); setError(true); }
+    } catch (error) {
+      console.error(error);
+      scriptPromise = null;
+      if (retryCount.current < 2) {
+        retryCount.current += 1;
+        window.setTimeout(() => { void init(); }, retryCount.current * 900);
+        return;
+      }
+      setError(true);
+    }
   });
   useEffect(() => { void init(); }, [init]);
-  if (error) return <div className={cn("flex h-[460px] items-center justify-center bg-[#F8F8F8] p-8 text-center text-[#54595F]", className)} role="alert"><div><p className="font-serif text-2xl text-[#54595F]">The map is temporarily unavailable.</p><p className="mx-auto mt-3 max-w-sm text-sm leading-6">Meeting details and direct Google Maps directions remain available in the result list. You can retry the embedded map now.</p><button type="button" onClick={() => { setError(false); void init(); }} className="mt-5 min-h-11 rounded-full bg-[#20752C] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#20752C] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#20752C]">Retry map</button></div></div>;
+  if (error) {
+    const query = `${initialCenter.lat},${initialCenter.lng}`;
+    const googleMapUrl = `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=${initialZoom}&output=embed`;
+    const googleMapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+    return <div className={cn("relative h-[460px] overflow-hidden rounded-2xl border border-[#DDE6EB] bg-[#F8F8F8]", className)} role="region" aria-label="Meeting locations map">
+      <iframe title="Meeting locations on Google Maps" src={googleMapUrl} className="h-full w-full border-0" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-white/95 px-4 py-3 shadow-lg backdrop-blur"><p className="text-sm font-semibold text-[#54595F]">Interactive Google Maps fallback</p><div className="flex gap-2"><a href={googleMapLink} target="_blank" rel="noreferrer" className="rounded-lg bg-[#20752C] px-3 py-2 text-sm font-bold text-white hover:bg-[#185D22]">Open full map</a><button type="button" onClick={() => { retryCount.current = 0; scriptPromise = null; setError(false); void init(); }} className="rounded-lg border border-[#085C84]/25 px-3 py-2 text-sm font-bold text-[#085C84] hover:bg-[#EAF5EC]">Retry map</button></div></div>
+    </div>;
+  }
   return <div ref={mapContainer} className={cn("h-[460px] w-full", className)} aria-label="Meeting locations map" />;
 }
 
@@ -110,5 +129,7 @@ export function MeetingMap({ points, selectedId, onSelect }: { points: MeetingMa
   });
 
   useEffect(() => { redraw(); return () => { clusterRef.current?.clearMarkers(); }; }, [points, selectedId, redraw]);
-  return <MapView className="h-[460px]" onMapReady={map => { mapRef.current = map; redraw(); }} />;
+  const firstPoint = points.find(point => Number.isFinite(Number(point.latitude)) && Number.isFinite(Number(point.longitude)));
+  const fallbackCenter = firstPoint ? { lat: Number(firstPoint.latitude), lng: Number(firstPoint.longitude) } : undefined;
+  return <MapView className="h-[460px]" initialCenter={fallbackCenter} initialZoom={fallbackCenter ? 9 : 5} onMapReady={map => { mapRef.current = map; redraw(); }} />;
 }

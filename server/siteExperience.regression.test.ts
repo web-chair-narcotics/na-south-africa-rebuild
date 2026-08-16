@@ -23,6 +23,13 @@ describe("five-site experience safeguards", () => {
     expect(home).toContain("Take this step");
   });
 
+  it("keeps the three homepage meeting-path cards equal height with aligned actions", () => {
+    const home = read("client/src/pages/Home.tsx");
+    expect(home).toContain("sm:auto-rows-fr sm:grid-cols-3");
+    expect(home).toContain("min-h-[276px] h-full flex-col");
+    expect(home).toContain("mt-auto pt-5 inline-flex");
+  });
+
   it("uses the supplied managed NA South Africa wordmark without cropping it", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
     expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
