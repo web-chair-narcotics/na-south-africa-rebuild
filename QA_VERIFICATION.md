@@ -120,3 +120,8 @@ The new `emergencyNotices` table, public active-notice procedure, national-admin
 The five-site image prompt pack now covers the South Africa Region and all four areas, with research notes, primary-blue alignment, exact 2400 × 1350 WebP requirements, centre-right focal placement, left-third text safety, mobile crop guidance, exclusion constraints, alt text, and exact filenames. `FIVE_SITE_HERO_ASSET_INTAKE.csv` is the intake key and `FIVE_SITE_HANDOFF.md` contains the generation and upload instructions. The five hero assets remain intentionally pending until the organisation supplies the generated files; each site visibly labels its exact expected asset rather than displaying an unrelated image.
 
 The final five-site regression run passed **35 tests across 14 files**, together with TypeScript checking and the production build. The build reports only the existing bundle-size advisory; no type, unit-test, or build failure remains. Native authenticated administration workflow acceptance and the real interactive-browser keyboard pass remain open as previously documented.
+
+
+## Final Johannesburg visual contrast correction
+
+The mobile screenshot pass identified one remaining palette-specific issue: the Johannesburg area label inside the blue visual panel was using the action-green accent, which was not sufficiently readable on the primary blue surface. The label now uses the shared off-white accent used by the other area panels. A follow-up 390 × 844 capture confirms readable Johannesburg panel typography, and the focused five-site regression suite, TypeScript check, and production build all pass.

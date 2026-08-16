@@ -35,7 +35,7 @@ const configs: Record<string, AreaConfig> = {
     summary: "Local recovery information for Johannesburg, connected to the national NA South Africa directory.",
     detail: "Search the Johannesburg meeting list by day, time, meeting type, and format. Each published result carries its verified venue details, map pin, and direct directions link.",
     className: "area-johannesburg",
-    accent: "#2F9B3E",
+    accent: "#EEEEEE",
     imagePromptFile: "area-johannesburg-hero.webp",
   },
   "cape-town": {

@@ -146,3 +146,5 @@
 
 - [x] Correct the South Africa Region site CTA so it opens the national meeting finder rather than applying a non-existent area filter.
 - [x] Make the pending hero-asset state explicit on each site until the organisation supplies the five approved generated images.
+
+- [x] Correct the Johannesburg area visual label so it does not use low-contrast green text on the primary blue hero panel.
