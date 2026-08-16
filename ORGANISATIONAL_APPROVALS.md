@@ -24,3 +24,10 @@ The principal evidence files are `PUBLICATION_READINESS_REGISTER.md`, `meeting_q
 The live five-site platform is available at [nasarebuild-eqxm563b.manus.space](https://nasarebuild-eqxm563b.manus.space). The regional and area routes are `/areas/south-africa-region`, `/areas/johannesburg`, `/areas/cape-town`, `/areas/pretoria`, and `/areas/kwazulu-natal`.
 
 Five hero assets are still required before visual asset intake can be completed. Generate and supply these exact 2400 × 1350 WebP filenames: `na-region-south-africa-hero.webp`, `na-area-johannesburg-hero.webp`, `na-area-cape-town-hero.webp`, `na-area-pretoria-hero.webp`, and `na-area-kwazulu-natal-hero.webp`. The full location-specific prompts are in `AREA_SITE_IMAGE_PROMPTS.md`, while `FIVE_SITE_HERO_ASSET_INTAKE.csv` is the routing and alt-text manifest. Until approved files are supplied, the site displays an explicit placeholder label rather than using an unrelated or unapproved image.
+
+
+## Submitted hero ZIP review — 16 August 2026
+
+The supplied archive `na-heroes_20260816_063143.zip` was audited against the five-site intake contract. It contains four named WebP candidates plus source JPGs; the required Johannesburg file `na-area-johannesburg-hero.webp` is absent. All four supplied WebP candidates are JPEG-encoded files with a `.webp` extension and fail the required 2400 × 1350 output dimensions. The visual review also found that the KwaZulu-Natal candidate depicts a specific curved-roof venue and does not match the approved everyday community-landscape direction. No supplied hero has been connected to the website. The complete measured results and visual findings are in `FIVE_SITE_HERO_ASSET_INTAKE.csv` and `HERO_ASSET_VISUAL_REVIEW.md`.
+
+Please regenerate all five files using the exact filenames in `NA_SOUTH_AFRICA_FIVE_HERO_IMAGE_PROMPTS.md`, with real WebP encoding and exactly 2400 × 1350 pixels. A corrected ZIP must contain `na-area-johannesburg-hero.webp` and must not rely on source JPGs or renamed JPEGs.

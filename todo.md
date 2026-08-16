@@ -152,3 +152,6 @@
 - [x] Update the organisational approval register with the live five-site domain and exact five-hero asset intake requirements.
 
 - [x] Deliver a downloadable five-image generation brief with exact route labels, filenames, dimensions, prompts, alt text, crop guidance, and acceptance checks.
+
+- [x] Validate the supplied hero ZIP against the five-site manifest, including exact filenames, dimensions, WebP format, visual safety, and route mapping. All supplied candidates are held for re-export; Johannesburg is missing.
+- [ ] Upload approved hero assets to managed storage and connect them to the corresponding five site routes after validation.
