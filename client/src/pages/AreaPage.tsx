@@ -17,7 +17,8 @@ type AreaConfig = {
   imageAlt: string;
 };
 
-const publicAssetVersion = "replacement-hero-20260816";
+const publicAssetVersion = "replacement-hero-20260816-1028";
+const replacementHeroDeployment = "replacement-hero-live-20260816-1028";
 
 const configs: Record<string, AreaConfig> = {
   "south-africa-region": {
@@ -94,7 +95,7 @@ export default function AreaPage({ slug }: { slug: string }) {
   const finderLabel = isRegion ? "Open national meeting finder" : `Find a ${area.name} meeting`;
   return (
     <PublicLayout>
-      <main className={`area-page ${area.className}`}>
+      <main className={`area-page ${area.className}`} data-hero-deployment={replacementHeroDeployment}>
         <section className="relative isolate min-h-[620px] overflow-hidden bg-[#026AB9] text-white">
           <img src={area.imageUrl} alt={area.imageAlt} className="absolute inset-0 z-0 h-full w-full object-cover" loading="eager" fetchPriority="high" decoding="sync" />
           <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(8,92,132,.72)_0%,rgba(8,92,132,.44)_46%,rgba(8,92,132,.10)_100%),linear-gradient(180deg,rgba(2,106,185,.12),transparent_48%,rgba(8,92,132,.48))]" aria-hidden="true" />
