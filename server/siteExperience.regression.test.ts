@@ -82,6 +82,14 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain('meeting.meetingFormat !== "online" ? <p className="eyebrow mt-10">');
   });
 
+  it("keeps meeting-detail notes readable and removes repeated address parts", () => {
+    const detail = read("client/src/pages/MeetingDetail.tsx");
+    expect(detail).toContain("function decodeHtmlEntities");
+    expect(detail).toContain('.replace(/&amp;/g, "&")');
+    expect(detail).toContain("parts.filter((part, index) => parts.indexOf(part) === index)");
+    expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
+  });
+
   it("keeps emergency notices independent of meeting status", () => {
     const schema = read("drizzle/schema.ts");
     const admin = read("server/routers/admin.ts");

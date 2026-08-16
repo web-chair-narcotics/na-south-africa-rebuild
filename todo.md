@@ -330,6 +330,8 @@
 
 ## Protected comprehensive audit constraint — 16 August 2026
 
-- [ ] Keep the current public presentation and working routes unchanged during the audit unless a confirmed defect requires a minimal repair.
-- [ ] Prioritise meeting-finder correctness, separation, addresses, maps, details, filters, and download/data paths; do not make broad dependency or design upgrades.
-- [ ] Create a recoverable checkpoint before any code repair and validate all meeting regressions, tests, build, and key live journeys before publishing.
+- [x] Keep the current public presentation and working routes unchanged during the audit unless a confirmed defect requires a minimal repair.
+- [x] Prioritise meeting-finder correctness, separation, addresses, maps, details, filters, and download/data paths; do not make broad dependency or design upgrades.
+- [x] Create a recoverable checkpoint before any code repair and validate all meeting regressions, tests, build, and key live journeys before publishing.
+
+- [x] Repair only the confirmed meeting-detail presentation defects: decode escaped note entities and remove duplicate address components without changing meeting classifications or source data.
