@@ -125,3 +125,8 @@ The final five-site regression run passed **35 tests across 14 files**, together
 ## Final Johannesburg visual contrast correction
 
 The mobile screenshot pass identified one remaining palette-specific issue: the Johannesburg area label inside the blue visual panel was using the action-green accent, which was not sufficiently readable on the primary blue surface. The label now uses the shared off-white accent used by the other area panels. A follow-up 390 × 844 capture confirms readable Johannesburg panel typography, and the focused five-site regression suite, TypeScript check, and production build all pass.
+
+
+## Emergency active-query fix
+
+The public `emergency.active` query previously returned `undefined` when no published notice matched the active time window, which violated the TanStack Query contract and generated a console error on the home page. The database helper now returns `null` for both an unavailable database and an empty result set; a populated notice remains returned unchanged. The public layout already treats a null value as no banner. Added `server/emergency.query.regression.test.ts` covering the defined null contract, procedure wiring, and empty/public notice rendering. Full verification passes: 15 test files, 38 tests, TypeScript check, and production build.

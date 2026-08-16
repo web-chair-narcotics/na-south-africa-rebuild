@@ -157,3 +157,6 @@
 - [ ] Upload approved hero assets to managed storage and connect them to the corresponding five site routes after validation.
 
 - [x] Replace the first five-image prompt pack with a stricter Nano Banana 2K art-direction brief containing exact camera, composition, label, exclusion, and per-image acceptance instructions.
+
+- [x] Fix the public emergency.active query so an empty active-notice result returns a defined value and never triggers a TanStack Query undefined-data error.
+- [x] Add regression coverage for emergency.active with both no active notice and an active notice response.
