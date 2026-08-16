@@ -130,3 +130,8 @@ The mobile screenshot pass identified one remaining palette-specific issue: the 
 ## Emergency active-query fix
 
 The public `emergency.active` query previously returned `undefined` when no published notice matched the active time window, which violated the TanStack Query contract and generated a console error on the home page. The database helper now returns `null` for both an unavailable database and an empty result set; a populated notice remains returned unchanged. The public layout already treats a null value as no banner. Added `server/emergency.query.regression.test.ts` covering the defined null contract, procedure wiring, and empty/public notice rendering. Full verification passes: 15 test files, 38 tests, TypeScript check, and production build.
+
+
+## Five-site hero asset intake
+
+The second supplied five-image set was validated without reopening the files in the file viewer, as requested. Programmatic metadata checks confirmed five genuine WebP files, each 2048 × 1143 px, RGB, with a consistent 1.791776 landscape ratio. The images were mapped to the South Africa Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes; uploaded to managed storage; and connected in `client/src/pages/AreaPage.tsx` using exact route-labelled storage paths. Desktop screenshots at 1280 × 720 and mobile screenshots at 375 × 812 confirmed that each panel renders its intended regional image, retains readable white overlay text, and remains visually usable in a narrow crop. Full verification passes: 15 test files, 38 tests, TypeScript check, and production build.

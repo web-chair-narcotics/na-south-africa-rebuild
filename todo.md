@@ -154,9 +154,12 @@
 - [x] Deliver a downloadable five-image generation brief with exact route labels, filenames, dimensions, prompts, alt text, crop guidance, and acceptance checks.
 
 - [x] Validate the supplied hero ZIP against the five-site manifest, including exact filenames, dimensions, WebP format, visual safety, and route mapping. All supplied candidates are held for re-export; Johannesburg is missing.
-- [ ] Upload approved hero assets to managed storage and connect them to the corresponding five site routes after validation.
+- [x] Upload approved hero assets to managed storage and connect them to the corresponding five site routes after validation.
 
 - [x] Replace the first five-image prompt pack with a stricter Nano Banana 2K art-direction brief containing exact camera, composition, label, exclusion, and per-image acceptance instructions.
 
 - [x] Fix the public emergency.active query so an empty active-notice result returns a defined value and never triggers a TanStack Query undefined-data error.
 - [x] Add regression coverage for emergency.active with both no active notice and an active notice response.
+
+- [x] Validate the five newly supplied 2K hero images against the route labels, actual file signatures, dimensions, and crop-safe asset contract without reopening them in the file viewer.
+- [x] Connect the validated five hero images to their exact regional site routes and document the final asset mapping.

@@ -13,6 +13,8 @@ type AreaConfig = {
   className: string;
   accent: string;
   imagePromptFile: string;
+  imageUrl: string;
+  imageAlt: string;
 };
 
 const configs: Record<string, AreaConfig> = {
@@ -26,6 +28,8 @@ const configs: Record<string, AreaConfig> = {
     className: "area-south-africa-region",
     accent: "#EEEEEE",
     imagePromptFile: "na-region-south-africa-hero.webp",
+    imageUrl: "/manus-storage/na-region-south-africa-hero_03348d2b.webp",
+    imageAlt: "South African coastal lighthouse and harbour under a wide overcast sky.",
   },
   johannesburg: {
     name: "Johannesburg",
@@ -37,6 +41,8 @@ const configs: Record<string, AreaConfig> = {
     className: "area-johannesburg",
     accent: "#EEEEEE",
     imagePromptFile: "area-johannesburg-hero.webp",
+    imageUrl: "/manus-storage/na-area-johannesburg-hero_c81eaedf.webp",
+    imageAlt: "Johannesburg neighbourhood street at dusk with a community notice board and distant lights.",
   },
   "cape-town": {
     name: "Cape Town",
@@ -48,6 +54,8 @@ const configs: Record<string, AreaConfig> = {
     className: "area-cape-town",
     accent: "#EEEEEE",
     imagePromptFile: "area-cape-town-hero.webp",
+    imageUrl: "/manus-storage/na-area-cape-town-hero_2c81ddbc.webp",
+    imageAlt: "Colourful Cape Town street leading toward Table Mountain.",
   },
   pretoria: {
     name: "Pretoria",
@@ -59,6 +67,8 @@ const configs: Record<string, AreaConfig> = {
     className: "area-pretoria",
     accent: "#EEEEEE",
     imagePromptFile: "area-pretoria-hero.webp",
+    imageUrl: "/manus-storage/na-area-pretoria-hero_5bad0679.webp",
+    imageAlt: "Pretoria jacaranda-lined avenue with purple blossoms and a quiet bench.",
   },
   "kwazulu-natal": {
     name: "KwaZulu-Natal",
@@ -70,6 +80,8 @@ const configs: Record<string, AreaConfig> = {
     className: "area-kwazulu-natal",
     accent: "#EEEEEE",
     imagePromptFile: "area-kwazulu-natal-hero.webp",
+    imageUrl: "/manus-storage/na-area-kwazulu-natal-hero_792f5d0c.webp",
+    imageAlt: "KwaZulu-Natal coastal walkway lined with trees beside the Indian Ocean.",
   },
 };
 
@@ -93,8 +105,10 @@ export default function AreaPage({ slug }: { slug: string }) {
                 <Button asChild variant="outline" className="min-h-12 rounded-xl border-white/40 bg-transparent px-5 text-white hover:bg-white/10"><Link href="/contact"><Phone className="mr-2 h-4 w-4" aria-hidden="true" />Contact NA South Africa</Link></Button>
               </div>
             </div>
-            <div className="area-visual min-h-64 rounded-[2rem] border border-white/20 p-6 sm:min-h-80" role="img" aria-label={`${area.name} area visual placeholder; approved generated hero artwork will be inserted as ${area.imagePromptFile}.`}>
-              <div className="flex h-full flex-col justify-between"><span className="text-sm font-semibold tracking-[0.14em] text-white/70">LOCAL RECOVERY / NATIONAL CONNECTION</span><div><span className="block max-w-xs font-serif text-4xl leading-tight" style={{ color: area.accent }}>{area.name}</span><span className="mt-3 block max-w-xs text-xs leading-5 text-white/65">Approved hero artwork will be added as <code className="break-all">{area.imagePromptFile}</code>.</span></div></div>
+            <div className="area-visual relative min-h-64 overflow-hidden rounded-[2rem] border border-white/20 sm:min-h-80" role="img" aria-label={area.imageAlt}>
+              <img src={area.imageUrl} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#085C84]/90 via-[#085C84]/25 to-transparent" aria-hidden="true" />
+              <div className="relative flex h-full min-h-64 flex-col justify-between p-6 sm:min-h-80"><span className="text-sm font-semibold tracking-[0.14em] text-white/85">LOCAL RECOVERY / NATIONAL CONNECTION</span><div><span className="block max-w-xs font-serif text-4xl leading-tight text-white">{area.name}</span><span className="mt-3 block max-w-xs text-xs leading-5 text-white/80">{area.imageAlt}</span></div></div>
             </div>
           </div>
         </section>
