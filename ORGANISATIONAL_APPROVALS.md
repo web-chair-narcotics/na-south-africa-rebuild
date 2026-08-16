@@ -31,3 +31,12 @@ The five supplied route-specific hero assets are now connected to the live site:
 The earlier archive `na-heroes_20260816_063143.zip` remains historical evidence of a rejected intake and is not the live asset source. A corrected five-file delivery was subsequently supplied, validated as genuine WebP, connected to managed storage, and verified on all five site routes. The complete accepted mapping is in `HERO_ASSET_INTAKE_FINAL.md`; the earlier rejection record remains in `HERO_ASSET_VISUAL_REVIEW.md` for audit history.
 
 No further hero regeneration is required for the current live build. The organisation may perform a final visual acceptance review of the five connected assets; any later replacement should follow the naming, composition, and crop-safety rules in `NANO_BANANA_2K_FIVE_HERO_PROMPTS.md`.
+
+
+## Latest parity execution update — 16 August 2026
+
+The latest live-source parity execution did not treat the three supplied directory URLs as a special subset. All five canonical TSML feeds and the full sitemap URL inventory were processed. Online and in-person directory redirects now preserve their format in the rebuilt finder, and live browser verification confirmed online join-only results versus in-person address, map, and Google Maps directions behavior.
+
+Two current Pretoria Area records, Soshanguve Wednesday and Soshanguve Sunday, were found live as in-person meetings in the Area feed while their Region-import counterparts were archived. Because the Area feed is the system of record for its own meetings, both were promoted to published, their schedules and coordinates were refreshed, and the source decision was recorded in the database review notes. No other conflicting record was promoted automatically.
+
+The remaining decisions are narrower than the earlier wording suggested. They are organisation approval for staged regional page publication; any final review of the remaining source conflicts and 328-record historical register; an approved transactional email provider and sender identity; authorised area-admin and national-admin accounts for real role-boundary acceptance; native touch-device keyboard acceptance; and, if required, a source-side access method that permits body verification of all 1,157 sitemap URLs without the current server throttling direct requests. The current build, finder, maps, area routes, online/in-person separation, emergency path, hero assets, tests, and production build are not awaiting technical completion.
