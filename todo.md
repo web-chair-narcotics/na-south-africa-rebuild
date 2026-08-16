@@ -245,4 +245,4 @@
 
 - [x] Inspect the actual production HTML, logo URL, five hero URLs, response headers, and public managed-storage behavior.
 - [x] Replace failing logo and hero asset delivery references with verified production-safe URLs.
-- [ ] Audit all five sites and shared public pages for broken images before republishing.
+- [x] Audit all five sites and shared public pages for broken images before republishing.
