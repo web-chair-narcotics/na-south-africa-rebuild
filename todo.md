@@ -313,4 +313,4 @@
 - [x] Inventory every supplied literature PDF and map it to a canonical public title, category, description, and exact file target.
 - [x] Upload the supplied literature PDFs to managed storage and verify every stored file returns a valid PDF response.
 - [x] Add dedicated literature detail pages with short descriptions, exact download buttons, and new-tab navigation from the catalogue.
-- [ ] Verify every literature detail route and downloadable PDF target, then publish the corrected Literature library.
+- [x] Verify every literature detail route and downloadable PDF target, then publish the corrected Literature library.
