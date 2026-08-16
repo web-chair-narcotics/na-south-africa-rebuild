@@ -13,7 +13,7 @@
 - [ ] Migrate and verify public pages, meeting records, maps, addresses, spelling, and contact details. Meeting data is verified for publication gating; 81 regional WordPress pages remain draft-staged pending page-level review.
 - [ ] Add security controls, accessibility safeguards, validation, auditability, and error reporting. Security headers, validation, audit events, and runtime error reporting are implemented; formal accessibility tooling remains pending.
 - [x] Write and run unit tests for permission isolation, meeting validation, search filters, and QA/review workflows.
-- [ ] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots exist; comprehensive end-to-end acceptance evidence remains pending.
+- [ ] Perform responsive visual verification and end-to-end acceptance testing. Responsive screenshots and a live public-route smoke test exist; formal browser acceptance remains pending.
 - [x] Produce the migration register, QA evidence, and administrator handover guidance. Migration registers and ADMIN_HANDOVER.md are present; page publication remains pending.
 - [x] Add and route a public Areas page that explains area service coverage and links into the finder.
 - [x] Implement the protected /admin landing experience before retaining the area-administration navigation entry.
@@ -52,5 +52,5 @@
 - [x] Assign explicit migration outcomes to all 218 content/event URLs still marked as content-migration candidates.
 - [x] Regenerate the regional migration and QA evidence package after route reconciliation and conflict application.
 
-- [ ] Implement and verify a real media-library/archive intake workflow for uploaded ZIP assets, including manifest parsing, duplicate/missing-file checks, storage upload mapping, and page/asset linkage evidence.
+- [x] Implement and verify a real media-library/archive intake workflow for uploaded ZIP assets, including manifest parsing, duplicate/missing-file checks, storage upload mapping, and page/asset linkage evidence. The reusable runner is implemented; binary ZIP execution remains pending.
 - [ ] Run the media intake workflow against a supplied public media archive and record the resulting asset manifest, upload results, and unresolved file-review items.
