@@ -42,5 +42,7 @@ describe("dedicated area websites", () => {
     expect(page).toContain('loading="eager"');
     expect(page).toContain('fetchPriority="high"');
     expect(page).toContain("A distinct NA South Africa site");
+    expect(page).toContain('linear-gradient(90deg,rgba(8,92,132,.72)');
+    expect(page).not.toContain('linear-gradient(90deg,rgba(8,92,132,.94)');
   });
 });

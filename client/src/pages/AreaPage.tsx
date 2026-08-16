@@ -97,7 +97,7 @@ export default function AreaPage({ slug }: { slug: string }) {
       <main className={`area-page ${area.className}`}>
         <section className="relative isolate min-h-[620px] overflow-hidden bg-[#026AB9] text-white">
           <img src={area.imageUrl} alt={area.imageAlt} className="absolute inset-0 z-0 h-full w-full object-cover" loading="eager" fetchPriority="high" decoding="sync" />
-          <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(8,92,132,.94)_0%,rgba(8,92,132,.74)_42%,rgba(8,92,132,.22)_100%),linear-gradient(180deg,rgba(2,106,185,.22),transparent_48%,rgba(8,92,132,.72))]" aria-hidden="true" />
+          <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(8,92,132,.72)_0%,rgba(8,92,132,.44)_46%,rgba(8,92,132,.10)_100%),linear-gradient(180deg,rgba(2,106,185,.12),transparent_48%,rgba(8,92,132,.48))]" aria-hidden="true" />
           <div className="site-container relative z-20 flex min-h-[620px] items-end py-16 sm:py-24">
             <div className="max-w-3xl">
               <p className="eyebrow text-[#EEEEEE]">{area.eyebrow} · A distinct NA South Africa site</p>
