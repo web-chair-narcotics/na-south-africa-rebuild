@@ -15,11 +15,11 @@ The underlying issue was an asynchronous Google Maps proxy-loader timing conditi
 | About and Contact | Pass | Long-form content, emergency-support context, primary CTA, and footer remained readable at mobile width. |
 | Area administration entry | Pass | Mobile sign-in call to action and area-isolation explanation remained available. |
 
-The next QA step is an automated semantic and keyboard-focused accessibility scan of the public routes, followed by any safe remediation needed.
+The automated semantic and keyboard-focused scan, safe remediations, desktop traversal, and responsive navigation checks are recorded below. The remaining open item is a native touch-device or native responsive interactive-browser keyboard pass.
 
 ## Automated semantic scan: home page
 
-The home-page DOM scan found a skip link targeting `#main-content`, one visible main landmark, a single H1 followed by ordered H2/H3 content hierarchy, 22 visible interactive controls, zero unlabelled form fields, zero unnamed controls, zero main-content images missing an `alt` attribute, and no duplicate IDs. The current `main` landmark does not require a `tabindex` because the skip-link target is structurally present and browser focus navigation remains available; explicit keyboard activation is included in the next interaction check.
+The home-page DOM scan found a skip link targeting `#main-content`, one visible main landmark, a single H1 followed by ordered H2/H3 content hierarchy, 22 visible interactive controls, zero unlabelled form fields, zero unnamed controls, zero main-content images missing an `alt` attribute, and no duplicate IDs. The shared `main` landmark now uses `tabIndex={-1}` so skip-link activation transfers keyboard focus as well as viewport position; explicit activation was confirmed in the meeting-finder route.
 
 ## Automated semantic scan: meeting finder
 

@@ -105,3 +105,5 @@
 
 - [x] Make the meeting-detail primary action format-aware so online meetings do not show physical directions without a verified venue.
 - [x] Live-verify one in-person detail route, one online detail route, a not-found route, contact actions, and the resulting CTA behavior.
+
+- [x] Correct stale handover and QA evidence statements that still describe completed media intake or accessibility scans as pending.
