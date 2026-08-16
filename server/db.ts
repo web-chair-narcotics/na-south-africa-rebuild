@@ -1,4 +1,4 @@
-import { and, asc, count, desc, eq, gt, inArray, isNotNull, isNull, like, lte, or, sql } from "drizzle-orm";
+import { and, asc, count, desc, eq, gt, inArray, isNotNull, isNull, like, lte, ne, or, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { areas, auditEvents, contentPages, emergencyNotices, InsertUser, meetings, notifications, type MeetingFormat, type MeetingStatus, userAreas, users } from "../drizzle/schema";
 import { ENV } from "./_core/env";
@@ -46,7 +46,7 @@ export async function searchPublicMeetings(filters: PublicMeetingFilters) {
   const [items, totals, mapPoints] = await Promise.all([
     from.where(where).orderBy(asc(meetings.startTime), asc(meetings.meetingName)).limit(filters.pageSize).offset((filters.page - 1) * filters.pageSize),
     db.select({ total: count() }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(where),
-    db.select({ id: meetings.id, meetingName: meetings.meetingName, latitude: meetings.latitude, longitude: meetings.longitude, areaName: areas.name, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(where, isNotNull(meetings.latitude), isNotNull(meetings.longitude))).orderBy(desc(meetings.updatedAt)).limit(1000),
+    db.select({ id: meetings.id, meetingName: meetings.meetingName, latitude: meetings.latitude, longitude: meetings.longitude, areaName: areas.name, venueName: meetings.venueName, streetAddress: meetings.streetAddress, suburb: meetings.suburb, city: meetings.city, meetingFormat: meetings.meetingFormat, onlineUrl: meetings.onlineUrl }).from(meetings).innerJoin(areas, eq(meetings.areaId, areas.id)).where(and(where, inArray(meetings.meetingFormat, ["in_person", "hybrid"]), isNotNull(meetings.latitude), isNotNull(meetings.longitude))).orderBy(desc(meetings.updatedAt)).limit(1000),
   ]); return { items, total: totals[0]?.total ?? 0, mapPoints };
 }
 

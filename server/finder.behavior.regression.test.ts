@@ -30,3 +30,25 @@ describe("published finder behavioural regression safeguards", () => {
     expect(second.items.every(item => !firstIds.has(item.id))).toBe(true);
   });
 });
+
+
+  it("keeps online-only meetings out of the physical map result while retaining physical and hybrid points", async () => {
+    const online = await searchPublicMeetings({ meetingFormat: "online", page: 1, pageSize: 100 });
+    expect(online.items.length).toBeGreaterThan(0);
+    expect(online.items.every(item => item.meetingFormat === "online")).toBe(true);
+    expect(online.mapPoints).toHaveLength(0);
+
+    const physical = await searchPublicMeetings({ meetingFormat: "in_person", page: 1, pageSize: 100 });
+    expect(physical.items.length).toBeGreaterThan(0);
+    expect(physical.items.every(item => item.meetingFormat === "in_person")).toBe(true);
+    expect(physical.mapPoints.every(point => point.meetingFormat === "in_person" || point.meetingFormat === "hybrid")).toBe(true);
+  });
+
+  it("keeps inactive records out of public search regardless of their format", async () => {
+    const formats = ["in_person", "online", "hybrid"] as const;
+    for (const meetingFormat of formats) {
+      const result = await searchPublicMeetings({ meetingFormat, page: 1, pageSize: 1000 });
+      expect(result.items.every(item => item.meetingFormat === meetingFormat)).toBe(true);
+      expect(result.items.every(item => !("inactive" in item))).toBe(true);
+    }
+  });
