@@ -2,14 +2,9 @@ import { useEffect } from "react";
 import { useLocation } from "wouter";
 import { legacyRouteMap } from "@/legacyRouteMap";
 
-export function getLegacyDestination(pathname: string) {
-  const legacyPath = pathname.replace(/\/+$/, "") || "/";
-  return legacyPath.endsWith("/online-meetings") ? "/meetings?meetingFormat=online" : legacyPath.endsWith("/in-person-meetings") ? "/meetings?meetingFormat=in_person" : legacyRouteMap[pathname] ?? "/404";
-}
-
 export default function LegacyRouteRedirect() {
   const [, navigate] = useLocation();
-  const destination = getLegacyDestination(window.location.pathname);
+  const destination = legacyRouteMap[window.location.pathname] ?? "/404";
 
   useEffect(() => {
     navigate(destination, { replace: true });

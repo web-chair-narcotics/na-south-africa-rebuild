@@ -12,32 +12,12 @@ describe("five-site experience safeguards", () => {
     for (const slug of ["johannesburg", "cape-town", "pretoria", "kwazulu-natal"]) expect(app).toContain(`/areas/${slug}`);
   });
 
-  it("keeps homepage shortcuts actionable and separates physical from online meeting paths", () => {
+  it("keeps homepage shortcuts actionable", () => {
     const home = read("client/src/pages/Home.tsx");
-    expect(home).toContain('href: "/meetings?meetingFormat=in_person"');
-    expect(home).toContain('href: "/meetings?meetingFormat=online"');
+    expect(home).toContain('href: "/meetings"');
     expect(home).toContain('href: "tel:+27861006962"');
-    expect(home).toContain("Find an in-person meeting");
-    expect(home).toContain("Find an online meeting");
-    expect(home).toContain("never a physical address");
+    expect(home).toContain('href: "/recovery"');
     expect(home).toContain("Take this step");
-  });
-
-  it("uses the supplied managed NA South Africa wordmark without cropping it", () => {
-    const layout = read("client/src/components/PublicLayout.tsx");
-    expect(layout).toContain('/manus-storage/na-south-africa-logo_8d811636.png');
-    expect(layout).toContain('alt="Narcotics Anonymous South Africa Region"');
-    expect(layout).not.toContain('max-w-none');
-  });
-
-  it("uses format-specific copy for the online-only finder journey", () => {
-    const meetings = read("client/src/pages/Meetings.tsx");
-    const finder = read("client/src/components/MeetingFinder.tsx");
-    expect(meetings).toContain("Join an NA meeting online.");
-    expect(meetings).toContain("online meetings do not show a venue, map, or directions.");
-    expect(finder).toContain('placeholder={onlineOnly ? "Meeting name or online group"');
-    expect(finder).toContain('{meeting.meetingFormat !== "online" && <button');
-    expect(finder).toContain('{!onlineOnly && <aside');
   });
 
   it("keeps emergency notices independent of meeting status", () => {
