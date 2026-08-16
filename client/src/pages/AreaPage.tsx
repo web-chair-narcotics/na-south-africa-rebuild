@@ -17,6 +17,8 @@ type AreaConfig = {
   imageAlt: string;
 };
 
+const publicAssetVersion = "asset-relay-20260816-0914";
+
 const configs: Record<string, AreaConfig> = {
   "south-africa-region": {
     name: "South Africa Region",
@@ -28,7 +30,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-south-africa-region",
     accent: "#EEEEEE",
     imagePromptFile: "na-region-south-africa-hero.webp",
-    imageUrl: "/manus-storage/na-region-south-africa-hero_03348d2b.webp",
+    imageUrl: `/manus-storage/na-region-south-africa-hero_03348d2b.webp?v=${publicAssetVersion}`,
     imageAlt: "South African coastal lighthouse and harbour under a wide overcast sky.",
   },
   johannesburg: {
@@ -41,7 +43,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-johannesburg",
     accent: "#EEEEEE",
     imagePromptFile: "area-johannesburg-hero.webp",
-    imageUrl: "/manus-storage/na-area-johannesburg-hero_c81eaedf.webp",
+    imageUrl: `/manus-storage/na-area-johannesburg-hero_c81eaedf.webp?v=${publicAssetVersion}`,
     imageAlt: "Johannesburg neighbourhood street at dusk with a community notice board and distant lights.",
   },
   "cape-town": {
@@ -54,7 +56,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-cape-town",
     accent: "#EEEEEE",
     imagePromptFile: "area-cape-town-hero.webp",
-    imageUrl: "/manus-storage/na-area-cape-town-hero_2c81ddbc.webp",
+    imageUrl: `/manus-storage/na-area-cape-town-hero_2c81ddbc.webp?v=${publicAssetVersion}`,
     imageAlt: "Colourful Cape Town street leading toward Table Mountain.",
   },
   pretoria: {
@@ -67,7 +69,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-pretoria",
     accent: "#EEEEEE",
     imagePromptFile: "area-pretoria-hero.webp",
-    imageUrl: "/manus-storage/na-area-pretoria-hero_5bad0679.webp",
+    imageUrl: `/manus-storage/na-area-pretoria-hero_5bad0679.webp?v=${publicAssetVersion}`,
     imageAlt: "Pretoria jacaranda-lined avenue with purple blossoms and a quiet bench.",
   },
   "kwazulu-natal": {
@@ -80,7 +82,7 @@ const configs: Record<string, AreaConfig> = {
     className: "area-kwazulu-natal",
     accent: "#EEEEEE",
     imagePromptFile: "area-kwazulu-natal-hero.webp",
-    imageUrl: "/manus-storage/na-area-kwazulu-natal-hero_792f5d0c.webp",
+    imageUrl: `/manus-storage/na-area-kwazulu-natal-hero_792f5d0c.webp?v=${publicAssetVersion}`,
     imageAlt: "KwaZulu-Natal coastal walkway lined with trees beside the Indian Ocean.",
   },
 };

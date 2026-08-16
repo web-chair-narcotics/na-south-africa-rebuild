@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { trpc } from "@/lib/trpc";
 
-const logoUrl = "/manus-storage/na-south-africa-logo_8d811636.png";
+const publicAssetVersion = "asset-relay-20260816-0914";
+const logoUrl = `/manus-storage/na-south-africa-logo_8d811636.png?v=${publicAssetVersion}`;
 
 const links = [
   { href: "/about", label: "About NA" },
