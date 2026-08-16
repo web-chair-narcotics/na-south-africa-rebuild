@@ -21,6 +21,7 @@ function Router() {
       <Route path="/meetings" component={Meetings} />
       <Route path="/meetings/:id">{params => <MeetingDetail id={params.id} />}</Route>
       <Route path="/areas" component={Areas} />
+      <Route path="/areas/south-africa-region">{() => <AreaPage slug="south-africa-region" />}</Route>
       <Route path="/areas/johannesburg">{() => <AreaPage slug="johannesburg" />}</Route>
       <Route path="/areas/cape-town">{() => <AreaPage slug="cape-town" />}</Route>
       <Route path="/areas/pretoria">{() => <AreaPage slug="pretoria" />}</Route>

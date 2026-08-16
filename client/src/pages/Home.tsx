@@ -4,9 +4,9 @@ import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
 const supportSteps = [
-  { number: "01", title: "Find a meeting", text: "Search by area, day, time or meeting type." },
-  { number: "02", title: "Check the details", text: "See the venue, verified address and meeting information." },
-  { number: "03", title: "Get there with confidence", text: "Open exact directions in Google Maps with one tap." },
+  { number: "01", title: "Find a meeting nearby", text: "Search by area, day, time, format, or meeting type.", href: "/meetings", icon: MapPinned },
+  { number: "02", title: "Call for immediate help", text: "Speak to the national phoneline when you need a human next step.", href: "tel:+27861006962", icon: Phone, external: true },
+  { number: "03", title: "Know what to expect", text: "Read how NA works and what happens at a first meeting.", href: "/recovery", icon: ShieldCheck },
 ];
 
 export default function Home() {
@@ -44,13 +44,11 @@ export default function Home() {
             <h2 className="mt-4 font-serif text-4xl leading-[1.05] tracking-[-0.035em] text-[#54595F] sm:text-5xl">The fastest path to a meeting that works for you.</h2>
           </div>
           <div className="grid gap-4 sm:grid-cols-3">
-            {supportSteps.map(step => (
-              <div key={step.number} className="rounded-2xl border border-[#EEEEEE] bg-white p-5 shadow-[0_8px_24px_rgba(20,45,42,0.04)]">
-                <span className="font-mono text-sm font-bold text-[#085C84]">{step.number}</span>
-                <h3 className="mt-8 text-lg font-bold text-[#54595F]">{step.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-[#7A7A7A]">{step.text}</p>
-              </div>
-            ))}
+            {supportSteps.map(step => {
+              const Icon = step.icon;
+              const content = <><div className="flex items-center justify-between"><span className="font-mono text-sm font-bold text-[#085C84]">{step.number}</span><Icon className="h-5 w-5 text-[#2F9B3E]" aria-hidden="true" /></div><h3 className="mt-8 text-lg font-bold text-[#54595F]">{step.title}</h3><p className="mt-2 text-sm leading-6 text-[#7A7A7A]">{step.text}</p><span className="mt-5 inline-flex items-center font-bold text-[#387CBB] underline underline-offset-4">Take this step <ArrowRight className="ml-1 h-4 w-4" aria-hidden="true" /></span></>;
+              return step.external ? <a key={step.number} href={step.href} className="rounded-2xl border border-[#EEEEEE] bg-white p-5 shadow-[0_8px_24px_rgba(20,45,42,0.04)] transition-shadow hover:shadow-[0_12px_30px_rgba(20,45,42,0.10)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#387CBB]">{content}</a> : <Link key={step.number} href={step.href} className="rounded-2xl border border-[#EEEEEE] bg-white p-5 shadow-[0_8px_24px_rgba(20,45,42,0.04)] transition-shadow hover:shadow-[0_12px_30px_rgba(20,45,42,0.10)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#387CBB]">{content}</Link>;
+            })}
           </div>
         </div>
       </section>

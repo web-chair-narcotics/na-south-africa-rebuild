@@ -1,7 +1,8 @@
 import { Link, useLocation } from "wouter";
-import { Menu, Phone, Search, X } from "lucide-react";
+import { AlertTriangle, Menu, Phone, Search, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { trpc } from "@/lib/trpc";
 
 const logoUrl = "/manus-storage/na-south-africa-logo_66b38f97.png";
 
@@ -21,12 +22,21 @@ function isSelected(currentPath: string, href: string) {
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const { data: emergencyNotice } = trpc.emergency.active.useQuery();
 
   useEffect(() => setMenuOpen(false), [location]);
 
   return (
     <div className="min-h-screen bg-[#F8F8F8] text-[#54595F]">
       <a className="skip-link" href="#main-content">Skip to main content</a>
+      {emergencyNotice && (
+        <div className={emergencyNotice.severity === "urgent" ? "border-b border-[#7A1F24] bg-[#7A1F24] text-white" : "border-b border-[#085C84]/20 bg-[#DDEFF8] text-[#085C84]"} role="alert">
+          <div className="site-container flex items-start gap-3 py-3 text-sm">
+            <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+            <div><p className="font-bold">{emergencyNotice.title}</p><p className="mt-0.5 leading-6">{emergencyNotice.message}</p></div>
+          </div>
+        </div>
+      )}
       <div className="helpline-bar">
         <div className="site-container flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-center sm:justify-between">
           <span className="font-semibold">Need support now? You are not alone.</span>

@@ -3,7 +3,7 @@ import { COOKIE_NAME } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
-import { getPublicAreas, getPublicMeeting, searchPublicMeetings } from "./db";
+import { getActiveEmergencyNotice, getPublicAreas, getPublicMeeting, searchPublicMeetings } from "./db";
 import { makeRequest, type GeocodingResult } from "./_core/map";
 import { adminRouter } from "./routers/admin";
 
@@ -19,6 +19,9 @@ export const appRouter = router({
       ctx.res.clearCookie(COOKIE_NAME, { ...cookieOptions, maxAge: -1 });
       return { success: true } as const;
     }),
+  }),
+  emergency: router({
+    active: publicProcedure.query(() => getActiveEmergencyNotice()),
   }),
   finder: router({
     areas: publicProcedure.query(() => getPublicAreas()),

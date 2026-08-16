@@ -16,6 +16,17 @@ type AreaConfig = {
 };
 
 const configs: Record<string, AreaConfig> = {
+  "south-africa-region": {
+    name: "South Africa Region",
+    directoryName: "South Africa Region",
+    eyebrow: "South Africa Region",
+    title: "A national welcome, with a local next step.",
+    summary: "The regional home for Narcotics Anonymous South Africa: practical support, verified meeting information, and clear routes into each local area.",
+    detail: "Use the regional finder to search across the national directory, or choose Johannesburg, Cape Town, Pretoria, or KwaZulu-Natal for a more local starting point. Emergency notices appear here when authorised national administrators publish them.",
+    className: "area-south-africa-region",
+    accent: "#EEEEEE",
+    imagePromptFile: "na-region-south-africa-hero.webp",
+  },
   johannesburg: {
     name: "Johannesburg",
     directoryName: "Johannesburg",
@@ -64,7 +75,9 @@ const configs: Record<string, AreaConfig> = {
 
 export default function AreaPage({ slug }: { slug: string }) {
   const area = configs[slug] ?? configs.johannesburg;
-  const finderHref = `/meetings?area=${encodeURIComponent(area.directoryName)}`;
+  const isRegion = slug === "south-africa-region";
+  const finderHref = isRegion ? "/meetings" : `/meetings?area=${encodeURIComponent(area.directoryName)}`;
+  const finderLabel = isRegion ? "Open national meeting finder" : `Find a ${area.name} meeting`;
   return (
     <PublicLayout>
       <main className={`area-page ${area.className}`}>
@@ -76,12 +89,12 @@ export default function AreaPage({ slug }: { slug: string }) {
               <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-[1.02] tracking-[-0.05em] sm:text-7xl">{area.title}</h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-[#F8F8F8]">{area.summary}</p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-                <Button asChild className="min-h-12 rounded-xl bg-[#2F9B3E] px-5 font-bold text-white hover:bg-[#20752C]"><Link href={finderHref}>Find a {area.name} meeting <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></Link></Button>
+                <Button asChild className="min-h-12 rounded-xl bg-[#2F9B3E] px-5 font-bold text-white hover:bg-[#20752C]"><Link href={finderHref}>{finderLabel} <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></Link></Button>
                 <Button asChild variant="outline" className="min-h-12 rounded-xl border-white/40 bg-transparent px-5 text-white hover:bg-white/10"><Link href="/contact"><Phone className="mr-2 h-4 w-4" aria-hidden="true" />Contact NA South Africa</Link></Button>
               </div>
             </div>
             <div className="area-visual min-h-64 rounded-[2rem] border border-white/20 p-6 sm:min-h-80" role="img" aria-label={`${area.name} area visual placeholder; approved generated hero artwork will be inserted as ${area.imagePromptFile}.`}>
-              <div className="flex h-full flex-col justify-between"><span className="text-sm font-semibold tracking-[0.14em] text-white/70">LOCAL RECOVERY / NATIONAL CONNECTION</span><span className="max-w-xs font-serif text-4xl leading-tight" style={{ color: area.accent }}>{area.name}</span></div>
+              <div className="flex h-full flex-col justify-between"><span className="text-sm font-semibold tracking-[0.14em] text-white/70">LOCAL RECOVERY / NATIONAL CONNECTION</span><div><span className="block max-w-xs font-serif text-4xl leading-tight" style={{ color: area.accent }}>{area.name}</span><span className="mt-3 block max-w-xs text-xs leading-5 text-white/65">Approved hero artwork will be added as <code className="break-all">{area.imagePromptFile}</code>.</span></div></div>
             </div>
           </div>
         </section>

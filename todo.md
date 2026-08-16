@@ -136,3 +136,13 @@
 - [x] Add behavioural regression coverage through the reusable schedule parser showing numeric-Sunday and Daily-source meetings produce correct days and time before finder filtering.
 - [x] Prepare an area-owner confirmation register for the 21 live legacy listings marked inactive, so they can be safely reactivated or retained as archived with an explicit decision.
 - [x] Update the organisational approval handoff with the current checkpoint and the new inactive-meeting confirmation register.
+
+- [x] Build a distinct regional landing site for the South Africa Region and retain dedicated landing sites for Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal.
+- [x] Replace the three non-actionable homepage feature blocks with direct shortcuts for finding a nearby meeting, getting directions/contact help, and understanding first steps/recovery support.
+- [x] Define a five-image hero asset system with unique site labels, exact filenames, dimensions, aspect ratio, responsive crop guidance, alt text, and placement rules.
+- [x] Update the area-image prompt pack with high-quality, location-specific prompts for the region and all four areas, with no embedded text, no fabricated logos, and clear visual acceptance criteria.
+- [x] Add an emergency-notice content path that can be activated by authorised administrators without changing inactive meeting status.
+- [ ] Connect approved generated hero assets to the corresponding five site landing experiences after asset intake.
+
+- [x] Correct the South Africa Region site CTA so it opens the national meeting finder rather than applying a non-existent area filter.
+- [x] Make the pending hero-asset state explicit on each site until the organisation supplies the five approved generated images.

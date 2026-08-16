@@ -4,6 +4,7 @@ import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
 const areas = [
+  { name: "South Africa Region", slug: "south-africa-region", directoryName: "South Africa Region" },
   { name: "Johannesburg", slug: "johannesburg", directoryName: "Johannesburg" },
   { name: "Cape Town", slug: "cape-town", directoryName: "Western Cape" },
   { name: "Pretoria", slug: "pretoria", directoryName: "Pretoria" },
@@ -17,7 +18,7 @@ export default function Areas() {
         <div className="site-container max-w-5xl">
           <p className="eyebrow">Areas</p>
           <h1 className="mt-4 font-serif text-5xl leading-[1.02] tracking-[-0.05em] text-[#54595F] sm:text-6xl">Local meetings, connected nationally.</h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#54595F]">NA South Africa is organised through local areas that maintain their own meeting information. The national directory brings verified local details together in one place.</p>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#54595F]">One regional home and four distinct area sites connect local meeting information with a single verified national directory. Each site has its own local voice, while inactive meetings remain inactive until an authorised area decision changes their status.</p>
         </div>
       </section>
       <section className="site-container py-14 sm:py-20">

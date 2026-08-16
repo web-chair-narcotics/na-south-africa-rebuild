@@ -52,6 +52,23 @@ export const contentPages = mysqlTable("contentPages", {
   index("content_pages_status_idx").on(table.status),
 ]);
 
+export const emergencyNotices = mysqlTable("emergencyNotices", {
+  id: int("id").autoincrement().primaryKey(),
+  title: varchar("title", { length: 255 }).notNull(),
+  message: text("message").notNull(),
+  severity: mysqlEnum("severity", ["info", "urgent"]).default("info").notNull(),
+  status: mysqlEnum("status", ["draft", "published", "archived"]).default("draft").notNull(),
+  startsAt: timestamp("startsAt").notNull(),
+  endsAt: timestamp("endsAt"),
+  createdByUserId: int("createdByUserId").notNull(),
+  reviewedByUserId: int("reviewedByUserId"),
+  publishedAt: timestamp("publishedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+}, table => [
+  index("emergency_notices_status_window_idx").on(table.status, table.startsAt, table.endsAt),
+]);
+
 export const notifications = mysqlTable("notifications", {
   id: int("id").autoincrement().primaryKey(),
   recipientUserId: int("recipientUserId").notNull(),
@@ -126,5 +143,6 @@ export type Area = typeof areas.$inferSelect;
 export type Meeting = typeof meetings.$inferSelect;
 export type ContentPage = typeof contentPages.$inferSelect;
 export type Notification = typeof notifications.$inferSelect;
+export type EmergencyNotice = typeof emergencyNotices.$inferSelect;
 export type MeetingStatus = (typeof meetingStatusValues)[number];
 export type MeetingFormat = (typeof meetingFormatValues)[number];
