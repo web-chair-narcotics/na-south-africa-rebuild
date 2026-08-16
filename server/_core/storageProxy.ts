@@ -38,8 +38,20 @@ export function registerStorageProxy(app: Express) {
         return;
       }
 
-      res.set("Cache-Control", "no-store");
-      res.redirect(307, url);
+      const assetResp = await fetch(url);
+      if (!assetResp.ok) {
+        console.error(`[StorageProxy] signed asset error: ${assetResp.status}`);
+        res.status(502).send("Storage asset unavailable");
+        return;
+      }
+
+      const contentType = assetResp.headers.get("content-type") || "application/octet-stream";
+      const contentLength = assetResp.headers.get("content-length");
+      const assetBytes = Buffer.from(await assetResp.arrayBuffer());
+      res.set("Cache-Control", "public, max-age=300");
+      res.set("Content-Type", contentType);
+      if (contentLength) res.set("Content-Length", contentLength);
+      res.status(200).send(assetBytes);
     } catch (err) {
       console.error("[StorageProxy] failed:", err);
       res.status(502).send("Storage proxy error");

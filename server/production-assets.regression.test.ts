@@ -6,13 +6,14 @@ const root = resolve(process.cwd());
 const read = (relativePath: string) => readFileSync(resolve(root, relativePath), "utf8");
 
 describe("production public asset delivery", () => {
-  it("permits HTTPS signed storage targets after the same-origin asset proxy redirects", () => {
+  it("permits HTTPS signed storage targets and relays assets from the same-origin proxy", () => {
     const server = read("server/_core/index.ts");
     const storageProxy = read("server/_core/storageProxy.ts");
 
     expect(server).toContain("img-src 'self' data: https:");
     expect(server).toContain("registerStorageProxy(app)");
-    expect(storageProxy).toContain('res.redirect(307, url)');
+    expect(storageProxy).toContain("const assetResp = await fetch(url)");
+    expect(storageProxy).toContain('res.status(200).send(assetBytes)');
   });
 
   it("uses explicit production-loadable image elements for the shared logo and all five hero routes", () => {
