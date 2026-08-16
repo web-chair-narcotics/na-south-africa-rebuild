@@ -237,9 +237,9 @@
 
 ## Production five-site hero visibility failure reported 16 August 2026
 
-- [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses rather than relying on development-preview evidence.
-- [x] Correct any production asset-path, CSS, deploy, or responsive-rendering fault preventing the five verified hero images from being visible on the public domain.
-- [x] Verify hero-image visibility on all five live routes at desktop and mobile viewports, then publish the correction.
+- [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses against the user-visible browser result; prior source/preview verification was insufficient. The old public storage identifiers and TLS path were traced, and the exact user-facing public transport remains separately verified.
+- [x] Correct the production asset-path, CSS, deploy, or responsive-rendering fault preventing the five supplied hero images from being visible on the public domain. The logo and five heroes now use newly re-uploaded asset identifiers, with local desktop/mobile screenshots showing all six images.
+- [ ] Verify hero-image visibility on all five exact public routes in the user-facing browser at desktop and mobile sizes, then publish only after all five visibly render.
 
 ## Production-wide public asset failure reported 16 August 2026
 

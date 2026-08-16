@@ -26,7 +26,7 @@ describe("production public asset delivery", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
     const areas = read("client/src/pages/AreaPage.tsx");
 
-    expect(layout).toContain('/manus-storage/na-south-africa-logo_8d811636.png');
+    expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
     expect(layout).toContain('src={logoUrl}');
     expect(areas).toContain('src={area.imageUrl}');
     expect(areas).toContain('loading="eager"');

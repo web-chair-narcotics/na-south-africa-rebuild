@@ -25,7 +25,7 @@ describe("five-site experience safeguards", () => {
 
   it("uses the supplied managed NA South Africa wordmark without cropping it", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
-    expect(layout).toContain('/manus-storage/na-south-africa-logo_8d811636.png');
+    expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
     expect(layout).toContain('alt="Narcotics Anonymous South Africa Region"');
     expect(layout).not.toContain('max-w-none');
   });
