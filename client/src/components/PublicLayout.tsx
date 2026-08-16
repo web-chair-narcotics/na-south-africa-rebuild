@@ -48,8 +48,11 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
 
       <header className="sticky top-0 z-40 border-b border-[#085C84]/10 bg-[#F8F8F8]/95 shadow-[0_10px_28px_rgba(8,92,132,0.05)] backdrop-blur">
         <div className="site-container flex h-[82px] items-center justify-between gap-4">
-          <Link href="/" className="inline-flex min-w-0 items-center rounded-lg focus-visible:ring-offset-2" aria-label="Narcotics Anonymous South Africa home">
-            <img className="h-auto w-[132px] object-contain sm:w-[174px]" src={logoUrl} alt="Narcotics Anonymous South Africa Region" />
+          <Link href="/" className="inline-flex min-w-0 items-center gap-3 rounded-lg focus-visible:ring-offset-2" aria-label="Narcotics Anonymous South Africa home">
+            <span className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full bg-white ring-1 ring-[#085C84]/20">
+              <img className="absolute left-0 top-0 h-11 w-[176px] max-w-none object-contain object-left" src={logoUrl} alt="" aria-hidden="true" />
+            </span>
+            <span className="hidden leading-[1.05] sm:block"><span className="block text-[0.78rem] font-bold tracking-[-0.02em] text-[#085C84]">Narcotics Anonymous</span><span className="mt-1 block text-[0.68rem] font-semibold uppercase tracking-[0.08em] text-[#387CBB]">South Africa Region</span></span>
           </Link>
 
           <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">

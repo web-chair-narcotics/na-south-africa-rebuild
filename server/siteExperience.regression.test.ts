@@ -47,11 +47,13 @@ describe("five-site experience safeguards", () => {
     expect(home).toContain("mt-auto pt-5 inline-flex");
   });
 
-  it("uses the supplied managed NA South Africa wordmark without cropping it", () => {
+  it("uses the supplied managed NA South Africa mark with a readable header lockup", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
     expect(layout).toContain('/manus-storage/na-south-africa-logo_601526a4.png');
-    expect(layout).toContain('alt="Narcotics Anonymous South Africa Region"');
-    expect(layout).not.toContain('max-w-none');
+    expect(layout).toContain('aria-label="Narcotics Anonymous South Africa home"');
+    expect(layout).toContain('Narcotics Anonymous</span>');
+    expect(layout).toContain('South Africa Region</span>');
+    expect(layout).toContain('max-w-none');
   });
 
   it("uses format-specific copy for the online-only finder journey", () => {

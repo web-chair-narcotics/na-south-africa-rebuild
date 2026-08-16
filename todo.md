@@ -305,3 +305,5 @@
 - [x] Research and add verified, useful public content to replace the sparse About and Recovery pages without fabricating NA guidance.
 - [x] Audit every public navigation and literature/document destination for correct link targets and working responses.
 - [x] Run desktop and mobile visual QA across the redesigned public pages and publish the verified update.
+
+- [x] Correct the supplied logo wordmark contrast in the public header so the full NA South Africa Region identity remains readable without the blue block.
