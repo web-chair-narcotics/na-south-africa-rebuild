@@ -3,7 +3,8 @@ import { Link } from "wouter";
 import PublicLayout from "@/components/PublicLayout";
 import { Button } from "@/components/ui/button";
 
-const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816";
+const homepageHeroImage = "/manus-storage/na-homepage-south-africa-region-hero-20260816_0f8b8fc2.jpg?v=homepage-hero-20260816-1100";
+const homepageHeroDeployment = "homepage-hero-live-20260816-1100";
 
 const supportSteps = [
   { number: "01", title: "In-person meetings", text: "Browse verified venues, open the map, and get precise directions.", href: "/meetings?meetingFormat=in_person", icon: MapPinned },
@@ -14,7 +15,7 @@ const supportSteps = [
 export default function Home() {
   return (
     <PublicLayout>
-      <section className="hero-grid relative isolate overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24 lg:py-28">
+      <section className="hero-grid relative isolate overflow-hidden bg-[#026AB9] py-16 text-white sm:py-24 lg:py-28" data-homepage-hero-deployment={homepageHeroDeployment}>
         <img src={homepageHeroImage} alt="South African coastal promenade and harbour at sunrise" className="absolute inset-0 z-0 h-full w-full object-cover" loading="eager" fetchPriority="high" decoding="sync" />
         <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(8,92,132,.84)_0%,rgba(8,92,132,.62)_46%,rgba(8,92,132,.22)_100%),linear-gradient(180deg,rgba(2,106,185,.18),transparent_48%,rgba(8,92,132,.52))]" aria-hidden="true" />
         <div className="hero-orb hero-orb-one relative z-20" />
