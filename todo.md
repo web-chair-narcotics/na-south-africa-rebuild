@@ -169,7 +169,7 @@
 
 ## Live-source meeting and page rescan requested 16 August 2026
 
-- [x] Re-scan the complete live public site from the supplied authoritative directory URLs, following all relevant internal links and recording crawl coverage.
+- [ ] Re-scan the complete live public site from the supplied authoritative directory URLs, following all relevant internal links and recording crawl coverage.
 - [x] Extract and normalize every live in-person and online meeting listing from the supplied directories and linked public sources, preserving source URLs and live status.
 - [x] Reconcile the live-source meeting corpus against the rebuilt 328-record dataset and classify additions, removals, changed fields, duplicates, inactive records, and unresolved discrepancies.
 - [x] Apply only verified live-source meeting and page corrections to the rebuild, retaining inactive listings as inactive unless current evidence shows a published active listing.
@@ -179,7 +179,7 @@
 
 ## Complete live-site parity rescan requested 16 August 2026
 
-- [x] Crawl every publicly reachable area route, meeting directory, meeting detail, online-meeting listing, and linked public page on the current na.org.za site; the three supplied URLs are examples only and receive no special treatment.
+- [ ] Crawl every publicly reachable area route, meeting directory, meeting detail, online-meeting listing, and linked public page on the current na.org.za site; the three supplied URLs are examples only and receive no special treatment.
 - [x] Build a source-of-truth inventory of every live/published item with its URL, area, meeting type, status, schedule, address or online join/contact path, and source timestamp where available.
 - [x] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
 - [x] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
@@ -192,7 +192,7 @@
 - [x] Read and apply the supplied `NA-SA-Master-Rebuild-Audit-Spec.md` as the governing audit checklist for this execution.
 - [x] Analyze the supplied `NA-South-Africa-All-Meetings.xlsx` as a source dataset and reconcile every row against the current live site and Manus meeting corpus.
 - [x] Re-inventory every uploaded and project-shared file, including archives, exports, CSVs, spreadsheets, text specifications, media manifests, and prior audit evidence.
-- [x] Complete the all-area, all-meeting-type live-site parity crawl and preserve the complete source inventory and crawl coverage evidence.
+- [ ] Complete the all-area, all-meeting-type live-site parity crawl and preserve the complete source inventory and crawl coverage evidence.
 - [x] Implement all verified corrections from the consolidated audit without publishing records absent from the current live site or changing inactive status without current evidence.
 - [x] Run the complete final verification suite and produce a single consolidated audit, implementation recap, and explicit blocker register.
 

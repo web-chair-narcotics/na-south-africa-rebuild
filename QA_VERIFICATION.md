@@ -186,7 +186,3 @@ The current five canonical TSML feeds now reconcile exactly at the normalized me
 ## Full public meeting-journey coverage — 16 August 2026
 
 The full published corpus was checked after the final live parity update. All **255 in-person** and **3 hybrid** records have the physical fields required for maps and directions, and the finder regression confirms that each has a corresponding map point. All **51 online-only** records have zero physical fields and zero map points, with 49 preserved join URLs and 2 contact fallbacks. The browser smoke checks, legacy-directory redirects, detail route coverage, primary-link check, and full-corpus regression together verify that physical routes use maps/directions while online-only routes use join/contact treatment.
-
-## Complete live public-content crawl via REST — 16 August 2026
-
-The public WordPress REST API was used to complete the page/body source crawl that direct HTML requests could not reliably serve. The Region and four Area sites returned 100 public records: 78 pages, 4 posts, 1 event, 10 event venues, and 7 event organizers. Seventy-nine have readable content bodies. Every one of the 100 current REST records has a documented destination or staged outcome in the migration register; zero current REST records are unmapped. All 1,157 sitemap URLs are retained and classified alongside the canonical TSML meeting/location feeds in `SITEMAP_COVERAGE_CLASSIFICATION.md`.
