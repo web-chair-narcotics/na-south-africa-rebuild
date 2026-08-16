@@ -69,7 +69,7 @@
 - [x] Recompute each attachment’s derivative variant count from the attachment-specific archive linkage rather than global filename-family matches.
 - [x] Inspect representative final-manifest rows and document the attachment-specific variant evidence before the final verification checkpoint.
 - [x] Rerun the corrected media workflow verification, tests, and production build before saving the fresh media-integration checkpoint.
-- [ ] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point; the meeting-detail portion is now separately evidenced.
+- [x] Run a documented responsive acceptance pass across the home page, meeting finder, meeting-detail journey, and administrative entry point; the meeting-detail portion is now separately evidenced.
 - [x] Explicitly verify that the meeting finder Next control advances to a later page and changes the page indicator and result set.
 - [x] Run a documented keyboard and automated accessibility scan across the public navigation and meeting-finder controls, then remediate safe defects.
 - [x] Verify and document keyboard traversal of the desktop primary navigation, the mobile navigation toggle, and the expanded mobile navigation links.
@@ -172,7 +172,7 @@
 - [ ] Re-scan the complete live public site from the supplied authoritative directory URLs, following all relevant internal links and recording crawl coverage.
 - [x] Extract and normalize every live in-person and online meeting listing from the supplied directories and linked public sources, preserving source URLs and live status.
 - [x] Reconcile the live-source meeting corpus against the rebuilt 328-record dataset and classify additions, removals, changed fields, duplicates, inactive records, and unresolved discrepancies.
-- [ ] Apply only verified live-source meeting and page corrections to the rebuild, retaining inactive listings as inactive unless current evidence shows a published active listing.
+- [x] Apply only verified live-source meeting and page corrections to the rebuild, retaining inactive listings as inactive unless current evidence shows a published active listing.
 - [x] Verify the public finder and online-meeting journeys against the reconciled live corpus, including Google Maps links for physical venues and join/contact paths for online meetings.
 - [x] Produce a complete rescan audit with crawl scope, source URLs, record counts, discrepancy classifications, implementation results, and explicit blockers.
 
@@ -184,7 +184,7 @@
 - [x] Compare the complete live inventory with the Manus corpus and classify every difference before changing public data.
 - [ ] Enforce exact live-status parity: publish current live items, retain current inactive/unpublished items as non-public, and do not promote records found only in stale imports.
 - [ ] Verify every implemented public meeting and online-meeting path, including maps and directions for physical meetings and join/contact behavior for online meetings.
-- [ ] Save a complete parity audit and checkpoint with counts, source coverage, discrepancies, and implementation outcomes.
+- [x] Save a complete parity audit and checkpoint with counts, source coverage, discrepancies, and implementation outcomes.
 
 
 ## Consolidated full-audit execution requested 16 August 2026
@@ -193,7 +193,7 @@
 - [x] Analyze the supplied `NA-South-Africa-All-Meetings.xlsx` as a source dataset and reconcile every row against the current live site and Manus meeting corpus.
 - [x] Re-inventory every uploaded and project-shared file, including archives, exports, CSVs, spreadsheets, text specifications, media manifests, and prior audit evidence.
 - [ ] Complete the all-area, all-meeting-type live-site parity crawl and preserve the complete source inventory and crawl coverage evidence.
-- [ ] Implement all verified corrections from the consolidated audit without publishing records absent from the current live site or changing inactive status without current evidence.
+- [x] Implement all verified corrections from the consolidated audit without publishing records absent from the current live site or changing inactive status without current evidence.
 - [x] Run the complete final verification suite and produce a single consolidated audit, implementation recap, and explicit blocker register.
 
 

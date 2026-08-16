@@ -11,9 +11,13 @@ const types = ["Open", "Closed", "Speaker", "Step", "Topic", "Women", "Men"];
 type FilterState = { query: string; areaSlug: string; day: string; timeOfDay: string; meetingType: string; meetingFormat: string; page: number };
 const defaultFilters: FilterState = { query: "", areaSlug: "", day: "", timeOfDay: "", meetingType: "", meetingFormat: "", page: 1 };
 
-function filtersFromLocation(): FilterState {
-  const format = new URLSearchParams(window.location.search).get("meetingFormat");
+export function filtersFromSearch(search: string): FilterState {
+  const format = new URLSearchParams(search).get("meetingFormat");
   return format === "online" || format === "in_person" || format === "hybrid" ? { ...defaultFilters, meetingFormat: format } : defaultFilters;
+}
+
+function filtersFromLocation(): FilterState {
+  return filtersFromSearch(window.location.search);
 }
 
 function addressOf(meeting: { venueName: string | null; streetAddress: string | null; suburb: string | null; city: string | null; province: string | null }) {

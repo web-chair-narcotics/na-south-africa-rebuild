@@ -154,3 +154,13 @@ The live Pretoria Area feed was treated as the system of record for its own meet
 ## Legacy directory format-preserving redirect verification — 16 August 2026
 
 Regional and national legacy directory paths now preserve their meeting-format intent. `/online-meetings/`, `/jhb/online-meetings/`, `/pta/online-meetings/`, `/wc/online-meetings/`, and `/kzn/online-meetings/` resolve to `/meetings?meetingFormat=online`. The national and Western Cape in-person directory paths resolve to `/meetings?meetingFormat=in_person`, and the same suffix-based behavior applies to all area in-person directory paths even when the route is not enumerated in the generated map. The finder initializes its format filter from the query parameter. Seven redirect and finder regression assertions pass, together with TypeScript checking.
+
+
+## Broad route acceptance screenshot pass — 16 August 2026
+
+Fresh desktop captures covered `/`, `/meetings`, `/meetings/2`, `/areas`, `/areas/south-africa-region`, `/areas/johannesburg`, `/areas/cape-town`, and `/admin`. The public routes rendered their shared header, blue brand hierarchy, clear content headings, area-specific hero assets, meeting finder, meeting-detail context, and recovery/help pathways without clipping. The administration route rendered the national oversight workspace in the persisted authenticated preview session, including meeting scope, publication counters, QA requirements, review queue, and alerts panel. This visual pass does not substitute for an organisation-owned authenticated role-boundary acceptance with real area-admin and national-admin accounts; that item remains open.
+
+
+## Live browser verification of legacy directory redirects — 16 August 2026
+
+The live preview was opened at `/wc/online-meetings/` and redirected to `/meetings?meetingFormat=online`. The rendered finder showed the format control as `Online`, online meeting cards exposed `Join online`, and no physical address or `Get directions` action appeared for online-only records. The same preview was opened at `/wc/in-person-meetings/` and redirected to `/meetings?meetingFormat=in_person`. The rendered finder showed the format control as `In person`, physical venue/address content, map markers, and exact Google Maps `Get directions` URLs. This confirms the format-preserving redirect behavior in the interactive browser, not only in source-level tests.
