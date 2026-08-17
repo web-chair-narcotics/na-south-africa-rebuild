@@ -43,3 +43,9 @@ A stale frontend production bundle previously served older hero and literature a
 ## Next controlled actions
 
 The next release should only address the organisation-owned approval gates or credential rotation after the responsible organisation provides confirmation and, where necessary, an authorised account or approved provider configuration. Any further meeting-data changes must preserve the current source-of-truth and publication-gating rules.
+
+## Additional live boundary observation
+
+On 17 August 2026, opening the public `/admin` route redirected to the Manus sign-in flow rather than exposing the area-management interface. No credentials were entered and no authenticated workflow was tested. This confirms the unauthenticated entry boundary only; authorised role-scoped acceptance remains pending until the organisation supplies an approved test account.
+
+A public homepage keyboard spot check was also performed: the first Tab focus lands on the visible “Skip to main content” link, and the page exposes the expected public navigation and meeting-path links. This is supplemental evidence only; the native-device and authenticated administrator acceptance items remain pending.
