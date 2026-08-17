@@ -26,7 +26,7 @@ const configs: Record<string, AreaConfig> = {
     directoryName: "South Africa Region",
     eyebrow: "South Africa Region",
     title: "A national welcome, with a local next step.",
-    summary: "The regional home for Narcotics Anonymous South Africa: practical support, verified meeting information, and clear routes into each local area.",
+    summary: "The regional home for Narcotics Anonymous South Africa: practical support, published meeting information, and clear routes into each local area.",
     detail: "Use the regional finder to search across the national directory, or choose Johannesburg, Cape Town, Pretoria, or KwaZulu-Natal for a more local starting point. Emergency notices appear here when authorised national administrators publish them.",
     className: "area-south-africa-region",
     accent: "#EEEEEE",
@@ -40,7 +40,7 @@ const configs: Record<string, AreaConfig> = {
     eyebrow: "Johannesburg area",
     title: "Find a meeting that fits your next step.",
     summary: "Local recovery information for Johannesburg, connected to the national NA South Africa directory.",
-    detail: "Search the Johannesburg meeting list by day, time, meeting type, and format. Each published result carries its verified venue details, map pin, and direct directions link.",
+    detail: "Search the Johannesburg meeting list by day, time, meeting type, and format. Each published result carries its venue details, map pin, and direct directions link.",
     className: "area-johannesburg",
     accent: "#EEEEEE",
     imagePromptFile: "area-johannesburg-hero.webp",
@@ -91,7 +91,7 @@ const configs: Record<string, AreaConfig> = {
 export default function AreaPage({ slug }: { slug: string }) {
   const area = configs[slug] ?? configs.johannesburg;
   const isRegion = slug === "south-africa-region";
-  const finderHref = isRegion ? "/meetings" : `/meetings?area=${encodeURIComponent(area.directoryName)}`;
+  const finderHref = isRegion ? "/meetings" : `/meetings?areaSlug=${encodeURIComponent(slug === "cape-town" ? "western-cape" : slug)}`;
   const finderLabel = isRegion ? "Open national meeting finder" : `Find a ${area.name} meeting`;
   return (
     <PublicLayout>

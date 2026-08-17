@@ -23,4 +23,7 @@ describe("generated legacy route map", () => {
     expect(getLegacyDestination("/wc/in-person-meetings/")).toBe("/meetings?meetingFormat=in_person");
     expect(filtersFromSearch("?meetingFormat=online").meetingFormat).toBe("online");
     expect(filtersFromSearch("?meetingFormat=in_person").meetingFormat).toBe("in_person");
+    expect(filtersFromSearch("?areaSlug=western-cape").areaSlug).toBe("western-cape");
+    expect(filtersFromSearch("?area=Western%20Cape").areaSlug).toBe("western-cape");
+    expect(filtersFromSearch("?area=Cape%20Town").areaSlug).toBe("western-cape");
   });

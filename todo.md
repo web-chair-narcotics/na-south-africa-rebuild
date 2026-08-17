@@ -383,3 +383,9 @@
 
 - [x] Reduce cookie-consent obstruction on meeting finder and detail pages at mobile and desktop widths while preserving clear consent action, privacy link, and fixed contact actions.
 - [x] Add regression coverage, run responsive/build validation, and publish the protected UX fix without changing meeting records.
+
+## Uploaded site-audit findings review — 17 August 2026
+
+- [x] Read and classify every finding in `/home/ubuntu/upload/pasted_content.txt` against current project and live-site evidence.
+- [x] Reproduce confirmed safe defects, repair only verified issues, and preserve organisation-owned content and approval boundaries.
+- [x] Add focused regression coverage, update audit evidence, run full validation, and publish the verified fixes.

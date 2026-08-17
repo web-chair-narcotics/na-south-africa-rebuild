@@ -73,6 +73,9 @@ describe("five-site experience safeguards", () => {
     expect(finder).toContain('function decodeHtmlEntities');
     expect(finder).toContain('.replace(/&amp;/g, "&")');
     expect(finder).toContain('className="min-w-0 break-words"');
+    expect(finder).toContain("publicNotesOf(meeting.specialNotes, meeting.meetingFormat)");
+    expect(finder).toContain("function isUsablePhone");
+    expect(finder).toContain("!/^123456/.test(digits)");
   });
 
   it("keeps online meeting details area-neutral and map-free", () => {
@@ -80,6 +83,8 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain('<p className="eyebrow mt-10">Online meeting</p>');
     expect(detail).toContain('meeting.meetingFormat === "online" ? <ExternalLink');
     expect(detail).toContain('meeting.meetingFormat !== "online" ? <p className="eyebrow mt-10">');
+    expect(detail).toContain("detailMapPoint.length");
+    expect(detail).toContain("Published meeting information from the current directory");
   });
 
   it("keeps meeting-detail notes readable and removes repeated address parts", () => {
@@ -87,7 +92,8 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain("function decodeHtmlEntities");
     expect(detail).toContain('.replace(/&amp;/g, "&")');
     expect(detail).toContain("parts.filter((part, index) => parts.indexOf(part) === index)");
-    expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
+    expect(detail).toContain("publicNotesOf(meeting.specialNotes, meeting.meetingFormat)");
+    expect(detail).toContain("password|passcode|pass code");
   });
 
   it("keeps cookie consent essential-only and connected to privacy choices", () => {
@@ -130,6 +136,15 @@ describe("five-site experience safeguards", () => {
     expect(privacy).toContain("does not currently provide a public contact-form submission endpoint");
     expect(privacy).toContain("Online meetings are presented as Online");
     expect(privacy).toContain("Information Officer");
+  });
+
+  it("keeps area deep-links canonical and public trust language evidence-based", () => {
+    const area = read("client/src/pages/AreaPage.tsx");
+    const finder = read("client/src/components/MeetingFinder.tsx");
+    expect(area).toContain("areaSlug=");
+    expect(area).toContain('slug === "cape-town" ? "western-cape" : slug');
+    expect(finder).toContain("published ${payload?.total");
+    expect(finder).toContain("No published meetings match these filters yet.");
   });
 
   it("keeps the support strip calm and readable on mobile", () => {
