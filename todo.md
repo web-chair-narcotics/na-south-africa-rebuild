@@ -362,3 +362,10 @@
 - [x] Create a clearly labelled placeholder Terms and Conditions page and place its footer link beside Privacy and POPIA.
 - [x] Create and validate a reusable skill documenting this privacy/legal-readiness implementation workflow.
 - [x] Add regression coverage, run responsive/build validation, and publish the combined change.
+
+## Meeting journey usability audit — 17 August 2026
+
+- [x] Audit representative in-person meetings on desktop and mobile for card/detail layout, readable addresses, correct Google links, map loading, directions, and visual clarity.
+- [x] Triple-check Google Maps loading and physical-map fallback behavior across repeated representative in-person navigations.
+- [x] Audit representative online meetings on desktop and mobile for format separation, readable information, clickable join/contact paths, and absence of physical-address confusion.
+- [x] Repair only confirmed meeting-journey usability defects, add regression coverage, document representative findings, and publish a protected checkpoint.
