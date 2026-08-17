@@ -393,3 +393,7 @@
 ## Stale production bundle after uploaded-audit repair — 17 August 2026
 
 - [x] Force a fresh public frontend deployment marker, reverify the area filter, evidence-based copy, detail map, and privacy-safe online rendering on the live domain, then publish the corrected bundle.
+
+## Acceptance preparation — 17 August 2026
+
+- [x] Prepare `NEXT_ACCEPTANCE_MATRIX.md` for the remaining staged-page, historical-meeting, provider, admin-role, native-device, and conditional-rotation gates without changing public data or bypassing authentication.
