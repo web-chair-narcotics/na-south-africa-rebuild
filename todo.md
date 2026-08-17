@@ -392,4 +392,4 @@
 
 ## Stale production bundle after uploaded-audit repair — 17 August 2026
 
-- [ ] Force a fresh public frontend deployment marker, reverify the area filter, evidence-based copy, detail map, and privacy-safe online rendering on the live domain, then publish the corrected bundle.
+- [x] Force a fresh public frontend deployment marker, reverify the area filter, evidence-based copy, detail map, and privacy-safe online rendering on the live domain, then publish the corrected bundle.
