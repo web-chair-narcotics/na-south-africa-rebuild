@@ -42,9 +42,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       <div className="helpline-bar">
         <div className="site-container flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-center sm:justify-between">
           <span className="font-semibold">Need support now? You are not alone.</span>
-          <a className="inline-flex items-center gap-2 font-bold underline underline-offset-4" href="tel:+27861006962">
-            <Phone className="h-3.5 w-3.5" aria-hidden="true" /> National phoneline: 0861 00 6962
-          </a>
+          <a className="font-bold underline underline-offset-4" href="tel:+27861006962">National phoneline: 0861 00 6962</a>
         </div>
       </div>
 

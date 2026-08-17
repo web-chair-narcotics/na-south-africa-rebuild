@@ -344,3 +344,8 @@
 - [x] Add mobile-only bottom contact actions for WhatsApp, email, and the national helpline without changing desktop presentation.
 - [x] Run tests and responsive metadata/contact verification, then publish only the protected scoped changes.
 - [x] Provide official, safe recovery guidance for the downloaded account-data and tasks-data ZIP files; do not attempt decryption without the provider’s documented key/tooling.
+
+## Mobile top support strip refinement — 17 August 2026
+
+- [x] Remove the phone icon from the mobile top support strip and replace the beige background with the NA navy palette while preserving the helpline link.
+- [x] Verify the refined strip at mobile and desktop widths, add regression coverage, and publish the focused change.

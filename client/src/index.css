@@ -18,7 +18,9 @@
 
 .site-container { width: min(100% - 2rem, 1180px); margin-inline: auto; }
 .eyebrow { font-size: 0.75rem; line-height: 1; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #085C84; }
-.helpline-bar { background: #EEEEEE; color: #54595F; font-size: 0.8125rem; padding: 0.55rem 0; }
+.helpline-bar { background: #085C84; color: #F8F8F8; font-size: 0.8125rem; line-height: 1.35; padding: 0.62rem 0; }
+.helpline-bar a { color: #FFFFFF; }
+.helpline-bar a:hover { color: #BFE8C4; }
 .skip-link { position: fixed; left: 1rem; top: -4rem; z-index: 100; border-radius: 0.5rem; background: #085C84; padding: 0.75rem 1rem; color: white; transition: top 160ms ease-out; }
 .skip-link:focus { top: 1rem; }
 .hero-grid { background-image: linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px), linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px); background-size: 36px 36px; }

@@ -90,6 +90,16 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
   });
 
+  it("keeps the support strip calm and readable on mobile", () => {
+    const layout = read("client/src/components/PublicLayout.tsx");
+    const styles = read("client/src/index.css");
+    expect(layout).toContain('<div className="helpline-bar">');
+    expect(layout).toContain('href="tel:+27861006962">National phoneline: 0861 00 6962</a>');
+    expect(layout).not.toContain('<Phone className="h-3.5 w-3.5"');
+    expect(styles).toContain(".helpline-bar { background: #085C84;");
+    expect(styles).toContain(".helpline-bar a { color: #FFFFFF; }");
+  });
+
   it("keeps browser branding, social previews, crawler files, and mobile contact actions configured", () => {
     const head = read("client/index.html");
     const layout = read("client/src/components/PublicLayout.tsx");
