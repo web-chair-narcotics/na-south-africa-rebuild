@@ -377,7 +377,7 @@
 
 ## Deferred meeting-content decisions — 17 August 2026
 
-- [ ] Preserve the 49 password/passcode notes, one placeholder-looking online phone value, and 20 duplicated venue/address fields unchanged until the organisation provides later review decisions.
+- [x] Preserve the 49 password/passcode notes, one placeholder-looking online phone value, and 20 duplicated venue/address fields unchanged until the organisation provides later review decisions.
 
 ## Meeting-page consent overlay refinement — 17 August 2026
 
