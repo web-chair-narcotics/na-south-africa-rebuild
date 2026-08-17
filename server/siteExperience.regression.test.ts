@@ -90,6 +90,26 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
   });
 
+  it("keeps browser branding, social previews, crawler files, and mobile contact actions configured", () => {
+    const head = read("client/index.html");
+    const layout = read("client/src/components/PublicLayout.tsx");
+    const robots = read("client/public/robots.txt");
+    const sitemap = read("client/public/sitemap.xml");
+    expect(head).toContain('rel="icon"');
+    expect(head).toContain("na-browser-mark_210f9cf1.webp");
+    expect(head).toContain('property="og:image"');
+    expect(head).toContain('name="twitter:image"');
+    expect(layout).toContain('aria-label="Mobile contact actions"');
+    expect(layout).toContain("https://wa.me/27861006962");
+    expect(layout).toContain("mailto:${contactEmail}");
+    expect(layout).toContain('href="tel:+27861006962"');
+    expect(layout).toContain("lg:hidden");
+    expect(robots).toContain("Sitemap: https://nasarebuild-eqxm563b.manus.space/sitemap.xml");
+    expect(robots).toContain("Disallow: /admin");
+    expect(sitemap).toContain("/meetings");
+    expect(sitemap).toContain("/literature");
+  });
+
   it("keeps emergency notices independent of meeting status", () => {
     const schema = read("drizzle/schema.ts");
     const admin = read("server/routers/admin.ts");

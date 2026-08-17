@@ -335,3 +335,12 @@
 - [x] Create a recoverable checkpoint before any code repair and validate all meeting regressions, tests, build, and key live journeys before publishing.
 
 - [x] Repair only the confirmed meeting-detail presentation defects: decode escaped note entities and remove duplicate address components without changing meeting classifications or source data.
+
+## Branding, crawler, recovery, and mobile contact request — 16 August 2026
+
+- [x] Add a browser favicon using the supplied NA logo mark and verify it on the live site.
+- [x] Add Open Graph and Twitter/social-preview logo metadata so shared URLs can use the NA branding.
+- [x] Add and verify `sitemap.xml` and `robots.txt` for the public site.
+- [x] Add mobile-only bottom contact actions for WhatsApp, email, and the national helpline without changing desktop presentation.
+- [x] Run tests and responsive metadata/contact verification, then publish only the protected scoped changes.
+- [x] Provide official, safe recovery guidance for the downloaded account-data and tasks-data ZIP files; do not attempt decryption without the provider’s documented key/tooling.

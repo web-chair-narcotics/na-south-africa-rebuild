@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://nasarebuild-eqxm563b.manus.space/sitemap.xml

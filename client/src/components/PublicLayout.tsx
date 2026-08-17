@@ -1,11 +1,13 @@
 import { Link, useLocation } from "wouter";
-import { AlertTriangle, Menu, Phone, Search, X } from "lucide-react";
+import { AlertTriangle, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { trpc } from "@/lib/trpc";
 
 const publicAssetVersion = "asset-relay-20260816-1015";
 const logoUrl = `/manus-storage/na-south-africa-logo_601526a4.png?v=${publicAssetVersion}`;
+const contactEmail = "pr-chair@na.org.za";
+const whatsappUrl = "https://wa.me/27861006962?text=Hello%20NA%20South%20Africa%2C%20I%20need%20help%20finding%20support.";
 
 const links = [
   { href: "/about", label: "About NA" },
@@ -27,7 +29,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
   useEffect(() => setMenuOpen(false), [location]);
 
   return (
-    <div className="min-h-screen bg-[#F8F8F8] text-[#54595F]">
+    <div className="min-h-screen bg-[#F8F8F8] pb-24 text-[#54595F] lg:pb-0">
       <a className="skip-link" href="#main-content">Skip to main content</a>
       {emergencyNotice && (
         <div className={emergencyNotice.severity === "urgent" ? "border-b border-[#7A1F24] bg-[#7A1F24] text-white" : "border-b border-[#085C84]/20 bg-[#DDEFF8] text-[#085C84]"} role="alert">
@@ -103,6 +105,20 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       </header>
 
       <main id="main-content" tabIndex={-1}>{children}</main>
+
+      <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-[#085C84]/15 bg-[#F8F8F8]/95 p-3 shadow-[0_-12px_28px_rgba(8,92,132,0.14)] backdrop-blur lg:hidden" aria-label="Mobile contact actions">
+        <div className="mx-auto grid max-w-lg grid-cols-[1.35fr_1fr_1fr] gap-2">
+          <a className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#2F9B3E] px-3 text-sm font-bold text-white shadow-sm hover:bg-[#20752C]" href={whatsappUrl} target="_blank" rel="noreferrer">
+            <MessageCircle className="h-5 w-5" aria-hidden="true" /> WhatsApp
+          </a>
+          <a className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-[#085C84]/20 bg-white px-2 text-xs font-bold text-[#085C84] hover:bg-[#EAF3F7]" href={`mailto:${contactEmail}`}>
+            <Mail className="h-4 w-4" aria-hidden="true" /> Email
+          </a>
+          <a className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-[#085C84]/20 bg-white px-2 text-xs font-bold text-[#085C84] hover:bg-[#EAF3F7]" href="tel:+27861006962">
+            <Phone className="h-4 w-4" aria-hidden="true" /> Call
+          </a>
+        </div>
+      </nav>
 
       <footer className="border-t border-white/10 bg-[#085C84] text-[#F8F8F8]">
         <div className="site-container grid gap-10 py-12 lg:grid-cols-[1.15fr_0.85fr_0.85fr]">
