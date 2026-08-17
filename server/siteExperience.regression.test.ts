@@ -145,6 +145,7 @@ describe("five-site experience safeguards", () => {
     expect(area).toContain('slug === "cape-town" ? "western-cape" : slug');
     expect(finder).toContain("published ${payload?.total");
     expect(finder).toContain("No published meetings match these filters yet.");
+    expect(read("client/src/pages/Meetings.tsx")).toContain("uploaded-audit-live-20260817-0854");
   });
 
   it("keeps the support strip calm and readable on mobile", () => {

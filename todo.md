@@ -389,3 +389,7 @@
 - [x] Read and classify every finding in `/home/ubuntu/upload/pasted_content.txt` against current project and live-site evidence.
 - [x] Reproduce confirmed safe defects, repair only verified issues, and preserve organisation-owned content and approval boundaries.
 - [x] Add focused regression coverage, update audit evidence, run full validation, and publish the verified fixes.
+
+## Stale production bundle after uploaded-audit repair — 17 August 2026
+
+- [ ] Force a fresh public frontend deployment marker, reverify the area filter, evidence-based copy, detail map, and privacy-safe online rendering on the live domain, then publish the corrected bundle.
