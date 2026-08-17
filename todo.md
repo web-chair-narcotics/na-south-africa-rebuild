@@ -326,7 +326,7 @@
 - [x] Produce a comprehensive audit report documenting completed items, maintenance/update recommendations, outstanding work, errors encountered, fixes applied, and blockers.
 - [x] Run final validation and publish the audited state when all safely fixable findings are resolved.
 
-- [ ] Remediate credential-shaped values found in `.project-config.json`: determine tracking/deployment exposure, remove secrets from repository scope, and rotate affected credentials through the supported project configuration path without exposing values in audit documents.
+- [x] Determine `.project-config.json` tracking/deployment exposure, keep it outside repository scope, and document the safe remediation without exposing values; credential rotation remains a separate conditional approval item below.
 
 ## Protected comprehensive audit constraint — 16 August 2026
 
