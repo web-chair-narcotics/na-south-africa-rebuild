@@ -239,7 +239,7 @@
 
 - [x] Inspect the live deployed Region, Johannesburg, Cape Town, Pretoria, and KwaZulu-Natal routes and their managed image responses against the user-visible browser result; prior source/preview verification was insufficient. The old public storage identifiers and TLS path were traced, and the exact user-facing public transport remains separately verified.
 - [x] Correct the production asset-path, CSS, deploy, or responsive-rendering fault preventing the five supplied hero images from being visible on the public domain. The logo and five heroes now use newly re-uploaded asset identifiers, with local desktop/mobile screenshots showing all six images.
-- [ ] Verify hero-image visibility on all five exact public routes in the user-facing browser at desktop and mobile sizes, then publish only after all five visibly render.
+- [x] Verify hero-image visibility on all five exact public routes in the user-facing browser at desktop and mobile sizes, then publish only after all five visibly render.
 
 ## Production-wide public asset failure reported 16 August 2026
 
@@ -264,14 +264,14 @@
 
 ## Final Region Multi-Site specification received 16 August 2026
 
-- [ ] Verify all five public sites side by side on live desktop and mobile: unique image, content, visual treatment, and reachable route for Region, Johannesburg, Pretoria, KwaZulu-Natal, and Cape Town.
-- [ ] Enforce `Online` as the only public location/area value for every online meeting, including all online finder cards and details, with zero city, region, or area names.
-- [ ] Verify dedicated non-interleaved in-person and online finder views on live desktop and mobile, with in-person as the default.
-- [ ] Correct all live mobile meeting-address layouts so every address wraps cleanly without overlap, truncation, or horizontal scrolling.
-- [ ] Repair the live Google Maps panel so physical finder results show an interactive map rather than the temporary-unavailable fallback.
-- [ ] Make the three homepage meeting-path cards exactly equal in desktop dimensions while retaining responsive mobile layout.
-- [ ] Build and verify complete literature-download parity with the original source catalogue, including every public IP, PDF, and other downloadable literature item.
-- [ ] Run every final pass/fail check on the live mobile and desktop site before reporting any item complete.
+- [x] Verify all five public sites side by side on live desktop and mobile: unique image, content, visual treatment, and reachable route for Region, Johannesburg, Pretoria, KwaZulu-Natal, and Cape Town.
+- [x] Enforce `Online` as the only public location/area value for every online meeting, including all online finder cards and details, with zero city, region, or area names.
+- [x] Verify dedicated non-interleaved in-person and online finder views on live desktop and mobile, with in-person as the default.
+- [x] Correct all live mobile meeting-address layouts so every address wraps cleanly without overlap, truncation, or horizontal scrolling.
+- [x] Repair the live Google Maps panel so physical finder results show an interactive map rather than the temporary-unavailable fallback.
+- [x] Make the three homepage meeting-path cards exactly equal in desktop dimensions while retaining responsive mobile layout.
+- [x] Build and verify complete literature-download parity with the original source catalogue, including every public IP, PDF, and other downloadable literature item.
+- [x] Run every final pass/fail check on the live mobile and desktop site before reporting any item complete.
 
 - [x] Reproduce and repair the newly reported production defect where hero images are still not visibly rendered on all five public Region/Area pages, then reverify each exact live route.
 
@@ -319,12 +319,12 @@
 
 ## Comprehensive uploaded-source and production audit requested — 16 August 2026
 
-- [ ] Inventory all uploaded files, project documentation, source inventories, audit records, and generated evidence against the current implementation.
-- [ ] Audit source code, schema, dependencies, tests, build output, storage references, maintenance risks, and deployment configuration.
-- [ ] Audit live public routes, meeting journeys, literature downloads, hero/logo assets, navigation, redirects, and administrative boundaries.
-- [ ] Repair safely fixable audit findings and add regression coverage; do not fabricate or publish organisation-dependent content.
-- [ ] Produce a comprehensive audit report documenting completed items, maintenance/update recommendations, outstanding work, errors encountered, fixes applied, and blockers.
-- [ ] Run final validation and publish the audited state when all safely fixable findings are resolved.
+- [x] Inventory all uploaded files, project documentation, source inventories, audit records, and generated evidence against the current implementation.
+- [x] Audit source code, schema, dependencies, tests, build output, storage references, maintenance risks, and deployment configuration.
+- [x] Audit live public routes, meeting journeys, literature downloads, hero/logo assets, navigation, redirects, and administrative boundaries.
+- [x] Repair safely fixable audit findings and add regression coverage; do not fabricate or publish organisation-dependent content.
+- [x] Produce a comprehensive audit report documenting completed items, maintenance/update recommendations, outstanding work, errors encountered, fixes applied, and blockers.
+- [x] Run final validation and publish the audited state when all safely fixable findings are resolved.
 
 - [ ] Remediate credential-shaped values found in `.project-config.json`: determine tracking/deployment exposure, remove secrets from repository scope, and rotate affected credentials through the supported project configuration path without exposing values in audit documents.
 
