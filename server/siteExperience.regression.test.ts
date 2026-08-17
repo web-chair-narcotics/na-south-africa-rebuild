@@ -90,6 +90,31 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
   });
 
+  it("keeps cookie consent essential-only and connected to privacy choices", () => {
+    const layout = read("client/src/components/PublicLayout.tsx");
+    expect(layout).toContain('const cookieConsentKey = "na-cookie-consent";');
+    expect(layout).toContain('window.localStorage.getItem(cookieConsentKey) === "essential"');
+    expect(layout).toContain('role="region" aria-label="Cookie information"');
+    expect(layout).toContain("No optional marketing cookies are enabled by this notice.");
+    expect(layout).toContain('href="/privacy">Privacy and POPIA notice</Link>');
+    expect(layout).toContain("Continue with essential cookies");
+  });
+
+  it("keeps the Terms and Conditions placeholder reachable beside Privacy", () => {
+    const app = read("client/src/App.tsx");
+    const layout = read("client/src/components/PublicLayout.tsx");
+    const terms = read("client/src/pages/TermsPage.tsx");
+    const sitemap = read("client/public/sitemap.xml");
+    expect(app).toContain('<Route path="/terms" component={TermsPage} />');
+    expect(app).toContain('<Route path="/terms-and-conditions" component={TermsPage} />');
+    expect(layout).toContain('href="/terms">Terms and Conditions</Link>');
+    expect(terms).toContain("placeholder implementation");
+    expect(terms).toContain("must be approved and completed by the organisation");
+    expect(terms).toContain('href="/privacy"');
+    expect(sitemap).toContain("https://nasarebuild-eqxm563b.manus.space/privacy");
+    expect(sitemap).toContain("https://nasarebuild-eqxm563b.manus.space/terms");
+  });
+
   it("keeps the POPIA readiness notice reachable and honest about approval boundaries", () => {
     const app = read("client/src/App.tsx");
     const layout = read("client/src/components/PublicLayout.tsx");

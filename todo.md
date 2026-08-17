@@ -355,3 +355,10 @@
 - [x] Inventory public and authenticated data flows, privacy-sensitive fields, analytics, cookies, contact actions, meeting records, and storage references for POPIA readiness.
 - [x] Add a clearly labelled privacy/legal-readiness page and safe data-minimisation notices without inventing organisation-specific policy facts.
 - [x] Add regression coverage and document attorney-review requirements, operator responsibilities, retention decisions, and unresolved consent/provider questions.
+
+## Cookie consent, Terms and Conditions, and reusable skill — 17 August 2026
+
+- [x] Add a functional cookie-consent banner linking to `/privacy`, with a conservative essential-only default and persisted choice.
+- [x] Create a clearly labelled placeholder Terms and Conditions page and place its footer link beside Privacy and POPIA.
+- [x] Create and validate a reusable skill documenting this privacy/legal-readiness implementation workflow.
+- [x] Add regression coverage, run responsive/build validation, and publish the combined change.

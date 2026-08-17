@@ -17,6 +17,7 @@ import LegacyRouteRedirect from "./pages/LegacyRouteRedirect";
 import LiteraturePage from "./pages/LiteraturePage";
 import LiteratureDetail from "./pages/LiteratureDetail";
 import PrivacyPage from "./pages/PrivacyPage";
+import TermsPage from "./pages/TermsPage";
 
 function ScrollToTop() {
   const [location] = useLocation();
@@ -58,6 +59,8 @@ function Router() {
       <Route path="/contact-us">{() => <ContentPage page="contact" />}</Route>
       <Route path="/privacy" component={PrivacyPage} />
       <Route path="/privacy-policy" component={PrivacyPage} />
+      <Route path="/terms" component={TermsPage} />
+      <Route path="/terms-and-conditions" component={TermsPage} />
       <Route path="/404" component={NotFound} />
       <Route component={LegacyRouteRedirect} />
     </Switch>

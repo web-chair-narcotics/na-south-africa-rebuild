@@ -8,6 +8,7 @@ const publicAssetVersion = "asset-relay-20260816-1015";
 const logoUrl = `/manus-storage/na-south-africa-logo_601526a4.png?v=${publicAssetVersion}`;
 const contactEmail = "pr-chair@na.org.za";
 const whatsappUrl = "https://wa.me/27861006962?text=Hello%20NA%20South%20Africa%2C%20I%20need%20help%20finding%20support.";
+const cookieConsentKey = "na-cookie-consent";
 
 const links = [
   { href: "/about", label: "About NA" },
@@ -24,9 +25,26 @@ function isSelected(currentPath: string, href: string) {
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [cookieAcknowledged, setCookieAcknowledged] = useState(false);
   const { data: emergencyNotice } = trpc.emergency.active.useQuery();
 
   useEffect(() => setMenuOpen(false), [location]);
+  useEffect(() => {
+    try {
+      setCookieAcknowledged(window.localStorage.getItem(cookieConsentKey) === "essential");
+    } catch {
+      setCookieAcknowledged(false);
+    }
+  }, []);
+
+  const acknowledgeCookies = () => {
+    try {
+      window.localStorage.setItem(cookieConsentKey, "essential");
+    } catch {
+      // The banner remains dismissible even when storage is unavailable.
+    }
+    setCookieAcknowledged(true);
+  };
 
   return (
     <div className="min-h-screen bg-[#F8F8F8] pb-24 text-[#54595F] lg:pb-0">
@@ -139,6 +157,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
               <li><Link className="hover:text-white hover:underline" href="/about">About NA</Link></li>
               <li><Link className="hover:text-white hover:underline" href="/areas">Local areas</Link></li>
               <li><Link className="hover:text-white hover:underline" href="/privacy">Privacy and POPIA</Link></li>
+              <li><Link className="hover:text-white hover:underline" href="/terms">Terms and Conditions</Link></li>
             </ul>
           </div>
         </div>
@@ -149,6 +168,14 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
           </div>
         </div>
       </footer>
+
+      {!cookieAcknowledged && (
+        <aside className="fixed inset-x-3 bottom-24 z-[60] rounded-2xl border border-[#085C84]/20 bg-white p-4 shadow-[0_16px_42px_rgba(8,92,132,0.2)] lg:inset-x-auto lg:bottom-5 lg:right-5 lg:max-w-md" role="region" aria-label="Cookie information">
+          <p className="text-sm font-bold text-[#54595F]">Privacy choices</p>
+          <p className="mt-1 text-xs leading-5 text-[#54595F]">This site uses essential cookies and browser storage for sign-in, security and preferences. No optional marketing cookies are enabled by this notice. Read the <Link className="font-bold text-[#085C84] underline underline-offset-2" href="/privacy">Privacy and POPIA notice</Link> before continuing.</p>
+          <button className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-xl bg-[#085C84] px-4 text-sm font-bold text-white hover:bg-[#06496A]" type="button" onClick={acknowledgeCookies}>Continue with essential cookies</button>
+        </aside>
+      )}
     </div>
   );
 }
