@@ -98,6 +98,9 @@ describe("five-site experience safeguards", () => {
     expect(layout).toContain("No optional marketing cookies are enabled by this notice.");
     expect(layout).toContain('href="/privacy">Privacy and POPIA notice</Link>');
     expect(layout).toContain("Continue with essential cookies");
+    expect(layout).toContain("bottom-[5.5rem]");
+    expect(layout).toContain("max-h-[calc(100dvh-8.5rem)]");
+    expect(layout).toContain("lg:max-w-sm");
   });
 
   it("keeps the Terms and Conditions placeholder reachable beside Privacy", () => {

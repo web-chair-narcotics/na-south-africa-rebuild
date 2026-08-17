@@ -374,3 +374,12 @@
 
 - [x] Confirm `.project-config.json` is not tracked, is explicitly ignored by `.gitignore`, and keep credential-shaped key names out of project audit documents; no values were printed or copied.
 - [ ] Rotate any credentials only if the organisation or provider confirms exposure and supplies an authorised supported rotation path.
+
+## Deferred meeting-content decisions — 17 August 2026
+
+- [ ] Preserve the 49 password/passcode notes, one placeholder-looking online phone value, and 20 duplicated venue/address fields unchanged until the organisation provides later review decisions.
+
+## Meeting-page consent overlay refinement — 17 August 2026
+
+- [x] Reduce cookie-consent obstruction on meeting finder and detail pages at mobile and desktop widths while preserving clear consent action, privacy link, and fixed contact actions.
+- [x] Add regression coverage, run responsive/build validation, and publish the protected UX fix without changing meeting records.

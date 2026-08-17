@@ -170,10 +170,10 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       </footer>
 
       {!cookieAcknowledged && (
-        <aside className="fixed inset-x-3 bottom-24 z-[60] rounded-2xl border border-[#085C84]/20 bg-white p-4 shadow-[0_16px_42px_rgba(8,92,132,0.2)] lg:inset-x-auto lg:bottom-5 lg:right-5 lg:max-w-md" role="region" aria-label="Cookie information">
+        <aside className="fixed inset-x-3 bottom-[5.5rem] z-[60] max-h-[calc(100dvh-8.5rem)] overflow-y-auto rounded-2xl border border-[#085C84]/20 bg-white p-3 shadow-[0_16px_42px_rgba(8,92,132,0.2)] lg:inset-x-auto lg:bottom-5 lg:right-5 lg:max-h-none lg:max-w-sm lg:overflow-visible lg:p-4" role="region" aria-label="Cookie information">
           <p className="text-sm font-bold text-[#54595F]">Privacy choices</p>
-          <p className="mt-1 text-xs leading-5 text-[#54595F]">This site uses essential cookies and browser storage for sign-in, security and preferences. No optional marketing cookies are enabled by this notice. Read the <Link className="font-bold text-[#085C84] underline underline-offset-2" href="/privacy">Privacy and POPIA notice</Link> before continuing.</p>
-          <button className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-xl bg-[#085C84] px-4 text-sm font-bold text-white hover:bg-[#06496A]" type="button" onClick={acknowledgeCookies}>Continue with essential cookies</button>
+          <p className="mt-1 text-[0.7rem] leading-4 text-[#54595F] lg:text-xs lg:leading-5">This site uses essential cookies and browser storage for sign-in, security and preferences. No optional marketing cookies are enabled by this notice. Read the <Link className="font-bold text-[#085C84] underline underline-offset-2" href="/privacy">Privacy and POPIA notice</Link> before continuing.</p>
+          <button className="mt-2 inline-flex min-h-9 w-full items-center justify-center rounded-xl bg-[#085C84] px-4 text-sm font-bold text-white hover:bg-[#06496A] lg:mt-3 lg:min-h-10" type="button" onClick={acknowledgeCookies}>Continue with essential cookies</button>
         </aside>
       )}
     </div>
