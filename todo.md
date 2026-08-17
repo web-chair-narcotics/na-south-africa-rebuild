@@ -397,3 +397,7 @@
 ## Acceptance preparation — 17 August 2026
 
 - [x] Prepare `NEXT_ACCEPTANCE_MATRIX.md` for the remaining staged-page, historical-meeting, provider, admin-role, native-device, and conditional-rotation gates without changing public data or bypassing authentication.
+
+## Public acceptance record — 17 August 2026
+
+- [x] Consolidate the verified public-route, meeting, map, literature, legal, crawler, contact, consent, and unauthenticated-admin evidence into `PUBLIC_ACCEPTANCE_2026-08-17.md` without claiming authenticated role acceptance or organisation-owned publication completion.
