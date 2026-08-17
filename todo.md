@@ -349,3 +349,9 @@
 
 - [x] Remove the phone icon from the mobile top support strip and replace the beige background with the NA navy palette while preserving the helpline link.
 - [x] Verify the refined strip at mobile and desktop widths, add regression coverage, and publish the focused change.
+
+## POPIA and legal-readiness review — 17 August 2026
+
+- [x] Inventory public and authenticated data flows, privacy-sensitive fields, analytics, cookies, contact actions, meeting records, and storage references for POPIA readiness.
+- [x] Add a clearly labelled privacy/legal-readiness page and safe data-minimisation notices without inventing organisation-specific policy facts.
+- [x] Add regression coverage and document attorney-review requirements, operator responsibilities, retention decisions, and unresolved consent/provider questions.

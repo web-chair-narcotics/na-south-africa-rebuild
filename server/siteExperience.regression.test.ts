@@ -90,6 +90,20 @@ describe("five-site experience safeguards", () => {
     expect(detail).toContain("decodeHtmlEntities(meeting.specialNotes)");
   });
 
+  it("keeps the POPIA readiness notice reachable and honest about approval boundaries", () => {
+    const app = read("client/src/App.tsx");
+    const layout = read("client/src/components/PublicLayout.tsx");
+    const privacy = read("client/src/pages/PrivacyPage.tsx");
+    expect(app).toContain('<Route path="/privacy" component={PrivacyPage} />');
+    expect(app).toContain('<Route path="/privacy-policy" component={PrivacyPage} />');
+    expect(layout).toContain('href="/privacy">Privacy and POPIA</Link>');
+    expect(privacy).toContain("not a substitute for the South Africa Region's approved privacy policy");
+    expect(privacy).toContain("The organisation must approve the final legal wording.");
+    expect(privacy).toContain("does not currently provide a public contact-form submission endpoint");
+    expect(privacy).toContain("Online meetings are presented as Online");
+    expect(privacy).toContain("Information Officer");
+  });
+
   it("keeps the support strip calm and readable on mobile", () => {
     const layout = read("client/src/components/PublicLayout.tsx");
     const styles = read("client/src/index.css");

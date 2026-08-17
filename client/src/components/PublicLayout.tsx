@@ -138,6 +138,7 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
               <li><Link className="hover:text-white hover:underline" href="/literature">Literature</Link></li>
               <li><Link className="hover:text-white hover:underline" href="/about">About NA</Link></li>
               <li><Link className="hover:text-white hover:underline" href="/areas">Local areas</Link></li>
+              <li><Link className="hover:text-white hover:underline" href="/privacy">Privacy and POPIA</Link></li>
             </ul>
           </div>
         </div>
