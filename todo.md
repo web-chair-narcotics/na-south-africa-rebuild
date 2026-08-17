@@ -369,3 +369,8 @@
 - [x] Triple-check Google Maps loading and physical-map fallback behavior across repeated representative in-person navigations.
 - [x] Audit representative online meetings on desktop and mobile for format separation, readable information, clickable join/contact paths, and absence of physical-address confusion.
 - [x] Repair only confirmed meeting-journey usability defects, add regression coverage, document representative findings, and publish a protected checkpoint.
+
+## Credential exposure verification — 17 August 2026
+
+- [x] Confirm `.project-config.json` is not tracked, is explicitly ignored by `.gitignore`, and keep credential-shaped key names out of project audit documents; no values were printed or copied.
+- [ ] Rotate any credentials only if the organisation or provider confirms exposure and supplies an authorised supported rotation path.
