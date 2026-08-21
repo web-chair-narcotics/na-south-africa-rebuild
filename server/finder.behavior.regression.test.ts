@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { searchPublicMeetings } from "./db";
 
-describe("published finder behavioural regression safeguards", () => {
+const describeWithDatabase = process.env.DATABASE_URL ? describe : describe.skip;
+
+describeWithDatabase("published finder behavioural regression safeguards", () => {
   it("returns the repaired Daily meeting when visitors filter for Sunday", async () => {
     const result = await searchPublicMeetings({ day: "sunday", page: 1, pageSize: 25 });
 
@@ -29,8 +31,6 @@ describe("published finder behavioural regression safeguards", () => {
     expect(second.items.length).toBe(first.total - first.items.length);
     expect(second.items.every(item => !firstIds.has(item.id))).toBe(true);
   });
-});
-
 
   it("keeps online-only meetings out of the physical map result while retaining physical and hybrid points", async () => {
     const online = await searchPublicMeetings({ meetingFormat: "online", page: 1, pageSize: 100 });
@@ -50,6 +50,7 @@ describe("published finder behavioural regression safeguards", () => {
     const formats = ["in_person", "online", "hybrid"] as const;
     for (const meetingFormat of formats) {
       const result = await searchPublicMeetings({ meetingFormat, page: 1, pageSize: 1000 });
+      expect(result.items.length).toBeGreaterThan(0);
       expect(result.items.every(item => item.meetingFormat === meetingFormat)).toBe(true);
       expect(result.items.every(item => !("inactive" in item))).toBe(true);
     }
@@ -61,7 +62,12 @@ describe("published finder behavioural regression safeguards", () => {
       searchPublicMeetings({ meetingFormat: "hybrid", page: 1, pageSize: 1000 }),
       searchPublicMeetings({ meetingFormat: "online", page: 1, pageSize: 1000 }),
     ]);
+
+    expect(physical.items.length).toBeGreaterThan(0);
+    expect(hybrid.items.length).toBeGreaterThan(0);
+    expect(online.items.length).toBeGreaterThan(0);
     expect(physical.mapPoints).toHaveLength(physical.items.length);
     expect(hybrid.mapPoints).toHaveLength(hybrid.items.length);
     expect(online.mapPoints).toHaveLength(0);
   });
+});
